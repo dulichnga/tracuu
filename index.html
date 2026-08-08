@@ -270,9 +270,13 @@
 
 <style>
 #planner{display:none !important;}
-.cndl-fab{position:fixed;right:16px;bottom:16px;z-index:99999;background:#e8514b;color:#fff;border:none;border-radius:999px;padding:12px 19px;font-size:15px;font-weight:800;cursor:pointer;box-shadow:0 8px 24px rgba(232,81,75,.45);display:flex;align-items:center;gap:8px;animation:cndlPulse 2s infinite;font-family:inherit}
+.cndl-fab{position:fixed;right:16px;bottom:16px;z-index:99999;background:#e8514b;color:#fff;border:none;border-radius:999px;padding:12px 19px;font-size:15px;font-weight:800;cursor:grab;box-shadow:0 8px 24px rgba(232,81,75,.45);display:flex;align-items:center;gap:8px;animation:cndlPulse 2s infinite;font-family:inherit;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}
 @keyframes cndlPulse{0%{box-shadow:0 0 0 0 rgba(232,81,75,.55)}70%{box-shadow:0 0 0 16px rgba(232,81,75,0)}100%{box-shadow:0 0 0 0 rgba(232,81,75,0)}}
 .cndl-fab:hover{background:#d63d37}
+.cndl-fab:active{cursor:grabbing}
+.cndl-fab.cndl-dragging{animation:none;opacity:.93;transition:none}
+/* Mobile: đặt nút Tư vấn NẰM TRÊN nút "Bộ lọc" (bottom:16px) để không đè lên nhau */
+@media (max-width:820px){.cndl-fab{right:14px;bottom:78px;padding:11px 15px;font-size:14px}}
 .cndl-modal{position:fixed;inset:0;z-index:100000;background:rgba(15,25,40,.55);display:none;align-items:center;justify-content:center;padding:16px}
 .cndl-modal.open{display:flex}
 .cndl-card{background:#fff;max-width:430px;width:100%;border-radius:16px;padding:20px 20px 8px;box-shadow:0 20px 60px rgba(0,0,0,.3);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif}
@@ -284,7 +288,7 @@
 .cndl-x{float:right;border:none;background:#eef2f8;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px;color:#16293f;line-height:1}
 .cndl-lock{background:#fff8ec;border:1px solid #f0dcae;border-left:4px solid #c79a3a;border-radius:10px;padding:11px 13px;margin:12px 0;font-size:13px;color:#5a4a1e;line-height:1.6}
 </style>
-<button class="cndl-fab" onclick="CNDL_contact()">💬 Tư vấn hướng dẫn viên</button>
+<button type="button" class="cndl-fab" id="cndlFab" title="Bấm để liên hệ · Kéo để di chuyển">💬 Tư vấn hướng dẫn viên</button>
 <div class="cndl-modal" id="cndlModal" onclick="if(event.target===this)CNDL_close()">
   <div class="cndl-card">
     <button class="cndl-x" onclick="CNDL_close()">✕</button>
@@ -311,6 +315,21 @@
     document.getElementById("cndlModal").classList.add("open");
   };
   window.CNDL_close=function(){ document.getElementById("cndlModal").classList.remove("open"); };
+  // --- Kéo/di chuyển nút Tư vấn (chuột + cảm ứng), nhớ vị trí đã kéo; phân biệt bấm vs kéo ---
+  var fab=document.getElementById("cndlFab");
+  if(fab){
+    var dragging=false,moved=false,sx=0,sy=0,ox=0,oy=0,TH=6;
+    function clamp(v,a,b){return Math.max(a,Math.min(b,v));}
+    function place(l,t){var w=fab.offsetWidth||160,hh=fab.offsetHeight||46;l=clamp(l,4,window.innerWidth-w-4);t=clamp(t,4,window.innerHeight-hh-4);fab.style.left=l+"px";fab.style.top=t+"px";fab.style.right="auto";fab.style.bottom="auto";}
+    try{var sp=JSON.parse(localStorage.getItem("cndlFabPos")||"null");if(sp&&sp.left!=null)place(sp.left,sp.top);}catch(e){}
+    fab.addEventListener("pointerdown",function(e){dragging=true;moved=false;var r=fab.getBoundingClientRect();ox=r.left;oy=r.top;sx=e.clientX;sy=e.clientY;try{fab.setPointerCapture(e.pointerId);}catch(_){}});
+    fab.addEventListener("pointermove",function(e){if(!dragging)return;var dx=e.clientX-sx,dy=e.clientY-sy;if(!moved&&Math.abs(dx)+Math.abs(dy)>TH){moved=true;fab.classList.add("cndl-dragging");}if(moved){place(ox+dx,oy+dy);e.preventDefault();}});
+    function endDrag(e){if(!dragging)return;dragging=false;fab.classList.remove("cndl-dragging");try{fab.releasePointerCapture(e.pointerId);}catch(_){}if(moved){var r=fab.getBoundingClientRect();try{localStorage.setItem("cndlFabPos",JSON.stringify({left:Math.round(r.left),top:Math.round(r.top)}));}catch(_){}}}
+    fab.addEventListener("pointerup",endDrag);
+    fab.addEventListener("pointercancel",endDrag);
+    fab.addEventListener("click",function(e){if(moved){e.preventDefault();e.stopPropagation();moved=false;return;}window.CNDL_contact();});
+    window.addEventListener("resize",function(){if(fab.style.left){place(parseFloat(fab.style.left),parseFloat(fab.style.top));}});
+  }
 })();
 </script>
 </body>
