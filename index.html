@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Khám phá nước Nga cùng Phạm Đăng Hiển · Cẩm nang & tư vấn dẫn tour</title>
+<meta name="description" content="Cẩm nang du lịch Nga bằng tiếng Việt: hàng trăm địa điểm khắp nước Nga kèm bản đồ, đánh giá, thuyết minh. Tư vấn lộ trình và đồng hành dẫn tour cá nhân hoá." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Khám phá nước Nga cùng Phạm Đăng Hiển · Cẩm nang & tư vấn dẫn tour" />
+<meta property="og:description" content="Cẩm nang du lịch Nga (và nay có cả Việt Nam) bằng tiếng Việt: bản đồ, đánh giá, thuyết minh, lập lộ trình. Tư vấn & đồng hành dẫn tour cá nhân hoá." />
+<meta property="og:image" content="assets/vendor/images/marker-icon-2x.png" />
+<link rel="stylesheet" href="assets/app.css" />
+<style>
+  .heroX { position: relative; overflow: hidden; background: radial-gradient(1200px 500px at 80% -10%, #2a4d78 0%, transparent 60%), linear-gradient(135deg, #1f3a5f 0%, #16293f 100%); color: #fff; }
+  .heroX::after { content: ""; position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,.06) 1px, transparent 1px); background-size: 22px 22px; opacity: .5; pointer-events: none; }
+  .heroX .hwrap { position: relative; z-index: 1; max-width: 1150px; margin: 0 auto; padding: 66px 22px 54px; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 8px; background: rgba(200,162,75,.16); color: var(--gold); border: 1px solid rgba(200,162,75,.4); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; }
+  .heroX h1 { font-size: 40px; line-height: 1.15; margin: 18px 0 14px; max-width: 800px; }
+  .heroX h1 .accent { color: var(--gold); }
+  .heroX .lead { font-size: 18px; color: #dbe4f0; max-width: 720px; line-height: 1.7; }
+  .hero-cta { display: flex; gap: 12px; margin-top: 26px; flex-wrap: wrap; }
+  .btn-lg { padding: 13px 24px; font-size: 15.5px; border-radius: 999px; font-weight: 700; }
+  .stats2 { display: flex; gap: 34px; margin-top: 40px; flex-wrap: wrap; }
+  .stat2 b { display: block; font-size: 34px; color: var(--gold); line-height: 1; }
+  .stat2 span { font-size: 13px; color: #cdd7e6; }
+
+  section.band { padding: 56px 22px; }
+  .band .inner { max-width: 1150px; margin: 0 auto; }
+  .sec-eyebrow { color: var(--gold-2); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; }
+  .sec-title { font-size: 28px; margin: 6px 0 10px; }
+  .sec-sub { color: var(--muted); font-size: 16px; max-width: 720px; }
+
+  .svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; margin-top: 28px; }
+  .svc { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 24px; box-shadow: var(--shadow); transition: .18s; }
+  .svc:hover { transform: translateY(-3px); border-color: var(--gold); }
+  .svc .ic { width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, var(--navy), #2a4d78); color: var(--gold); display: flex; align-items: center; justify-content: center; font-size: 24px; }
+  .svc h3 { margin: 14px 0 6px; font-size: 18px; }
+  .svc p { margin: 0; color: var(--muted); font-size: 14.5px; }
+
+  .feat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 26px; }
+  .feat-card { border-radius: 16px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: #fff; position: relative; }
+  .feat-card .ph { height: 175px; background-size: cover; background-position: center; background-color: #22405f; position: relative; }
+  .feat-card .ph .fallback { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 44px; color: rgba(255,255,255,.85); }
+  .feat-card .ph .grad { position: absolute; inset: 0; background: linear-gradient(to top, rgba(11,20,34,.82) 0%, transparent 55%); }
+  .feat-card .cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 14px; color: #fff; }
+  .feat-card .cap h4 { margin: 0; font-size: 16px; }
+  .feat-card .cap .meta { font-size: 12px; color: #e7edf5; margin-top: 2px; }
+  .feat-card .region-chip { position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,.92); color: var(--navy); font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
+
+  .regionsCloud { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+  .regionsCloud span { background: #eef2f8; color: var(--navy); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; font-size: 13px; font-weight: 600; }
+
+  .featuresX { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 24px; }
+  .fx { display: flex; gap: 12px; align-items: flex-start; }
+  .fx .e { font-size: 22px; }
+  .fx b { display: block; margin-bottom: 2px; }
+  .fx p { margin: 0; color: var(--muted); font-size: 13.5px; }
+
+  .contactX { background: linear-gradient(135deg, #16293f, #1f3a5f); color: #fff; border-radius: 22px; padding: 40px; display: flex; gap: 34px; align-items: center; flex-wrap: wrap; box-shadow: var(--shadow); }
+  .contactX .avatar { width: 96px; height: 96px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), var(--gold-2)); color: #241c05; display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: 800; flex: 0 0 auto; box-shadow: 0 6px 20px rgba(0,0,0,.3); }
+  .contactX .ctext { flex: 1; min-width: 260px; }
+  .contactX h3 { margin: 0 0 4px; font-size: 24px; }
+  .contactX .role { color: var(--gold); font-weight: 700; font-size: 14px; }
+  .contactX p { color: #dbe4f0; font-size: 15px; line-height: 1.7; margin: 12px 0 0; }
+  .contactX .cbtns { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
+  .cbtn { display: inline-flex; align-items: center; gap: 9px; padding: 12px 20px; border-radius: 12px; font-weight: 700; font-size: 15px; }
+  .cbtn.mail { background: var(--gold); color: #241c05; }
+  .cbtn.mail:hover { background: var(--gold-2); text-decoration: none; }
+  .cbtn.fb { background: rgba(255,255,255,.12); color: #fff; border: 1px solid rgba(255,255,255,.25); }
+  .cbtn.fb:hover { background: rgba(255,255,255,.2); text-decoration: none; }
+
+  .quote { border-left: 4px solid var(--gold); padding: 6px 0 6px 18px; color: #35404f; font-size: 17px; font-style: italic; max-width: 760px; margin: 8px 0 0; }
+  @media (max-width: 640px){ .heroX h1{font-size:30px} .contactX{padding:26px} }
+
+  /* Language switcher (header) */
+  .lang-switch { display: flex; gap: 6px; }
+  .lang-chip {
+    display: inline-flex; align-items: center; gap: 5px; cursor: pointer;
+    border: 1.5px solid rgba(255,255,255,.28); background: rgba(255,255,255,.08);
+    color: #fff; padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700;
+    line-height: 1; transition: .15s; font-family: inherit;
+  }
+  .lang-chip:hover { background: rgba(255,255,255,.18); }
+  .lang-chip.active { background: var(--gold); color: #241c05; border-color: var(--gold); }
+  @media (max-width: 640px) { .lang-chip { padding: 9px 13px; font-size: 13.5px; } }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/favicon.svg" alt="" width="30" height="30" /><span class="brand-name">Cẩm nang Du lịch</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Trang chủ</a>
+      <a href="list.html">Danh sách</a>
+      <a href="gis.html">Bản đồ GIS</a>
+      <a href="#lienhe">Liên hệ</a>
+    </div>
+    <div class="lang-switch" id="langSwitch"></div>
+  </nav>
+</header>
+
+<section class="heroX">
+  <div class="hwrap">
+    <span class="eyebrow">✦ Cẩm nang du lịch Nga bằng tiếng Việt</span>
+    <h1>Khám phá nước Nga trọn vẹn — <span class="accent">và đi cùng người hiểu nước Nga</span></h1>
+    <p class="lead">Hàng trăm địa điểm khắp nước Nga, mỗi nơi có thuyết minh tiếng Việt, toạ độ &amp; bản đồ, đánh giá thực tế và tính năng đọc thành tiếng. Không chỉ để tra cứu — mà để bạn <b>lên được một hành trình đáng nhớ</b>, hoặc để chúng mình giúp bạn thiết kế và đồng hành.</p>
+    <div class="hero-cta">
+      <a class="btn gold btn-lg" href="gis.html">🗺️ Mở bản đồ &amp; lập lộ trình</a>
+      <a class="btn btn-lg" style="background:rgba(255,255,255,.12);color:#fff;border-color:transparent;" href="#lienhe">✉️ Nhờ chúng mình tư vấn tour</a>
+    </div>
+    <div class="stats2" id="stats">
+      <div class="stat2"><b id="stPlaces">—</b><span>địa điểm đã biên soạn</span></div>
+      <div class="stat2"><b id="stRegions">—</b><span>vùng &amp; thành phố</span></div>
+      <div class="stat2"><b id="stCats">—</b><span>nhóm loại hình</span></div>
+      <div class="stat2"><b>100%</b><span>tiếng Việt, có bản đồ</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Dịch vụ dẫn tour (khéo léo) -->
+<section class="band" style="background:var(--bg);">
+  <div class="inner">
+    <div class="sec-eyebrow">Đồng hành cùng bạn</div>
+    <h2 class="sec-title">Tự đi cũng tuyệt — nhưng có người bản địa còn hơn</h2>
+    <p class="sec-sub">Chúng chúng mình xây dựng cẩm nang này từ tình yêu với nước Nga. Nếu bạn muốn biến nó thành một chuyến đi thật, chúng mình có thể giúp — nhẹ nhàng, đúng nhu cầu, đúng ngân sách.</p>
+    <div class="svc-grid">
+      <div class="svc"><div class="ic">🧭</div><h3>Thiết kế lộ trình riêng</h3><p>Từ 3 ngày ở Saint Petersburg tới hành trình xuyên Nga — chúng mình lên lịch trình hợp gu, hợp mùa và hợp túi tiền của bạn.</p></div>
+      <div class="svc"><div class="ic">🎙️</div><h3>Đồng hành &amp; thuyết minh</h3><p>Có người dẫn nói tiếng Việt, kể chuyện lịch sử – văn hoá tại chỗ, lo giao tiếp và những điều “chỉ dân bản địa mới biết”.</p></div>
+      <div class="svc"><div class="ic">🎫</div><h3>Lo hậu cần yên tâm</h3><p>Vé tàu, bảo tàng, đặt chỗ, di chuyển giữa các thành phố — để bạn chỉ việc tận hưởng chuyến đi.</p></div>
+      <div class="svc"><div class="ic">💬</div><h3>Tư vấn miễn phí bước đầu</h3><p>Chưa chắc đi đâu? Cứ nhắn chúng mình vài dòng về thời gian &amp; sở thích, chúng mình gợi ý cho bạn hoàn toàn thoải mái.</p></div>
+    </div>
+    <p class="quote">“Một chuyến đi hay không nằm ở việc đến được bao nhiêu nơi, mà ở việc bạn <b>hiểu</b> được bao nhiêu điều ở mỗi nơi.”</p>
+  </div>
+</section>
+
+<!-- Điểm đến nổi bật -->
+<section class="band" style="background:#fff;border-top:1px solid var(--line);">
+  <div class="inner">
+    <div class="sec-eyebrow">Gợi ý cho bạn</div>
+    <h2 class="sec-title">Vài điểm đến được yêu thích nhất</h2>
+    <p class="sec-sub">Chọn lọc từ cơ sở dữ liệu — bấm vào Bản đồ hoặc Danh sách để xem toàn bộ, nghe thuyết minh và tự lập lịch trình.</p>
+    <div class="feat-grid" id="featured"></div>
+    <div class="regionsCloud" id="regionsCloud"></div>
+  </div>
+</section>
+
+<!-- Tính năng công cụ -->
+<section class="band" style="background:var(--bg);">
+  <div class="inner">
+    <div class="sec-eyebrow">Công cụ cho bạn</div>
+    <h2 class="sec-title">Không chỉ là danh sách — là một trợ lý lên kế hoạch</h2>
+    <div class="featuresX">
+      <div class="fx"><div class="e">🗺️</div><div><b>Bản đồ GIS + lập tour</b><p>Chọn điểm, tự tối ưu lộ trình, chia theo ngày, xuất lịch trình. Bật hiện tên địa điểm ngay trên bản đồ.</p></div></div>
+      <div class="fx"><div class="e">🎧</div><div><b>Đọc thành tiếng</b><p>Nghe thuyết minh tiếng Việt cho từng nơi — tiện khi đang di chuyển.</p></div></div>
+      <div class="fx"><div class="e">📍</div><div><b>Toạ độ &amp; link bản đồ</b><p>Mỗi điểm kèm link Google Maps để mở đường đi tức thì.</p></div></div>
+      <div class="fx"><div class="e">⭐</div><div><b>Đánh giá thực tế</b><p>Số sao, lượt đánh giá và tóm tắt nhận xét du khách tổng hợp từ web.</p></div></div>
+      <div class="fx"><div class="e">📊</div><div><b>Xuất nhiều định dạng</b><p>CSV, Excel, GeoJSON, JSON — dùng cho phân tích hoặc phần mềm GIS.</p></div></div>
+      <div class="fx"><div class="e">🧩</div><div><b>Cập nhật liên tục</b><p>Nội dung được bổ sung và cập nhật thường xuyên; các vị trí chỉ mang tính tham khảo.</p></div></div>
+      <div class="fx"><div class="e">🇻🇳</div><div><b>Mới: mở rộng sang Việt Nam</b><p>Cơ sở dữ liệu nay có thêm các điểm đến ở Việt Nam. <a href="list.html?country=vietnam"><b>Xem địa điểm Việt Nam →</b></a></p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Liên hệ -->
+<section class="band" id="lienhe" style="background:#fff;border-top:1px solid var(--line);">
+  <div class="inner">
+    <div class="contactX">
+      <div class="avatar">H</div>
+      <div class="ctext">
+        <div class="role">Người biên soạn &amp; tư vấn du lịch Nga</div>
+        <h3>Phạm Đăng Hiển</h3>
+        <p>Chúng chúng mình biên soạn trọn bộ cẩm nang này bằng tiếng Việt vì muốn nhiều người Việt đến được với nước Nga một cách trọn vẹn. Nếu bạn đang ấp ủ một chuyến đi — dù mới chỉ là ý tưởng — cứ nhắn chúng mình một tin. Chúng chúng mình sẵn lòng tư vấn lộ trình, chia sẻ kinh nghiệm, và nếu hợp, chúng mình có thể trực tiếp <b>thiết kế và đồng hành</b> cùng bạn trên đất Nga.</p>
+        <div class="cbtns">
+          <a class="cbtn mail" href="mailto:lopmaybay@gmail.com?subject=Tư vấn tour du lịch Nga">✉️ lopmaybay@gmail.com</a>
+          <a class="cbtn fb" href="https://fb.com/lopmaybay" target="_blank" rel="noopener">💬 fb.com/lopmaybay</a>
+        </div>
+      </div>
+    </div>
+    <p class="muted" style="text-align:center;margin-top:22px;font-size:13.5px;">Tư vấn bước đầu hoàn toàn miễn phí · Phản hồi trong thời gian sớm nhất · Lịch trình cá nhân hoá theo ngân sách</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="fwrap">
+    <div>© 2026 Cẩm nang Du lịch · Biên soạn bởi Phạm Đăng Hiển</div>
+    <div class="contact">Liên hệ: <b>Phạm Đăng Hiển</b> · <a href="mailto:lopmaybay@gmail.com">lopmaybay@gmail.com</a> · <a href="https://fb.com/lopmaybay" target="_blank" rel="noopener">fb.com/lopmaybay</a></div>
+  </div>
+  <div class="fwrap" style="margin-top:10px;border-top:1px solid rgba(255,255,255,.1);padding-top:12px;"><div style="color:#9fb0c6;font-size:12px;line-height:1.55;">⚠️ Các vị trí chỉ mang tính tham khảo, không tránh khỏi sai sót và đang được cập nhật thường xuyên, có thể lệch so với toạ độ gốc. Mọi ý kiến góp ý và liên hệ hợp tác vui lòng liên hệ tác giả. Tác giả không chịu trách nhiệm về những sự cố liên quan đến nội dung web.</div></div>
+</footer>
+
+<script src="assets/common.js"></script>
+<script src="data/bundle.js"></script>
+<script>
+(function () {
+  var m = RT.getMeta();
+  var places = RT.getPlaces();
+  document.getElementById("stPlaces").textContent = (m.total_places || places.length) + "+";
+  document.getElementById("stRegions").textContent = (m.regions || []).length;
+  document.getElementById("stCats").textContent = Object.keys(m.categories || {}).length;
+
+  /* ---------- Ngôn ngữ ---------- */
+  (function buildLangSwitch() {
+    var box = document.getElementById("langSwitch");
+    if (!box) return;
+    Object.keys(RT.LANGS).forEach(function (code) {
+      var info = RT.LANGS[code];
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "lang-chip";
+      b.dataset.code = code;
+      b.title = info.label;
+      b.setAttribute("aria-label", info.label);
+      b.innerHTML = info.flag + " <span>" + code.toUpperCase() + "</span>";
+      b.onclick = function () {
+        if (RT.getLang() === code) return;
+        RT.setLang(code);
+        RT.TTS.stop();
+        markLang();
+        renderFeatured();
+      };
+      box.appendChild(b);
+    });
+    markLang();
+  })();
+  function markLang() {
+    var cur = RT.getLang();
+    document.querySelectorAll(".lang-chip").forEach(function (c) {
+      c.classList.toggle("active", c.dataset.code === cur);
+    });
+    document.documentElement.lang = cur;
+  }
+
+  // Điểm đến nổi bật: ưu tiên có ảnh + đánh giá cao, đa dạng vùng
+  var withPhoto = places.filter(function (p) { return p.photo; });
+  withPhoto.sort(function (a, b) {
+    var ra = (a.rating || {}).value || 0, rb = (b.rating || {}).value || 0;
+    var ca = (a.rating || {}).count || 0, cb = (b.rating || {}).count || 0;
+    return (rb - ra) || (cb - ca);
+  });
+  var seenReg = {}, feat = [];
+  withPhoto.forEach(function (p) {
+    var r = p.region;
+    if ((seenReg[r] || 0) >= 2) return;      // tối đa 2 điểm/vùng cho đa dạng
+    seenReg[r] = (seenReg[r] || 0) + 1;
+    if (feat.length < 8) feat.push(p);
+  });
+  var fg = document.getElementById("featured");
+  function renderFeatured() {
+    fg.innerHTML = feat.map(function (p) {
+      var info = RT.catInfo(RT.primaryCat(p));
+      var rt = p.rating || {};
+      return '<a class="feat-card" href="gis.html?focus=' + encodeURIComponent(p.id) + '" title="Xem trên bản đồ">' +
+        '<div class="ph" style="background-image:url(\'' + p.photo + '\')">' +
+          '<div class="fallback">' + info.emoji + '</div><div class="grad"></div>' +
+          '<span class="region-chip">' + RT.escapeHtml(p.region_name_vi || "") + '</span>' +
+        '</div>' +
+        '<div class="cap"><h4>' + RT.escapeHtml(RT.t(p, "name")) + '</h4>' +
+          '<div class="meta">' + (rt.value != null ? '★ ' + rt.value + (rt.count ? ' · ' + RT.fmtCount(rt.count) + ' ' + (RT.getLang() === "vi" ? "đánh giá" : RT.getLang() === "ru" ? "оценок" : "reviews") : '') : info.vi) + '</div>' +
+        '</div></a>';
+    }).join("");
+  }
+  renderFeatured();
+
+  // Chip các vùng đã có
+  var rc = document.getElementById("regionsCloud");
+  rc.innerHTML = (m.regions || []).slice().sort(function (a, b) { return b.count - a.count; })
+    .map(function (r) { return '<span>' + RT.escapeHtml(r.name_vi) + ' · ' + r.count + '</span>'; }).join("");
+})();
+</script>
+
+<style>
+#planner{display:none !important;}
+.cndl-fab{position:fixed;right:16px;bottom:16px;z-index:99999;background:#e8514b;color:#fff;border:none;border-radius:999px;padding:12px 19px;font-size:15px;font-weight:800;cursor:pointer;box-shadow:0 8px 24px rgba(232,81,75,.45);display:flex;align-items:center;gap:8px;animation:cndlPulse 2s infinite;font-family:inherit}
+@keyframes cndlPulse{0%{box-shadow:0 0 0 0 rgba(232,81,75,.55)}70%{box-shadow:0 0 0 16px rgba(232,81,75,0)}100%{box-shadow:0 0 0 0 rgba(232,81,75,0)}}
+.cndl-fab:hover{background:#d63d37}
+.cndl-modal{position:fixed;inset:0;z-index:100000;background:rgba(15,25,40,.55);display:none;align-items:center;justify-content:center;padding:16px}
+.cndl-modal.open{display:flex}
+.cndl-card{background:#fff;max-width:430px;width:100%;border-radius:16px;padding:20px 20px 8px;box-shadow:0 20px 60px rgba(0,0,0,.3);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif}
+.cndl-card h3{margin:0 0 6px;color:#16293f;font-size:19px}
+.cndl-card p{margin:0 0 14px;color:#33404f;font-size:14px;line-height:1.6}
+.cndl-ch{display:flex;align-items:center;gap:11px;width:100%;text-decoration:none;border:1px solid #e4e7ee;border-radius:12px;padding:11px 14px;margin-bottom:9px;font-weight:700;color:#16293f;font-size:14.5px}
+.cndl-ch:hover{background:#f6f8fb;border-color:#c9d3e2}
+.cndl-ch .i{font-size:20px;width:24px;text-align:center}
+.cndl-x{float:right;border:none;background:#eef2f8;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px;color:#16293f;line-height:1}
+.cndl-lock{background:#fff8ec;border:1px solid #f0dcae;border-left:4px solid #c79a3a;border-radius:10px;padding:11px 13px;margin:12px 0;font-size:13px;color:#5a4a1e;line-height:1.6}
+</style>
+<button class="cndl-fab" onclick="CNDL_contact()">💬 Tư vấn hướng dẫn viên</button>
+<div class="cndl-modal" id="cndlModal" onclick="if(event.target===this)CNDL_close()">
+  <div class="cndl-card">
+    <button class="cndl-x" onclick="CNDL_close()">✕</button>
+    <h3>💬 Tư vấn &amp; đặt hướng dẫn viên địa phương</h3>
+    <p>Cần thuyết minh chi tiết tại điểm, lên lịch trình riêng, hay hướng dẫn viên người Việt tại Nga? Liên hệ ngay để được hỗ trợ tận tình!</p>
+    <div id="cndlChannels"></div>
+    <p style="font-size:11.5px;color:#8a97a8;margin-top:6px">Cẩm nang Du lịch · Phạm Đăng Hiển</p>
+  </div>
+</div>
+<script>
+(function(){
+  var C = {"fb_messenger": "https://m.me/lopmaybay", "fb_page": "https://www.facebook.com/lopmaybay", "email": "lopmaybay@gmail.com", "phone": "", "zalo": "", "telegram": "", "whatsapp": ""};
+  function ch(href,icon,label,sub){ return '<a class="cndl-ch" href="'+href+'" target="_blank" rel="noopener"><span class="i">'+icon+'</span><span>'+label+(sub?'<br><span style="font-weight:400;color:#5c6773;font-size:12.5px">'+sub+'</span>':'')+'</span></a>'; }
+  window.CNDL_contact=function(){
+    var h="";
+    if(C.fb_messenger) h+=ch(C.fb_messenger,"💬","Nhắn Facebook Messenger","Phản hồi nhanh nhất");
+    if(C.zalo)         h+=ch("https://zalo.me/"+C.zalo,"🅩","Zalo",C.zalo);
+    if(C.telegram)     h+=ch(C.telegram,"✈️","Telegram","");
+    if(C.whatsapp)     h+=ch("https://wa.me/"+C.whatsapp,"🟢","WhatsApp",C.whatsapp);
+    if(C.phone)        h+=ch("tel:"+C.phone,"📞","Gọi điện",C.phone);
+    if(C.email)        h+=ch("mailto:"+C.email,"✉️","Email",C.email);
+    if(C.fb_page)      h+=ch(C.fb_page,"👍","Trang Facebook của chúng tôi","");
+    document.getElementById("cndlChannels").innerHTML=h;
+    document.getElementById("cndlModal").classList.add("open");
+  };
+  window.CNDL_close=function(){ document.getElementById("cndlModal").classList.remove("open"); };
+})();
+</script>
+</body>
+</html>

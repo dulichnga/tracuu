@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Danh sách địa điểm · Cẩm nang Du lịch</title>
+<meta name="description" content="Danh sách địa điểm du lịch Nga & Việt Nam bằng tiếng Việt: đánh giá, thuyết minh, bản đồ, nghe thành tiếng — đa ngôn ngữ VI/EN/RU." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Danh sách địa điểm · Cẩm nang Du lịch" />
+<meta property="og:description" content="Tra cứu địa điểm du lịch Nga & Việt Nam: đánh giá, thuyết minh, bản đồ và nghe thành tiếng (VI/EN/RU)." />
+<meta property="og:image" content="assets/vendor/images/marker-icon-2x.png" />
+<link rel="stylesheet" href="assets/app.css" />
+<style>
+  .count-line { margin: 2px 0 14px; color: var(--muted); font-size: 14px; }
+  .tts-global { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+  .tts-global input[type=range] { width: 110px; }
+  .voice-warn { margin: 0 0 14px; }
+  /* Language switcher (header) */
+  .lang-switch { display: flex; gap: 6px; }
+  .lang-chip {
+    display: inline-flex; align-items: center; gap: 5px; cursor: pointer;
+    border: 1.5px solid rgba(255,255,255,.28); background: rgba(255,255,255,.08);
+    color: #fff; padding: 7px 12px; border-radius: 999px; font-size: 13px; font-weight: 700;
+    line-height: 1; transition: .15s; font-family: inherit;
+  }
+  .lang-chip:hover { background: rgba(255,255,255,.18); }
+  .lang-chip.active { background: var(--gold); color: #241c05; border-color: var(--gold); }
+  @media (max-width: 640px) { .lang-chip { padding: 9px 13px; font-size: 13.5px; } }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/favicon.svg" alt="" width="30" height="30" /><span class="brand-name">Cẩm nang Du lịch</span></a>
+    <div class="nav-links">
+      <a href="index.html">Trang chủ</a>
+      <a href="list.html" class="active">Danh sách</a>
+      <a href="gis.html">Bản đồ GIS</a>
+    </div>
+    <div class="lang-switch" id="langSwitch"></div>
+  </nav>
+</header>
+
+<main class="container">
+  <h1 style="margin:6px 0 2px;">Danh sách địa điểm</h1>
+  <div class="count-line" id="countLine">Đang tải…</div>
+  <div class="notice voice-warn" id="voiceWarn" style="display:none;">
+    🔊 Mẹo: Trình duyệt đang chưa có giọng đọc tiếng Việt riêng. Tính năng đọc vẫn chạy, nhưng để nghe hay nhất,
+    hãy cài gói giọng tiếng Việt (Windows: Cài đặt → Thời gian &amp; Ngôn ngữ → Giọng nói).
+  </div>
+
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="🔎 Tìm theo tên, mô tả, mẹo…" />
+    <select id="sort">
+      <option value="stars">Sắp xếp: Đánh giá cao nhất</option>
+      <option value="reviews">Nhiều lượt đánh giá nhất</option>
+      <option value="name">Tên A→Z</option>
+    </select>
+    <select id="country" title="Quốc gia"><option value="">Tất cả quốc gia</option></select>
+    <select id="region"><option value="">Tất cả vùng</option></select>
+    <div class="tts-global">
+      <span class="muted" style="font-size:12px;">Tốc độ đọc</span>
+      <input type="range" id="rate" min="0.6" max="1.4" step="0.1" value="1" />
+      <button class="btn sm" id="stopAll">⏹ Dừng đọc</button>
+    </div>
+  </div>
+  <div class="filter-cats" id="filterCats" style="margin:-6px 0 16px;"></div>
+
+  <div class="grid" id="grid"></div>
+  <div id="moreWrap" style="text-align:center; margin:20px 0 10px;"></div>
+  <div id="empty" class="muted" style="display:none; padding:40px 0; text-align:center;">Không tìm thấy địa điểm phù hợp.</div>
+</main>
+
+<footer class="site-footer">
+  <div class="fwrap">
+    <div>Cẩm nang Du lịch · Dữ liệu tiếng Việt, có toạ độ &amp; bản đồ</div>
+    <div class="contact">Liên hệ: <b>Phạm Đăng Hiển</b> · <a href="mailto:lopmaybay@gmail.com">lopmaybay@gmail.com</a> · <a href="https://fb.com/lopmaybay" target="_blank" rel="noopener">fb.com/lopmaybay</a></div>
+  </div>
+  <div class="fwrap" style="margin-top:10px;border-top:1px solid rgba(255,255,255,.12);padding-top:12px;"><div style="color:#a9b6c9;font-size:12px;line-height:1.55;">⚠️ Các vị trí chỉ mang tính tham khảo, không tránh khỏi sai sót và đang được cập nhật thường xuyên, có thể lệch so với toạ độ gốc. Mọi ý kiến góp ý và liên hệ hợp tác vui lòng liên hệ tác giả. Tác giả không chịu trách nhiệm về những sự cố liên quan đến nội dung web.</div></div>
+</footer>
+
+<script src="assets/common.js"></script>
+<script src="data/bundle.js"></script>
+<script>
+(function () {
+  var places = RT.getPlaces();
+  var meta = RT.getMeta();
+  var activeCats = {}; // slug -> bool (rỗng = tất cả)
+  var grid = document.getElementById("grid");
+
+  // Bản đồ quốc gia (dùng meta nếu có; nếu chưa có thì tự suy ra — mặc định 'russia')
+  var COUNTRY_NAMES = Object.assign({ russia: "Nga", vietnam: "Việt Nam" }, meta.country_names || {});
+  var COUNTRIES = meta.countries;
+  if (!COUNTRIES || !Object.keys(COUNTRIES).length) {
+    COUNTRIES = {};
+    places.forEach(function (p) { var c = p.country || "russia"; COUNTRIES[c] = (COUNTRIES[c] || 0) + 1; });
+  }
+
+  /* ---------- Ngôn ngữ ---------- */
+  (function buildLangSwitch() {
+    var box = document.getElementById("langSwitch");
+    if (!box) return;
+    Object.keys(RT.LANGS).forEach(function (code) {
+      var info = RT.LANGS[code];
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "lang-chip";
+      b.dataset.code = code;
+      b.title = info.label;
+      b.setAttribute("aria-label", info.label);
+      b.innerHTML = info.flag + " <span>" + code.toUpperCase() + "</span>";
+      b.onclick = function () {
+        if (RT.getLang() === code) return;
+        RT.setLang(code);
+        RT.TTS.stop();
+        document.querySelectorAll(".tts-btn").forEach(function (bb) { bb.classList.remove("speaking"); });
+        markLang();
+        render();
+      };
+      box.appendChild(b);
+    });
+    markLang();
+  })();
+  function markLang() {
+    var cur = RT.getLang();
+    document.querySelectorAll(".lang-chip").forEach(function (c) {
+      c.classList.toggle("active", c.dataset.code === cur);
+    });
+    document.documentElement.lang = cur;
+  }
+
+  // Cảnh báo giọng đọc
+  function checkVoice() {
+    if (RT.TTS.supported && !RT.TTS.hasVietnameseVoice()) {
+      document.getElementById("voiceWarn").style.display = "block";
+    }
+  }
+  setTimeout(checkVoice, 600);
+
+  // Bộ lọc quốc gia
+  function fillCountries() {
+    var sel = document.getElementById("country");
+    var keys = Object.keys(COUNTRIES);
+    var html = '<option value="">Tất cả quốc gia</option>';
+    keys.forEach(function (c) {
+      html += '<option value="' + RT.escapeHtml(c) + '">' + RT.escapeHtml(COUNTRY_NAMES[c] || c) + ' (' + COUNTRIES[c] + ')</option>';
+    });
+    sel.innerHTML = html;
+    // mặc định: ?country= trên URL (nếu hợp lệ), nếu không thì 'russia'
+    var urlC = new URLSearchParams(location.search || "").get("country");
+    if (urlC && COUNTRIES[urlC] != null) sel.value = urlC;
+    else sel.value = (COUNTRIES.russia != null) ? "russia" : "";
+  }
+  // Bộ lọc vùng (theo quốc gia đang chọn)
+  function fillRegions(country) {
+    var sel = document.getElementById("region");
+    var regions = (meta.regions || []).filter(function (r) {
+      return !country || (r.country || "russia") === country;
+    });
+    var html = '<option value="">Tất cả vùng</option>';
+    regions.forEach(function (r) {
+      html += '<option value="' + RT.escapeHtml(r.slug) + '">' + RT.escapeHtml(r.name_vi) + ' (' + r.count + ')</option>';
+    });
+    sel.innerHTML = html;
+    sel.style.display = regions.length < 2 ? "none" : "";
+  }
+  fillCountries();
+  fillRegions(document.getElementById("country").value);
+
+  // Bộ lọc loại
+  (function fillCats() {
+    var wrap = document.getElementById("filterCats");
+    var cats = meta.categories || {};
+    Object.keys(cats).forEach(function (slug) {
+      var info = RT.catInfo(slug);
+      var el = document.createElement("span");
+      el.className = "fc"; el.dataset.slug = slug;
+      el.textContent = info.emoji + " " + info.vi + " (" + cats[slug] + ")";
+      el.onclick = function () {
+        if (activeCats[slug]) { delete activeCats[slug]; el.classList.remove("on"); el.style.background = ""; }
+        else { activeCats[slug] = true; el.classList.add("on"); el.style.background = info.color; }
+        render();
+      };
+      wrap.appendChild(el);
+    });
+  })();
+
+  function photoStyle(p) {
+    if (p.photo) return 'style="background-image:url(\'' + p.photo + "'),linear-gradient(135deg,#2b4a72,#16293f)\"";
+    return "";
+  }
+
+  function cardHTML(p) {
+    var info = RT.catInfo(RT.primaryCat(p));
+    var rt = p.rating || {};
+    var pr = p.practical || {};
+    var isFree = (p.tags || []).indexOf("free") >= 0 || /miễn phí/i.test(pr.ticket_vi || "");
+    var chips = (p.categories || []).map(function (c) {
+      var ci = RT.catInfo(c);
+      return '<span class="chip" style="background:' + ci.color + '">' + ci.emoji + " " + ci.vi + "</span>";
+    }).join(" ");
+    var highlights = RT.tArr(p, "highlights").map(function (h) { return "<li>" + RT.escapeHtml(h) + "</li>"; }).join("");
+    var sources = (p.sources || []).map(function (s) {
+      return '<a href="' + s.url + '" target="_blank" rel="noopener">' + RT.escapeHtml(s.title) + "</a>";
+    }).join(" · ");
+
+    return '' +
+    '<article class="card" data-id="' + p.id + '">' +
+      '<div class="card-photo" ' + photoStyle(p) + '>' +
+        '<div class="ph-fallback">' + info.emoji + '</div>' +
+        '<div class="cat-tag"><span class="chip" style="background:' + info.color + '">' + info.emoji + " " + info.vi + '</span></div>' +
+      '</div>' +
+      '<div class="card-body">' +
+        '<div style="display:flex;justify-content:space-between;gap:8px;align-items:flex-start;">' +
+          '<div><h3>' + RT.escapeHtml(RT.t(p, "name")) + '</h3>' +
+          '<div class="subname">' + RT.escapeHtml(p.name_ru || "") + (p.name_en ? " · " + RT.escapeHtml(p.name_en) : "") + '</div></div>' +
+          (isFree ? '<span class="badge-free">Miễn phí</span>' : '') +
+        '</div>' +
+        '<div class="rating-row">' + RT.starHTML(rt.value) +
+          (rt.value != null ? '<b>' + rt.value + '</b>' : '') +
+          (rt.count != null ? '<span class="muted">· ' + RT.fmtCount(rt.count) + ' đánh giá' + (rt.source ? " · " + RT.escapeHtml(rt.source) : "") + '</span>' : '') +
+        '</div>' +
+        '<div class="short">' + RT.escapeHtml(RT.t(p, "presentation_short")) + '</div>' +
+        '<div class="card-actions">' +
+          '<button class="btn sm gold tts-btn" data-kind="short">' + RT.uiText("listen") + '</button>' +
+          '<button class="btn sm toggle-detail">' + RT.uiText("detail") + '</button>' +
+          '<a class="btn sm" href="gis.html?focus=' + encodeURIComponent(p.id) + '">' + RT.uiText("map") + '</a>' +
+          (p.maps && p.maps.google ? '<a class="btn sm" href="' + p.maps.google + '" target="_blank" rel="noopener">🗺️ Google</a>' : '') +
+          '<button class="btn sm primary" onclick="CNDL_contact()">💬 Tư vấn</button>' +
+        '</div>' +
+        '<div class="detail">' +
+          '<div class="cndl-lock">🔒 <b>Bài thuyết minh chi tiết</b> được hướng dẫn viên của chúng tôi trình bày trực tiếp cho khách. Liên hệ để đặt hướng dẫn viên nói tiếng Việt!</div>' +
+          (highlights ? '<h4>' + RT.uiText("highlights") + '</h4><ul>' + highlights + '</ul>' : '') +
+          '<h4>' + RT.uiText("visitInfo") + '</h4>' +
+          '<div class="practical">' +
+            (pr.hours_vi ? '<div><b>🕒 ' + RT.uiText("hours") + ':</b> ' + RT.escapeHtml(pr.hours_vi) + '</div>' : '') +
+            (pr.ticket_vi ? '<div><b>🎟️ ' + RT.uiText("ticket") + ':</b> ' + RT.escapeHtml(pr.ticket_vi) + '</div>' : '') +
+            (pr.duration_vi ? '<div><b>⏱️ ' + RT.uiText("duration") + ':</b> ' + RT.escapeHtml(pr.duration_vi) + '</div>' : '') +
+            (pr.best_time_vi ? '<div><b>🌤️ ' + RT.uiText("bestTime") + ':</b> ' + RT.escapeHtml(pr.best_time_vi) + '</div>' : '') +
+            (pr.tips_vi ? '<div><b>💡 ' + RT.uiText("tips") + ':</b> ' + RT.escapeHtml(pr.tips_vi) + '</div>' : '') +
+            (p.address_vi ? '<div><b>📮 ' + RT.uiText("address") + ':</b> ' + RT.escapeHtml(p.address_vi) + '</div>' : '') +
+          '</div>' +
+          (RT.t(p, "review_summary") ? '<h4>' + RT.uiText("reviews") + '</h4><p>' + RT.escapeHtml(RT.t(p, "review_summary")) + '</p>' : '') +
+          '<div style="margin-top:10px;font-size:12.5px;" class="muted">' +
+            (p.official_site ? '🌐 <a href="' + p.official_site + '" target="_blank" rel="noopener">Web chính thức</a> · ' : '') +
+            (sources ? 'Nguồn: ' + sources + ' · ' : '') +
+            'Toạ độ: ' + p.coordinates.lat.toFixed(5) + ', ' + p.coordinates.lon.toFixed(5) +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+    '</article>';
+  }
+
+  function currentList() {
+    var q = (document.getElementById("q").value || "").trim().toLowerCase();
+    var country = document.getElementById("country").value;
+    var region = document.getElementById("region").value;
+    var sort = document.getElementById("sort").value;
+    var catKeys = Object.keys(activeCats);
+    var list = places.filter(function (p) {
+      if (country && (p.country || "russia") !== country) return false;
+      if (region && p.region !== region) return false;
+      if (catKeys.length && !(p.categories || []).some(function (c) { return activeCats[c]; })) return false;
+      if (q) {
+        var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, RT.t(p, "presentation_short"), p.presentation_long_vi,
+          (p.practical || {}).tips_vi, (p.tags || []).join(" ")].join(" ").toLowerCase();
+        if (hay.indexOf(q) < 0) return false;
+      }
+      return true;
+    });
+    list.sort(function (a, b) {
+      if (sort === "name") return (a.name_vi || "").localeCompare(b.name_vi || "", "vi");
+      if (sort === "reviews") return ((b.rating || {}).count || 0) - ((a.rating || {}).count || 0);
+      return ((b.rating || {}).value || 0) - ((a.rating || {}).value || 0);
+    });
+    return list;
+  }
+
+  var PAGE = 48, shownCount = PAGE;
+  function render(more) {
+    if (!more) shownCount = PAGE;
+    var list = currentList();
+    var slice = list.slice(0, shownCount);
+    document.getElementById("countLine").textContent =
+      "Hiển thị " + slice.length + " / " + list.length + " địa điểm" +
+      (list.length !== places.length ? " (lọc từ " + places.length + ")" : "") +
+      " · " + (meta.regions || []).length + " vùng";
+    grid.innerHTML = slice.map(cardHTML).join("");
+    document.getElementById("empty").style.display = list.length ? "none" : "block";
+    var mw = document.getElementById("moreWrap");
+    var remaining = list.length - slice.length;
+    if (remaining > 0) {
+      mw.innerHTML = '<button class="btn primary" id="moreBtn">⬇️ Xem thêm ' + Math.min(PAGE, remaining) + ' địa điểm (còn ' + remaining + ')</button>';
+      document.getElementById("moreBtn").onclick = function () { shownCount += PAGE; render(true); };
+    } else { mw.innerHTML = ""; }
+    bindCards();
+  }
+
+  function bindCards() {
+    grid.querySelectorAll(".card").forEach(function (card) {
+      var id = card.dataset.id;
+      var p = places.filter(function (x) { return x.id === id; })[0];
+      card.querySelector(".toggle-detail").onclick = function () {
+        card.querySelector(".detail").classList.toggle("open");
+      };
+      card.querySelectorAll(".tts-btn").forEach(function (btn) {
+        btn.onclick = function () {
+          var kind = btn.dataset.kind;
+          var txt = kind === "long" ? RT.t(p, "presentation_long") : RT.t(p, "presentation_short");
+          var speakingNow = RT.TTS.activeId === id + ":" + kind;
+          if (speakingNow) { RT.TTS.stop(); return; }
+          RT.TTS.speak(txt, {
+            id: id + ":" + kind,
+            lang: RT.getLang(),
+            onState: function (st) {
+              document.querySelectorAll(".tts-btn").forEach(function (b) { b.classList.remove("speaking"); });
+              if (st === "start") btn.classList.add("speaking");
+            }
+          });
+        };
+      });
+    });
+  }
+
+  document.getElementById("q").oninput = function () { render(); };
+  document.getElementById("sort").onchange = function () { render(); };
+  document.getElementById("country").onchange = function () {
+    fillRegions(this.value);
+    document.getElementById("region").value = "";
+    render();
+  };
+  document.getElementById("region").onchange = function () { render(); };
+  document.getElementById("rate").oninput = function () { RT.TTS.setRate(parseFloat(this.value)); };
+  document.getElementById("stopAll").onclick = function () {
+    RT.TTS.stop();
+    document.querySelectorAll(".tts-btn").forEach(function (b) { b.classList.remove("speaking"); });
+  };
+
+  render();
+})();
+</script>
+
+<style>
+#planner{display:none !important;}
+.cndl-fab{position:fixed;right:16px;bottom:16px;z-index:99999;background:#e8514b;color:#fff;border:none;border-radius:999px;padding:12px 19px;font-size:15px;font-weight:800;cursor:pointer;box-shadow:0 8px 24px rgba(232,81,75,.45);display:flex;align-items:center;gap:8px;animation:cndlPulse 2s infinite;font-family:inherit}
+@keyframes cndlPulse{0%{box-shadow:0 0 0 0 rgba(232,81,75,.55)}70%{box-shadow:0 0 0 16px rgba(232,81,75,0)}100%{box-shadow:0 0 0 0 rgba(232,81,75,0)}}
+.cndl-fab:hover{background:#d63d37}
+.cndl-modal{position:fixed;inset:0;z-index:100000;background:rgba(15,25,40,.55);display:none;align-items:center;justify-content:center;padding:16px}
+.cndl-modal.open{display:flex}
+.cndl-card{background:#fff;max-width:430px;width:100%;border-radius:16px;padding:20px 20px 8px;box-shadow:0 20px 60px rgba(0,0,0,.3);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif}
+.cndl-card h3{margin:0 0 6px;color:#16293f;font-size:19px}
+.cndl-card p{margin:0 0 14px;color:#33404f;font-size:14px;line-height:1.6}
+.cndl-ch{display:flex;align-items:center;gap:11px;width:100%;text-decoration:none;border:1px solid #e4e7ee;border-radius:12px;padding:11px 14px;margin-bottom:9px;font-weight:700;color:#16293f;font-size:14.5px}
+.cndl-ch:hover{background:#f6f8fb;border-color:#c9d3e2}
+.cndl-ch .i{font-size:20px;width:24px;text-align:center}
+.cndl-x{float:right;border:none;background:#eef2f8;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px;color:#16293f;line-height:1}
+.cndl-lock{background:#fff8ec;border:1px solid #f0dcae;border-left:4px solid #c79a3a;border-radius:10px;padding:11px 13px;margin:12px 0;font-size:13px;color:#5a4a1e;line-height:1.6}
+</style>
+<button class="cndl-fab" onclick="CNDL_contact()">💬 Tư vấn hướng dẫn viên</button>
+<div class="cndl-modal" id="cndlModal" onclick="if(event.target===this)CNDL_close()">
+  <div class="cndl-card">
+    <button class="cndl-x" onclick="CNDL_close()">✕</button>
+    <h3>💬 Tư vấn &amp; đặt hướng dẫn viên địa phương</h3>
+    <p>Cần thuyết minh chi tiết tại điểm, lên lịch trình riêng, hay hướng dẫn viên người Việt tại Nga? Liên hệ ngay để được hỗ trợ tận tình!</p>
+    <div id="cndlChannels"></div>
+    <p style="font-size:11.5px;color:#8a97a8;margin-top:6px">Cẩm nang Du lịch · Phạm Đăng Hiển</p>
+  </div>
+</div>
+<script>
+(function(){
+  var C = {"fb_messenger": "https://m.me/lopmaybay", "fb_page": "https://www.facebook.com/lopmaybay", "email": "lopmaybay@gmail.com", "phone": "", "zalo": "", "telegram": "", "whatsapp": ""};
+  function ch(href,icon,label,sub){ return '<a class="cndl-ch" href="'+href+'" target="_blank" rel="noopener"><span class="i">'+icon+'</span><span>'+label+(sub?'<br><span style="font-weight:400;color:#5c6773;font-size:12.5px">'+sub+'</span>':'')+'</span></a>'; }
+  window.CNDL_contact=function(){
+    var h="";
+    if(C.fb_messenger) h+=ch(C.fb_messenger,"💬","Nhắn Facebook Messenger","Phản hồi nhanh nhất");
+    if(C.zalo)         h+=ch("https://zalo.me/"+C.zalo,"🅩","Zalo",C.zalo);
+    if(C.telegram)     h+=ch(C.telegram,"✈️","Telegram","");
+    if(C.whatsapp)     h+=ch("https://wa.me/"+C.whatsapp,"🟢","WhatsApp",C.whatsapp);
+    if(C.phone)        h+=ch("tel:"+C.phone,"📞","Gọi điện",C.phone);
+    if(C.email)        h+=ch("mailto:"+C.email,"✉️","Email",C.email);
+    if(C.fb_page)      h+=ch(C.fb_page,"👍","Trang Facebook của chúng tôi","");
+    document.getElementById("cndlChannels").innerHTML=h;
+    document.getElementById("cndlModal").classList.add("open");
+  };
+  window.CNDL_close=function(){ document.getElementById("cndlModal").classList.remove("open"); };
+})();
+</script>
+</body>
+</html>
