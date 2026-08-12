@@ -1,0 +1,677 @@
+{
+  "restaurant": {
+    "id": "cafe-pushkin",
+    "brand": "Café Pushkin",
+    "type": "restaurant",
+    "name_vi": "Café Pushkin (Nga quý tộc thế kỷ 19)",
+    "name_en": "Café Pushkin",
+    "name_ru": "Кафе Пушкинъ",
+    "cuisine_vi": "Ẩm thực Nga quý tộc cổ điển",
+    "cuisine_en": "Classic aristocratic Russian",
+    "cuisine_ru": "Классическая русская кухня",
+    "cities": [
+      "Moscow"
+    ],
+    "address_vi": "Tverskoy Bulvar 26A (Moscow)",
+    "hours": "24/7 (một số khu)",
+    "phone": "",
+    "site": "cafe-pushkin.ru",
+    "site_url": "https://cafe-pushkin.ru",
+    "map_url": "https://yandex.ru/maps/org/kafe_pushkin/1018907821/",
+    "price_level": "₽₽₽₽",
+    "about_vi": "«Кафе Пушкинъ» (Café Pushkin) là biểu tượng của ẩm thực Nga quý tộc giữa lòng Moscow, khai trương năm 1999 trên đại lộ Tverskoy. Không gian được dựng như một dinh thự thế kỷ 19 với hiệu thuốc cổ, thư viện sách quý và gác lửng, mở cửa gần như suốt ngày đêm. Nơi đây phục vụ những món Nga cổ điển tinh tế: trứng cá, blini, súp, cá tầm và các món tráng miệng trứ danh.",
+    "about_en": "Café Pushkin is the icon of aristocratic Russian dining in the heart of Moscow, opened in 1999 on Tverskoy Boulevard. Styled as a 19th-century nobleman's mansion — with an antique pharmacy, a library of rare books and a mezzanine — it serves refined classic Russian cuisine almost around the clock: caviar, blini, soups, sturgeon and legendary desserts.",
+    "about_ru": "«Кафе Пушкинъ» — символ аристократической русской кухни в сердце Москвы, открыт в 1999 году на Тверском бульваре. Интерьеры воссоздают дворянский особняк XIX века с Аптекой, Библиотекой редких книг и Антресолью; ресторан работает почти круглосуточно и подаёт изысканную классику: икру, блины, супы, осетрину и знаменитые десерты.",
+    "founder": "Andrey Dellos (Maison Dellos)",
+    "history_vi": "Ý tưởng về «Кафе Пушкинъ» khởi nguồn từ ca khúc «Nathalie» của danh ca Pháp Gilbert Bécaud (1964), trong đó nhắc tới một quán cà phê Pushkin lãng mạn ở Moscow vốn chưa từng tồn tại. Nhà hàng do nhà kinh doanh ẩm thực Andrey Dellos hiện thực hoá và mở cửa năm 1999 trên nền dinh thự cổ của gia tộc Rimsky-Korsakov, nhanh chóng trở thành một trong những biểu tượng của Moscow.",
+    "history_en": "The idea of Café Pushkin grew from the French chansonnier Gilbert Bécaud's 1964 song «Nathalie», which mentioned a romantic Café Pushkin in Moscow that did not yet exist. Restaurateur Andrey Dellos brought it to life, opening in 1999 on the former estate of the Rimsky-Korsakov family, and it swiftly became one of the symbols of the capital.",
+    "history_ru": "Замысел «Кафе Пушкинъ» родился из песни французского шансонье Жильбера Беко «Натали» (1964), где упоминалось романтическое кафе Пушкина в Москве, которого на самом деле не было. Ресторатор Андрей Деллос воплотил идею, открыв заведение в 1999 году на месте бывшей усадьбы Римских-Корсаковых, и оно быстро стало одним из символов столицы.",
+    "menu_src": "https://dellos-delivery.ru/dostavka-cafe-pushkin/",
+    "tags": [
+      "fine-dining",
+      "classic-russian",
+      "iconic",
+      "luxury",
+      "tverskoy"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "caviar",
+      "name_vi": "Trứng cá tầm Beluga ăn kèm blini",
+      "name_en": "Beluga caviar with blini",
+      "name_ru": "Икра белужья с блинами",
+      "weight": "130 g",
+      "price": "21900",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Trứng cá tầm Beluga — loại caviar quý hiếm và đắt giá bậc nhất thế giới, hạt to óng ánh, vị bơ béo tan ngay trên đầu lưỡi. Được dọn theo đúng nghi thức quý tộc Nga cùng blini nóng, kem chua và bơ. Đây là món xa hoa biểu trưng cho tinh thần vương giả của Café Pushkin.",
+      "intro_en": "Beluga sturgeon caviar — the rarest and most precious of all caviars, with large lustrous pearls and a buttery, melting taste. Served in the aristocratic manner with warm blini, sour cream and butter.",
+      "intro_ru": "Белужья икра — самая редкая и дорогая из всех, с крупными блестящими икринками и нежным сливочным вкусом. Подаётся по-аристократически с тёплыми блинами, сметаной и маслом.",
+      "tips_vi": "Món xa xỉ nhất thực đơn; nên đặt trước và chia sẻ cho cả bàn.",
+      "tags": [
+        "caviar",
+        "beluga",
+        "luxury",
+        "signature"
+      ]
+    },
+    {
+      "cat": "caviar",
+      "name_vi": "Trứng cá tầm Osetra ăn kèm blini kiều mạch",
+      "name_en": "Ossetra caviar with buckwheat blini",
+      "name_ru": "Осетровая икра с гречневыми блинами",
+      "weight": "240 g",
+      "price": "8950",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Trứng cá tầm Osetra hạt vừa, ánh màu hổ phách với vị hạt dẻ đặc trưng — dòng caviar kinh điển của bàn tiệc Nga. Ăn kèm blini làm từ bột kiều mạch nóng hổi cùng bơ và kem chua.",
+      "intro_en": "Ossetra sturgeon caviar, amber-hued with a distinctive nutty flavour — the classic caviar of the Russian table. Served with warm buckwheat blini, butter and sour cream.",
+      "intro_ru": "Осетровая икра янтарного цвета с характерным ореховым вкусом — классика русского стола. Подаётся с тёплыми гречневыми блинами, маслом и сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "caviar",
+        "ossetra",
+        "signature"
+      ]
+    },
+    {
+      "cat": "caviar",
+      "name_vi": "Trứng cá hồi đỏ Kamchatka ăn kèm blini kê",
+      "name_en": "Kamchatka salmon roe with millet blini",
+      "name_ru": "Икра камчатского лосося с пшёнными блинами",
+      "weight": "210 g",
+      "price": "1390",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Trứng cá hồi đỏ Kamchatka hạt căng mọng, màu cam rực rỡ, vị mặn ngọt hài hoà — loại caviar đỏ được người Nga yêu chuộng. Cuốn cùng blini bột kê nóng và một chút kem chua là trọn vị.",
+      "intro_en": "Bright orange Kamchatka salmon roe, plump and pleasantly briny — the red caviar beloved across Russia. Wrapped in warm millet blini with a touch of sour cream.",
+      "intro_ru": "Ярко-оранжевая икра камчатского лосося, крупная и в меру солёная — любимая красная икра в России. С тёплыми пшёнными блинами и сметаной.",
+      "tips_vi": "Lựa chọn caviar dễ tiếp cận nhất, hợp để thử lần đầu.",
+      "tags": [
+        "caviar",
+        "salmon-roe",
+        "red-caviar"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Cá tầm với visiga (tủy sống cá tầm)",
+      "name_en": "Sturgeon with viziga",
+      "name_ru": "Осетрина с визигой",
+      "weight": "170 g",
+      "price": "2650",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cá tầm — loài cá quý của những dòng sông Nga — dọn cùng visiga, phần tủy sống cá tầm sấy khô, một nguyên liệu quý hiếm của ẩm thực quý tộc xưa. Món nguội thanh nhã, gần như chỉ còn thấy ở những nhà hàng cổ điển bậc nhất.",
+      "intro_en": "Sturgeon, the noble fish of Russia's rivers, served with viziga — the dried notochord of the sturgeon, a rare delicacy of old aristocratic cuisine.",
+      "intro_ru": "Осетрина — благородная рыба русских рек — подаётся с визигой, сушёной хордой осетра, редким деликатесом старинной кухни.",
+      "tips_vi": "",
+      "tags": [
+        "cold",
+        "sturgeon",
+        "appetizer"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Cá trích muối với khoai tây nóng",
+      "name_en": "Salted herring with potatoes",
+      "name_ru": "Селёдка с картофелем",
+      "weight": "255 g",
+      "price": "1190",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cá trích muối kiểu Nga thái lát, ăn kèm khoai tây luộc bở còn nóng, hành tây và dầu hướng dương thơm. Món khai vị mộc mạc mà kinh điển, là bạn đồng hành không thể thiếu của vodka lạnh.",
+      "intro_en": "Russian salted herring with warm boiled potatoes, onion and fragrant sunflower oil — a rustic classic and the essential partner to chilled vodka.",
+      "intro_ru": "Русская солёная сельдь с тёплым отварным картофелем, луком и ароматным подсолнечным маслом — классическая закуска к холодной водке.",
+      "tips_vi": "",
+      "tags": [
+        "cold",
+        "herring",
+        "appetizer"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Rôti bò (roast beef) dùng nguội",
+      "name_en": "Roast beef",
+      "name_ru": "Ростбиф",
+      "weight": "237 g",
+      "price": "2190",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thăn bò nướng chín tái hồng, thái lát mỏng dùng nguội cùng sốt và rau thơm. Món khai vị lịch lãm mang phong vị Âu châu vốn quen thuộc trên bàn tiệc quý tộc Nga thế kỷ 19.",
+      "intro_en": "Slow-roasted beef, rosy-pink and thinly sliced, served cold with sauce and herbs — an elegant appetiser reflecting the European flourish of 19th-century Russian aristocratic tables.",
+      "intro_ru": "Медленно запечённая говядина, розовая внутри, тонко нарезанная и поданная холодной с соусом и зеленью — элегантная закуска в европейском духе дворянского стола XIX века.",
+      "tips_vi": "",
+      "tags": [
+        "cold",
+        "beef",
+        "appetizer"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Thạch cá (cá chó, cá vược sông, cá hồi)",
+      "name_en": "Fish aspic of pike, pike-perch and salmon",
+      "name_ru": "Студень из щуки, судака и лосося",
+      "weight": "175 g",
+      "price": "1790",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thạch cá trong veo đông từ nước dùng cá chó, cá vược sông và cá hồi, điểm rau củ. Món nguội truyền thống thường góp mặt trong các bữa tiệc lễ của người Nga, ăn kèm mù tạt hoặc cải ngựa (khren) cay nồng.",
+      "intro_en": "A clear fish aspic set from pike, pike-perch and salmon broth — a traditional cold dish of Russian festive tables, served with mustard or horseradish.",
+      "intro_ru": "Прозрачный студень из щуки, судака и лосося — традиционное холодное блюдо русского праздничного стола, с горчицей или хреном.",
+      "tips_vi": "",
+      "tags": [
+        "cold",
+        "fish",
+        "aspic",
+        "appetizer"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad Olivier với trứng cá hồi",
+      "name_en": "Olivier salad with salmon roe",
+      "name_ru": "Оливье с икрой лосося",
+      "weight": "177 g",
+      "price": "1590",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phiên bản sang trọng của món salad Nga trứ danh — khoai tây, rau củ, trứng và thịt trộn sốt mayonnaise — được điểm thêm trứng cá hồi đỏ. Người Nga trìu mến gọi Olivier là «salad năm mới».",
+      "intro_en": "A luxe version of Russia's most famous salad — potato, vegetables, egg and meat bound in mayonnaise — crowned with red salmon roe. Russians fondly call Olivier the 'New Year salad'.",
+      "intro_ru": "Роскошный вариант знаменитого салата — картофель, овощи, яйцо и мясо под майонезом — украшенный красной икрой. «Оливье» русские ласково зовут новогодним салатом.",
+      "tips_vi": "",
+      "tags": [
+        "salads",
+        "olivier",
+        "signature"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad củ dền vinaigrette với cá sprat",
+      "name_en": "Vinaigrette salad with sprats",
+      "name_ru": "Винегрет со шпротами",
+      "weight": "220 g",
+      "price": "1390",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Vinaigrette — salad củ dền đỏ thắm trộn khoai tây, cà rốt, dưa muối và đậu, điểm thêm cá sprat hun khói. Món rau củ dân dã đầy màu sắc, vị chua ngọt nhẹ nhàng.",
+      "intro_en": "Vinaigrette — a ruby beetroot salad with potato, carrot, pickles and beans, topped with smoked sprats. A colourful, gently tangy vegetable classic.",
+      "intro_ru": "Винегрет — яркий свекольный салат с картофелем, морковью, солёными огурцами и фасолью, со шпротами. Красочная, слегка кисловатая классика.",
+      "tips_vi": "",
+      "tags": [
+        "salads",
+        "vinaigrette",
+        "beetroot"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Rasstegai nhân ba loại (bánh hở nhân)",
+      "name_en": "Rasstegai with triple filling",
+      "name_ru": "Расстегай с тройной начинкой",
+      "weight": "90 g",
+      "price": "460",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Rasstegai — bánh nướng hình thuyền để hở miệng, đặc trưng của ẩm thực Nga, ở đây với nhân ba loại thường gồm cá, cá tầm và visiga. Đây là bạn đồng hành cổ điển của tô súp cá ukha: nước dùng nóng được rót qua khe hở giữa bánh.",
+      "intro_en": "Rasstegai — an open-topped Russian pie, here with a triple filling (typically fish, sturgeon and viziga). The classic companion to ukha fish soup, whose hot broth is spooned into the pie's opening.",
+      "intro_ru": "Расстегай — русский пирожок с открытым верхом, здесь с тройной начинкой. Классическое сопровождение к ухе: горячий бульон вливают в открытую серединку.",
+      "tips_vi": "Gọi kèm súp cá ukha để cảm nhận đúng cách thưởng thức cổ truyền.",
+      "tags": [
+        "pies",
+        "rasstegai",
+        "fish"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Kulebyaka nhân cá (bánh cá nhiều lớp)",
+      "name_en": "Kulebyaka with fish (coulibiac)",
+      "name_ru": "Кулебяка с рыбой",
+      "weight": "250 g",
+      "price": "2290",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Kulebyaka (coulibiac) — chiếc bánh nướng dài trứ danh của ẩm thực Nga, lớp vỏ bột cầu kỳ bọc nhân cá tầm hoặc cá hồi, cơm hoặc kiều mạch, trứng và đôi khi cả visiga. Từng tầng nhân được xếp chồng công phu, xưa là niềm tự hào của bàn tiệc quý tộc.",
+      "intro_en": "Kulebyaka (coulibiac) — the celebrated elongated Russian pie, a many-layered pastry enclosing sturgeon or salmon, rice or buckwheat, egg and sometimes viziga. Its intricate stacked filling was once the pride of aristocratic tables.",
+      "intro_ru": "Кулебяка — знаменитый русский продолговатый пирог из многослойного теста с осетриной или лососем, рисом или гречкой, яйцом и порой визигой. Сложная слоёная начинка была гордостью дворянского стола.",
+      "tips_vi": "Bánh cầu kỳ, khẩu phần lớn, hợp gọi chung cho cả bàn.",
+      "tags": [
+        "pies",
+        "kulebyaka",
+        "coulibiac",
+        "fish",
+        "signature"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp củ dền borscht",
+      "name_en": "Borscht",
+      "name_ru": "Борщ",
+      "weight": "380 g",
+      "price": "1390",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Borscht — món súp củ dền đỏ au trứ danh nấu cùng thịt, bắp cải và khoai tây, vị chua ngọt đậm đà. Dọn cùng kem chua (smetana) và bánh mì; là linh hồn của bữa ăn Nga.",
+      "intro_en": "Borscht — Russia's celebrated ruby beetroot soup with meat, cabbage and potato, rich and sweet-sour. Served with sour cream and bread.",
+      "intro_ru": "Борщ — знаменитый свекольный суп с мясом, капустой и картофелем, насыщенный и кисло-сладкий. Со сметаной и хлебом.",
+      "tips_vi": "",
+      "tags": [
+        "soups",
+        "borscht",
+        "signature"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp solyanka thập cẩm thịt",
+      "name_en": "Meat solyanka",
+      "name_ru": "Солянка сборная мясная",
+      "weight": "380 g",
+      "price": "1390",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Solyanka — súp chua mặn đậm đà nấu từ nhiều loại thịt hun khói, xúc xích, dưa chuột muối, ô liu và nụ bạch hoa. Dọn kèm lát chanh và kem chua; hương vị đậm đà rất «gây nghiện» đặc trưng của Nga.",
+      "intro_en": "Solyanka — a bold sweet-sour-salty soup of several smoked meats and sausages, pickled cucumbers, olives and capers, served with lemon and sour cream.",
+      "intro_ru": "Солянка — насыщенный кисло-солёный суп из нескольких видов мяса и колбас, солёных огурцов, оливок и каперсов, с лимоном и сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "soups",
+        "solyanka"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp cá ukha kiểu hoàng gia",
+      "name_en": "Imperial ukha (fish soup)",
+      "name_ru": "Уха императорская",
+      "weight": "470 g",
+      "price": "1690",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Ukha — súp cá trong truyền thống của Nga, ở phiên bản «hoàng gia» được nấu từ nhiều loại cá quý cho nước dùng ngọt thanh trong vắt. Thưởng thức cùng bánh rasstegai nóng theo đúng lối cổ.",
+      "intro_en": "Ukha — the traditional clear Russian fish soup, in an 'imperial' version made from several fine fish for a limpid, delicate broth. Enjoyed with a hot rasstegai pie in the old manner.",
+      "intro_ru": "Уха — традиционный прозрачный русский рыбный суп, в «императорском» варианте из нескольких видов рыбы, с чистым нежным бульоном. К ней подают горячий расстегай.",
+      "tips_vi": "",
+      "tags": [
+        "soups",
+        "ukha",
+        "fish",
+        "signature"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp lạnh okroshka (chan kvass)",
+      "name_en": "Okroshka (cold soup on kvass)",
+      "name_ru": "Окрошка на квасе",
+      "weight": "380 g",
+      "price": "890",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Okroshka — súp lạnh mùa hè chan bằng kvass (thức uống lên men từ bánh mì đen), gồm rau củ thái hạt lựu, trứng, thịt và rau thơm, thêm kem chua. Chua mát, giải nhiệt và rất lạ miệng với thực khách Việt.",
+      "intro_en": "Okroshka — a summer cold soup on kvass (fermented rye-bread drink), with diced vegetables, egg, meat and herbs, finished with sour cream. Refreshing and pleasantly tart.",
+      "intro_ru": "Окрошка — летний холодный суп на квасе с нарезанными овощами, яйцом, мясом, зеленью и сметаной. Освежающая и приятно кислая.",
+      "tips_vi": "Món mùa hè; nếu chưa quen kvass hãy thử một phần nhỏ trước.",
+      "tags": [
+        "soups",
+        "okroshka",
+        "cold",
+        "summer"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni nhân thịt (bánh chũng Nga)",
+      "name_en": "Meat pelmeni",
+      "name_ru": "Пельмени с мясом",
+      "weight": "160 g",
+      "price": "1490",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Pelmeni — bánh bột luộc nhân thịt xay nặn tay, món quốc dân của Nga, đặc biệt phổ biến giữa mùa đông Siberia. Dọn cùng kem chua, bơ và tiêu.",
+      "intro_en": "Pelmeni — hand-made boiled dumplings filled with minced meat, a Russian national dish, especially loved in the Siberian winter. Served with sour cream, butter and pepper.",
+      "intro_ru": "Пельмени ручной лепки с мясным фаршем — русское национальное блюдо, особенно любимое сибирской зимой. Со сметаной, маслом и перцем.",
+      "tips_vi": "",
+      "tags": [
+        "dumplings",
+        "pelmeni",
+        "signature"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni nhân nấm",
+      "name_en": "Mushroom pelmeni",
+      "name_ru": "Пельмени с грибами",
+      "weight": "210 g",
+      "price": "1180",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Pelmeni vỏ mỏng nhân nấm rừng thơm lừng — lựa chọn chay thanh nhã cho món bánh bột trứ danh. Ăn cùng kem chua càng thêm đậm đà.",
+      "intro_en": "Delicate pelmeni filled with fragrant forest mushrooms — an elegant vegetarian take on the classic dumpling, lovely with sour cream.",
+      "intro_ru": "Тонкие пельмени с ароматными лесными грибами — изящный вегетарианский вариант, особенно вкусный со сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "dumplings",
+        "pelmeni",
+        "mushroom",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Bò Stroganoff (bò xào sốt kem)",
+      "name_en": "Beef Stroganoff",
+      "name_ru": "Бефстроганов",
+      "weight": "280 g",
+      "price": "1980",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bò Stroganoff — thịt bò thái sợi áp chảo rồi om trong sốt kem chua và nấm, ra đời từ căn bếp quý tộc Nga thế kỷ 19 và lừng danh khắp thế giới. Mềm mọng, béo thơm, thường ăn kèm khoai tây.",
+      "intro_en": "Beef Stroganoff — strips of beef seared and simmered in a sour-cream-and-mushroom sauce, born in a 19th-century Russian aristocratic kitchen and famous worldwide. Tender and rich, usually served with potatoes.",
+      "intro_ru": "Бефстроганов — обжаренные полоски говядины в соусе из сметаны и грибов, родившиеся на аристократической кухне XIX века и прославившиеся во всём мире. Нежное и сытное блюдо, обычно с картофелем.",
+      "tips_vi": "",
+      "tags": [
+        "hot",
+        "beef",
+        "stroganoff",
+        "signature"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Chả gà Pozharsky (котлета пожарская)",
+      "name_en": "Pozharsky cutlet",
+      "name_ru": "Котлета пожарская",
+      "weight": "200 g",
+      "price": "1870",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Chả Pozharsky — miếng chả gà băm bọc vụn bánh mì giòn rụm bên ngoài, mềm mọng bơ bên trong; tương truyền từng làm hài lòng cả Sa hoàng. Món kinh điển gắn liền với thị trấn Torzhok thế kỷ 19.",
+      "intro_en": "Pozharsky cutlet — a breaded minced-chicken cutlet, crisp outside and buttery-tender inside, said to have delighted the Tsar himself. A 19th-century classic linked to the town of Torzhok.",
+      "intro_ru": "Пожарская котлета — котлета из рубленой курицы в хрустящей панировке, нежная и сочная внутри; по преданию, ею восхищался сам государь. Классика XIX века из Торжка.",
+      "tips_vi": "",
+      "tags": [
+        "hot",
+        "chicken",
+        "pozharsky",
+        "signature"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cá tầm sterlet sốt trứng cá",
+      "name_en": "Sterlet in caviar sauce",
+      "name_ru": "Стерлядь в икорном соусе",
+      "weight": "500 g",
+      "price": "4460",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Sterlet — loài cá tầm nhỏ quý hiếm từng chỉ dành cho bàn tiệc Sa hoàng — được chế biến trong sốt kem điểm trứng cá. Món cá vương giả, tinh tế vào bậc nhất của thực đơn.",
+      "intro_en": "Sterlet — the small, prized sturgeon once reserved for the Tsar's table — cooked in a creamy caviar sauce. One of the most refined, regal dishes on the menu.",
+      "intro_ru": "Стерлядь — небольшой ценный осётр, некогда подававшийся к царскому столу, — приготовлена в сливочном икорном соусе. Одно из самых изысканных блюд меню.",
+      "tips_vi": "Khẩu phần lớn, hợp chia sẻ; là món signature nên thử.",
+      "tags": [
+        "hot",
+        "sterlet",
+        "sturgeon",
+        "fish",
+        "signature",
+        "luxury"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Thịt nai với phô mai Parmesan",
+      "name_en": "Venison with Parmesan",
+      "name_ru": "Оленина с пармезаном",
+      "weight": "305 g",
+      "price": "3540",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt nai — loại thịt thú rừng gắn với truyền thống săn bắn của giới quý tộc Nga — áp chảo hồng đào rồi phủ phô mai Parmesan bào. Vị đậm đặc trưng, mềm và sang trọng.",
+      "intro_en": "Venison — the game meat tied to the Russian nobility's hunting tradition — seared rosy and finished with shaved Parmesan. Deeply flavoured, tender and refined.",
+      "intro_ru": "Оленина — дичь, связанная с охотничьими традициями русского дворянства, — обжаренная до розового цвета и посыпанная пармезаном. Насыщенное, нежное и благородное блюдо.",
+      "tips_vi": "",
+      "tags": [
+        "hot",
+        "venison",
+        "game"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Ức vịt với ravioli",
+      "name_en": "Duck breast with ravioli",
+      "name_ru": "Утиная грудка с равиоли",
+      "weight": "235 g",
+      "price": "2480",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Ức vịt áp chảo da giòn, thịt hồng mềm, dọn cùng ravioli nhân đậm đà và sốt. Món gia cầm thanh lịch pha chút phong vị Âu châu trên nền ẩm thực Nga cổ điển.",
+      "intro_en": "Pan-seared duck breast with crisp skin and rosy flesh, served with filled ravioli and sauce — an elegant fowl dish with a European accent on a classic Russian base.",
+      "intro_ru": "Утиная грудка с хрустящей корочкой и розовым мясом, с равиоли и соусом — изящное блюдо из птицы с европейским акцентом.",
+      "tips_vi": "",
+      "tags": [
+        "hot",
+        "duck",
+        "poultry"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo Guriev (гурьевская каша)",
+      "name_en": "Guriev porridge",
+      "name_ru": "Гурьевская каша",
+      "weight": "200 g",
+      "price": "890",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Guriev — món cháo tráng miệng trứ danh thời Sa hoàng, nấu từ bột semolina với sữa rồi xếp lớp cùng «váng sữa» (пенки) hớt tỉ mỉ, các loại hạt và mứt quả. Tương truyền do bếp của bá tước Guryev sáng tạo đầu thế kỷ 19; ngọt bùi, thơm béo và giàu tính lịch sử.",
+      "intro_en": "Guriev porridge — the celebrated Tsarist-era dessert of semolina cooked in milk, layered with painstakingly skimmed milk 'skins', nuts and preserved fruit. Said to have been created in Count Guryev's kitchen in the early 19th century — sweet, nutty and creamy.",
+      "intro_ru": "Гурьевская каша — знаменитый десерт царской эпохи из манной крупы на молоке, слоями с бережно снятыми пенками, орехами и вареньем. По преданию, создана на кухне графа Гурьева в начале XIX века.",
+      "tips_vi": "Món tráng miệng lịch sử, hiếm gặp — rất đáng thử một lần cho biết.",
+      "tags": [
+        "porridge",
+        "guriev",
+        "dessert",
+        "historic",
+        "signature"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini cuốn kem với quả mọng",
+      "name_en": "Pancakes with berries",
+      "name_ru": "Блинчики с ягодами",
+      "weight": "300 g",
+      "price": "1690",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Những chiếc blini mỏng cuốn nhân kem, dọn cùng quả mọng tươi và sốt — phiên bản ngọt ngào của món bánh biểu tượng nước Nga. Blini cũng là ngôi sao của lễ hội tiễn đông Maslenitsa.",
+      "intro_en": "Thin blini rolled around a creamy filling, served with fresh berries and sauce — the sweet side of Russia's emblematic pancake. Blini are the star of the Maslenitsa spring festival.",
+      "intro_ru": "Тонкие блинчики с нежной начинкой, свежими ягодами и соусом — сладкая сторона главного русского блюда. Блины — символ Масленицы.",
+      "tips_vi": "",
+      "tags": [
+        "pancakes",
+        "blini",
+        "dessert",
+        "berries"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh Napoleon (ngàn lớp kem)",
+      "name_en": "Napoleon cake",
+      "name_ru": "Наполеон",
+      "weight": "135 g",
+      "price": "1060",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Napoleon — bánh ngàn lớp bột giòn xen kẽ kem trứng sữa mềm mịn, một trong những món tráng miệng được yêu thích nhất nước Nga. Theo truyền thống, bánh gắn với dịp mừng chiến thắng Napoleon năm 1812.",
+      "intro_en": "Napoleon — many crisp puff-pastry layers alternating with silky custard cream, one of Russia's best-loved desserts, traditionally tied to the 1812 victory over Napoleon.",
+      "intro_ru": "«Наполеон» — множество хрустящих слоёв теста с нежным заварным кремом, один из самых любимых десертов России, по традиции связанный с победой 1812 года.",
+      "tips_vi": "",
+      "tags": [
+        "desserts",
+        "napoleon",
+        "cake"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh mật ong Medovik",
+      "name_en": "Honey cake (Medovik)",
+      "name_ru": "Медовик",
+      "weight": "140 g",
+      "price": "1140",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Medovik — bánh nhiều lớp cốt mật ong xen kem chua mềm mịn, được ủ qua đêm cho vị hài hoà. Tương truyền được tạo ra để dâng hoàng hậu Elizaveta Alekseevna, nay là món ngọt quốc dân của người Nga.",
+      "intro_en": "Medovik — a many-layered honey cake with a smooth sour-cream filling, rested overnight to mellow. Legend has it that it was created for Empress Elizabeth Alexeievna; today it is a national favourite.",
+      "intro_ru": "Медовик — многослойный медовый торт с нежным сметанным кремом, настоянный до мягкости. По легенде, создан для императрицы Елизаветы Алексеевны; сегодня — всенародный любимец.",
+      "tips_vi": "",
+      "tags": [
+        "desserts",
+        "medovik",
+        "honey-cake"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh tráng miệng «Café Pushkin»",
+      "name_en": "«Café Pushkin» dessert",
+      "name_ru": "Десерт «Кафе Пушкинъ»",
+      "weight": "140 g",
+      "price": "1490",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Món tráng miệng đặc trưng mang chính tên nhà hàng — sáng tạo riêng của bếp bánh, tinh tế trong hương vị và cầu kỳ trong tạo hình. Một điểm ngọt hoàn hảo khép lại bữa tiệc quý tộc.",
+      "intro_en": "The house signature dessert bearing the restaurant's name — an original creation of the pastry kitchen, refined in flavour and elaborate in presentation. The perfect sweet finale.",
+      "intro_ru": "Фирменный десерт, названный в честь ресторана, — авторское творение кондитеров, изысканное по вкусу и сложное по подаче. Идеальный сладкий финал.",
+      "tips_vi": "",
+      "tags": [
+        "desserts",
+        "signature",
+        "house"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh tráng miệng «Gzhel»",
+      "name_en": "«Gzhel» dessert",
+      "name_ru": "Десерт «Гжель»",
+      "weight": "110 g",
+      "price": "1290",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Món ngọt lấy cảm hứng từ gốm sứ Gzhel xanh-trắng trứ danh của Nga, được tạo hình như một tác phẩm nghệ thuật. Đẹp mắt và thanh nhã, là lời tôn vinh mỹ nghệ truyền thống.",
+      "intro_en": "A dessert inspired by Russia's famous blue-and-white Gzhel porcelain, presented like a work of art — beautiful and delicate, a tribute to traditional craft.",
+      "intro_ru": "Десерт, вдохновлённый знаменитой бело-синей гжельской росписью, поданный как произведение искусства — красивый и изящный оммаж народному промыслу.",
+      "tips_vi": "",
+      "tags": [
+        "desserts",
+        "gzhel",
+        "signature"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Trà Nga (pha từ samovar)",
+      "name_en": "Russian tea (from the samovar)",
+      "name_ru": "Чай",
+      "weight": "500 ml",
+      "price": "650",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Trà đen pha đậm theo truyền thống Nga, giữ ấm bằng ấm samovar và thưởng cùng mứt quả (varenye), mật ong hay chanh. Nghi thức uống trà là phần không thể thiếu của văn hoá Nga, và Café Pushkin nổi danh với dịch vụ trà cùng tiệm bánh ngọt riêng.",
+      "intro_en": "Black tea brewed strong in the Russian tradition, kept hot by a samovar and taken with fruit preserves (varenye), honey or lemon. The tea ritual is central to Russian culture, and Café Pushkin is renowned for its tea service and its own confectionery.",
+      "intro_ru": "Чёрный чай, заваренный крепко по русской традиции, из самовара, с вареньем, мёдом или лимоном. Чаепитие — важная часть русской культуры, а «Кафе Пушкинъ» славится чайной картой и собственной кондитерской.",
+      "tips_vi": "Gọi kèm mứt quả (varenye) để thưởng trà đúng điệu Nga.",
+      "tags": [
+        "drinks",
+        "tea",
+        "samovar",
+        "signature"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kissel nam việt quất (thức uống sánh)",
+      "name_en": "Cranberry kissel",
+      "name_ru": "Кисель клюквенный",
+      "weight": "200 g",
+      "price": "515",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Kissel — thức uống sánh cổ truyền của Nga nấu từ quả mọng và tinh bột, ở đây là vị nam việt quất chua thanh. Có thể dùng ấm hoặc mát, là hương vị tuổi thơ của bao thế hệ người Nga.",
+      "intro_en": "Kissel — a traditional thick Russian berry drink set with starch, here in tart cranberry. Served warm or cool, it is a taste of childhood for generations of Russians.",
+      "intro_ru": "Кисель — традиционный густой русский напиток из ягод и крахмала, здесь клюквенный. Тёплый или прохладный, это вкус детства многих поколений.",
+      "tips_vi": "",
+      "tags": [
+        "drinks",
+        "kissel",
+        "cranberry",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kvass tự làm (bình 1 lít)",
+      "name_en": "Homemade kvass (1 L)",
+      "name_ru": "Квас домашний",
+      "weight": "1000 ml",
+      "price": "2700",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Kvass — thức uống lên men nhẹ từ bánh mì lúa mạch đen, chua ngọt mát lành và gần như không cồn, được người Nga ưa chuộng suốt mùa hè. Bình một lít dùng chung cho cả bàn.",
+      "intro_en": "Kvass — a lightly fermented drink from rye bread, sweet-sour, refreshing and virtually non-alcoholic, beloved across the Russian summer. A one-litre jug to share.",
+      "intro_ru": "Квас — слабоферментированный напиток из ржаного хлеба, кисло-сладкий, освежающий и почти безалкогольный, любимый русским летом. Литровый графин на всех.",
+      "tips_vi": "",
+      "tags": [
+        "drinks",
+        "kvass",
+        "traditional",
+        "summer"
+      ]
+    }
+  ]
+}

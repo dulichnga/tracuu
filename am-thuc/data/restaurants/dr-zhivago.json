@@ -1,0 +1,674 @@
+{
+  "restaurant": {
+    "id": "dr-zhivago",
+    "brand": "Dr. Zhivago",
+    "type": "restaurant",
+    "name_vi": "Dr. Zhivago (Nga hiện đại, cạnh Quảng trường Đỏ)",
+    "name_en": "Dr. Zhivago",
+    "name_ru": "Доктор Живаго",
+    "cuisine_vi": "Ẩm thực Nga hiện đại",
+    "cuisine_en": "Modern Russian",
+    "cuisine_ru": "Современная русская кухня",
+    "cities": [
+      "Moscow"
+    ],
+    "address_vi": "Mokhovaya 15/1 (khách sạn National), cạnh Quảng trường Đỏ",
+    "hours": "24/7",
+    "phone": "",
+    "site": "drzhivago.ru",
+    "site_url": "https://drzhivago.ru",
+    "map_url": "",
+    "price_level": "₽₽₽",
+    "about_vi": "Grand-café «Dr. Живаго» của nhà sáng lập ẩm thực Alexander Rappoport, mở cửa năm 2014 tại tầng 1 khách sạn National, ngay cạnh Quảng trường Đỏ, điện Kremlin và Quảng trường Manege. Không gian mang phong cách Xô-viết retro sang trọng — tông đỏ–trắng rực rỡ, đèn chùm pha lê, tranh tường khổ lớn — như một 'tiểu thuyết về ẩm thực Nga'. Mở cửa 24/7, nhà hàng phục vụ các món Nga kinh điển được chế biến và trình bày tinh tế theo lối hiện đại: từ Olivier, cá trích áo lông, borsch, solyanka đến bò Stroganoff, cốt-lết Pozharsky, cá tầm, blini & trứng cá, syrniki và những món tráng miệng thời Liên Xô.",
+    "about_en": "Grand Café Dr. Zhivago, created by restaurateur Alexander Rappoport and open since 2014 on the ground floor of the Hotel National, sits beside Red Square, the Kremlin and Manege Square. Its lavish Soviet-retro interior — bright red-and-white, crystal chandeliers and grand murals — plays out like 'a novel about Russian cuisine.' Open around the clock, it serves classic Russian dishes cooked and plated in a refined, modern way: Olivier, herring under a fur coat, borscht, solyanka, beef Stroganoff, Pozharsky cutlet, sturgeon, blini with caviar, syrniki and nostalgic Soviet desserts.",
+    "about_ru": "Гранд-кафе «Dr. Живаго» ресторатора Александра Раппопорта, открытое в 2014 году на первом этаже гостиницы «Националь», расположено рядом с Красной площадью, Кремлём и Манежной площадью. Роскошный советско-ретро интерьер — яркие красно-белые тона, хрустальные люстры и большие росписи — воплощает «роман о русской кухне». Заведение работает круглосуточно и подаёт классические русские блюда в современной, изысканной подаче: оливье, сельдь под шубой, борщ, солянка, говядина по-строгановски, пожарская котлета, осетрина, блины с икрой, сырники и ностальгические советские десерты.",
+    "menu_src": "https://menu.rappoport.restaurant/pages/dr-zhivago",
+    "tags": [
+      "modern-russian",
+      "iconic",
+      "red-square",
+      "24h",
+      "upscale"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "salads",
+      "name_vi": "Salad Olivier «Живаго»",
+      "name_en": "Olivier salad «Zhivago»",
+      "name_ru": "Оливье «Живаго» с солёным огурцом",
+      "weight": "220 g",
+      "price": "460",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phiên bản tinh tế của món salad Nga trứ danh — khoai tây, cà rốt, đậu Hà Lan, trứng và thịt trộn sốt mayonnaise tự làm, điểm dưa chuột muối giòn. Người Nga gọi vui đây là 'salad năm mới'.",
+      "intro_en": "A refined take on Russia's most famous salad — potato, carrot, peas, egg and meat in house mayonnaise, with crunchy salted cucumber. Russians call it the 'New Year salad'.",
+      "intro_ru": "Изысканная версия знаменитого салата — картофель, морковь, горошек, яйцо и мясо под домашним майонезом, с солёным огурцом.",
+      "tips_vi": "Món phải thử, hợp khẩu vị người Việt và không cay.",
+      "tags": [
+        "salads",
+        "olivier",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Cá trích áo lông (selyodka pod shuboy)",
+      "name_en": "Herring under a fur coat",
+      "name_ru": "Сельдь под шубой «в пальто из свёклы»",
+      "weight": "220 g",
+      "price": "460",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Món 'cá trích khoác áo lông' kinh điển: từng lớp cá trích muối, khoai tây, cà rốt và củ dền phủ sốt, trình bày kiểu hiện đại đẹp mắt. Củ dền cho màu hồng tím đặc trưng.",
+      "intro_en": "The classic 'herring under a fur coat': layers of salted herring, potato, carrot and beetroot, plated in a modern style. Beetroot gives its signature magenta hue.",
+      "intro_ru": "Классическая сельдь под шубой — слои сельди, картофеля, моркови и свёклы в современной подаче.",
+      "tips_vi": "Đặc sản dịp lễ Tết Nga; vị béo dịu, hơi ngọt của củ dền.",
+      "tags": [
+        "salads",
+        "herring",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Vinegret với nấm porcini",
+      "name_en": "Vinaigrette salad with porcini",
+      "name_ru": "Винегрет с белыми грибами",
+      "weight": "180 g",
+      "price": "550",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Vinegret — salad rau củ luộc (củ dền, khoai tây, cà rốt) trộn dưa cải muối và đậu, thêm nấm porcini. Món chay mộc mạc, màu đỏ đẹp mắt.",
+      "intro_en": "Vinaigrette — a salad of boiled beetroot, potato and carrot with sauerkraut and beans, here enriched with porcini. Rustic and vegetarian.",
+      "intro_ru": "Винегрет из отварной свёклы, картофеля и моркови с квашеной капустой и белыми грибами.",
+      "tips_vi": "",
+      "tags": [
+        "salads",
+        "vinegret",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad thịt cua với trứng cá pike",
+      "name_en": "Crab salad with pike caviar",
+      "name_ru": "Салат крабовый с щучьей икрой",
+      "weight": "180 g",
+      "price": "1100",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Salad thịt cua tuyết với trứng cá pike, điểm múi cam tươi — thanh, ngọt và sang trọng. Món khai vị hải sản nổi bật của nhà hàng.",
+      "intro_en": "Snow-crab salad with pike caviar and fresh orange segments — light, sweet and luxurious.",
+      "intro_ru": "Крабовый салат с щучьей икрой и апельсином.",
+      "tips_vi": "",
+      "tags": [
+        "salads",
+        "crab",
+        "seafood"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Thịt đông (Kholodets) ba loại thịt",
+      "name_en": "Meat aspic (kholodets), three meats",
+      "name_ru": "Холодец из трёх видов мяса",
+      "weight": "200 g",
+      "price": "640",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt đông từ ba loại thịt, ăn kèm mù tạt và cải ngựa (khren) — món nguội truyền thống của mùa đông và bàn tiệc Nga.",
+      "intro_en": "Aspic of three meats, served with mustard and horseradish — a traditional Russian cold dish.",
+      "intro_ru": "Холодец из трёх видов мяса с горчицей и хреном.",
+      "tips_vi": "Ăn kèm mù tạt hoặc cải ngựa cho dậy vị; hợp với vodka lạnh.",
+      "tags": [
+        "cold",
+        "aspic",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Cá hồi vân tự muối",
+      "name_en": "House-cured trout",
+      "name_ru": "Форель собственного посола",
+      "weight": "120 g",
+      "price": "920",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cá hồi vân (trout) tự muối tại bếp, thịt mềm mọng, mặn dịu — thái lát mỏng ăn cùng bánh mì đen.",
+      "intro_en": "House-cured trout, silky and lightly salted, sliced thin and served with rye bread.",
+      "intro_ru": "Форель собственного посола, нежная и малосольная.",
+      "tips_vi": "",
+      "tags": [
+        "cold",
+        "fish",
+        "cured"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Đĩa rau củ muối kiểu Nga (raznosoli)",
+      "name_en": "Russian pickles assortment",
+      "name_ru": "Разносолы: капуста квашеная, огурцы малосольные, помидоры, мочёные яблочки",
+      "weight": "200 g",
+      "price": "380",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Rau củ muối tự làm: bắp cải muối chua, dưa chuột muối xổi, cà chua và táo dại ngâm — khai vị kinh điển đi cùng vodka. Giá tính theo từng loại.",
+      "intro_en": "House pickles: sauerkraut, lightly salted cucumbers, tomatoes and steeped crab apples — the classic vodka companion. Priced per type.",
+      "intro_ru": "Домашние соленья: квашеная капуста, малосольные огурцы, помидоры и мочёные яблочки.",
+      "tips_vi": "Bạn đồng hành hoàn hảo của vodka lạnh.",
+      "tags": [
+        "pickles",
+        "vegetarian",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "caviar",
+      "name_vi": "Trứng cá tầm đen (50 g)",
+      "name_en": "Black sturgeon caviar (50 g)",
+      "name_ru": "Икра чёрная осетровая",
+      "weight": "50 g",
+      "price": "2200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Trứng cá tầm đen — biểu tượng xa hoa của ẩm thực Nga, ăn cùng blini nóng và kem chua. Khẩu phần 50 g.",
+      "intro_en": "Black sturgeon caviar — the ultimate Russian luxury, served with warm blini and sour cream. 50 g portion.",
+      "intro_ru": "Чёрная осетровая икра с блинами и сметаной. Порция 50 г.",
+      "tips_vi": "Trải nghiệm 'phải thử một lần trong đời'; giá cao.",
+      "tags": [
+        "caviar",
+        "luxury",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "caviar",
+      "name_vi": "Trứng cá hồi đỏ ăn kèm blini",
+      "name_en": "Trout roe with blini",
+      "name_ru": "Икра форели с блинами",
+      "weight": "50 g",
+      "price": "850",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Trứng cá hồi đỏ óng, mặn ngọt bung trong miệng, ăn kèm blini nóng và kem chua — lựa chọn dễ chịu hơn trứng cá đen.",
+      "intro_en": "Bright red trout roe with warm blini and sour cream — a friendlier alternative to black caviar.",
+      "intro_ru": "Икра форели с тёплыми блинами и сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "caviar",
+        "red-caviar",
+        "blini"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Kulebyaka nhân cá",
+      "name_en": "Fish kulebyaka",
+      "name_ru": "Кулебяка рыбная",
+      "weight": "300 g",
+      "price": "1200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Kulebyaka — bánh nướng lễ hội nhiều tầng nhân cá, một trong những kiểu bánh cầu kỳ bậc nhất của ẩm thực Nga cổ điển.",
+      "intro_en": "Kulebyaka — a festive multi-layer fish pie, one of the grandest dishes of old Russian cuisine.",
+      "intro_ru": "Кулебяка рыбная — праздничный многослойный рыбный пирог.",
+      "tips_vi": "",
+      "tags": [
+        "pies",
+        "fish",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Borsch kiểu Moscow",
+      "name_en": "Moscow-style borscht",
+      "name_ru": "Борщ по-московски",
+      "weight": "300 g",
+      "price": "480",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp củ dền kinh điển kiểu Moscow: nước dùng đỏ au có thịt, ăn kèm kem chua và bánh nhỏ. Vị chua ngọt ấm áp, rất Nga.",
+      "intro_en": "Moscow-style borscht: a ruby beetroot soup with meat, served with sour cream and a pie.",
+      "intro_ru": "Борщ по-московски со сметаной и пирожком.",
+      "tips_vi": "Món phải thử; thêm kem chua (smetana) cho đúng điệu.",
+      "tags": [
+        "soups",
+        "borscht",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Solyanka thịt thập cẩm",
+      "name_en": "Mixed-meat solyanka",
+      "name_ru": "Солянка сборная мясная",
+      "weight": "300 g",
+      "price": "550",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Solyanka — súp chua đậm đà nấu nhiều loại thịt, dưa muối, ô liu và nụ bạch hoa, điểm lát chanh. Vị đậm rất 'gây nghiện'.",
+      "intro_en": "Solyanka — a rich, tangy soup of assorted meats, pickles, olives and capers with lemon.",
+      "intro_ru": "Солянка сборная мясная с солёными огурцами, оливками и лимоном.",
+      "tips_vi": "",
+      "tags": [
+        "soups",
+        "solyanka",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Ukha (súp cá) năm loại cá phương Bắc",
+      "name_en": "Ukha of five northern fish",
+      "name_ru": "Уха из пяти северных рыб",
+      "weight": "350 g",
+      "price": "900",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Ukha — súp cá trong truyền thống nấu từ năm loại cá phương Bắc, thơm ngọt tự nhiên, ăn ấm bụng.",
+      "intro_en": "Ukha — a clear traditional fish soup made from five northern fish species.",
+      "intro_ru": "Уха из пяти северных рыб.",
+      "tips_vi": "",
+      "tags": [
+        "soups",
+        "ukha",
+        "fish"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni Siberia",
+      "name_en": "Siberian pelmeni",
+      "name_ru": "Пельмени сибирские",
+      "weight": "250 g",
+      "price": "520",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Pelmeni Siberia — bánh chũng nhân thịt nặn nhỏ, luộc mềm, ăn cùng bơ, kem chua hoặc giấm. Món quốc dân của mùa lạnh nước Nga.",
+      "intro_en": "Siberian pelmeni — small meat dumplings served with butter, sour cream or vinegar.",
+      "intro_ru": "Сибирские пельмени со сметаной.",
+      "tips_vi": "Chấm kem chua hoặc giấm tuỳ khẩu vị.",
+      "tags": [
+        "dumplings",
+        "pelmeni",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Vareniki nhân anh đào",
+      "name_en": "Vareniki with cherry",
+      "name_ru": "Вареники с вишней и сорбетом из черешни",
+      "weight": "220 g",
+      "price": "490",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Vareniki nhân anh đào chua ngọt, ăn kèm sorbet anh đào — bánh nhân ngọt kiểu Nga/Ukraine, mọng nước.",
+      "intro_en": "Vareniki filled with sweet-tart cherries, served with cherry sorbet.",
+      "intro_ru": "Вареники с вишней и сорбетом из черешни.",
+      "tips_vi": "",
+      "tags": [
+        "dumplings",
+        "vareniki",
+        "sweet"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Bò Stroganoff",
+      "name_en": "Beef Stroganoff",
+      "name_ru": "Говядина по-строгановски",
+      "weight": "250 g",
+      "price": "920",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bò Stroganoff trứ danh: thịt bò thái sợi áp chảo trong sốt kem nấm, ăn kèm khoai tây. Món 'gốc Nga' đã đi khắp thế giới.",
+      "intro_en": "The famous beef Stroganoff: strips of beef in a creamy mushroom sauce, with potato. A Russian dish that conquered the world.",
+      "intro_ru": "Говядина по-строгановски в сливочно-грибном соусе с картофелем.",
+      "tips_vi": "Món phải thử; hợp khẩu vị Việt, không cay.",
+      "tags": [
+        "hot",
+        "beef",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cốt-lết Pozharsky (chả gà)",
+      "name_en": "Pozharsky cutlet",
+      "name_ru": "Пожарская котлета",
+      "weight": "180 g",
+      "price": "790",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cốt-lết Pozharsky — chả gà bọc vụn bánh mì giòn, bên trong mềm mọng bơ. Món quý tộc Nga từ thế kỷ 19.",
+      "intro_en": "Pozharsky cutlet — a breadcrumb-crusted minced-chicken cutlet, crisp outside and buttery-tender inside. A 19th-century Russian classic.",
+      "intro_ru": "Пожарская котлета в хрустящей панировке, нежная внутри.",
+      "tips_vi": "Món phải thử; giòn ngoài, mềm béo bên trong.",
+      "tags": [
+        "hot",
+        "chicken",
+        "cutlet"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Gà tabaka «Националь»",
+      "name_en": "Chicken tabaka «Natsional»",
+      "name_ru": "Цыплёнок тапака «Националь»",
+      "weight": "400 g",
+      "price": "810",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Gà tơ ép dẹp áp chảo kiểu tabaka (Gruzia), da vàng giòn, ăn cùng sốt tỏi — phiên bản đặc trưng của nhà hàng.",
+      "intro_en": "Chicken tabaka — a young chicken pressed flat and pan-fried until crisp, with garlic sauce; the house 'Natsional' version.",
+      "intro_ru": "Цыплёнок тапака «Националь» с чесночным соусом.",
+      "tips_vi": "",
+      "tags": [
+        "hot",
+        "chicken",
+        "grill"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cá tầm kiểu Moscow",
+      "name_en": "Moscow-style sturgeon",
+      "name_ru": "Осетрина по-московски",
+      "weight": "250 g",
+      "price": "2200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cá tầm kiểu Moscow — cá tầm quý áp chảo cùng nấm và khoai tây phủ phô mai, chan sốt kem. Món cá xa xỉ kinh điển.",
+      "intro_en": "Moscow-style sturgeon — prized sturgeon with mushrooms and potato under cheese in a creamy sauce.",
+      "intro_ru": "Осетрина по-московски с грибами и картофелем под сыром.",
+      "tips_vi": "Món cá cao cấp, đáng thử nếu muốn trải nghiệm cá tầm.",
+      "tags": [
+        "hot",
+        "fish",
+        "sturgeon"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Chả cá pike sốt trứng cá",
+      "name_en": "Pike cutlets with caviar sauce",
+      "name_ru": "Щучьи котлеты с икорным соусом и печёным томатом",
+      "weight": "220 g",
+      "price": "860",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Chả cá pike (cá chó) mềm mịn, chan sốt trứng cá và cà chua nướng — món cá thanh, tinh tế.",
+      "intro_en": "Delicate pike cutlets with a caviar sauce and baked tomato.",
+      "intro_ru": "Щучьи котлеты с икорным соусом и печёным томатом.",
+      "tips_vi": "",
+      "tags": [
+        "hot",
+        "fish",
+        "cutlet"
+      ]
+    },
+    {
+      "cat": "grill",
+      "name_vi": "Sườn cừu non nướng vỉ",
+      "name_en": "Grilled rack of lamb",
+      "name_ru": "Каре ягнёнка на гриле с брусничным луком",
+      "weight": "220 g",
+      "price": "1450",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Sườn cừu non nướng vỉ, mềm ngọt, ăn kèm hành nấu việt quất đỏ (brusnika) — phong vị lễ hội.",
+      "intro_en": "Grilled rack of young lamb with lingonberry onion — tender and festive.",
+      "intro_ru": "Каре ягнёнка на гриле с брусничным луком.",
+      "tips_vi": "",
+      "tags": [
+        "grill",
+        "lamb"
+      ]
+    },
+    {
+      "cat": "steak",
+      "name_vi": "Thăn lưng bò nướng lửa mở",
+      "name_en": "Thick-cut beef rib over open flame",
+      "name_ru": "Толстый край бычка, зажаренный на открытом огне",
+      "weight": "400 g",
+      "price": "2500",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thăn lưng bò (thớ dày) nướng trên lửa mở, thơm mùi khói, mọng vị — dành cho tín đồ thịt bò. Khẩu phần lớn, hợp chia sẻ.",
+      "intro_en": "Thick-cut beef rib grilled over an open flame, smoky and juicy — a large sharing portion for beef lovers.",
+      "intro_ru": "Толстый край бычка, зажаренный на открытом огне.",
+      "tips_vi": "Khẩu phần lớn, nên chia 2 người.",
+      "tags": [
+        "steak",
+        "beef",
+        "grill"
+      ]
+    },
+    {
+      "cat": "hotsnacks",
+      "name_vi": "Draniki (bánh khoai tây) với trứng cá pike",
+      "name_en": "Potato pancakes (draniki) with pike caviar",
+      "name_ru": "Драники картофельные с щучьей икрой и сметаной",
+      "weight": "200 g",
+      "price": "620",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Draniki — bánh khoai tây bào chiên giòn, ăn kèm trứng cá pike và kem chua. Món khai vị nóng dân dã mà sang.",
+      "intro_en": "Draniki — crisp grated-potato pancakes with pike caviar and sour cream.",
+      "intro_ru": "Драники картофельные с щучьей икрой и сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "hotsnacks",
+        "potato",
+        "draniki"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini cuộn nhân thịt thú rừng & việt quất đỏ",
+      "name_en": "Blini with game and lingonberry",
+      "name_ru": "Блинчики с дичью и брусникой",
+      "weight": "200 g",
+      "price": "420",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Blini cuộn nhân thịt thú rừng và việt quất đỏ — bánh xèo mỏng kiểu Nga với nhân đậm đà, chua ngọt hài hoà.",
+      "intro_en": "Thin blini rolled around game meat and lingonberries.",
+      "intro_ru": "Блинчики с дичью и брусникой.",
+      "tips_vi": "Blini là món chủ đạo của lễ hội Maslenitsa.",
+      "tags": [
+        "pancakes",
+        "blini",
+        "game"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo Guryev «Живаго»",
+      "name_en": "Guryev porridge «Zhivago»",
+      "name_ru": "Гурьевская каша «Живаго»",
+      "weight": "250 g",
+      "price": "420",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Guryevskaya kasha — cháo semolina nấu kem, xếp lớp cùng váng sữa nướng, hạt và mứt quả. Món cháo-tráng miệng quý tộc Nga thế kỷ 19.",
+      "intro_en": "Guryev porridge — creamy semolina layered with the skin of baked cream, nuts and fruit preserves. A 19th-century Russian delicacy.",
+      "intro_ru": "Гурьевская каша «Живаго» с орехами и вареньем.",
+      "tips_vi": "Ngọt, ăn như món tráng miệng; đặc sản lịch sử.",
+      "tags": [
+        "porridge",
+        "kasha",
+        "sweet"
+      ]
+    },
+    {
+      "cat": "breakfast",
+      "name_vi": "Syrniki phô mai tươi vị vani",
+      "name_en": "Vanilla syrniki with sour cream",
+      "name_ru": "Сырники ванильные со сметаной",
+      "weight": "200 g",
+      "price": "460",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Syrniki — bánh phô mai tươi (tvorog) rán vàng, vị vani, ăn kèm kem chua và mứt. Món điểm tâm quốc dân của người Nga.",
+      "intro_en": "Syrniki — vanilla cottage-cheese pancakes, pan-fried golden, with sour cream and jam. A Russian breakfast staple.",
+      "intro_ru": "Сырники ванильные со сметаной.",
+      "tips_vi": "Món sáng phải thử; ngọt nhẹ, mềm xốp.",
+      "tags": [
+        "breakfast",
+        "syrniki",
+        "iconic"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh «Sữa chim» (Ptichye moloko)",
+      "name_en": "«Bird's milk» cake",
+      "name_ru": "Торт «Птичье молоко»",
+      "weight": "130 g",
+      "price": "350",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh 'Sữa chim' — lớp mút mềm như kẹo dẻo phủ sô-cô-la, huyền thoại bánh ngọt thời Liên Xô.",
+      "intro_en": "'Bird's milk' cake — a soft soufflé-marshmallow dessert glazed in chocolate, a legendary Soviet sweet.",
+      "intro_ru": "Торт «Птичье молоко» в шоколадной глазури.",
+      "tips_vi": "",
+      "tags": [
+        "desserts",
+        "cake",
+        "soviet-retro"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh mật ong Medovik",
+      "name_en": "Medovik honey cake",
+      "name_ru": "Медовик",
+      "weight": "150 g",
+      "price": "450",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Medovik — bánh mật ong nhiều lớp mỏng xen kem chua, mềm ẩm và thơm mật. Bánh ngọt kinh điển được yêu thích nhất của Nga.",
+      "intro_en": "Medovik — a many-layered honey cake with sour-cream filling, moist and fragrant. Russia's best-loved cake.",
+      "intro_ru": "Медовик — многослойный медовый торт со сметанным кремом.",
+      "tips_vi": "Món tráng miệng phải thử.",
+      "tags": [
+        "desserts",
+        "cake",
+        "honey"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Kem & sorbet theo mùa",
+      "name_en": "Ice cream & sorbet",
+      "name_ru": "Мороженое и сорбет в ассортименте",
+      "weight": "100 g",
+      "price": "150",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Kem và sorbet tự làm theo mùa, mát lạnh, ngọt thanh. Giá tính theo viên.",
+      "intro_en": "House-made seasonal ice cream and sorbet. Priced per scoop.",
+      "intro_ru": "Мороженое и сорбет в ассортименте. Цена за шарик.",
+      "tips_vi": "",
+      "tags": [
+        "desserts",
+        "ice-cream"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Mors nam việt quất",
+      "name_en": "Cranberry mors",
+      "name_ru": "Морс клюквенный",
+      "weight": "250 ml",
+      "price": "350",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Mors nam việt quất — nước quả mọng truyền thống của Nga, chua ngọt, giải khát. Có ly 250 ml hoặc bình 1 lít (≈1000 ₽).",
+      "intro_en": "Cranberry mors — a traditional Russian berry drink, tart and refreshing. Glass 250 ml or 1 L carafe (≈1000 ₽).",
+      "intro_ru": "Морс клюквенный. Стакан 250 мл или графин 1 л (≈1000 ₽).",
+      "tips_vi": "Đồ uống Nga phải thử; không cồn.",
+      "tags": [
+        "drinks",
+        "mors",
+        "non-alcoholic"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kvass bánh mì",
+      "name_en": "Kvass",
+      "name_ru": "Квас хлебный",
+      "weight": "250 ml",
+      "price": "350",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Kvass — nước lên men nhẹ từ bánh mì lúa mạch đen, chua dịu, hơi ga. Thức uống dân dã đặc trưng của Nga. Ly 250 ml hoặc bình 1 lít.",
+      "intro_en": "Kvass — a lightly fermented rye-bread drink, mildly sour and gently fizzy. Glass 250 ml or 1 L carafe.",
+      "intro_ru": "Квас хлебный. Стакан 250 мл или графин 1 л.",
+      "tips_vi": "Hương vị lạ với người Việt, đáng thử; nồng độ cồn không đáng kể.",
+      "tags": [
+        "drinks",
+        "kvass",
+        "non-alcoholic"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Compote mơ khô",
+      "name_en": "Dried-apricot compote",
+      "name_ru": "Компот из кураги",
+      "weight": "250 ml",
+      "price": "350",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Compote mơ khô — nước quả nấu truyền thống, ngọt dịu thơm, uống nóng hay lạnh đều ngon. Ly 250 ml hoặc bình 1 lít.",
+      "intro_en": "Dried-apricot compote — a traditional stewed-fruit drink, gently sweet. Glass 250 ml or 1 L carafe.",
+      "intro_ru": "Компот из кураги. Стакан 250 мл или графин 1 л.",
+      "tips_vi": "",
+      "tags": [
+        "drinks",
+        "compote",
+        "non-alcoholic"
+      ]
+    }
+  ]
+}

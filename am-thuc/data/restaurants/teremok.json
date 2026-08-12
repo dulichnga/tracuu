@@ -1,0 +1,775 @@
+{
+  "restaurant": {
+    "id": "teremok",
+    "brand": "Теремок / Teremok",
+    "type": "chain",
+    "name_vi": "Teremok (chuỗi bánh blini Nga)",
+    "name_en": "Teremok",
+    "name_ru": "Теремок",
+    "cuisine_vi": "Đồ ăn nhanh Nga (blini, cháo, súp)",
+    "cuisine_en": "Russian fast food (blini, porridge, soups)",
+    "cuisine_ru": "Русский фастфуд (блины, каши, супы)",
+    "cities": [
+      "Moscow",
+      "Saint Petersburg"
+    ],
+    "address_vi": "Chuỗi, rất nhiều chi nhánh ở Moscow & Saint Petersburg (sân bay, trung tâm thương mại, phố)",
+    "hours": "~10:00–22:00 (tuỳ chi nhánh)",
+    "phone": "",
+    "site": "teremok.ru",
+    "site_url": "https://teremok.ru",
+    "map_url": "",
+    "price_level": "₽",
+    "about_vi": "Teremok là chuỗi đồ ăn nhanh Nga thành lập năm 1998, chuyên bánh blini (bánh kếp Nga) tráng nóng tại chỗ cùng cháo kasha, súp và các món Nga truyền thống. Nhân viên mặc trang phục dân gian, phục vụ nhanh trong không gian bình dân, sạch sẽ. Chuỗi có hàng trăm chi nhánh ở Moscow, Saint Petersburg và khắp nước Nga — cách nhanh, rẻ và tiện để thử ẩm thực Nga.",
+    "about_en": "Teremok is a Russian fast-food chain founded in 1998, specializing in blini (Russian crepes) cooked to order, plus kasha porridge, soups and traditional Russian dishes. Staff wear folk-style dress and serve quickly in a clean, casual setting. With hundreds of outlets across Moscow, Saint Petersburg and Russia, it is a fast, affordable way to try Russian classics.",
+    "about_ru": "«Теремок» — сеть быстрого питания русской кухни, основанная в 1998 году. Здесь при вас готовят блины, а также подают каши, супы и традиционные русские блюда. Сотни точек в Москве, Санкт-Петербурге и по всей России — быстро, чисто и недорого.",
+    "tags": [
+      "russian",
+      "fastfood",
+      "blini",
+      "chain"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini nhân giăm bông & phô mai",
+      "name_en": "Blini with ham and cheese",
+      "name_ru": "Блинчик с ветчиной и сыром",
+      "weight": "200 g",
+      "price": "181",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga (blini) mỏng cuộn nhân giăm bông và phô mai chảy, tráng nóng ngay tại quầy. Đây là chiếc blini mặn kinh điển và dễ ăn nhất cho người mới thử. Vị béo mặn nhẹ, thơm mùi bơ.",
+      "intro_en": "A thin Russian crepe wrapped around ham and melted cheese, cooked to order at the counter. This is the most approachable savoury blin for first-timers, mildly salty and buttery.",
+      "intro_ru": "Тонкий блин с ветчиной и расплавленным сыром, который готовят при вас. Классический сытный блинчик, понятный каждому.",
+      "tips_vi": "Món nhập môn an toàn cho khẩu vị Việt, không lạ miệng. Một chiếc khá vừa bụng cho bữa nhẹ; gọi kèm một bát súp hoặc cốc morse là đủ bữa.",
+      "tags": [
+        "blini",
+        "savory",
+        "cheese"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini 'Terem' (đặc sản)",
+      "name_en": "Blin 'Terem' (signature)",
+      "name_ru": "Блин «Терем»",
+      "weight": "330 g",
+      "price": "454",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Chiếc blini đặc sản của Teremok, cuốn dày với nhiều nhân — thường gồm thịt, phô mai, cà chua và rau thơm. Đây là món blini no nê nhất, đủ chất cho một bữa chính. Vị đậm đà, béo ngậy.",
+      "intro_en": "Teremok's signature loaded blin, generously filled — typically with meat, cheese, tomato and fresh herbs. It is the most filling blin on the menu, rich and satisfying as a full meal.",
+      "intro_ru": "Фирменный блин «Терем» с обильной начинкой — как правило, мясо, сыр, помидоры и зелень. Один из самых сытных блинов в меню.",
+      "tips_vi": "Nếu chỉ gọi một món thì đây là lựa chọn no bụng nhất. Nhân nhiều nên khá ngậy — nên uống kèm morse chua mát hoặc kvass cho đỡ ngán.",
+      "tags": [
+        "blini",
+        "savory",
+        "signature"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini 'Dũng sĩ thịt' (Myasnoy Bogatyr)",
+      "name_en": "Blin 'Meat Bogatyr'",
+      "name_ru": "Блин «Мясной Богатырь»",
+      "weight": "350 g",
+      "price": "471",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "'Bogatyr' nghĩa là dũng sĩ Nga — chiếc blini cỡ lớn nhồi thịt bò/heo, phô mai, cà chua và sốt. Món dành cho người ăn khỏe, no và đậm vị thịt.",
+      "intro_en": "'Bogatyr' means a mighty Russian warrior — an extra-large blin packed with beef/pork, cheese, tomato and sauce. A hearty pick for a big appetite.",
+      "intro_ru": "«Богатырь» — большой блин с мясом, сыром, помидорами и соусом. Для хорошего аппетита.",
+      "tips_vi": "Khẩu phần lớn, hợp bữa trưa/tối chính. Hơi giống một chiếc burrito thịt phiên bản Nga nên khá quen miệng với người Việt.",
+      "tags": [
+        "blini",
+        "savory",
+        "meat"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini 'Dũng sĩ biển' (Morskoy Bogatyr)",
+      "name_en": "Blin 'Sea Bogatyr'",
+      "name_ru": "Блин «Морской Богатырь»",
+      "weight": "330 g",
+      "price": "526",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phiên bản dũng sĩ biển của blini, nhân hải sản như cá hồi, phô mai và sốt. Vị béo của cá hồi hòa với phô mai, khá sang và đầy đặn.",
+      "intro_en": "The 'sea warrior' version, filled with seafood such as salmon, cheese and sauce. Rich and a little more premium, with the fatty flavour of salmon.",
+      "intro_ru": "«Морской Богатырь» — большой блин с рыбной начинкой (сёмга), сыром и соусом.",
+      "tips_vi": "Dành cho người thích cá hồi. Giá nhỉnh hơn blini thịt; ăn một chiếc là đủ no.",
+      "tags": [
+        "blini",
+        "savory",
+        "salmon"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini 'Ilya Muromets'",
+      "name_en": "Blin 'Ilya Muromets'",
+      "name_ru": "Блин «Илья Муромец»",
+      "weight": "313 g",
+      "price": "460",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Đặt theo tên dũng sĩ huyền thoại Ilya Muromets, chiếc blini này nhân thịt, nấm và phô mai đậm đà. Là một trong những blini mặn nặng đô, nhiều nhân.",
+      "intro_en": "Named after the legendary hero Ilya Muromets, this blin is filled with meat, mushrooms and cheese. One of the heartiest savoury blini, generously stuffed.",
+      "intro_ru": "Блин «Илья Муромец» — сытный блин с мясом, грибами и сыром, названный в честь былинного богатыря.",
+      "tips_vi": "Nếu thích nấm thì đây là lựa chọn hợp. Nhân nhiều, một chiếc đủ làm bữa chính.",
+      "tags": [
+        "blini",
+        "savory",
+        "meat"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini nhân cá hồi",
+      "name_en": "Blin with salmon",
+      "name_ru": "Блин с сёмгой",
+      "weight": "220 g",
+      "price": "489",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Blini cuốn cá hồi (syomga) cùng phô mai kem, thanh và béo. Cá hồi Nga mềm, vị mặn dịu; đây là blini mặn cao cấp được nhiều người gọi.",
+      "intro_en": "A blin filled with salmon and cream cheese — delicate and rich. A popular premium savoury blin with soft, mildly salty salmon.",
+      "intro_ru": "Блин с сёмгой и сливочным сыром — нежный и деликатесный.",
+      "tips_vi": "Hợp người thích cá hồi kiểu nhẹ nhàng, không tanh. Ăn kèm morse hoặc trà nóng.",
+      "tags": [
+        "blini",
+        "savory",
+        "salmon"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini trứng cá hồi đỏ (ikra)",
+      "name_en": "Blin with red caviar",
+      "name_ru": "Блин с красной икрой",
+      "weight": "180 g",
+      "price": "769",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Blini truyền thống ăn kèm trứng cá hồi đỏ (ikra) — cách thưởng thức blini sang trọng của người Nga. Vị mặn bùi, béo, hạt trứng nổ lép bép trong miệng.",
+      "intro_en": "The classic Russian way to eat blini — with red salmon caviar. A little luxurious: salty, buttery and with popping roe.",
+      "intro_ru": "Блин с красной икрой — классическое, чуть праздничное сочетание.",
+      "tips_vi": "Món đắt nhất menu nhưng là trải nghiệm blini chuẩn Nga đáng thử một lần. Nên ăn nóng, thêm chút kem chua (smetana) nếu có.",
+      "tags": [
+        "blini",
+        "savory",
+        "caviar"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini nhân nấm & khoai tây",
+      "name_en": "Blin with mushrooms and potato",
+      "name_ru": "Блинчик с грибами и картошкой",
+      "weight": "220 g",
+      "price": "210",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini nhân nấm xào và khoai tây nghiền — món chay dân dã, thơm bùi. Nhẹ nhàng, giá mềm, hợp người không ăn thịt.",
+      "intro_en": "A blin filled with sautéed mushrooms and mashed potato — a homely vegetarian option, savoury and comforting.",
+      "intro_ru": "Блинчик с грибами и картошкой — простая и вкусная вегетарианская начинка.",
+      "tips_vi": "Lựa chọn chay ngon và rẻ. Vị quen thuộc (khoai + nấm), dễ ăn với người Việt.",
+      "tags": [
+        "blini",
+        "vegetarian",
+        "mushroom"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini nhân bắp cải & trứng",
+      "name_en": "Blin with cabbage and egg",
+      "name_ru": "Блин с капустой и яйцом",
+      "weight": "200 g",
+      "price": "183",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini nhân bắp cải xào và trứng — nhân truyền thống rất phổ biến trong ẩm thực Nga. Vị nhẹ, hơi ngọt của bắp cải, ăn không ngán.",
+      "intro_en": "A blin filled with braised cabbage and egg — a very traditional Russian filling. Light and mildly sweet from the cabbage.",
+      "intro_ru": "Блин с капустой и яйцом — традиционная домашняя начинка.",
+      "tips_vi": "Món chay-nhẹ, giá rẻ nhất trong nhóm blini mặn. Gọi kèm một bát súp là thành bữa gọn nhẹ.",
+      "tags": [
+        "blini",
+        "vegetarian",
+        "egg"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini rắc đường",
+      "name_en": "Blin with sugar",
+      "name_ru": "Блин с сахаром",
+      "weight": "150 g",
+      "price": "165",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Chiếc blini đơn giản nhất: chỉ rắc đường, ăn nóng. Mỏng, thơm bơ, ngọt nhẹ — đúng kiểu ăn sáng bình dân của người Nga.",
+      "intro_en": "The simplest sweet blin: just sprinkled with sugar and served hot. Thin, buttery and lightly sweet — a humble Russian breakfast.",
+      "intro_ru": "Самый простой сладкий блин — с сахаром, подаётся горячим.",
+      "tips_vi": "Rẻ và nhẹ, hợp ăn sáng hoặc tráng miệng. Trẻ em rất thích.",
+      "tags": [
+        "blini",
+        "sweet",
+        "dessert"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini sữa đặc (Sguchyonka)",
+      "name_en": "Blin with condensed milk",
+      "name_ru": "Блин «Сгущёнка»",
+      "weight": "200 g",
+      "price": "288",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini chan sữa đặc (sguchyonka) — món tráng miệng quốc dân của Nga, ngọt đậm và béo ngậy. Giống bánh kếp chấm sữa đặc kiểu Việt nên rất hợp khẩu vị.",
+      "intro_en": "A blin with sweetened condensed milk — a beloved Russian dessert, sweet and creamy.",
+      "intro_ru": "Блин со сгущёнкой — любимый русский десерт.",
+      "tips_vi": "Vị y hệt bánh kếp chấm sữa đặc ở Việt Nam, gần như chắc chắn hợp miệng. Khá ngọt, nên chia sẻ hoặc uống kèm trà không đường.",
+      "tags": [
+        "blini",
+        "sweet",
+        "dessert"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini mứt anh đào",
+      "name_en": "Blin with cherry jam",
+      "name_ru": "Блинчик с вишнёвым вареньем",
+      "weight": "180 g",
+      "price": "170",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini cuốn mứt anh đào (vishnya) — chua ngọt, màu đỏ đẹp mắt. Mứt quả là cách ăn blini ngọt phổ biến và giá rẻ.",
+      "intro_en": "A blin with cherry jam — sweet-tart and pretty. Fruit preserves are a classic, affordable way to enjoy sweet blini.",
+      "intro_ru": "Блинчик с вишнёвым вареньем — кисло-сладкий и ароматный.",
+      "tips_vi": "Vị chua ngọt dễ chịu, không quá ngán. Lựa chọn tráng miệng giá mềm.",
+      "tags": [
+        "blini",
+        "sweet",
+        "jam"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini kem sô-cô-la",
+      "name_en": "Blin with chocolate cream",
+      "name_ru": "Блин с шоколадным кремом",
+      "weight": "180 g",
+      "price": "293",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini phết kem sô-cô-la kiểu Nutella — ngọt và béo, trẻ em rất mê. Ăn nóng lúc kem chảy mềm là ngon nhất.",
+      "intro_en": "A blin with chocolate cream, Nutella-style — sweet, rich and a favourite with kids. Best hot, when the cream melts.",
+      "intro_ru": "Блин с шоколадным кремом — сладкий и любимый детьми.",
+      "tips_vi": "An toàn cho trẻ em và người thích đồ ngọt. Có thể gọi thêm chuối nếu chi nhánh có.",
+      "tags": [
+        "blini",
+        "sweet",
+        "chocolate"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini 'Lavanda' kem trứng oải hương",
+      "name_en": "Blin 'Lavanda' with custard",
+      "name_ru": "Блин «Лаванда» с заварным кремом",
+      "weight": "200 g",
+      "price": "292",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini nhân kem trứng (custard) hương oải hương — món tráng miệng điệu đà, thơm nhẹ mùi hoa. Ngọt vừa, kem mịn.",
+      "intro_en": "A blin with lavender-scented custard — a prettier, floral dessert. Gently sweet with a smooth cream.",
+      "intro_ru": "Блин «Лаванда» с заварным кремом и ароматом лаванды.",
+      "tips_vi": "Hương oải hương lạ miệng, đáng thử cho ai thích đồ ngọt kiểu tiệm bánh. Vị không quá gắt.",
+      "tags": [
+        "blini",
+        "sweet",
+        "custard"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini 'Pokrovsky' sữa đặc chưng & óc chó",
+      "name_en": "Blin 'Pokrovsky' with boiled condensed milk and walnut",
+      "name_ru": "Блин «Покровский»",
+      "weight": "200 g",
+      "price": "312",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Blini nhân sữa đặc chưng (vị caramel) và óc chó — béo, bùi, ngọt sâu. Một trong những blini ngọt sang và được yêu thích.",
+      "intro_en": "A blin with boiled (caramelised) condensed milk and walnuts — rich, nutty and deeply sweet. One of the more indulgent sweet blini.",
+      "intro_ru": "Блин «Покровский» с варёной сгущёнкой и грецким орехом.",
+      "tips_vi": "Sữa đặc chưng vị caramel kết hợp óc chó rất hợp gu. Ngọt đậm, nên uống kèm trà.",
+      "tags": [
+        "blini",
+        "sweet",
+        "nuts"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo yến mạch (Ovsyanka)",
+      "name_en": "Oatmeal porridge",
+      "name_ru": "Каша овсяная",
+      "weight": "300 g",
+      "price": "197",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cháo yến mạch nấu mềm, thường trên nền sữa, có thể thêm bơ hoặc topping ngọt tuỳ chọn. Món ăn sáng ấm bụng, nhẹ nhàng, tốt cho tiêu hóa.",
+      "intro_en": "Creamy oat porridge, usually cooked with milk, optionally topped with butter or sweet fillings. A warm, gentle breakfast.",
+      "intro_ru": "Овсяная каша, обычно на молоке, с маслом или сладкой начинкой.",
+      "tips_vi": "Món sáng lành, dễ ăn. Có thể chọn thêm topping mứt hoặc trái cây cho đỡ nhạt.",
+      "tags": [
+        "porridge",
+        "breakfast",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo kiều mạch (Grechka)",
+      "name_en": "Buckwheat porridge",
+      "name_ru": "Каша гречневая",
+      "weight": "300 g",
+      "price": "210",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cháo kiều mạch (grechka) — món quốc hồn quốc túy của Nga, hạt bùi, thơm đặc trưng. Có thể ăn ngọt hoặc mặn (với bơ, nấm). Nhiều chất xơ, no lâu.",
+      "intro_en": "Buckwheat porridge (grechka) — a Russian staple with a nutty, earthy flavour. Eaten sweet or savoury (with butter or mushrooms), filling and wholesome.",
+      "intro_ru": "Гречневая каша — исконно русское блюдо, сытное и полезное.",
+      "tips_vi": "Vị kiều mạch hơi lạ với người mới nhưng đáng thử vì rất Nga. Ăn kèm bơ hoặc topping mặn sẽ dễ vào hơn.",
+      "tags": [
+        "porridge",
+        "buckwheat",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo 4 loại ngũ cốc (4 zlaka)",
+      "name_en": "'4 grains' porridge",
+      "name_ru": "Каша «4 злака»",
+      "weight": "300 g",
+      "price": "210",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cháo trộn 4 loại ngũ cốc (yến mạch, kiều mạch, lúa mạch, gạo/kê) — món cháo đặc trưng của Teremok, bùi và đủ chất. Có thể thêm topping ngọt hoặc mặn.",
+      "intro_en": "Teremok's signature '4 grains' porridge, blending several cereals — hearty and nourishing, served with sweet or savoury toppings.",
+      "intro_ru": "Фирменная каша «4 злака» из нескольких круп — сытная и полезная.",
+      "tips_vi": "Món cháo chữ ký của Teremok, cân bằng và no lâu. Lựa chọn ăn sáng lành mạnh.",
+      "tags": [
+        "porridge",
+        "signature",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo gạo nấu sữa",
+      "name_en": "Rice milk porridge",
+      "name_ru": "Каша рисовая",
+      "weight": "300 g",
+      "price": "210",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cháo gạo nấu sữa, mềm mịn, ngọt nhẹ — gần gũi với khẩu vị châu Á. Ấm bụng, dễ ăn cho cả trẻ em.",
+      "intro_en": "Milk rice porridge, soft and lightly sweet — familiar to Asian palates and easy for kids.",
+      "intro_ru": "Рисовая каша на молоке, нежная и сладковатая.",
+      "tips_vi": "Gần giống cháo sữa/cháo đường ở nhà nên rất dễ ăn. Hợp trẻ em và người muốn món nhẹ.",
+      "tags": [
+        "porridge",
+        "rice",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp củ dền Borsch 'Teremkovsky'",
+      "name_en": "Borsch 'Teremkovsky'",
+      "name_ru": "Борщ «Теремковский»",
+      "weight": "400 g",
+      "price": "350",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Súp củ dền đỏ trứ danh của Nga, phiên bản Teremok nấu chay (không thịt), vị chua ngọt thanh, màu đỏ đẹp. Ăn kèm kem chua (smetana) và bánh mì.",
+      "intro_en": "Russia's iconic beetroot soup; Teremok's version is meatless, sweet-sour and vividly red. Served with a spoon of sour cream and bread.",
+      "intro_ru": "Знаменитый борщ, в «Теремке» — постный, кисло-сладкий и наваристый. Подаётся со сметаной.",
+      "tips_vi": "Nên thử một lần khi ở Nga. Nhớ khuấy thêm kem chua cho béo; vị chua nhẹ, dễ ăn với người Việt.",
+      "tags": [
+        "soup",
+        "borsch",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp lạnh Okroshka nấu kvass",
+      "name_en": "Okroshka on kvass",
+      "name_ru": "Окрошка домашняя на квасе",
+      "weight": "400 g",
+      "price": "339",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp lạnh mùa hè: rau củ, trứng, xúc xích thái hạt lựu chan nước kvass (đồ uống lên men từ bánh mì) mát lạnh. Vị chua nhẹ, lạ miệng, giải nhiệt.",
+      "intro_en": "A summer cold soup: diced vegetables, egg and sausage in chilled kvass (fermented bread drink). Tangy, refreshing and unusual.",
+      "intro_ru": "Летняя холодная окрошка на квасе с овощами, яйцом и колбасой.",
+      "tips_vi": "Món lạnh gây bất ngờ cho người lần đầu vì chan bằng nước kvass hơi chua. Rất hợp ngày hè; ai không quen đồ chua lên men nên cân nhắc.",
+      "tags": [
+        "soup",
+        "cold",
+        "summer"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp củ dền lạnh Kholodnik",
+      "name_en": "Kholodnik (cold beet soup)",
+      "name_ru": "Холодник",
+      "weight": "350 g",
+      "price": "333",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Súp củ dền lạnh kiểu Đông Âu, nền kefir/sữa chua, thêm dưa chuột, trứng và rau thơm — màu hồng đẹp mắt. Chua mát, sảng khoái ngày nóng.",
+      "intro_en": "A chilled Eastern-European beet soup on a kefir base with cucumber, egg and herbs — pink, tangy and refreshing in summer.",
+      "intro_ru": "Холодник — холодный свекольник на кефире с огурцом, яйцом и зеленью.",
+      "tips_vi": "Giống borsch nhưng ăn lạnh và chua kiểu sữa chua. Lạ miệng, hợp mùa hè; người không quen vị chua lạnh nên thử ít trước.",
+      "tags": [
+        "soup",
+        "cold",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp cá hồi kem kiểu Phần Lan (Ukha)",
+      "name_en": "Finnish-style creamy trout soup",
+      "name_ru": "Уха из форели по-фински",
+      "weight": "350 g",
+      "price": "410",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp cá kiểu Phần Lan: cá hồi vân (forel) nấu với kem và khoai tây, vị béo ngậy, ấm nóng. Sang và đầy đặn hơn súp cá thường.",
+      "intro_en": "A Finnish-style creamy fish soup with trout, cream and potato — rich, warming and more substantial than a clear fish soup.",
+      "intro_ru": "Уха по-фински — сливочный суп с форелью и картофелем.",
+      "tips_vi": "Béo và ấm, hợp mùa lạnh. Người thích súp kem cá sẽ mê; khẩu phần khá no.",
+      "tags": [
+        "soup",
+        "fish",
+        "creamy"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp đậu Hà Lan thịt hun khói",
+      "name_en": "Pea soup with smoked meat",
+      "name_ru": "Суп гороховый с копчёностями",
+      "weight": "350 g",
+      "price": "314",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp đậu Hà Lan hầm nhừ với thịt hun khói — đặc, béo, thơm mùi khói. Món súp ấm bụng kinh điển của Nga, no lâu.",
+      "intro_en": "Thick split-pea soup with smoked meat — hearty, creamy and smoky. A classic warming Russian soup.",
+      "intro_ru": "Гороховый суп с копчёностями — густой и наваристый.",
+      "tips_vi": "Đặc gần như cháo, rất no. Mùi khói đậm; hợp người thích súp đặc kiểu Âu.",
+      "tags": [
+        "soup",
+        "pea",
+        "smoked"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp mì gà viên thịt",
+      "name_en": "Chicken noodle soup with meatballs",
+      "name_ru": "Лапша куриная с фрикадельками",
+      "weight": "350 g",
+      "price": "316",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp mì trứng nấu gà, thêm viên thịt (frikadelki), nước dùng trong ngọt. Nhẹ nhàng, dễ ăn, giống súp mì gà quen thuộc.",
+      "intro_en": "Chicken noodle soup with little meatballs in a clear, savoury broth — light and comforting, close to a familiar chicken soup.",
+      "intro_ru": "Куриная лапша с фрикадельками на прозрачном бульоне.",
+      "tips_vi": "Món súp an toàn nhất cho người Việt, vị quen như súp/miến gà. Hợp khi mệt hoặc muốn ăn nhẹ.",
+      "tags": [
+        "soup",
+        "chicken",
+        "noodle"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad Nga Olivier",
+      "name_en": "Olivier (Russian) salad",
+      "name_ru": "Салат «Оливье»",
+      "weight": "180 g",
+      "price": "310",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Salad Nga trứ danh: khoai tây, cà rốt, trứng, đậu Hà Lan, dưa chuột muối và thịt trộn sốt mayonnaise. Béo, mát, quen thuộc — chính là salad Nga mà người Việt hay biết.",
+      "intro_en": "The famous Olivier (Russian) salad: potato, carrot, egg, peas, pickles and meat in mayonnaise. Creamy and familiar — the original 'Russian salad'.",
+      "intro_ru": "Салат «Оливье» — картофель, морковь, яйцо, горошек, огурцы и мясо под майонезом.",
+      "tips_vi": "Chính là salad Nga quen thuộc, gần như chắc chắn hợp miệng. Ăn kèm blini hoặc súp cho đủ bữa.",
+      "tags": [
+        "salad",
+        "olivier",
+        "classic"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad củ dền Vinegret",
+      "name_en": "Vinegret (beet salad)",
+      "name_ru": "Салат «Винегрет»",
+      "weight": "180 g",
+      "price": "252",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Salad củ dền đỏ đặc trưng Nga: củ dền, khoai tây, cà rốt, dưa cải muối và đậu, trộn dầu — chay hoàn toàn, chua nhẹ, màu đỏ tím đẹp. Thanh mát, ít ngán.",
+      "intro_en": "A classic Russian beet salad: beetroot, potato, carrot, sauerkraut and beans dressed with oil — fully vegan, tangy and colourful.",
+      "intro_ru": "Винегрет — свёкла, картофель, морковь, квашеная капуста и фасоль с маслом.",
+      "tips_vi": "Món chay thanh mát, cân bằng với các món blini béo. Vị chua nhẹ dễ ăn.",
+      "tags": [
+        "salad",
+        "beet",
+        "vegan"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni (sủi cảo thịt Nga)",
+      "name_en": "Pelmeni (meat dumplings)",
+      "name_ru": "Пельмени",
+      "weight": "270 g",
+      "price": "273",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Sủi cảo Nga: vỏ bột mỏng bọc nhân thịt băm, luộc chín, ăn kèm bơ và kem chua (smetana). Giống hoành thánh/há cảo nên rất hợp khẩu vị Việt.",
+      "intro_en": "Russian meat dumplings: thin dough around minced meat, boiled and served with butter and sour cream. Close to wontons, so very approachable.",
+      "intro_ru": "Пельмени с мясом, подаются с маслом и сметаной.",
+      "tips_vi": "Giống sủi cảo/hoành thánh, chấm kem chua rất ngon. Món chắc chắn hợp cho người Việt; có thể xin thêm giấm.",
+      "tags": [
+        "dumplings",
+        "pelmeni",
+        "meat"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Vareniki nhân khoai tây & nấm",
+      "name_en": "Vareniki with potato and mushroom",
+      "name_ru": "Вареники с картофелем и грибами",
+      "weight": "270 g",
+      "price": "273",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Vareniki là sủi cảo nhân chay của Nga/Ukraine, ở đây nhân khoai tây và nấm, luộc mềm, ăn kèm hành phi và kem chua. Bùi, thơm, hợp người ăn chay.",
+      "intro_en": "Vareniki are Slavic dumplings with a vegetarian filling — here potato and mushroom, boiled and served with fried onion and sour cream.",
+      "intro_ru": "Вареники с картофелем и грибами, с жареным луком и сметаной.",
+      "tips_vi": "Phiên bản chay của sủi cảo, nhân khoai và nấm rất dễ ăn. Chấm kem chua cho đậm vị.",
+      "tags": [
+        "dumplings",
+        "vareniki",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Syrniki (bánh phô mai tươi rán)",
+      "name_en": "Syrniki (cottage cheese pancakes)",
+      "name_ru": "Сырники",
+      "weight": "150 g",
+      "price": "230",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh phô mai tươi (tvorog) rán vàng, mềm xốp bên trong, ăn kèm kem chua và mứt hoặc sữa đặc. Món tráng miệng/ăn sáng quốc dân của Nga, ngọt nhẹ, béo thơm.",
+      "intro_en": "Syrniki — pan-fried cottage-cheese cakes, soft inside, served with sour cream and jam or condensed milk. A beloved Russian breakfast and dessert.",
+      "intro_ru": "Сырники из творога, подаются со сметаной и вареньем или сгущёнкой.",
+      "tips_vi": "Rất được lòng người Việt vì giống bánh rán phô mai, ngọt vừa. Chấm sữa đặc là chuẩn bài.",
+      "tags": [
+        "dessert",
+        "syrniki",
+        "breakfast"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Tráng miệng chuối & hạt",
+      "name_en": "Banana dessert with nuts",
+      "name_ru": "Банановый десерт",
+      "weight": "150 g",
+      "price": "180",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Món tráng miệng chuối cuốn nhân ngọt và rắc hạt — nhẹ nhàng, ngọt dịu, giá mềm. Lựa chọn tráng miệng nhanh cho ai không muốn ăn quá no.",
+      "intro_en": "A light banana dessert with sweet filling and nuts — gently sweet and inexpensive, a quick way to finish the meal.",
+      "intro_ru": "Банановый десерт со сладкой начинкой и орешками.",
+      "tips_vi": "Tráng miệng nhẹ, hợp sau khi đã ăn blini no. Trẻ em cũng thích.",
+      "tags": [
+        "dessert",
+        "banana",
+        "light"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Morse quả mọng (nước quả Nga)",
+      "name_en": "Berry mors",
+      "name_ru": "Морс ягодный",
+      "weight": "400 ml",
+      "price": "150",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước quả mọng truyền thống Nga (thường là nam việt quất/lingonberry), nấu rồi để nguội, chua ngọt mát. Đây là đồ uống nên thử, giải khát và làm bớt ngán đồ béo.",
+      "intro_en": "A traditional Russian berry drink (often cranberry/lingonberry), gently sweet-tart and refreshing — a must-try that cuts through rich food.",
+      "intro_ru": "Морс — традиционный ягодный напиток, кисло-сладкий и освежающий.",
+      "tips_vi": "Nên gọi kèm blini béo để cân vị. Vị chua ngọt tự nhiên, người Việt rất thích.",
+      "tags": [
+        "drink",
+        "mors",
+        "berry"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kvass (đồ uống lên men từ bánh mì)",
+      "name_en": "Kvass",
+      "name_ru": "Квас",
+      "weight": "400 ml",
+      "price": "140",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Đồ uống lên men nhẹ từ bánh mì lúa mạch đen, màu nâu, vị chua ngọt và hơi có ga — thức uống mùa hè kinh điển của Nga (gần như không cồn). Lạ miệng, đáng thử.",
+      "intro_en": "Kvass — a lightly fermented rye-bread drink, brown, mildly sweet-sour and fizzy; a classic Russian summer refresher (virtually non-alcoholic).",
+      "intro_ru": "Квас — традиционный слабоферментированный напиток из ржаного хлеба.",
+      "tips_vi": "Vị chua-ngọt-men khá lạ, không phải ai cũng quen ngay — nên thử một ngụm trước. Rất Nga và giải khát tốt.",
+      "tags": [
+        "drink",
+        "kvass",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Sữa lắc (milkshake)",
+      "name_en": "Milkshake",
+      "name_ru": "Молочный коктейль",
+      "weight": "300 ml",
+      "price": "250",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Sữa lắc mát lạnh, ngọt béo, nhiều vị (sô-cô-la, dâu, vani). Món giải khát được trẻ em và người thích đồ ngọt ưa chuộng.",
+      "intro_en": "A cold, creamy milkshake in various flavours (chocolate, strawberry, vanilla) — a sweet favourite, especially with kids.",
+      "intro_ru": "Молочный коктейль — холодный и сладкий, разные вкусы.",
+      "tips_vi": "Ngọt và béo, hợp trẻ em. Uống kèm blini ngọt sẽ khá nhiều đường — nên cân nhắc.",
+      "tags": [
+        "drink",
+        "milkshake",
+        "kids"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Uzvar (nước trái cây khô)",
+      "name_en": "Uzvar (dried fruit compote)",
+      "name_ru": "Узвар",
+      "weight": "300 ml",
+      "price": "130",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước compote nấu từ trái cây khô (táo, lê, mận, mơ) — ngọt thanh tự nhiên, thơm mùi trái cây, uống nóng hoặc nguội. Đồ uống truyền thống lành mạnh.",
+      "intro_en": "Uzvar — a compote of dried fruits (apple, pear, plum, apricot), naturally sweet and aromatic, served warm or cool. A wholesome traditional drink.",
+      "intro_ru": "Узвар — компот из сушёных фруктов, натурально сладкий и ароматный.",
+      "tips_vi": "Ngọt dịu tự nhiên, không gắt, hợp mọi lứa tuổi. Lựa chọn lành thay cho nước ngọt có ga.",
+      "tags": [
+        "drink",
+        "compote",
+        "traditional"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Trà đen nóng",
+      "name_en": "Hot black tea",
+      "name_ru": "Чай",
+      "weight": "300 ml",
+      "price": "120",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Trà đen nóng pha ấm, thức uống không thể thiếu trong văn hóa Nga. Ấm bụng, hợp uống kèm blini ngọt hoặc dùng sau bữa ăn.",
+      "intro_en": "Hot black tea, an essential part of Russian culture — warming and perfect with sweet blini or after a meal.",
+      "intro_ru": "Чай чёрный горячий — неотъемлемая часть русской культуры.",
+      "tips_vi": "Nên gọi để uống kèm blini ngọt hoặc sưởi ấm ngày lạnh. Có thể xin thêm đường/chanh.",
+      "tags": [
+        "drink",
+        "tea",
+        "hot"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Cappuccino",
+      "name_en": "Cappuccino",
+      "name_ru": "Капучино",
+      "weight": "300 ml",
+      "price": "190",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cà phê cappuccino nóng, lớp bọt sữa mịn — lựa chọn quen thuộc cho bữa sáng hoặc lúc nghỉ chân. Hợp gọi kèm syrniki hoặc blini ngọt.",
+      "intro_en": "A hot cappuccino with silky milk foam — a familiar choice for breakfast or a break, great with syrniki or sweet blini.",
+      "intro_ru": "Капучино — горячий кофе с молочной пеной.",
+      "tips_vi": "Quen thuộc, dễ gọi. Kết hợp với syrniki (bánh phô mai) là bữa sáng kiểu Nga gọn gàng.",
+      "tags": [
+        "drink",
+        "coffee",
+        "breakfast"
+      ]
+    }
+  ]
+}

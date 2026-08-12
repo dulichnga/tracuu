@@ -1,0 +1,904 @@
+{
+  "restaurant": {
+    "id": "russky-dvorik",
+    "brand": "Russky Dvorik",
+    "name_vi": "Russky Dvorik (Sân Nga)",
+    "name_en": "Russky Dvorik",
+    "name_ru": "Русский дворик",
+    "type": "restaurant",
+    "cuisine_vi": "Ẩm thực Nga truyền thống",
+    "cuisine_en": "Traditional Russian cuisine",
+    "cuisine_ru": "Традиционная русская кухня",
+    "cities": [
+      "Sergiev Posad"
+    ],
+    "address_vi": "Sergiev Posad (cạnh Tu viện Trinity–Sergius)",
+    "hours": "08:00 – 22:30",
+    "phone": "+7 495 786 87 88",
+    "site": "rus-dvorik.ru",
+    "site_url": "https://rus-dvorik.ru",
+    "map_url": "https://yandex.com/maps/-/CTWyZH6D",
+    "vk": "https://vk.com/russkiydvoriksp",
+    "price_level": "₽₽₽",
+    "about_vi": "Nhà hàng Nga bên cạnh Tu viện Trinity–Sergius, gìn giữ tinh hoa ẩm thực, lòng hiếu khách và không khí ấm áp kiểu Nga.",
+    "about_en": "A Russian restaurant beside the Trinity Lavra of St. Sergius, preserving the best of Russian gastronomy, hospitality and warm spirit.",
+    "about_ru": "Русский ресторан рядом с Троице-Сергиевой лаврой: лучшие традиции русской гастрономии, гостеприимства и душевной атмосферы.",
+    "history_vi": "Toà nhà bên quảng trường trước Lavra có từ thế kỷ 19, từng là khách sạn cho khách hành hương và thương gia. Sau năm 1917 ngôi nhà được quốc hữu hoá; tới năm 1946 phòng ăn trở thành nhà hàng mang tên «Volga». Từ tháng 5 năm 1992, nơi đây mang tên «Russky Dvorik» (Sân Nga) và trở thành một trong những địa chỉ ẩm thực Nga nổi tiếng nhất Sergiev Posad — điểm dừng quen thuộc của các đoàn khách sau khi thăm Tu viện Trinity–Sergius.",
+    "history_en": "The building on the square facing the Lavra dates to the 19th century and once served as a hotel for pilgrims and merchants. Nationalised after 1917, its dining hall became the «Volga» restaurant in 1946. Since May 1992 it has borne the name «Russky Dvorik» (Russian Courtyard) and grown into one of Sergiev Posad's best-known Russian restaurants — a favourite stop for tour groups after visiting the Trinity Lavra of St. Sergius.",
+    "history_ru": "Здание на площади перед Лаврой построено в XIX веке и когда-то было гостиницей для паломников и купцов. После 1917 года дом национализировали; в 1946 году столовая стала рестораном «Волга». С мая 1992 года заведение носит имя «Русский дворик» и стало одним из самых известных русских ресторанов Сергиева Посада — любимой остановкой туристических групп после посещения Троице-Сергиевой лавры.",
+    "chef_vi": "Bếp trưởng Ilia Zhilyaev",
+    "menu_src": "https://en.rus-dvorik.ru/menyu/osnovnoe-menyu/",
+    "tags": [
+      "russian",
+      "traditional",
+      "golden-ring",
+      "sergiev-posad"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "bread",
+      "name_vi": "Bánh mì lúa mì",
+      "name_en": "Wheat bread",
+      "name_ru": "Хлеб пшеничный",
+      "weight": "200 g",
+      "price": "150",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh mì trắng nướng tại lò bánh riêng của nhà hàng, vỏ giòn ruột mềm — nền tảng của mọi bữa ăn Nga.",
+      "intro_en": "White bread from the restaurant's own bakery, crisp crust and soft crumb.",
+      "intro_ru": "Белый хлеб из собственной пекарни ресторана, с хрустящей корочкой.",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "bread",
+      "name_vi": "Bánh quy bơ rắc hạt (pretzel)",
+      "name_en": "Pretzel with seeds",
+      "name_ru": "Крендель с семечками",
+      "weight": "110 g",
+      "price": "150",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh cuộn hình pretzel, rắc hạt hướng dương/bí, thơm bùi ăn vặt hoặc kèm súp.",
+      "intro_en": "Soft pretzel-shaped roll topped with sunflower/pumpkin seeds.",
+      "intro_ru": "Мягкий крендель, посыпанный семечками.",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "bread",
+      "name_vi": "Bánh mì kiều mạch",
+      "name_en": "Buckwheat bread",
+      "name_ru": "Хлеб гречневый",
+      "weight": "450 g",
+      "price": "200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh mì pha bột kiều mạch — nguyên liệu rất Nga, vị đậm, hơi ngọt hậu.",
+      "intro_en": "Bread made with buckwheat flour, a very Russian grain, dense and mildly sweet.",
+      "intro_ru": "Хлеб с гречневой мукой, плотный, с лёгкой сладостью.",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "bread",
+      "name_vi": "Bánh mì lúa mạch đen",
+      "name_en": "Rye bread",
+      "name_ru": "Хлеб ржаной",
+      "weight": "450 g",
+      "price": "200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh mì đen truyền thống, chua nhẹ, là bạn đồng hành kinh điển của súp và món muối.",
+      "intro_en": "Traditional dark rye, lightly sour — the classic partner to soups and pickles.",
+      "intro_ru": "Традиционный ржаной хлеб, слегка кисловатый.",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "bread",
+      "name_vi": "Bánh mì lúa mì «Nông dân» ủ men chua",
+      "name_en": "«Peasant» wheat bread on sourdough",
+      "name_ru": "Хлеб «Крестьянский» на закваске",
+      "weight": "400 g",
+      "price": "300",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Ổ bánh lớn ủ men chua tự nhiên, vỏ dày thơm, ruột dai — kiểu bánh quê mộc mạc.",
+      "intro_en": "Large naturally-leavened sourdough loaf with a thick fragrant crust.",
+      "intro_ru": "Большой хлеб на натуральной закваске с толстой ароматной корочкой.",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "bread",
+      "name_vi": "Bánh mì «Pokrovsky» rắc hạt",
+      "name_en": "Bread «Pokrovsky» with seeds",
+      "name_ru": "Хлеб «Покровский» с семечками",
+      "weight": "450 g",
+      "price": "200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh mì nhiều hạt bổ dưỡng, đặc trưng của nhà hàng.",
+      "intro_en": "Hearty multi-seed loaf, a house speciality.",
+      "intro_ru": "Сытный хлеб с семечками, фирменный.",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "bread",
+      "name_vi": "Bánh mì vòng Kalach",
+      "name_en": "Kalach",
+      "name_ru": "Калач",
+      "weight": "170 g",
+      "price": "150",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Kalach — bánh mì trắng hình tay nắm cổ truyền của Nga, xưa là biểu tượng của bánh mì ngon.",
+      "intro_en": "Kalach, an old Russian white bread shaped with a handle, historically a symbol of fine bread.",
+      "intro_ru": "Калач — старинный русский белый хлеб с «ручкой».",
+      "tips_vi": "",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Pirozhki nhân thịt (heo & bò)",
+      "name_en": "Pie with meat (pork and beef)",
+      "name_ru": "Пирожок с мясом (свинина и говядина)",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh bột nướng nhỏ nhân thịt heo–bò xay, món ăn đường phố và bàn ăn quen thuộc khắp nước Nga.",
+      "intro_en": "Small baked bun filled with minced pork and beef — a Russian everyday classic.",
+      "intro_ru": "Печёный пирожок с фаршем из свинины и говядины.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh tam giác Tatar nhân bò & khoai tây",
+      "name_en": "Tatar pie with chopped beef and potatoes",
+      "name_ru": "Треугольник с говядиной и картофелем",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Echpochmak — bánh tam giác kiểu Tatar, nhân bò thái nhỏ và khoai tây, rất phổ biến ở vùng Volga.",
+      "intro_en": "Echpochmak, a Tatar triangular pie of chopped beef and potato.",
+      "intro_ru": "Эчпочмак — татарский треугольник с говядиной и картофелем.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Pirozhki nhân bắp cải & trứng",
+      "name_en": "Pie with cabbage and eggs",
+      "name_ru": "Пирожок с капустой и яйцом",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân bắp cải xào mềm và trứng — một trong những vị pirozhki được yêu thích nhất.",
+      "intro_en": "Filled with braised cabbage and egg, a much-loved pirozhki.",
+      "intro_ru": "С тушёной капустой и яйцом.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Pirozhki nhân nấm",
+      "name_en": "Pie with mushrooms",
+      "name_ru": "Пирожок с грибами",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân nấm rừng xào hành — đậm vị, hợp mùa chay.",
+      "intro_en": "Filled with mushrooms sautéed with onion.",
+      "intro_ru": "С грибами, обжаренными с луком.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Pirozhki nhân thịt cừu",
+      "name_en": "Pie with lamb",
+      "name_ru": "Пирожок с бараниной",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân thịt cừu ướp thơm, phong vị phương Đông trong lòng bánh Nga.",
+      "intro_en": "Filled with seasoned lamb.",
+      "intro_ru": "С ароматной бараниной.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Pirozhki nhân cá",
+      "name_en": "Fish pie",
+      "name_ru": "Пирожок с рыбой",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân cá — kiểu bánh truyền thống thường thấy trong các dịp lễ.",
+      "intro_en": "Filled with fish, a traditional festive style.",
+      "intro_ru": "С рыбой, традиционный вид.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Pirozhki nhân trứng & hành lá",
+      "name_en": "Pie with eggs and green onions",
+      "name_ru": "Пирожок с яйцом и зелёным луком",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân trứng luộc và hành lá — nhẹ nhàng, thanh mát.",
+      "intro_en": "Filled with boiled egg and green onion.",
+      "intro_ru": "С яйцом и зелёным луком.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh nhân táo",
+      "name_en": "Apple pie",
+      "name_ru": "Пирожок с яблоком",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh nhỏ nhân táo ngọt thơm — món tráng miệng bỏ túi.",
+      "intro_en": "Small sweet apple pie.",
+      "intro_ru": "Сладкий пирожок с яблоком.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh nhân anh đào",
+      "name_en": "Cherry pie",
+      "name_ru": "Пирожок с вишней",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân anh đào chua ngọt, màu đỏ đẹp mắt.",
+      "intro_en": "Filled with sweet-tart cherries.",
+      "intro_ru": "С вишней, кисло-сладкий.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh nhân mâm xôi",
+      "name_en": "Raspberry pie",
+      "name_ru": "Пирожок с малиной",
+      "weight": "50 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nhân mâm xôi thơm — vị quả mọng đặc trưng của mùa hè Nga.",
+      "intro_en": "Filled with raspberries, a taste of Russian summer.",
+      "intro_ru": "С малиной — вкус русского лета.",
+      "tips_vi": "",
+      "tags": [
+        "pies"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Đĩa rau củ muối kiểu Nga (ăn kèm vodka)",
+      "name_en": "Pickles Russian style, to vodka",
+      "name_ru": "Соленья по-русски к водке",
+      "weight": "700 g",
+      "price": "850",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Đĩa tổng hợp tự muối: dưa cải bắp, bắp cải kiểu Guria, dưa chuột & cà chua muối, táo Antonov ngâm, cà tím, ớt Kuban, cà rốt. Món khai vị kinh điển đi cùng vodka lạnh.",
+      "intro_en": "House assortment: sauerkraut, Gurian cabbage, salted cucumbers and tomatoes, soaked Antonov apples, eggplant, Kuban pepper, carrots — the classic companion to chilled vodka.",
+      "intro_ru": "Домашнее ассорти: квашеная капуста, капуста по-гурийски, солёные огурцы и помидоры, мочёные антоновские яблоки, баклажаны, перец, морковь — классика к водке.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Cà chua muối nhẹ (bóc vỏ)",
+      "name_en": "Lightly salted tomatoes without skin",
+      "name_ru": "Помидоры малосольные без кожицы",
+      "weight": "200 g",
+      "price": "400",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cà chua muối xổi đã bóc vỏ, mọng nước, chua dịu — ăn mát miệng.",
+      "intro_en": "Peeled, lightly salted tomatoes, juicy and gently sour.",
+      "intro_ru": "Малосольные помидоры без кожицы, сочные.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Dưa chuột muối xổi",
+      "name_en": "Freshly-salted cucumbers",
+      "name_ru": "Огурцы малосольные",
+      "weight": "150 g",
+      "price": "400",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Dưa chuột muối nhanh với thìa là và tỏi, giòn tươi.",
+      "intro_en": "Quick-salted cucumbers with dill and garlic, crisp and fresh.",
+      "intro_ru": "Малосольные огурцы с укропом и чесноком.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Bắp cải muối đỏ kiểu Guria",
+      "name_en": "Red Gurian pickled cabbage",
+      "name_ru": "Капуста по-гурийски",
+      "weight": "150 g",
+      "price": "350",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bắp cải muối cùng củ dền cho màu hồng tím rực rỡ, cay nhẹ kiểu Gruzia.",
+      "intro_en": "Cabbage pickled with beetroot for a vivid pink hue, mildly spicy (Georgian style).",
+      "intro_ru": "Капуста, квашенная со свёклой, яркая и слегка острая.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Cà chua muối nhẹ",
+      "name_en": "Lightly salted tomatoes",
+      "name_ru": "Помидоры малосольные",
+      "weight": "200 g",
+      "price": "400",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cà chua muối xổi nguyên trái, hương thìa là đặc trưng.",
+      "intro_en": "Whole lightly-salted tomatoes with dill.",
+      "intro_ru": "Малосольные помидоры целиком, с укропом.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Cà tím ngâm",
+      "name_en": "Marinated eggplant",
+      "name_ru": "Баклажаны маринованные",
+      "weight": "150 g",
+      "price": "400",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cà tím ngâm giấm cùng cà rốt và tỏi, chua ngọt lạ miệng.",
+      "intro_en": "Eggplant marinated with carrot and garlic, sweet-sour.",
+      "intro_ru": "Маринованные баклажаны с морковью и чесноком.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "pickles",
+      "name_vi": "Ớt chuông muối kiểu Kuban",
+      "name_en": "Pickled Kuban pepper",
+      "name_ru": "Перец по-кубански",
+      "weight": "150 g",
+      "price": "400",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Ớt chuông muối kiểu vùng Kuban, giòn và ngọt.",
+      "intro_en": "Bell peppers pickled Kuban-style, crunchy and sweet.",
+      "intro_ru": "Болгарский перец по-кубански, хрустящий.",
+      "tips_vi": "",
+      "tags": [
+        "pickles"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad «Russky Dvorik»",
+      "name_en": "Salad «Russky Dvorik»",
+      "name_ru": "Салат «Русский дворик»",
+      "weight": "250 g",
+      "price": "800",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Salad đặc trưng của nhà hàng: thịt bò, hành, dưa muối, phô mai và sốt mayonnaise, phủ 'mái' phô mai giòn.",
+      "intro_en": "The house salad: beef, onion, pickles, cheese and mayonnaise under a crisp cheese 'tent'.",
+      "intro_ru": "Фирменный салат: говядина, лук, солёные огурцы, сыр и майонез.",
+      "tips_vi": "",
+      "tags": [
+        "salads"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad Caesar gà",
+      "name_en": "«Caesar» with chicken",
+      "name_ru": "Салат «Цезарь» с курицей",
+      "weight": "250 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Xà lách romaine, gà, sốt Caesar, bánh mì giòn và phô mai Grana Padano — món quen thuộc, dễ ăn cho khách Việt.",
+      "intro_en": "Romaine, chicken, Caesar dressing, croutons and Grana Padano.",
+      "intro_ru": "Ромэн, курица, соус «Цезарь», сухарики и грана падано.",
+      "tips_vi": "",
+      "tags": [
+        "salads"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad «Meshchansky» (lưỡi bò)",
+      "name_en": "«Philistine» salad",
+      "name_ru": "Салат «Мещанский»",
+      "weight": "150 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Lưỡi bò, hành, trứng chần và óc chó trộn mayonnaise — béo bùi, tinh tế.",
+      "intro_en": "Beef tongue, onion, poached eggs and walnuts in mayonnaise.",
+      "intro_ru": "Говяжий язык, лук, яйца пашот и грецкий орех под майонезом.",
+      "tips_vi": "",
+      "tags": [
+        "salads"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad «Olivier» gà & tôm càng",
+      "name_en": "«Olivier» with chicken and crayfish",
+      "name_ru": "Салат «Оливье» с курицей и раковыми шейками",
+      "weight": "200 g",
+      "price": "900",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phiên bản sang của món salad Nga trứ danh (khoai tây, cà rốt, đậu Hà Lan, dưa chuột, trứng) — thêm gà và thịt tôm càng. Nga gọi vui là 'salad năm mới'.",
+      "intro_en": "A luxe take on Russia's most famous salad (potato, carrot, peas, cucumber, egg) with chicken and crayfish. Russians call it the 'New Year salad'.",
+      "intro_ru": "Роскошный «Оливье» с курицей и раковыми шейками — символ Нового года.",
+      "tips_vi": "",
+      "tags": [
+        "salads"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad lá với bò pastrami, ớt nướng, phô mai feta & vừng caramel",
+      "name_en": "Salad leaves with beef pastrami, baked pepper, feta & sesame in salted caramel",
+      "name_ru": "Салат с бастурмой, печёным перцем, фетой и кунжутом",
+      "weight": "200 g",
+      "price": "800",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Salad hiện đại: lá tươi, thịt bò pastrami, ớt chuông nướng, phô mai feta và hạt vừng phủ caramel muối.",
+      "intro_en": "Modern salad: greens, beef pastrami, roasted pepper, feta and sesame in salted caramel.",
+      "intro_ru": "Современный салат: зелень, бастурма, печёный перец, фета и кунжут в солёной карамели.",
+      "tips_vi": "",
+      "tags": [
+        "salads"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad gan gà & bí đỏ nướng cháy cạnh",
+      "name_en": "Salad with chicken liver and burnt pumpkin",
+      "name_ru": "Салат с куриной печенью и печёной тыквой",
+      "weight": "300 g",
+      "price": "900",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Lá salad trộn gan gà áp chảo, bí đỏ nướng, nho, việt quất, bưởi và sốt mù tạt — chua ngọt cân bằng.",
+      "intro_en": "Mixed leaves with pan-seared chicken liver, roasted pumpkin, grapes, blueberries, grapefruit and mustard dressing.",
+      "intro_ru": "Микс салата с куриной печенью, печёной тыквой, виноградом, черникой, грейпфрутом и горчичной заправкой.",
+      "tips_vi": "",
+      "tags": [
+        "salads"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Borscht Slobodskoy (vịt hoặc bò)",
+      "name_en": "Slobodskoy borscht with duck or beef",
+      "name_ru": "Борщ слободской с уткой или говядиной",
+      "weight": "300/30/40 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Món súp củ dền trứ danh của Nga/Ukraine: nước dùng đỏ au từ củ dền, khoai tây, bắp cải, ăn kèm kem chua (smetana) và bánh pirozhki. Chọn nấu với vịt hoặc bò.",
+      "intro_en": "Russia's iconic beetroot soup: ruby broth with potato and cabbage, served with sour cream and a pie. Choose duck or beef.",
+      "intro_ru": "Знаменитый борщ на свёкле с картофелем и капустой, со сметаной и пирожком. На выбор — с уткой или говядиной.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp mì gà",
+      "name_en": "Chicken noodle soup",
+      "name_ru": "Куриная лапша",
+      "weight": "300/30 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nước dùng gà trong, mì tự làm, ăn kèm bánh nhỏ nhân trứng & hành — ấm bụng, dễ ăn.",
+      "intro_en": "Clear chicken broth with homemade noodles, served with a mini egg-and-scallion pie.",
+      "intro_ru": "Прозрачный куриный бульон с домашней лапшой и мини-пирожком.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp đậu Hà Lan kiểu làng quê",
+      "name_en": "Village pea soup",
+      "name_ru": "Гороховый суп по-деревенски",
+      "weight": "300 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp đậu Hà Lan nấu cùng thịt heo và rau củ, đặc và thơm mùi khói.",
+      "intro_en": "Pea soup with pork and vegetables, thick and smoky.",
+      "intro_ru": "Гороховый суп со свининой и овощами.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Solyanka thịt (súp chua cay)",
+      "name_en": "Meat saltwort soup (Solyanka)",
+      "name_ru": "Солянка мясная",
+      "weight": "300/30/40 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Solyanka — súp chua cay nấu nhiều loại thịt, dưa muối, ô liu và nụ bạch hoa; ăn kèm kem chua, lát chanh. Vị đậm đà rất 'gây nghiện'.",
+      "intro_en": "Solyanka: a tangy soup of several meats, pickles, olives and capers, served with sour cream and lemon.",
+      "intro_ru": "Солянка: пикантный суп из разных видов мяса, солёных огурцов, оливок и каперсов, со сметаной и лимоном.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp cá «Volga, Volga» (Ukha)",
+      "name_en": "Fish soup «Volga, Volga» (Ukha)",
+      "name_ru": "Уха «Волга, Волга»",
+      "weight": "330 g",
+      "price": "950",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Ukha — súp cá trong truyền thống nấu từ cá vược sông và cá pike-perch, ăn kèm bánh nhân cá. Có thể thêm thịt tôm càng (1050 ₽).",
+      "intro_en": "Ukha, a clear fish soup of river perch and pike-perch, with a fish pie. Add crayfish for 1050 ₽.",
+      "intro_ru": "Уха из речного окуня и судака с рыбным пирожком. С раковыми шейками — 1050 ₽.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp bắp cải «Griboyedov» (nấm)",
+      "name_en": "Cabbage soup «Griboyedov» (with mushrooms)",
+      "name_ru": "Щи «Грибоедов» с грибами",
+      "weight": "300/30/40 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Shchi — súp bắp cải tươi nấu với nấm, phủ 'nắp' bánh nướng và kèm bánh nhân nấm. Món chay ấm áp.",
+      "intro_en": "Shchi: fresh-cabbage soup with mushrooms, baked under a bread lid, with a mushroom pie. Vegetarian.",
+      "intro_ru": "Щи из свежей капусты с грибами под хлебной крышкой, с грибным пирожком. Вегетарианское.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp kem bí đỏ",
+      "name_en": "Pumpkin cream soup",
+      "name_ru": "Крем-суп из тыквы",
+      "weight": "280/10 g",
+      "price": "750",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp kem bí đỏ mịn với cà rốt, ớt chuông, khoai tây và hành — ngọt dịu, màu vàng đẹp.",
+      "intro_en": "Silky pumpkin cream soup with carrot, sweet pepper, potato and onion.",
+      "intro_ru": "Нежный крем-суп из тыквы с морковью, перцем, картофелем и луком.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Okroshka với kvass tự làm (súp lạnh)",
+      "name_en": "Homemade kvass okroshka",
+      "name_ru": "Окрошка на домашнем квасе",
+      "weight": "300 g",
+      "price": "650",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Súp lạnh mùa hè: rau củ theo mùa, trứng cút, kem chua, chan kvass tự làm (nước lên men từ bánh mì đen). Lạ miệng và giải nhiệt. Bản có thịt bò 750 ₽.",
+      "intro_en": "A summer cold soup: seasonal vegetables, quail egg and sour cream in homemade kvass. With beef 750 ₽.",
+      "intro_ru": "Летний холодный суп: сезонные овощи, перепелиное яйцо и сметана на домашнем квасе. С говядиной — 750 ₽.",
+      "tips_vi": "",
+      "tags": [
+        "soups"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni đen «Biển Bắc»",
+      "name_en": "Black dumplings «North Sea»",
+      "name_ru": "Пельмени чёрные «Северное море»",
+      "weight": "160/50/3 g",
+      "price": "1050",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Pelmeni vỏ đen (nhuộm mực nang) nặn tay, nhân sò điệp, tôm hổ và thịt cua Kamchatka — phiên bản hải sản cao cấp của món bánh chũng Nga.",
+      "intro_en": "Hand-made squid-ink dumplings filled with scallop, tiger prawn and Kamchatka crab.",
+      "intro_ru": "Пельмени ручной лепки на чернилах каракатицы с гребешком, тигровыми креветками и камчатским крабом.",
+      "tips_vi": "",
+      "tags": [
+        "dumplings"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Manti Tatar lớn nhân bò vân mỡ",
+      "name_en": "Large Tatar dumplings of marble beef",
+      "name_ru": "Большие татарские манты из мраморной говядины",
+      "weight": "280 g",
+      "price": "1350",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Manti — bánh bao hấp cỡ lớn kiểu Tatar/Trung Á, nhân bò vân mỡ mọng nước; có thể hấp hoặc áp chảo. Ăn kèm kem chua.",
+      "intro_en": "Large Tatar/Central-Asian steamed dumplings of juicy marble beef; steamed or pan-fried, with sour cream.",
+      "intro_ru": "Большие манты из сочной мраморной говядины; на пару или жареные, со сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "dumplings"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Bò bít tết Rib-Eye (bếp than Josper)",
+      "name_en": "Rib-eye steak (Josper)",
+      "name_ru": "Стейк Рибай",
+      "weight": "200/50 g",
+      "price": "3200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thăn lưng bò vân mỡ nướng trên bếp than Josper, thơm mùi khói, mềm mọng. Khẩu phần nhỏ 100 g giá 1900 ₽.",
+      "intro_en": "Marbled rib-eye grilled in the Josper charcoal oven. Smaller 100 g portion 1900 ₽.",
+      "intro_ru": "Мраморный рибай на угольной печи Josper. Порция 100 г — 1900 ₽.",
+      "tips_vi": "",
+      "tags": [
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Xiên thăn bò nướng",
+      "name_en": "Beef tenderloin kebab",
+      "name_ru": "Шашлык из говяжьей вырезки",
+      "weight": "200/50 g",
+      "price": "2150",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thăn nội bò mềm nhất xiên nướng than, ăn kèm sốt và rau thơm.",
+      "intro_en": "Skewered, char-grilled beef tenderloin with sauce and herbs.",
+      "intro_ru": "Шашлык из нежной говяжьей вырезки на углях.",
+      "tips_vi": "",
+      "tags": [
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Sườn cừu nướng (có xương)",
+      "name_en": "Loin of lamb with bone",
+      "name_ru": "Каре ягнёнка на кости",
+      "weight": "200/50 g",
+      "price": "2900",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Sườn cừu non nướng lửa, mềm ngọt, phong vị lễ hội.",
+      "intro_en": "Flame-grilled rack of young lamb, tender and festive.",
+      "intro_ru": "Каре молодого ягнёнка на огне.",
+      "tips_vi": "",
+      "tags": [
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Xiên nạc vai heo nướng (Shashlik)",
+      "name_en": "Skewers of pork neck",
+      "name_ru": "Шашлык из свиной шеи",
+      "weight": "200/70/50 g",
+      "price": "950",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Shashlik — món xiên nướng quốc dân của Nga, dùng nạc vai heo ướp mềm, ăn kèm hành và sốt.",
+      "intro_en": "Shashlik, Russia's beloved grilled skewer, here from marinated pork neck.",
+      "intro_ru": "Шашлык из маринованной свиной шеи — любимое блюдо на природе.",
+      "tips_vi": "",
+      "tags": [
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Nửa con gà ta hữu cơ nướng",
+      "name_en": "Half organic free-range chicken",
+      "name_ru": "Половина фермерского цыплёнка",
+      "weight": "250/60/50 g",
+      "price": "1200",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nửa con gà ta thả vườn nướng vàng giòn da, thịt chắc thơm.",
+      "intro_en": "Half a free-range farm chicken, grilled crisp and golden.",
+      "intro_ru": "Половина фермерского цыплёнка, зажаренного до румяной корочки.",
+      "tips_vi": "",
+      "tags": [
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Sườn heo hầm sốt cà chua & mận khô",
+      "name_en": "Pork spare ribs in tomato & prune sauce",
+      "name_ru": "Свиные рёбрышки в томатно-черносливовом соусе",
+      "weight": "540 g",
+      "price": "1500",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Sườn heo hầm mềm rục trong sốt cà chua và mận khô, ngọt đậm, khẩu phần lớn hợp chia sẻ.",
+      "intro_en": "Oven-braised pork ribs in a rich tomato-and-prune sauce, a generous sharing portion.",
+      "intro_ru": "Свиные рёбрышки, томлённые в соусе из томатов и чернослива.",
+      "tips_vi": "",
+      "tags": [
+        "hot"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Bánh blini Nga",
+      "name_en": "Russian pancakes (blini)",
+      "name_ru": "Блины русские",
+      "weight": "200/20 g",
+      "price": "850",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Blini — bánh xèo mỏng truyền thống, ở đây là bốn chiếc bánh lúa mì tự làm rưới bơ ghee. Cuốn cùng trứng cá, kem chua hay mứt tuỳ thích; là ngôi sao của lễ hội Maslenitsa.",
+      "intro_en": "Blini — thin traditional pancakes; here four homemade wheat pancakes drizzled with ghee. Pair with caviar, sour cream or jam; the star of Maslenitsa.",
+      "intro_ru": "Блины — четыре домашних пшеничных блина с топлёным маслом. С икрой, сметаной или вареньем; главное блюдо Масленицы.",
+      "tips_vi": "",
+      "tags": [
+        "pancakes"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh Pavlova (bánh trứng đường)",
+      "name_en": "Cake-meringue «Pavlova»",
+      "name_ru": "Торт-безе «Павлова»",
+      "weight": "200 g",
+      "price": "850",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh meringue giòn tan phủ kem tươi, dâu tây và kiwi — nhẹ, ngọt thanh, do bếp bánh nhà hàng tự làm.",
+      "intro_en": "Crisp meringue with whipped cream, fresh strawberries and kiwi — light and house-made.",
+      "intro_ru": "Хрустящее безе со взбитыми сливками, клубникой и киви — собственного производства.",
+      "tips_vi": "",
+      "tags": [
+        "desserts"
+      ]
+    }
+  ]
+}

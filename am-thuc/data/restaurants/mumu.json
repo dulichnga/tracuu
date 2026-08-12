@@ -1,0 +1,851 @@
+{
+  "restaurant": {
+    "id": "mumu",
+    "brand": "Му-му / Mu-Mu",
+    "type": "chain",
+    "name_vi": "Mu-Mu (căng-tin món Nga gia đình)",
+    "name_en": "Mu-Mu",
+    "name_ru": "Му-му",
+    "cuisine_vi": "Món Nga gia đình, tự chọn (stolovaya)",
+    "cuisine_en": "Russian home-style canteen",
+    "cuisine_ru": "Русская домашняя кухня (столовая)",
+    "cities": [
+      "Moscow"
+    ],
+    "address_vi": "Chuỗi, nhiều chi nhánh khắp Moscow",
+    "hours": "~09:00–23:00 (tuỳ chi nhánh)",
+    "phone": "",
+    "site": "cafemumu.ru",
+    "site_url": "https://www.cafemumu.ru",
+    "map_url": "",
+    "price_level": "₽",
+    "about_vi": "Mu-Mu (Му-му) là chuỗi căng-tin tự chọn kiểu «stolovaya» nổi tiếng ở Moscow, mở từ năm 2000, chuyên món Nga gia đình giá bình dân. Khách bê khay đi dọc quầy, chỉ vào món muốn ăn rồi trả tiền ở cuối quầy — không cần biết tiếng Nga vẫn gọi được. Chuỗi nhận diện bằng hoạ tiết bò sữa đen-trắng, có hơn 35 chi nhánh khắp thành phố và thực đơn hơn 100 món đổi theo ngày.",
+    "about_en": "Mu-Mu is a well-known Moscow self-service «stolovaya» (canteen) chain founded in 2000, serving budget-friendly Russian home-style food. Guests slide a tray along the counter, point at the dishes they want and pay at the end — no Russian needed to order. Recognisable by its black-and-white cow motif, it runs 35+ branches across the city with a rotating menu of 100+ dishes.",
+    "about_ru": "«Му-му» — известная московская сеть столовых самообслуживания, открытая в 2000 году; недорогая русская домашняя кухня. Гости идут с подносом вдоль линии раздачи, выбирают понравившиеся блюда и платят в конце. Узнаётся по чёрно-белому «коровьему» стилю: более 35 заведений по городу и меню из более чем 100 блюд.",
+    "tags": [
+      "russian",
+      "home-style",
+      "canteen",
+      "budget",
+      "chain"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "salads",
+      "name_vi": "Salad Olivier (salad khoai tây Nga)",
+      "name_en": "Olivier salad (Russian potato salad)",
+      "name_ru": "Салат Оливье",
+      "weight": "150 g",
+      "price": "180",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Món salad quốc dân của Nga: khoai tây, cà rốt, trứng, dưa chuột muối, đậu Hà Lan và xúc xích/giăm bông thái hạt lựu, trộn sốt mayonnaise. Béo, mát, ăn kèm gần như mọi bữa và không thể thiếu dịp lễ Tết.",
+      "intro_en": "Russia's national salad: diced potato, carrot, egg, pickles, peas and sausage or ham bound in mayonnaise. Rich, cool and a fixture at every celebration.",
+      "intro_ru": "Народный русский салат: картофель, морковь, яйцо, солёные огурцы, горошек и колбаса, заправленные майонезом. Обязательное блюдо любого праздника.",
+      "tips_vi": "Vị béo ngậy vì nhiều mayonnaise; ăn khai vị một phần nhỏ là vừa. Có thịt nên không hợp người ăn chay.",
+      "tags": [
+        "salad",
+        "classic",
+        "cold"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad cá trích áo lông thú (shuba)",
+      "name_en": "Herring under a fur coat (layered herring & beet salad)",
+      "name_ru": "Сельдь под шубой",
+      "weight": "150 g",
+      "price": "190",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Salad nhiều lớp: cá trích muối phủ dần bởi khoai tây, cà rốt, trứng và trên cùng là củ dền bào, quết mayonnaise nên có màu tím hồng đặc trưng. Vị mặn-ngọt-béo hoà quyện, là món lễ hội kinh điển bên cạnh Olivier.",
+      "intro_en": "A layered salad of salted herring hidden under potato, carrot, egg and grated beetroot with mayonnaise, giving its signature pink-purple colour. A festive classic alongside Olivier.",
+      "intro_ru": "Слоёный салат: солёная сельдь под картофелем, морковью, яйцом и тёртой свёклой с майонезом. Праздничная классика рядом с Оливье.",
+      "tips_vi": "Màu tím là từ củ dền tự nhiên, không phải phẩm màu. Có cá trích muối nên hơi mặn và tanh nhẹ — người chưa quen nên thử ít trước.",
+      "tags": [
+        "salad",
+        "herring",
+        "beetroot",
+        "cold"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad củ dền vinegret",
+      "name_en": "Vinegret (beetroot & vegetable salad)",
+      "name_ru": "Винегрет",
+      "weight": "150 g",
+      "price": "160",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Salad rau củ luộc thái hạt lựu: củ dền, khoai tây, cà rốt, dưa cải muối và đậu, trộn dầu ăn (không dùng mayonnaise). Vị chua nhẹ, thanh mát, đỏ tím bắt mắt và hoàn toàn từ rau củ.",
+      "intro_en": "A dressed salad of diced boiled beetroot, potato, carrot, sauerkraut and beans in oil (no mayonnaise). Lightly tangy, refreshing and fully plant-based.",
+      "intro_ru": "Салат из варёной свёклы, картофеля, моркови, квашеной капусты и фасоли, заправленный маслом. Лёгкая кислинка, освежает.",
+      "tips_vi": "Lựa chọn chay hiếm hoi và nhẹ bụng trong menu. Vị hơi chua từ dưa cải muối là bình thường.",
+      "tags": [
+        "salad",
+        "vegetarian",
+        "beetroot",
+        "cold"
+      ]
+    },
+    {
+      "cat": "cold",
+      "name_vi": "Cá trích muối với hành",
+      "name_en": "Salted herring with onion",
+      "name_ru": "Селёдочка с луком",
+      "weight": "100 g",
+      "price": "220",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phi-lê cá trích muối kiểu Nga, rưới dầu và rắc hành tây thái khoanh. Món khai vị lạnh kinh điển, thường ăn cùng khoai tây luộc nóng và bánh mì đen.",
+      "intro_en": "Russian-style salted herring fillet dressed with oil and rings of raw onion. A classic cold starter, usually eaten with hot boiled potatoes and dark bread.",
+      "intro_ru": "Филе солёной сельди с маслом и репчатым луком. Классическая холодная закуска — обычно с горячим картофелем и чёрным хлебом.",
+      "tips_vi": "Rất mặn và có mùi cá đặc trưng — gọi kèm khoai tây luộc để cân vị. Người không quen đồ muối nên cân nhắc.",
+      "tags": [
+        "herring",
+        "cold",
+        "appetizer"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp củ dền borscht với thịt bò",
+      "name_en": "Borscht with beef",
+      "name_ru": "Борщ с говядиной",
+      "weight": "300 g",
+      "price": "290",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Món súp biểu tượng của Nga: nước dùng bò nấu với củ dền, bắp cải, khoai tây và cà chua nên có màu đỏ đậm rất đẹp. Ăn nóng cùng một thìa kem chua (smetana) và thì là.",
+      "intro_en": "Russia's iconic soup: a beef broth with beetroot, cabbage, potato and tomato that turns deep red. Served hot with a spoon of sour cream and dill.",
+      "intro_ru": "Знаковый русский суп: говяжий бульон со свёклой, капустой, картофелем и томатом. Подаётся горячим со сметаной и укропом.",
+      "tips_vi": "Khuấy thìa kem chua đi kèm cho vị béo dịu. Màu đỏ là từ củ dền; vị chua nhẹ dễ ăn với khẩu vị Việt.",
+      "tags": [
+        "soup",
+        "beef",
+        "beetroot",
+        "hot"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp solyanka thập cẩm thịt",
+      "name_en": "Solyanka (meat & pickle soup)",
+      "name_ru": "Солянка мясная сборная",
+      "weight": "300 g",
+      "price": "330",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp đậm đà nấu từ nhiều loại thịt và xúc xích, dưa chuột muối, ô-liu và cà chua, vị chua-mặn rất kích thích. Thường điểm thêm lát chanh và kem chua khi ăn.",
+      "intro_en": "A hearty soup of mixed meats and sausage with pickles, olives and tomato, giving a bold sour-savoury taste. Usually finished with a slice of lemon and sour cream.",
+      "intro_ru": "Насыщенный суп из мясного ассорти с солёными огурцами, оливками и томатом. Подаётся с лимоном и сметаной.",
+      "tips_vi": "Vị chua mặn rất «đưa cơm», hợp người thích đậm đà. Vắt lát chanh kèm để dậy mùi. Không cay.",
+      "tags": [
+        "soup",
+        "meat",
+        "hot"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp bắp cải shchi",
+      "name_en": "Shchi (cabbage soup)",
+      "name_ru": "Щи из свежей капусты",
+      "weight": "300 g",
+      "price": "260",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Một trong những món súp lâu đời nhất của Nga: bắp cải nấu mềm trong nước dùng thịt với khoai tây, cà rốt và cà chua. Thanh, ấm bụng, ăn kèm kem chua và bánh mì đen.",
+      "intro_en": "One of Russia's oldest soups: cabbage simmered in meat broth with potato, carrot and tomato. Light, warming, served with sour cream and dark bread.",
+      "intro_ru": "Один из старейших русских супов: капуста в мясном бульоне с картофелем и морковью. Со сметаной и чёрным хлебом.",
+      "tips_vi": "Nhẹ nhàng, dễ ăn, ít béo hơn borscht. Thêm kem chua nếu muốn ngậy hơn.",
+      "tags": [
+        "soup",
+        "cabbage",
+        "hot"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp mì gà",
+      "name_en": "Chicken noodle soup",
+      "name_ru": "Суп-лапша куриная",
+      "weight": "300 g",
+      "price": "270",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Nước dùng gà trong, ngọt tự nhiên với sợi mì trứng, thịt gà và cà rốt, rắc thì là. Món súp nhẹ nhàng, quen thuộc và dễ ăn nhất với khách Việt.",
+      "intro_en": "A clear chicken broth with egg noodles, chicken meat and carrot, finished with dill. The gentlest, most familiar soup on the line.",
+      "intro_ru": "Прозрачный куриный бульон с домашней лапшой, мясом и морковью, посыпанный укропом. Самый лёгкий суп.",
+      "tips_vi": "Lựa chọn an toàn nhất cho người mới làm quen món Nga — vị gần giống súp gà Việt. Nếu không thích thì là, có thể nhờ bớt.",
+      "tags": [
+        "soup",
+        "chicken",
+        "hot"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp lạnh okroshka (nấu bằng kvass)",
+      "name_en": "Okroshka (cold kvass soup)",
+      "name_ru": "Окрошка на квасе",
+      "weight": "300 g",
+      "price": "290",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp lạnh mùa hè: khoai tây, trứng, dưa chuột, củ cải, xúc xích và rau thơm thái hạt lựu, chan nước kvass (đồ uống lên men từ bánh mì) mát lạnh. Lạ miệng, giải nhiệt, thường chỉ có vào mùa nóng.",
+      "intro_en": "A summer cold soup: diced potato, egg, cucumber, radish, sausage and herbs poured over chilled kvass (fermented bread drink). Refreshing and unusual, mostly a warm-season dish.",
+      "intro_ru": "Летний холодный суп: картофель, яйцо, огурец, редис, колбаса и зелень на холодном квасе. Освежает в жару.",
+      "tips_vi": "Là súp ăn LẠNH và có vị chua ngọt của kvass — rất lạ với người Việt, nên thử để biết. Thường chỉ bán mùa hè.",
+      "tags": [
+        "soup",
+        "cold",
+        "summer"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Gà cuộn bơ kiểu Kiev",
+      "name_en": "Chicken Kiev",
+      "name_ru": "Котлета по-киевски",
+      "weight": "100 g",
+      "price": "350",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phi-lê gà cuộn nhân bơ tỏi thảo mộc, lăn bột chiên vàng giòn. Khi cắt ra, phần bơ bên trong chảy tràn thơm lừng — món chính nổi tiếng bậc nhất của bếp Đông Slav.",
+      "intro_en": "Chicken fillet rolled around herb-garlic butter, breaded and fried golden. Cut it open and the butter flows out — one of the most famous East Slavic main courses.",
+      "intro_ru": "Куриное филе с начинкой из зелёного масла, в панировке, обжаренное до золотистой корочки. При разрезе вытекает ароматное масло.",
+      "tips_vi": "Cắt nhẹ tay vì bơ nóng bên trong dễ bắn ra. Ăn kèm khoai nghiền là chuẩn kiểu Nga.",
+      "tags": [
+        "chicken",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cốt-lết Pozharsky (chả gà tẩm bột chiên)",
+      "name_en": "Pozharsky cutlet (breaded chicken cutlet)",
+      "name_ru": "Котлета Пожарская",
+      "weight": "110 g",
+      "price": "280",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Chả thịt gà xay mềm, phủ vụn bánh mì rồi chiên vàng giòn bên ngoài mà vẫn ẩm mọng bên trong. Món cổ điển có từ thế kỷ 19, mềm và hợp khẩu vị số đông.",
+      "intro_en": "A tender minced-chicken cutlet coated in breadcrumbs and fried crisp outside, juicy inside. A 19th-century classic that pleases almost everyone.",
+      "intro_ru": "Нежная котлета из рубленой курицы в панировке из хлебных кубиков, хрустящая снаружи и сочная внутри. Классика XIX века.",
+      "tips_vi": "Mềm, không xương, dễ ăn cho cả trẻ nhỏ. Gọi thêm khoai nghiền hoặc kiều mạch làm món ăn kèm.",
+      "tags": [
+        "chicken",
+        "cutlet",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Bò stroganoff (bò thái sợi sốt kem)",
+      "name_en": "Beef Stroganoff",
+      "name_ru": "Бефстроганов",
+      "weight": "100 g",
+      "price": "320",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt bò thái sợi mềm om trong sốt kem chua và hành, sánh nâu đậm đà. Món chính kinh điển mang tên gia tộc Stroganov, ngon nhất khi rưới lên khoai nghiền.",
+      "intro_en": "Strips of tender beef braised in a creamy sour-cream and onion sauce. A classic named after the Stroganov family, best over mashed potatoes.",
+      "intro_ru": "Полоски говядины в сметанно-луковом соусе. Классика, названная в честь рода Строгановых, — лучше всего с картофельным пюре.",
+      "tips_vi": "Sốt kem béo nhẹ, không cay, rất hợp chan cơm hoặc khoai nghiền. Lựa chọn an toàn cho khách Việt thích món có nước sốt.",
+      "tags": [
+        "beef",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Bò hầm goulash",
+      "name_en": "Beef goulash",
+      "name_ru": "Гуляш говяжий",
+      "weight": "100 g",
+      "price": "300",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt bò cắt khối om mềm rục trong nước sốt cà chua - hành sánh đậm. Món hầm ấm bụng phổ biến trong bữa trưa kiểu căng-tin, chan lên món ăn kèm rất đưa miệng.",
+      "intro_en": "Cubes of beef stewed until tender in a thick tomato-onion gravy. A warming braise typical of canteen lunches, great spooned over a side.",
+      "intro_ru": "Кусочки говядины, тушённые в густой томатно-луковой подливе. Сытное блюдо для обеда — отлично с гарниром.",
+      "tips_vi": "Nước sốt đậm đà hợp chan cơm/khoai. Vị gần với bò kho nhưng không có gia vị cay nồng.",
+      "tags": [
+        "beef",
+        "stew",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Bắp cải cuộn thịt golubtsy",
+      "name_en": "Golubtsy (stuffed cabbage rolls)",
+      "name_ru": "Голубцы",
+      "weight": "200 g",
+      "price": "290",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Lá bắp cải cuộn nhân thịt băm trộn cơm, om trong sốt cà chua - kem chua cho tới khi mềm. Món gia đình ấm cúng, một cuộn đã khá no.",
+      "intro_en": "Cabbage leaves wrapped around minced meat and rice, braised in a tomato-sour cream sauce until tender. A cosy home dish; one roll is quite filling.",
+      "intro_ru": "Капустные листья с фаршем и рисом, тушённые в томатно-сметанном соусе. Уютное домашнее блюдо.",
+      "tips_vi": "Rất quen thuộc với khách Việt vì giống bắp cải cuộn thịt. No lâu, một phần là đủ.",
+      "tags": [
+        "beef",
+        "cabbage",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Chả bò băm bifshteks",
+      "name_en": "Chopped beef steak (bifshteks)",
+      "name_ru": "Бифштекс рубленый говяжий",
+      "weight": "100 g",
+      "price": "320",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Miếng chả bò băm dày, áp chảo cháy cạnh, mọng nước, thường ăn kèm hành phi hoặc một quả trứng ốp la ở trên. Đơn giản mà đậm đà, hợp người thích thịt bò.",
+      "intro_en": "A thick patty of chopped beef, pan-seared and juicy, often topped with fried onions or an egg. Simple, savoury and satisfying for beef lovers.",
+      "intro_ru": "Толстая котлета из рубленой говядины, обжаренная до корочки, часто с жареным луком или яйцом. Просто и сытно.",
+      "tips_vi": "Giống miếng bò bít-tết băm; gọi thêm trứng ốp la nếu muốn đầy đặn. Không cay.",
+      "tags": [
+        "beef",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Schnitzel gà (gà tẩm bột chiên dẹt)",
+      "name_en": "Chicken schnitzel",
+      "name_ru": "Шницель куриный",
+      "weight": "100 g",
+      "price": "270",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Lát ức gà dần mỏng, tẩm vụn bánh mì rồi chiên giòn rụm, vàng ươm. Nhẹ nhàng, không gia vị mạnh, là món chính lành tính ai cũng ăn được.",
+      "intro_en": "A thin chicken breast pounded flat, breaded and fried crisp and golden. Mild and crowd-pleasing, an easy main for anyone.",
+      "intro_ru": "Тонкий отбитый куриный шницель в панировке, обжаренный до золотистой корочки. Мягкий вкус, нравится всем.",
+      "tips_vi": "Vị nhạt kiểu Âu, an toàn cho trẻ em và người không thích đồ lạ. Vắt chanh hoặc chấm sốt cho đậm hơn.",
+      "tags": [
+        "chicken",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cá phi-lê nướng sốt tartar",
+      "name_en": "Baked fish under tartar sauce",
+      "name_ru": "Рыба, запечённая под соусом тартар",
+      "weight": "120 g",
+      "price": "380",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Phi-lê cá trắng nướng phủ lớp sốt tartar béo với dưa muối và thảo mộc, mặt trên hơi vàng. Thịt cá mềm ẩm, là lựa chọn nhẹ hơn so với các món thịt đỏ.",
+      "intro_en": "White fish fillet baked under a creamy tartar sauce with pickles and herbs, lightly gratinated on top. Moist and lighter than the red-meat dishes.",
+      "intro_ru": "Филе белой рыбы, запечённое под соусом тартар с корнишонами и зеленью. Нежное, легче мясных блюд.",
+      "tips_vi": "Kiểm tra xương nếu ăn cho trẻ nhỏ. Món nhẹ bụng, hợp người không ăn nhiều thịt đỏ.",
+      "tags": [
+        "fish",
+        "main",
+        "hot"
+      ]
+    },
+    {
+      "cat": "hotsnacks",
+      "name_vi": "Nấm nướng phô mai julienne",
+      "name_en": "Mushroom julienne (baked in creamy sauce)",
+      "name_ru": "Жюльен грибной",
+      "weight": "100 g",
+      "price": "210",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nấm thái sợi om trong sốt kem, phủ phô mai rồi nướng trong cốc/khuôn nhỏ cho tới khi vàng sủi. Món khai vị nóng béo ngậy, thơm mùi nấm và phô mai.",
+      "intro_en": "Sliced mushrooms in a creamy sauce topped with cheese and baked in a small ramekin until golden and bubbling. A rich, warm mushroom-and-cheese starter.",
+      "intro_ru": "Грибы в сливочном соусе под сыром, запечённые в кокотнице до румяной корочки. Горячая закуска.",
+      "tips_vi": "Phần nhỏ, béo và nóng — nên ăn ngay. Không có thịt nên hợp người ăn chay có sữa.",
+      "tags": [
+        "mushroom",
+        "vegetarian",
+        "hot",
+        "appetizer"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni chiên (sủi cảo thịt Nga)",
+      "name_en": "Fried homemade pelmeni (dumplings)",
+      "name_ru": "Пельмени домашние жареные",
+      "weight": "150 g",
+      "price": "360",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh bao nhỏ nhân thịt băm, luộc chín rồi áp chảo cho vỏ hơi giòn, vàng cạnh. Ăn kèm kem chua hoặc bơ — món «sủi cảo» quốc dân của Nga, no và ngon.",
+      "intro_en": "Small meat-filled dumplings, boiled then pan-fried until the edges crisp up. Served with sour cream or butter — Russia's national dumpling, filling and tasty.",
+      "intro_ru": "Мясные пельмени, отваренные и обжаренные до румяной корочки. Со сметаной или маслом.",
+      "tips_vi": "Rất giống sủi cảo nên khách Việt dễ mê. Chấm kem chua hoặc gọi thêm giấm/tương ớt mang theo nếu thích.",
+      "tags": [
+        "dumplings",
+        "meat",
+        "hot"
+      ]
+    },
+    {
+      "cat": "grill",
+      "name_vi": "Xiên gà nướng shashlik",
+      "name_en": "Chicken shashlik (skewers)",
+      "name_ru": "Шашлык из курицы",
+      "weight": "120 g",
+      "price": "480",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt gà ướp rồi xiên nướng than kiểu shashlik, thơm mùi khói, mềm và mọng. Ăn kèm hành tây ngâm và sốt cà chua — món nướng được yêu thích khắp nước Nga.",
+      "intro_en": "Marinated chicken grilled over coals shashlik-style, smoky, tender and juicy. Served with pickled onions and tomato sauce — a grill favourite across Russia.",
+      "intro_ru": "Маринованная курица на мангале, ароматная и сочная. С маринованным луком и томатным соусом.",
+      "tips_vi": "Món nướng thơm, không cay, hợp hầu hết khẩu vị. Ăn kèm hành ngâm để đỡ ngán.",
+      "tags": [
+        "chicken",
+        "grill",
+        "hot"
+      ]
+    },
+    {
+      "cat": "grill",
+      "name_vi": "Xiên heo nướng kiểu Gruzia",
+      "name_en": "Georgian-style pork shashlik",
+      "name_ru": "Шашлык свиной по-грузински",
+      "weight": "150 g",
+      "price": "620",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt heo ướp gia vị kiểu Gruzia, xiên nướng than cho cháy cạnh, mềm ngọt và đậm mùi. Phần thịt lớn, hợp người ăn khoẻ hoặc chia sẻ.",
+      "intro_en": "Pork marinated Georgian-style and grilled over coals with charred edges, tender and richly flavoured. A larger portion, good for a big appetite or sharing.",
+      "intro_ru": "Свинина по-грузински на мангале, с корочкой и насыщенным вкусом. Порция крупная.",
+      "tips_vi": "Đây là món đắt hơn mặt bằng chung của Mu-Mu. Đậm đà, hơi nhiều mỡ; gọi kèm rau/hành ngâm cho đỡ ngấy.",
+      "tags": [
+        "pork",
+        "grill",
+        "hot"
+      ]
+    },
+    {
+      "cat": "sides",
+      "name_vi": "Khoai tây nghiền",
+      "name_en": "Mashed potatoes",
+      "name_ru": "Картофельное пюре",
+      "weight": "200 g",
+      "price": "150",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Khoai tây nghiền mịn với bơ và sữa, mềm mượt và thơm béo. Món ăn kèm kinh điển, hợp nhất với các món có nước sốt như bò stroganoff hay goulash.",
+      "intro_en": "Smooth potato mash with butter and milk, soft and buttery. The classic side, perfect under saucy dishes like Stroganoff or goulash.",
+      "intro_ru": "Нежное картофельное пюре с маслом и молоком. Классический гарнир к соусным блюдам.",
+      "tips_vi": "Chọn làm nền cho các món sốt là chuẩn kiểu Nga. Chay (có bơ/sữa), hợp người không ăn thịt.",
+      "tags": [
+        "potato",
+        "side",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "sides",
+      "name_vi": "Kiều mạch xào rau củ",
+      "name_en": "Buckwheat with vegetables",
+      "name_ru": "Гречка с овощами",
+      "weight": "150 g",
+      "price": "150",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Hạt kiều mạch (grechka) nấu chín tơi, xào cùng cà rốt và hành. Món ăn kèm mộc mạc, bùi, giàu chất xơ và rất «Nga» — người bản xứ ăn quanh năm.",
+      "intro_en": "Fluffy cooked buckwheat (grechka) tossed with carrot and onion. A nutty, fibre-rich and quintessentially Russian side eaten year-round.",
+      "intro_ru": "Рассыпчатая гречка с морковью и луком. Простой, полезный и очень русский гарнир.",
+      "tips_vi": "Vị bùi lạ miệng, hạt hơi sạn nhẹ là đặc trưng của kiều mạch. Món chay, lành và no.",
+      "tags": [
+        "buckwheat",
+        "side",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "sides",
+      "name_vi": "Cơm đậu Hà Lan",
+      "name_en": "Rice with green peas",
+      "name_ru": "Рис с зелёным горошком",
+      "weight": "150 g",
+      "price": "140",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cơm trắng nấu tơi trộn đậu Hà Lan xanh và chút cà rốt, nêm nhạt. Món ăn kèm quen thuộc và dễ ăn nhất với khách Việt vì có... cơm.",
+      "intro_en": "Fluffy white rice mixed with green peas and a little carrot, lightly seasoned. The most familiar side for Vietnamese guests — it has rice.",
+      "intro_ru": "Рассыпчатый рис с зелёным горошком и морковью. Простой привычный гарнир.",
+      "tips_vi": "Nếu nhớ cơm, đây là lựa chọn dễ chịu nhất. Cơm Nga khô tơi, không dẻo như cơm Việt.",
+      "tags": [
+        "rice",
+        "side",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "sides",
+      "name_vi": "Khoai tây nướng miếng",
+      "name_en": "Baked potato wedges",
+      "name_ru": "Картофель запечённый",
+      "weight": "150 g",
+      "price": "170",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Khoai tây cắt múi cau nướng vàng, mềm bên trong, thơm mùi thảo mộc. Món ăn kèm đơn giản mà ai cũng thích, chấm sốt phô mai hoặc tartar rất hợp.",
+      "intro_en": "Potato wedges roasted golden, soft inside and fragrant with herbs. A simple, universally liked side — great with cheese or tartar dip.",
+      "intro_ru": "Дольки картофеля, запечённые до золотистой корочки, с травами. Простой любимый гарнир.",
+      "tips_vi": "An toàn cho trẻ em. Gọi thêm một hũ sốt (phô mai/tartar) để chấm.",
+      "tags": [
+        "potato",
+        "side",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Bánh blini cuộn nhân thịt",
+      "name_en": "Blini (thin pancakes) with meat",
+      "name_ru": "Блинчик с мясом",
+      "weight": "100 g",
+      "price": "199",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga (blini) tráng mỏng, cuộn nhân thịt băm rồi áp chảo vàng. Vỏ mềm dai, nhân đậm đà — món ăn nhanh gọn, hợp cả bữa sáng lẫn bữa phụ.",
+      "intro_en": "Thin Russian pancakes (blini) rolled around a minced-meat filling and pan-fried golden. Soft wrapper, savoury filling — a handy snack or breakfast.",
+      "intro_ru": "Тонкие блинчики с мясной начинкой, обжаренные до золотистого цвета. Удобный перекус.",
+      "tips_vi": "Giống bánh cuốn/crepe mặn, dễ ăn. Một cái nhỏ gọn, gọi 2 nếu đói.",
+      "tags": [
+        "blini",
+        "pancake",
+        "meat"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Bánh phô mai tươi syrniki",
+      "name_en": "Syrniki (cottage cheese pancakes) with sour cream",
+      "name_ru": "Сырники со сметаной",
+      "weight": "150 g",
+      "price": "190",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh rán nhỏ làm từ phô mai tươi tvorog, chiên vàng, mềm ẩm bên trong, hơi ngọt. Ăn kèm kem chua và mứt — món điểm tâm ngọt được yêu thích khắp nước Nga.",
+      "intro_en": "Little fried patties of tvorog (cottage cheese), golden outside and soft inside, lightly sweet. Served with sour cream and jam — a beloved sweet breakfast.",
+      "intro_ru": "Жареные сырники из творога, румяные снаружи и нежные внутри. Со сметаной и джемом.",
+      "tips_vi": "Món ngọt ăn sáng hoặc tráng miệng, không quá ngọt. Chấm kem chua và mứt kèm theo cho đúng điệu.",
+      "tags": [
+        "syrniki",
+        "cheese",
+        "vegetarian",
+        "breakfast"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Bánh blini nhân dâu tây - mâm xôi",
+      "name_en": "Blini with strawberry & raspberry",
+      "name_ru": "Блинчик с клубникой и малиной",
+      "weight": "100 g",
+      "price": "220",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga cuộn nhân dâu tây và mâm xôi, ngọt dịu và thơm mùi trái cây. Món tráng miệng nhẹ nhàng, hợp ăn cùng trà nóng.",
+      "intro_en": "Russian pancakes rolled around a strawberry-and-raspberry filling, gently sweet and fruity. A light dessert that pairs well with hot tea.",
+      "intro_ru": "Блинчики с начинкой из клубники и малины, в меру сладкие. Отлично с горячим чаем.",
+      "tips_vi": "Phiên bản ngọt của blini, hợp tráng miệng. Không quá ngọt gắt, dễ ăn.",
+      "tags": [
+        "blini",
+        "pancake",
+        "dessert",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "porridge",
+      "name_vi": "Cháo yến mạch sữa",
+      "name_en": "Oatmeal porridge with milk",
+      "name_ru": "Каша овсяная молочная",
+      "weight": "250 g",
+      "price": "130",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Yến mạch nấu với sữa cho tới khi sánh mịn, ấm nóng, có thể thêm bơ hoặc mứt. Món cháo (kasha) điểm tâm cổ điển của Nga — nhẹ bụng, ấm áp buổi sáng.",
+      "intro_en": "Oats simmered in milk until creamy and warm, optionally with butter or jam. A classic Russian breakfast porridge (kasha) — gentle and comforting.",
+      "intro_ru": "Овсяная каша на молоке, тёплая и нежная, с маслом или джемом. Классический русский завтрак.",
+      "tips_vi": "Bữa sáng nhẹ, ít ngọt; xin thêm mứt hoặc mật ong nếu muốn ngọt hơn. Món chay có sữa.",
+      "tags": [
+        "porridge",
+        "kasha",
+        "breakfast",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh mật ong Medovik",
+      "name_en": "Medovik (honey layer cake)",
+      "name_ru": "Торт «Медовик»",
+      "weight": "120 g",
+      "price": "320",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh nhiều lớp cốt mật ong xen kẽ lớp kem chua mềm mịn, để ngấm nên ẩm và tan trong miệng. Món bánh ngọt biểu tượng của Nga, thơm mùi mật ong dịu.",
+      "intro_en": "A many-layered cake of honey sponge and soft sour-cream filling, rested until moist and melting. Russia's signature cake, fragrant with gentle honey.",
+      "intro_ru": "Многослойный медовый торт с нежным сметанным кремом, пропитанный и тающий. Знаковый русский десерт.",
+      "tips_vi": "Bánh ngọt Nga tiêu biểu, nên thử một lần. Vị ngọt vừa, béo mềm; hợp uống cùng trà đen.",
+      "tags": [
+        "cake",
+        "dessert",
+        "honey",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh ngàn lớp Napoleon",
+      "name_en": "Napoleon (custard puff-pastry cake)",
+      "name_ru": "Пирожное «Наполеон»",
+      "weight": "100 g",
+      "price": "280",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nhiều lớp bột ngàn lớp giòn xốp xen kẽ kem trứng sữa (custard), rắc vụn bánh phía trên. Món tráng miệng lễ hội quen thuộc, béo ngậy và thơm bơ.",
+      "intro_en": "Crisp, flaky puff-pastry layers filled with custard cream and dusted with crumbs. A familiar festive dessert, rich and buttery.",
+      "intro_ru": "Хрустящие слои слоёного теста с заварным кремом, посыпанные крошкой. Праздничный десерт.",
+      "tips_vi": "Béo và ngọt hơn Medovik. Một miếng nhỏ ăn cùng trà là vừa.",
+      "tags": [
+        "cake",
+        "dessert",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh «Khoai tây» sô-cô-la (Kartoshka)",
+      "name_en": "«Kartoshka» (chocolate potato cake)",
+      "name_ru": "Пирожное «Картошка»",
+      "weight": "60 g",
+      "price": "190",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Viên bánh ngọt hình củ khoai làm từ vụn bánh trộn ca-cao, bơ và sữa đặc, mềm ẩm, phủ bột ca-cao. Không hề có khoai — chỉ giống hình dáng, là món tuổi thơ của người Nga.",
+      "intro_en": "A potato-shaped sweet made from cake crumbs, cocoa, butter and condensed milk, soft and dusted with cocoa. No potato inside — just the shape; a Russian childhood treat.",
+      "intro_ru": "Пирожное в форме картошки из бисквитной крошки с какао и сгущёнкой. Вкус детства.",
+      "tips_vi": "Đừng nhầm là có khoai — chỉ giống hình dạng thôi. Ngọt đậm, hợp người thích sô-cô-la.",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh táo sharlotka",
+      "name_en": "Sharlotka (apple sponge pie)",
+      "name_ru": "Шарлотка яблочная",
+      "weight": "120 g",
+      "price": "220",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh bông lan nướng với nhiều lát táo, xốp mềm, thơm mùi táo và vani, ngọt thanh. Món bánh nhà làm giản dị mà ai cũng mê, ăn ấm càng ngon.",
+      "intro_en": "A light sponge baked with plenty of apple slices, soft and fragrant with apple and vanilla, gently sweet. A simple homemade pie loved by all, best served warm.",
+      "intro_ru": "Воздушный бисквит с яблоками, ароматный и в меру сладкий. Простая домашняя выпечка.",
+      "tips_vi": "Ngọt nhẹ, không ngán, hợp cả người không thích đồ quá ngọt. Ngon nhất khi còn ấm.",
+      "tags": [
+        "dessert",
+        "apple",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh nướng nhân bắp cải (pirozhok)",
+      "name_en": "Baked pirozhok with cabbage",
+      "name_ru": "Пирожок с капустой",
+      "weight": "100 g",
+      "price": "120",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh mì nhỏ nướng mềm, nhân bắp cải xào chín ngọt. Món ăn vặt bình dân có mặt khắp nước Nga, cầm tay ăn kèm súp hoặc trà đều hợp.",
+      "intro_en": "A small soft baked bun filled with sweet cooked cabbage. A humble snack found all over Russia, good in hand with soup or tea.",
+      "intro_ru": "Мягкий печёный пирожок с тушёной капустой. Простой перекус к супу или чаю.",
+      "tips_vi": "Rẻ, nhẹ, tiện cầm tay. Nhân bắp cải chay, hợp người ăn chay. Ăn kèm súp rất no.",
+      "tags": [
+        "pie",
+        "cabbage",
+        "vegetarian",
+        "snack"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Nước ép nam việt quất mors",
+      "name_en": "Cranberry mors (berry drink)",
+      "name_ru": "Морс клюквенный",
+      "weight": "300 ml",
+      "price": "150",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước quả nam việt quất (klyukva) nấu với chút đường, vị chua thanh, màu đỏ hồng đẹp mắt. Thức uống truyền thống giải khát, giàu vitamin, không có cồn.",
+      "intro_en": "A drink of cranberries (klyukva) cooked with a little sugar, tart and rose-red. A traditional refreshing, vitamin-rich, non-alcoholic drink.",
+      "intro_ru": "Морс из клюквы с небольшим количеством сахара, кисловатый и освежающий. Традиционный безалкогольный напиток.",
+      "tips_vi": "Vị chua thanh, ít ngọt, rất hợp để chống ngán món béo. Không cồn, uống được cho cả trẻ em.",
+      "tags": [
+        "drink",
+        "berry",
+        "non-alcoholic",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Nước quả khô kompot",
+      "name_en": "Dried-fruit compote",
+      "name_ru": "Компот из сухофруктов",
+      "weight": "300 ml",
+      "price": "120",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước nấu từ trái cây khô (táo, mơ, mận, nho khô) với chút đường, vị ngọt dịu thanh mát. Thức uống «canteen» kinh điển của Nga, uống ấm hoặc mát đều ngon.",
+      "intro_en": "A drink brewed from dried fruit (apple, apricot, prune, raisin) with a little sugar, mildly sweet and refreshing. A classic Russian canteen drink, good warm or cool.",
+      "intro_ru": "Компот из сухофруктов с сахаром, мягко-сладкий и освежающий. Классический напиток столовой.",
+      "tips_vi": "Ngọt nhẹ tự nhiên, quen thuộc dễ uống, rất «hồn» căng-tin Nga. Không cồn.",
+      "tags": [
+        "drink",
+        "compote",
+        "non-alcoholic",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kvass (nước lên men từ bánh mì)",
+      "name_en": "Kvass (fermented bread drink)",
+      "name_ru": "Квас",
+      "weight": "300 ml",
+      "price": "150",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Đồ uống lên men từ bánh mì lúa mạch đen, màu nâu, vị chua ngọt và hơi sủi ga nhẹ. Nồng độ cồn gần như bằng không; thức uống mùa hè quốc dân của người Nga.",
+      "intro_en": "A drink fermented from rye bread, brown, sweet-sour and lightly fizzy. Practically alcohol-free — Russia's national summer refresher.",
+      "intro_ru": "Напиток брожения из ржаного хлеба, тёмный, кисло-сладкий и слегка газированный. Практически безалкогольный.",
+      "tips_vi": "Vị chua ngọt lạ, hơi giống bia không cồn — nên thử để biết. Cũng là nguyên liệu chan súp okroshka.",
+      "tags": [
+        "drink",
+        "kvass",
+        "fermented",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kisel trái cây (đồ uống sánh)",
+      "name_en": "Berry kissel (thick fruit drink)",
+      "name_ru": "Кисель ягодный",
+      "weight": "250 ml",
+      "price": "120",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước trái cây nấu sánh lại bằng tinh bột, đặc như chè loãng, ngọt dịu, thường uống ấm. Món uống - tráng miệng dân dã có từ xa xưa của người Nga.",
+      "intro_en": "A fruit drink thickened with starch into a syrupy, jelly-like texture, gently sweet, usually served warm. An old, homely Russian drink-cum-dessert.",
+      "intro_ru": "Ягодный напиток, загущённый крахмалом, густой и в меру сладкий, обычно тёплый. Старинный русский кисель.",
+      "tips_vi": "Đặc sánh nên uống bằng thìa cũng được — vừa là đồ uống vừa như món tráng miệng. Lạ và đáng thử.",
+      "tags": [
+        "drink",
+        "kissel",
+        "non-alcoholic",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "breakfast",
+      "name_vi": "Trứng ốp kiểu làng quê (omelet)",
+      "name_en": "Country-style omelette",
+      "name_ru": "Омлет по-деревенски",
+      "weight": "180 g",
+      "price": "180",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Trứng đánh bông nướng/áp chảo mềm xốp cùng khoai tây và rau, nóng hổi. Món điểm tâm no bụng, lành tính, có trong thực đơn bữa sáng của Mu-Mu.",
+      "intro_en": "Fluffy baked or pan-cooked eggs with potato and vegetables, served hot. A filling, wholesome breakfast on Mu-Mu's morning menu.",
+      "intro_ru": "Пышный омлет с картофелем и овощами, горячий. Сытный завтрак из утреннего меню «Му-му».",
+      "tips_vi": "Bữa sáng an toàn và quen thuộc. Chay (có trứng, sữa); gọi kèm bánh mì và trà.",
+      "tags": [
+        "breakfast",
+        "egg",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "kids",
+      "name_vi": "Chả gà chiên «Kokorito» (cho trẻ em)",
+      "name_en": "«Kokorito» chicken fritters",
+      "name_ru": "Куриный оладушек «Кокорито»",
+      "weight": "120 g",
+      "price": "190",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Những miếng chả gà băm nhỏ chiên vàng, mềm ẩm, hình dáng ngộ nghĩnh hợp khẩu vị trẻ nhỏ. Nhẹ nhàng, không gia vị mạnh, chấm sốt là bé thích mê.",
+      "intro_en": "Little golden fritters of minced chicken, soft and fun-shaped, made for kids. Mild, unseasoned and great with a dip.",
+      "intro_ru": "Куриные оладушки, румяные и нежные, в весёлой форме — для детей. Мягкий вкус, вкусно с соусом.",
+      "tips_vi": "Món hợp trẻ em: mềm, không cay, không xương. Gọi kèm khoai nghiền và một hũ sốt phô mai.",
+      "tags": [
+        "kids",
+        "chicken",
+        "hot"
+      ]
+    }
+  ]
+}
