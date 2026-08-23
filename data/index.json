@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T03:27:05",
-  "total_places": 5883,
+  "generated": "2026-08-22T08:13:08",
+  "total_places": 5892,
   "regions": [
     {
       "slug": "adygea",
@@ -2574,16 +2574,16 @@
       "name_vi": "Tỉnh Yaroslavl",
       "federal_district": "Vùng Trung tâm",
       "country": "russia",
-      "count": 34,
+      "count": 43,
       "bbox": [
         38.303886,
-        56.7128,
+        56.702,
         39.902073,
         57.883335
       ],
       "center": [
-        57.21779007058824,
-        39.215079794117635
+        57.1177086604651,
+        39.13280402325581
       ]
     },
     {
@@ -2605,19 +2605,19 @@
     }
   ],
   "categories": {
-    "park_garden": 1682,
-    "other": 1528,
+    "park_garden": 1687,
+    "other": 1532,
     "church": 1269,
-    "museum": 1043,
+    "museum": 1047,
     "theatre": 221,
-    "monument": 1523,
+    "monument": 1524,
     "bridge": 107,
     "square_street": 392,
     "palace": 161,
     "fortress": 232
   },
   "countries": {
-    "russia": 4074,
+    "russia": 4083,
     "china": 221,
     "vietnam": 1588
   },
@@ -2633,7 +2633,7 @@
     80.3382
   ],
   "center": [
-    42.97862764846174,
-    73.23929075449107
+    42.99964749930421,
+    73.18671849434334
   ]
 }
