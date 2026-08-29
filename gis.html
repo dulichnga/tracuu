@@ -687,7 +687,7 @@
     return '<div class="pop">' +
       (p.photo ? '<img class="pop-photo" src="' + p.photo + '" onerror="this.style.display=\'none\'" />' : '') +
       '<h4>' + RT.escapeHtml(RT.t(p, "name")) + '</h4>' +
-      '<div class="sub">' + RT.escapeHtml(p.name_zh || p.name_ru || "") + '</div>' +
+      '<div class="sub">' + RT.escapeHtml(p.name_local || p.name_zh || p.name_ru || "") + '</div>' +
       (p.parent && parentBySlug[p.parent] ? '<div class="pop-detail-tag">↳ điểm chi tiết · thuộc <b>' + RT.escapeHtml(RT.t(parentBySlug[p.parent], "name")) + '</b></div>' : '') +
       '<div>' + RT.starHTML(rt.value) + (rt.value != null ? ' <b>' + rt.value + '</b>' : '') +
         (rt.count != null ? ' <span class="muted">(' + RT.fmtCount(rt.count) + ')</span>' : '') + '</div>' +
@@ -728,7 +728,7 @@
     if (minStar && ((p.rating || {}).value || 0) < minStar) return false;
     if (catKeys.length && !(p.categories || []).some(function (c) { return activeCats[c]; })) return false;
     if (q) {
-      var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, RT.t(p, "presentation_short")].join(" ").toLowerCase();
+      var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, p.name_local, RT.t(p, "presentation_short")].join(" ").toLowerCase();
       if (hay.indexOf(q) < 0) return false;
     }
     return true;
@@ -1477,7 +1477,7 @@
         '<button class="close" onclick="document.getElementById(\'detailPanel\').classList.remove(\'open\')">✕</button>' +
         (p.photo ? '<img src="' + p.photo + '" style="width:100%;height:170px;object-fit:cover;border-radius:10px;" onerror="this.style.display=\'none\'"/>' : '') +
         '<h2>' + RT.escapeHtml(RT.t(p, "name")) + '</h2>' +
-        '<div class="muted" style="font-size:12.5px;">' + RT.escapeHtml(p.name_zh || p.name_ru || "") + (p.name_en ? " · " + RT.escapeHtml(p.name_en) : "") + '</div>' +
+        '<div class="muted" style="font-size:12.5px;">' + RT.escapeHtml(p.name_local || p.name_zh || p.name_ru || "") + (p.name_en ? " · " + RT.escapeHtml(p.name_en) : "") + '</div>' +
         '<div style="margin:8px 0;">' + RT.starHTML((p.rating || {}).value) + ((p.rating || {}).value != null ? ' <b>' + p.rating.value + '</b>' : '') +
           ((p.rating || {}).count != null ? ' <span class="muted">· ' + RT.fmtCount(p.rating.count) + ' · ' + RT.escapeHtml(p.rating.source || "") + '</span>' : '') + '</div>' +
         '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px;">' +

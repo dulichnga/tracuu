@@ -213,7 +213,7 @@
       '<div class="card-body">' +
         '<div style="display:flex;justify-content:space-between;gap:8px;align-items:flex-start;">' +
           '<div><h3>' + RT.escapeHtml(RT.t(p, "name")) + '</h3>' +
-          '<div class="subname">' + RT.escapeHtml(p.name_zh || p.name_ru || "") + (p.name_en ? " · " + RT.escapeHtml(p.name_en) : "") + '</div></div>' +
+          '<div class="subname">' + RT.escapeHtml(p.name_local || p.name_zh || p.name_ru || "") + (p.name_en ? " · " + RT.escapeHtml(p.name_en) : "") + '</div></div>' +
           (isFree ? '<span class="badge-free">Miễn phí</span>' : '') +
         '</div>' +
         '<div class="rating-row">' + RT.starHTML(rt.value) +
@@ -262,7 +262,7 @@
       if (region && p.region !== region) return false;
       if (catKeys.length && !(p.categories || []).some(function (c) { return activeCats[c]; })) return false;
       if (q) {
-        var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, RT.t(p, "presentation_short"), p.presentation_long_vi,
+        var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, p.name_local, RT.t(p, "presentation_short"), p.presentation_long_vi,
           (p.practical || {}).tips_vi, (p.tags || []).join(" ")].join(" ").toLowerCase();
         if (hay.indexOf(q) < 0) return false;
       }
