@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29T19:19:38",
-  "total_places": 6110,
+  "generated": "2026-08-29T19:36:24",
+  "total_places": 6170,
   "regions": [
     {
       "slug": "adygea",
@@ -972,6 +972,40 @@
       ]
     },
     {
+      "slug": "jp-hokkaido",
+      "name_vi": "Hokkaido",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        140.704,
+        41.7594,
+        142.6407,
+        43.7683
+      ],
+      "center": [
+        42.862930000000006,
+        141.46522000000002
+      ]
+    },
+    {
+      "slug": "jp-kanagawa",
+      "name_vi": "Kanagawa",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        139.0193,
+        35.202,
+        139.6547,
+        35.4437
+      ],
+      "center": [
+        35.30206,
+        139.35258
+      ]
+    },
+    {
       "slug": "jp-kyoto",
       "name_vi": "Kyoto",
       "federal_district": null,
@@ -986,6 +1020,23 @@
       "center": [
         35.01111,
         135.75322
+      ]
+    },
+    {
+      "slug": "jp-okinawa",
+      "name_vi": "Okinawa",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        127.6905,
+        26.1414,
+        127.879,
+        26.6944
+      ],
+      "center": [
+        26.32068,
+        127.78092000000001
       ]
     },
     {
@@ -2128,6 +2179,40 @@
       ]
     },
     {
+      "slug": "th-chon-buri",
+      "name_vi": "Chon Buri",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 10,
+      "bbox": [
+        100.7825,
+        12.7186,
+        100.9331,
+        12.972
+      ],
+      "center": [
+        12.8653,
+        100.88451
+      ]
+    },
+    {
+      "slug": "th-krabi",
+      "name_vi": "Krabi",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 10,
+      "bbox": [
+        98.7156,
+        7.6786,
+        99.2686,
+        8.1264
+      ],
+      "center": [
+        7.974210000000001,
+        98.87798000000001
+      ]
+    },
+    {
       "slug": "th-phuket",
       "name_vi": "Phuket",
       "federal_district": null,
@@ -2142,6 +2227,23 @@
       "center": [
         7.83412,
         98.31370000000001
+      ]
+    },
+    {
+      "slug": "th-surat-thani",
+      "name_vi": "Surat Thani",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 10,
+      "bbox": [
+        98.5303,
+        8.9367,
+        100.0644,
+        10.0956
+      ],
+      "center": [
+        9.543870000000002,
+        99.83622
       ]
     },
     {
@@ -3013,27 +3115,27 @@
     }
   ],
   "categories": {
-    "park_garden": 1755,
-    "other": 1540,
-    "church": 1335,
-    "museum": 1067,
+    "park_garden": 1789,
+    "other": 1543,
+    "church": 1346,
+    "museum": 1068,
     "theatre": 223,
-    "monument": 1565,
+    "monument": 1570,
     "bridge": 107,
-    "square_street": 420,
-    "palace": 176,
-    "fortress": 233
+    "square_street": 424,
+    "palace": 177,
+    "fortress": 236
   },
   "countries": {
     "russia": 4083,
     "china": 221,
     "indonesia": 29,
-    "japan": 29,
+    "japan": 59,
     "cambodia": 29,
     "korea": 24,
     "kazakhstan": 27,
     "laos": 24,
-    "thailand": 30,
+    "thailand": 60,
     "uzbekistan": 26,
     "vietnam": 1588
   },
@@ -3057,7 +3159,7 @@
     80.3382
   ],
   "center": [
-    42.30184720063838,
-    74.25849388521623
+    42.109072430453914,
+    74.68417697547343
   ]
 }
