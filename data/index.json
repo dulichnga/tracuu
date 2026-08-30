@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T14:34:44",
-  "total_places": 7985,
+  "generated": "2026-08-30T16:39:00",
+  "total_places": 8184,
   "regions": [
     {
       "slug": "adygea",
@@ -1040,6 +1040,23 @@
       ]
     },
     {
+      "slug": "id-central-papua",
+      "name_vi": "Trung Papua",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 6,
+      "bbox": [
+        134.98,
+        -4.547,
+        137.1583,
+        -3.08
+      ],
+      "center": [
+        -3.832466666666667,
+        136.17661666666666
+      ]
+    },
+    {
       "slug": "id-central-sulawesi",
       "name_vi": "Trung Sulawesi",
       "federal_district": null,
@@ -1122,6 +1139,23 @@
       "center": [
         0.5682857142857143,
         122.91842857142858
+      ]
+    },
+    {
+      "slug": "id-highland-papua",
+      "name_vi": "Cao nguyên Papua",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 7,
+      "bbox": [
+        138.6678,
+        -4.7086,
+        140.2892,
+        -4.0218
+      ],
+      "center": [
+        -4.185885714285714,
+        139.0794
       ]
     },
     {
@@ -1261,6 +1295,23 @@
       ]
     },
     {
+      "slug": "id-papua",
+      "name_vi": "Papua",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 9,
+      "bbox": [
+        136.175,
+        -2.6167,
+        140.735,
+        -1.203
+      ],
+      "center": [
+        -2.403966666666667,
+        140.09601111111112
+      ]
+    },
+    {
       "slug": "id-riau-islands",
       "name_vi": "Quần đảo Riau",
       "federal_district": null,
@@ -1309,6 +1360,23 @@
       "center": [
         -3.2861,
         114.788575
+      ]
+    },
+    {
+      "slug": "id-south-papua",
+      "name_vi": "Nam Papua",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 6,
+      "bbox": [
+        140.38,
+        -8.65,
+        140.87,
+        -8.38
+      ],
+      "center": [
+        -8.515350000000002,
+        140.606
       ]
     },
     {
@@ -1428,6 +1496,23 @@
       "center": [
         -8.641766666666665,
         116.26964444444444
+      ]
+    },
+    {
+      "slug": "id-west-papua",
+      "name_vi": "Tây Papua",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 8,
+      "bbox": [
+        133.4919,
+        -3.82,
+        134.633,
+        -0.857
+      ],
+      "center": [
+        -1.88925,
+        134.01748750000002
       ]
     },
     {
@@ -1771,6 +1856,23 @@
       ]
     },
     {
+      "slug": "jp-kagawa",
+      "name_vi": "Kagawa",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        133.7911,
+        34.1853,
+        134.2769,
+        34.4886
+      ],
+      "center": [
+        34.364059999999995,
+        134.03435
+      ]
+    },
+    {
       "slug": "jp-kagoshima",
       "name_vi": "Kagoshima",
       "federal_district": null,
@@ -1958,6 +2060,23 @@
       ]
     },
     {
+      "slug": "jp-okayama",
+      "name_vi": "Okayama",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        133.622,
+        34.3767,
+        133.9361,
+        34.8093
+      ],
+      "center": [
+        34.61138,
+        133.80277
+      ]
+    },
+    {
       "slug": "jp-okinawa",
       "name_vi": "Okinawa",
       "federal_district": null,
@@ -2009,6 +2128,23 @@
       ]
     },
     {
+      "slug": "jp-shimane",
+      "name_vi": "Shimane",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        132.4372,
+        35.1156,
+        133.2017,
+        35.4753
+      ],
+      "center": [
+        35.3928,
+        132.88657999999998
+      ]
+    },
+    {
       "slug": "jp-shizuoka",
       "name_vi": "Shizuoka",
       "federal_district": null,
@@ -2026,6 +2162,23 @@
       ]
     },
     {
+      "slug": "jp-tokushima",
+      "name_vi": "Tokushima",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        133.7844,
+        33.8542,
+        134.6486,
+        34.2472
+      ],
+      "center": [
+        34.08552999999999,
+        134.33142
+      ]
+    },
+    {
       "slug": "jp-tokyo",
       "name_vi": "Tokyo",
       "federal_district": null,
@@ -2040,6 +2193,23 @@
       "center": [
         35.69176,
         139.73367000000002
+      ]
+    },
+    {
+      "slug": "jp-tottori",
+      "name_vi": "Tottori",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        133.2264,
+        35.3708,
+        134.322,
+        35.5877
+      ],
+      "center": [
+        35.48449999999999,
+        133.95851
       ]
     },
     {
@@ -2091,6 +2261,23 @@
       "center": [
         38.46531,
         140.18989000000002
+      ]
+    },
+    {
+      "slug": "jp-yamaguchi",
+      "name_vi": "Yamaguchi",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        130.8836,
+        33.9573,
+        132.1776,
+        34.4183
+      ],
+      "center": [
+        34.1849,
+        131.44396
       ]
     },
     {
@@ -4236,6 +4423,23 @@
       ]
     },
     {
+      "slug": "my-labuan",
+      "name_vi": "Labuan",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 7,
+      "bbox": [
+        115.19944,
+        5.274,
+        115.26228,
+        5.3877
+      ],
+      "center": [
+        5.330152857142857,
+        115.23960857142859
+      ]
+    },
+    {
       "slug": "my-malacca",
       "name_vi": "Malacca (Melaka)",
       "federal_district": null,
@@ -4695,6 +4899,23 @@
       ]
     },
     {
+      "slug": "ph-cavite",
+      "name_vi": "Cavite",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 8,
+      "bbox": [
+        120.5731,
+        14.0938,
+        121.0219,
+        14.445
+      ],
+      "center": [
+        14.2568125,
+        120.81665
+      ]
+    },
+    {
       "slug": "ph-cebu",
       "name_vi": "Cebu",
       "federal_district": null,
@@ -4780,6 +5001,40 @@
       ]
     },
     {
+      "slug": "ph-la-union",
+      "name_vi": "La Union",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 8,
+      "bbox": [
+        120.2839,
+        16.5882,
+        120.4483,
+        16.8567
+      ],
+      "center": [
+        16.7092625,
+        120.3483875
+      ]
+    },
+    {
+      "slug": "ph-laguna",
+      "name_vi": "Laguna",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 9,
+      "bbox": [
+        121.09539,
+        13.9683,
+        121.49996,
+        14.28195
+      ],
+      "center": [
+        14.16275222222222,
+        121.30152222222222
+      ]
+    },
+    {
       "slug": "ph-metro-manila",
       "name_vi": "Manila (Vùng Thủ đô)",
       "federal_district": null,
@@ -4828,6 +5083,57 @@
       "center": [
         11.284960000000002,
         119.59591999999998
+      ]
+    },
+    {
+      "slug": "ph-pampanga",
+      "name_vi": "Pampanga",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 8,
+      "bbox": [
+        120.5449,
+        14.97558,
+        120.8272,
+        15.2
+      ],
+      "center": [
+        15.094513750000003,
+        120.65860249999999
+      ]
+    },
+    {
+      "slug": "ph-rizal",
+      "name_vi": "Rizal",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 7,
+      "bbox": [
+        121.1675,
+        14.53287,
+        121.438,
+        14.735
+      ],
+      "center": [
+        14.613098571428571,
+        121.26021428571428
+      ]
+    },
+    {
+      "slug": "ph-siquijor",
+      "name_vi": "Siquijor",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 8,
+      "bbox": [
+        123.4635,
+        9.1281,
+        123.6816,
+        9.2131
+      ],
+      "center": [
+        9.167487500000002,
+        123.58431250000001
       ]
     },
     {
@@ -5154,6 +5460,23 @@
       ]
     },
     {
+      "slug": "th-amnat-charoen",
+      "name_vi": "Amnat Charoen",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 5,
+      "bbox": [
+        104.621862,
+        15.672941,
+        104.88,
+        16.12
+      ],
+      "center": [
+        15.8521106,
+        104.7563764
+      ]
+    },
+    {
       "slug": "th-bangkok",
       "name_vi": "Băng Cốc",
       "federal_district": null,
@@ -5171,6 +5494,23 @@
       ]
     },
     {
+      "slug": "th-bueng-kan",
+      "name_vi": "Bueng Kan",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 6,
+      "bbox": [
+        103.562,
+        18.03,
+        103.99,
+        18.247
+      ],
+      "center": [
+        18.12255,
+        103.86293333333333
+      ]
+    },
+    {
       "slug": "th-buriram",
       "name_vi": "Buriram",
       "federal_district": null,
@@ -5185,6 +5525,23 @@
       "center": [
         14.67601357142857,
         102.96897
+      ]
+    },
+    {
+      "slug": "th-chaiyaphum",
+      "name_vi": "Chaiyaphum",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        101.415,
+        15.632,
+        102.044545,
+        16.0958
+      ],
+      "center": [
+        15.891258142857144,
+        101.83433342857143
       ]
     },
     {
@@ -5426,6 +5783,23 @@
       ]
     },
     {
+      "slug": "th-nakhon-sawan",
+      "name_vi": "Nakhon Sawan",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 6,
+      "bbox": [
+        100.0733,
+        15.683333,
+        100.25,
+        15.8433
+      ],
+      "center": [
+        15.7223055,
+        100.14101666666666
+      ]
+    },
+    {
       "slug": "th-nakhon-si-thammarat",
       "name_vi": "Nakhon Si Thammarat",
       "federal_district": null,
@@ -5457,6 +5831,23 @@
       "center": [
         18.75083,
         100.83270999999999
+      ]
+    },
+    {
+      "slug": "th-nong-bua-lam-phu",
+      "name_vi": "Nong Bua Lam Phu",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 5,
+      "bbox": [
+        101.995,
+        16.812,
+        102.6105,
+        17.423
+      ],
+      "center": [
+        17.1744094,
+        102.4022154
       ]
     },
     {
@@ -5525,6 +5916,23 @@
       "center": [
         13.01282,
         99.93036000000001
+      ]
+    },
+    {
+      "slug": "th-phitsanulok",
+      "name_vi": "Phitsanulok",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        100.263,
+        16.7639,
+        101.040001,
+        16.976667
+      ],
+      "center": [
+        16.846434999999996,
+        100.62888628571429
       ]
     },
     {
@@ -5766,6 +6174,23 @@
       ]
     },
     {
+      "slug": "tl-aileu",
+      "name_vi": "Aileu",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 6,
+      "bbox": [
+        125.565,
+        -8.7292,
+        125.6333,
+        -8.625
+      ],
+      "center": [
+        -8.710383333333334,
+        125.57778333333333
+      ]
+    },
+    {
       "slug": "tl-ainaro",
       "name_vi": "Ainaro",
       "federal_district": null,
@@ -5950,6 +6375,23 @@
       "center": [
         -9.007100000000001,
         125.68509999999999
+      ]
+    },
+    {
+      "slug": "tl-oecusse",
+      "name_vi": "Oecusse",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 6,
+      "bbox": [
+        124.085,
+        -9.3,
+        124.369,
+        -9.188
+      ],
+      "center": [
+        -9.2142,
+        124.30261666666667
       ]
     },
     {
@@ -7025,33 +7467,33 @@
     }
   ],
   "categories": {
-    "park_garden": 2602,
-    "other": 1647,
-    "church": 1760,
-    "museum": 1181,
+    "park_garden": 2695,
+    "other": 1656,
+    "church": 1800,
+    "museum": 1197,
     "theatre": 227,
-    "monument": 1853,
-    "bridge": 138,
-    "square_street": 545,
-    "palace": 238,
-    "fortress": 286
+    "monument": 1881,
+    "bridge": 143,
+    "square_street": 560,
+    "palace": 243,
+    "fortress": 290
   },
   "countries": {
     "russia": 4083,
     "brunei": 25,
     "china": 221,
-    "indonesia": 272,
-    "japan": 328,
+    "indonesia": 308,
+    "japan": 388,
     "cambodia": 159,
     "korea": 149,
     "kazakhstan": 154,
     "laos": 121,
     "myanmar": 118,
-    "malaysia": 138,
-    "philippines": 142,
+    "malaysia": 145,
+    "philippines": 190,
     "singapore": 28,
-    "thailand": 296,
-    "timor-leste": 66,
+    "thailand": 332,
+    "timor-leste": 78,
     "uzbekistan": 97,
     "vietnam": 1588
   },
@@ -7081,7 +7523,7 @@
     80.3382
   ],
   "center": [
-    36.779391498459724,
-    82.53433518851232
+    36.268724980474204,
+    83.5551460847105
   ]
 }
