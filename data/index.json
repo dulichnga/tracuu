@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T09:22:11",
-  "total_places": 7033,
+  "generated": "2026-08-30T09:47:12",
+  "total_places": 7067,
   "regions": [
     {
       "slug": "adygea",
@@ -1669,6 +1669,23 @@
       ]
     },
     {
+      "slug": "kh-banteay-meanchey",
+      "name_vi": "Banteay Meanchey",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 5,
+      "bbox": [
+        102.9737,
+        13.517,
+        103.333,
+        14.07111
+      ],
+      "center": [
+        13.771402,
+        103.141284
+      ]
+    },
+    {
       "slug": "kh-battambang",
       "name_vi": "Battambang",
       "federal_district": null,
@@ -1856,6 +1873,23 @@
       ]
     },
     {
+      "slug": "kh-oddar-meanchey",
+      "name_vi": "Oddar Meanchey",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 5,
+      "bbox": [
+        103.5176,
+        14.1818,
+        104.0793,
+        14.41
+      ],
+      "center": [
+        14.300504,
+        103.88374000000002
+      ]
+    },
+    {
       "slug": "kh-phnom-penh",
       "name_vi": "Phnom Penh",
       "federal_district": null,
@@ -1904,6 +1938,23 @@
       "center": [
         13.90305,
         104.78661666666669
+      ]
+    },
+    {
+      "slug": "kh-prey-veng",
+      "name_vi": "Prey Veng",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 3,
+      "bbox": [
+        105.2798,
+        11.233,
+        105.367,
+        11.483
+      ],
+      "center": [
+        11.330666666666668,
+        105.32126666666666
       ]
     },
     {
@@ -3709,6 +3760,23 @@
       ]
     },
     {
+      "slug": "th-lampang",
+      "name_vi": "Lampang",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 8,
+      "bbox": [
+        99.38869,
+        18.21673,
+        99.54364,
+        18.83669
+      ],
+      "center": [
+        18.412017500000005,
+        99.48818375
+      ]
+    },
+    {
       "slug": "th-mae-hong-son",
       "name_vi": "Mae Hong Son",
       "federal_district": null,
@@ -3743,6 +3811,23 @@
       ]
     },
     {
+      "slug": "th-nakhon-si-thammarat",
+      "name_vi": "Nakhon Si Thammarat",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 6,
+      "bbox": [
+        99.69451,
+        8.41109,
+        100.1795,
+        9.1873
+      ],
+      "center": [
+        8.698226666666667,
+        99.870615
+      ]
+    },
+    {
       "slug": "th-nan",
       "name_vi": "Nan",
       "federal_district": null,
@@ -3757,6 +3842,23 @@
       "center": [
         18.75083,
         100.83270999999999
+      ]
+    },
+    {
+      "slug": "th-nonthaburi",
+      "name_vi": "Nonthaburi",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        100.45148,
+        13.82546,
+        100.53506,
+        13.91271
+      ],
+      "center": [
+        13.870177142857143,
+        100.48967714285716
       ]
     },
     {
@@ -4968,14 +5070,14 @@
     }
   ],
   "categories": {
-    "park_garden": 2173,
-    "other": 1590,
-    "church": 1523,
+    "park_garden": 2182,
+    "other": 1592,
+    "church": 1540,
     "museum": 1130,
     "theatre": 225,
-    "monument": 1709,
-    "bridge": 121,
-    "square_street": 485,
+    "monument": 1715,
+    "bridge": 123,
+    "square_street": 488,
     "palace": 206,
     "fortress": 263
   },
@@ -4984,11 +5086,11 @@
     "china": 221,
     "indonesia": 164,
     "japan": 178,
-    "cambodia": 117,
+    "cambodia": 130,
     "korea": 149,
     "kazakhstan": 137,
     "laos": 121,
-    "thailand": 178,
+    "thailand": 199,
     "uzbekistan": 97,
     "vietnam": 1588
   },
@@ -5012,7 +5114,7 @@
     80.3382
   ],
   "center": [
-    39.940371213977095,
-    78.36339591919105
+    39.81485199064682,
+    78.47451667180852
   ]
 }
