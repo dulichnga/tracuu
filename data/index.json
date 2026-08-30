@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T09:47:12",
-  "total_places": 7067,
+  "generated": "2026-08-30T12:23:46",
+  "total_places": 7616,
   "regions": [
     {
       "slug": "adygea",
@@ -136,6 +136,74 @@
       "center": [
         50.78332262608695,
         36.86364467826087
+      ]
+    },
+    {
+      "slug": "bn-belait",
+      "name_vi": "Belait",
+      "federal_district": null,
+      "country": "brunei",
+      "count": 7,
+      "bbox": [
+        114.1904,
+        4.2879,
+        114.4756,
+        4.6172
+      ],
+      "center": [
+        4.541771428571429,
+        114.3043142857143
+      ]
+    },
+    {
+      "slug": "bn-brunei-muara",
+      "name_vi": "Brunei-Muara",
+      "federal_district": null,
+      "country": "brunei",
+      "count": 7,
+      "bbox": [
+        114.9208,
+        4.872,
+        114.9688,
+        4.9017
+      ],
+      "center": [
+        4.889085714285715,
+        114.94021428571429
+      ]
+    },
+    {
+      "slug": "bn-temburong",
+      "name_vi": "Temburong",
+      "federal_district": null,
+      "country": "brunei",
+      "count": 6,
+      "bbox": [
+        115.0727,
+        4.478,
+        115.2126,
+        4.8858
+      ],
+      "center": [
+        4.676799999999999,
+        115.14443333333334
+      ]
+    },
+    {
+      "slug": "bn-tutong",
+      "name_vi": "Tutong",
+      "federal_district": null,
+      "country": "brunei",
+      "count": 5,
+      "bbox": [
+        114.6372,
+        4.5884,
+        114.6933,
+        4.8187
+      ],
+      "center": [
+        4.767059999999999,
+        114.65772000000001
       ]
     },
     {
@@ -887,6 +955,23 @@
       ]
     },
     {
+      "slug": "id-bangka-belitung",
+      "name_vi": "Bangka Belitung",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 8,
+      "bbox": [
+        106.1206,
+        -3.0175,
+        108.2144,
+        -1.7919
+      ],
+      "center": [
+        -2.6508375,
+        107.6525125
+      ]
+    },
+    {
       "slug": "id-banten",
       "name_vi": "Banten",
       "federal_district": null,
@@ -901,6 +986,23 @@
       "center": [
         -6.399275000000001,
         105.99510000000001
+      ]
+    },
+    {
+      "slug": "id-bengkulu",
+      "name_vi": "Bengkulu",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 6,
+      "bbox": [
+        102.1714,
+        -5.41,
+        102.6253,
+        -3.3818
+      ],
+      "center": [
+        -3.9716333333333336,
+        102.33018333333332
       ]
     },
     {
@@ -921,6 +1023,23 @@
       ]
     },
     {
+      "slug": "id-central-kalimantan",
+      "name_vi": "Trung Kalimantan",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 7,
+      "bbox": [
+        111.95,
+        -3.05,
+        113.925,
+        -0.7833
+      ],
+      "center": [
+        -2.1399999999999997,
+        113.38885714285713
+      ]
+    },
+    {
       "slug": "id-east-java",
       "name_vi": "Đông Java",
       "federal_district": null,
@@ -935,6 +1054,23 @@
       "center": [
         -7.833699999999999,
         113.17346666666668
+      ]
+    },
+    {
+      "slug": "id-east-kalimantan",
+      "name_vi": "Đông Kalimantan",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 8,
+      "bbox": [
+        116.9857,
+        -0.5025,
+        118.62,
+        2.283
+      ],
+      "center": [
+        0.9915624999999998,
+        117.82105
       ]
     },
     {
@@ -972,6 +1108,23 @@
       ]
     },
     {
+      "slug": "id-jambi",
+      "name_vi": "Jambi",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 6,
+      "bbox": [
+        101.265556,
+        -2.14861,
+        104.27811,
+        -1.26058
+      ],
+      "center": [
+        -1.7077365333333334,
+        102.47357766666666
+      ]
+    },
+    {
       "slug": "id-lampung",
       "name_vi": "Lampung",
       "federal_district": null,
@@ -986,6 +1139,23 @@
       "center": [
         -5.543311111111111,
         105.09238888888889
+      ]
+    },
+    {
+      "slug": "id-north-kalimantan",
+      "name_vi": "Bắc Kalimantan",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 6,
+      "bbox": [
+        115.685,
+        3.2985,
+        117.72,
+        4.15
+      ],
+      "center": [
+        3.5457499999999995,
+        117.00849999999998
       ]
     },
     {
@@ -1037,6 +1207,40 @@
       "center": [
         1.4767000000000001,
         104.92193999999999
+      ]
+    },
+    {
+      "slug": "id-riau",
+      "name_vi": "Riau",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 6,
+      "bbox": [
+        100.56662,
+        0.164883,
+        102.56414,
+        2.88029
+      ],
+      "center": [
+        1.0990138333333332,
+        101.4753905
+      ]
+    },
+    {
+      "slug": "id-south-kalimantan",
+      "name_vi": "Nam Kalimantan",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 8,
+      "bbox": [
+        114.5622,
+        -3.5636,
+        115.4741,
+        -2.7196
+      ],
+      "center": [
+        -3.2861,
+        114.788575
       ]
     },
     {
@@ -1105,6 +1309,23 @@
       "center": [
         -6.982555555555555,
         107.51323333333333
+      ]
+    },
+    {
+      "slug": "id-west-kalimantan",
+      "name_vi": "Tây Kalimantan",
+      "federal_district": null,
+      "country": "indonesia",
+      "count": 8,
+      "bbox": [
+        108.9847,
+        -1.24,
+        112.1,
+        0.9061
+      ],
+      "center": [
+        0.048662500000000004,
+        109.757975
       ]
     },
     {
@@ -1244,6 +1465,40 @@
       ]
     },
     {
+      "slug": "jp-akita",
+      "name_vi": "Akita",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        139.705,
+        39.1028,
+        140.7938,
+        40.3888
+      ],
+      "center": [
+        39.76047,
+        140.39375
+      ]
+    },
+    {
+      "slug": "jp-aomori",
+      "name_vi": "Aomori",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        140.3428,
+        40.4622,
+        141.0903,
+        41.3271
+      ],
+      "center": [
+        40.81158,
+        140.71695
+      ]
+    },
+    {
       "slug": "jp-chiba",
       "name_vi": "Chiba",
       "federal_district": null,
@@ -1363,6 +1618,40 @@
       ]
     },
     {
+      "slug": "jp-iwate",
+      "name_vi": "Iwate",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        141.03,
+        38.9556,
+        141.972,
+        39.8425
+      ],
+      "center": [
+        39.36407,
+        141.35266000000001
+      ]
+    },
+    {
+      "slug": "jp-kagoshima",
+      "name_vi": "Kagoshima",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        130.4383,
+        30.3583,
+        130.8719,
+        31.8589
+      ],
+      "center": [
+        31.235239999999997,
+        130.59099
+      ]
+    },
+    {
       "slug": "jp-kanagawa",
       "name_vi": "Kanagawa",
       "federal_district": null,
@@ -1377,6 +1666,23 @@
       "center": [
         35.30206,
         139.35258
+      ]
+    },
+    {
+      "slug": "jp-kumamoto",
+      "name_vi": "Kumamoto",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        130.0272,
+        32.3277,
+        131.1442,
+        33.1119
+      ],
+      "center": [
+        32.86926,
+        130.85765999999998
       ]
     },
     {
@@ -1414,6 +1720,23 @@
       ]
     },
     {
+      "slug": "jp-miyagi",
+      "name_vi": "Miyagi",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        140.6186,
+        38.0028,
+        141.0637,
+        38.7386
+      ],
+      "center": [
+        38.32482,
+        140.87855000000002
+      ]
+    },
+    {
       "slug": "jp-nagano",
       "name_vi": "Nagano",
       "federal_district": null,
@@ -1431,6 +1754,23 @@
       ]
     },
     {
+      "slug": "jp-nagasaki",
+      "name_vi": "Nagasaki",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        129.7386,
+        32.6277,
+        129.8814,
+        33.0863
+      ],
+      "center": [
+        32.77109,
+        129.84799
+      ]
+    },
+    {
       "slug": "jp-nara",
       "name_vi": "Nara",
       "federal_district": null,
@@ -1445,6 +1785,23 @@
       "center": [
         34.64293,
         135.82166
+      ]
+    },
+    {
+      "slug": "jp-oita",
+      "name_vi": "Oita",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        131.3615,
+        32.9756,
+        131.7762,
+        33.5561
+      ],
+      "center": [
+        33.31524,
+        131.49853
       ]
     },
     {
@@ -1530,6 +1887,23 @@
       "center": [
         33.91342,
         135.61679
+      ]
+    },
+    {
+      "slug": "jp-yamagata",
+      "name_vi": "Yamagata",
+      "federal_district": null,
+      "country": "japan",
+      "count": 10,
+      "bbox": [
+        139.8022,
+        38.1497,
+        140.533,
+        38.7531
+      ],
+      "center": [
+        38.46531,
+        140.18989000000002
       ]
     },
     {
@@ -1890,6 +2264,23 @@
       ]
     },
     {
+      "slug": "kh-pailin",
+      "name_vi": "Pailin",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 7,
+      "bbox": [
+        102.6,
+        12.825,
+        102.66,
+        12.99
+      ],
+      "center": [
+        12.862744285714285,
+        102.62003142857142
+      ]
+    },
+    {
       "slug": "kh-phnom-penh",
       "name_vi": "Phnom Penh",
       "federal_district": null,
@@ -1945,16 +2336,16 @@
       "name_vi": "Prey Veng",
       "federal_district": null,
       "country": "cambodia",
-      "count": 3,
+      "count": 6,
       "bbox": [
         105.2798,
         11.233,
-        105.367,
-        11.483
+        105.372,
+        11.76
       ],
       "center": [
-        11.330666666666668,
-        105.32126666666666
+        11.41216666666667,
+        105.33096666666667
       ]
     },
     {
@@ -2009,6 +2400,40 @@
       ]
     },
     {
+      "slug": "kh-stung-treng",
+      "name_vi": "Stung Treng",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 6,
+      "bbox": [
+        105.94,
+        13.3,
+        105.99,
+        13.955
+      ],
+      "center": [
+        13.610983333333335,
+        105.95888333333333
+      ]
+    },
+    {
+      "slug": "kh-svay-rieng",
+      "name_vi": "Svay Rieng",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 6,
+      "bbox": [
+        105.7955,
+        11.03,
+        106.156,
+        11.0885
+      ],
+      "center": [
+        11.077866666666665,
+        105.86775
+      ]
+    },
+    {
       "slug": "kh-takeo",
       "name_vi": "Takeo",
       "federal_district": null,
@@ -2023,6 +2448,23 @@
       "center": [
         11.222085714285713,
         104.86445714285715
+      ]
+    },
+    {
+      "slug": "kh-tboung-khmum",
+      "name_vi": "Tbong Khmum",
+      "federal_district": null,
+      "country": "cambodia",
+      "count": 7,
+      "bbox": [
+        105.47704,
+        11.8271,
+        106.2212,
+        11.97
+      ],
+      "center": [
+        11.91978857142857,
+        105.79576285714286
       ]
     },
     {
@@ -2621,6 +3063,23 @@
       ]
     },
     {
+      "slug": "kz-jetisu",
+      "name_vi": "Vùng Jetisu (Taldykorgan)",
+      "federal_district": null,
+      "country": "kazakhstan",
+      "count": 10,
+      "bbox": [
+        78.28,
+        43.62,
+        81.6,
+        46.1
+      ],
+      "center": [
+        44.58903300000001,
+        79.25372100000001
+      ]
+    },
+    {
       "slug": "kz-karaganda",
       "name_vi": "Karaganda",
       "federal_district": null,
@@ -2754,6 +3213,23 @@
       "center": [
         43.20138571428571,
         68.20308571428572
+      ]
+    },
+    {
+      "slug": "kz-ulytau",
+      "name_vi": "Vùng Ulytau",
+      "federal_district": null,
+      "country": "kazakhstan",
+      "count": 7,
+      "bbox": [
+        66.9461,
+        47.7833,
+        68.6139,
+        48.6539
+      ],
+      "center": [
+        48.324999999999996,
+        67.56857142857142
       ]
     },
     {
@@ -3165,6 +3641,159 @@
       ]
     },
     {
+      "slug": "mm-ayeyarwady",
+      "name_vi": "Ayeyarwady",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 6,
+      "bbox": [
+        94.2,
+        15.833,
+        95.25,
+        16.95
+      ],
+      "center": [
+        16.539083333333334,
+        94.62228333333333
+      ]
+    },
+    {
+      "slug": "mm-bago",
+      "name_vi": "Bago",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 9,
+      "bbox": [
+        95.2181,
+        17.3183,
+        96.4914,
+        18.825
+      ],
+      "center": [
+        17.824233333333336,
+        96.07573333333335
+      ]
+    },
+    {
+      "slug": "mm-magway",
+      "name_vi": "Magway",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 5,
+      "bbox": [
+        94.37,
+        20.0,
+        95.383,
+        21.333
+      ],
+      "center": [
+        20.484199999999998,
+        94.897
+      ]
+    },
+    {
+      "slug": "mm-mandalay",
+      "name_vi": "Mandalay",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 10,
+      "bbox": [
+        94.86,
+        21.1636,
+        96.1131,
+        22.0058
+      ],
+      "center": [
+        21.571469999999998,
+        95.48204000000001
+      ]
+    },
+    {
+      "slug": "mm-mon",
+      "name_vi": "Mon",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 9,
+      "bbox": [
+        97.0979,
+        15.865,
+        97.7472,
+        17.4816
+      ],
+      "center": [
+        16.376811111111113,
+        97.58386666666667
+      ]
+    },
+    {
+      "slug": "mm-rakhine",
+      "name_vi": "Rakhine",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 9,
+      "bbox": [
+        92.8956,
+        18.4333,
+        94.3167,
+        20.6664
+      ],
+      "center": [
+        20.31197777777778,
+        93.29050000000001
+      ]
+    },
+    {
+      "slug": "mm-shan",
+      "name_vi": "Bang Shan",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 10,
+      "bbox": [
+        96.5644,
+        20.4453,
+        97.3,
+        22.6167
+      ],
+      "center": [
+        20.99887,
+        96.91322
+      ]
+    },
+    {
+      "slug": "mm-tanintharyi",
+      "name_vi": "Tanintharyi",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 6,
+      "bbox": [
+        98.1167,
+        9.9833,
+        98.6003,
+        14.1167
+      ],
+      "center": [
+        12.200650000000001,
+        98.32443333333333
+      ]
+    },
+    {
+      "slug": "mm-yangon",
+      "name_vi": "Yangon",
+      "federal_district": null,
+      "country": "myanmar",
+      "count": 10,
+      "bbox": [
+        96.1447,
+        16.7669,
+        96.1719,
+        16.8494
+      ],
+      "center": [
+        16.79656,
+        96.1544
+      ]
+    },
+    {
       "slug": "mordovia",
       "name_vi": "Cộng hoà Mordovia",
       "federal_district": "Vùng Volga",
@@ -3230,6 +3859,159 @@
       "center": [
         68.51066090909092,
         33.314302545454545
+      ]
+    },
+    {
+      "slug": "my-johor",
+      "name_vi": "Johor",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 8,
+      "bbox": [
+        102.6114,
+        1.2636,
+        104.276,
+        2.4833
+      ],
+      "center": [
+        1.6703625,
+        103.539825
+      ]
+    },
+    {
+      "slug": "my-kedah",
+      "name_vi": "Kedah",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 10,
+      "bbox": [
+        99.6627,
+        5.6947,
+        100.4356,
+        6.4225
+      ],
+      "center": [
+        6.188939999999999,
+        100.00362000000001
+      ]
+    },
+    {
+      "slug": "my-kuala-lumpur",
+      "name_vi": "Kuala Lumpur",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 10,
+      "bbox": [
+        101.6869,
+        3.1219,
+        101.7117,
+        3.1578
+      ],
+      "center": [
+        3.1442099999999997,
+        101.69512999999999
+      ]
+    },
+    {
+      "slug": "my-malacca",
+      "name_vi": "Malacca (Melaka)",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 10,
+      "bbox": [
+        102.2464,
+        2.17889,
+        102.2503,
+        2.1969
+      ],
+      "center": [
+        2.1921290000000004,
+        102.248677
+      ]
+    },
+    {
+      "slug": "my-pahang",
+      "name_vi": "Pahang",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 8,
+      "bbox": [
+        101.3801,
+        2.7908,
+        104.1608,
+        4.4712
+      ],
+      "center": [
+        3.7297749999999996,
+        102.6366875
+      ]
+    },
+    {
+      "slug": "my-penang",
+      "name_vi": "Penang",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 10,
+      "bbox": [
+        100.1917,
+        5.3997,
+        100.3436,
+        5.4728
+      ],
+      "center": [
+        5.426240000000001,
+        100.30084
+      ]
+    },
+    {
+      "slug": "my-perak",
+      "name_vi": "Perak",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 8,
+      "bbox": [
+        100.5536,
+        4.2158,
+        101.1867,
+        4.7628
+      ],
+      "center": [
+        4.5253749999999995,
+        101.02505
+      ]
+    },
+    {
+      "slug": "my-sabah",
+      "name_vi": "Sabah",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 10,
+      "bbox": [
+        116.0083,
+        4.1147,
+        118.6289,
+        6.075
+      ],
+      "center": [
+        5.693360000000001,
+        116.78312999999999
+      ]
+    },
+    {
+      "slug": "my-sarawak",
+      "name_vi": "Sarawak",
+      "federal_district": null,
+      "country": "malaysia",
+      "count": 10,
+      "bbox": [
+        110.3183,
+        1.3997,
+        114.8147,
+        4.0472
+      ],
+      "center": [
+        2.052726,
+        111.143084
       ]
     },
     {
@@ -3403,6 +4185,108 @@
       ]
     },
     {
+      "slug": "ph-aklan",
+      "name_vi": "Aklan",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 10,
+      "bbox": [
+        121.9169,
+        11.7068,
+        122.3707,
+        11.995
+      ],
+      "center": [
+        11.89419,
+        122.05744
+      ]
+    },
+    {
+      "slug": "ph-bohol",
+      "name_vi": "Bohol",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 10,
+      "bbox": [
+        123.6817,
+        9.5169,
+        124.247,
+        9.9526
+      ],
+      "center": [
+        9.683179999999998,
+        123.95091000000002
+      ]
+    },
+    {
+      "slug": "ph-cebu",
+      "name_vi": "Cebu",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 10,
+      "bbox": [
+        123.3792,
+        9.43,
+        123.9053,
+        10.3897
+      ],
+      "center": [
+        10.07046,
+        123.69990999999997
+      ]
+    },
+    {
+      "slug": "ph-metro-manila",
+      "name_vi": "Manila (Vùng Thủ đô)",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 10,
+      "bbox": [
+        120.9706,
+        14.5794,
+        120.9942,
+        14.6
+      ],
+      "center": [
+        14.59075,
+        120.97792
+      ]
+    },
+    {
+      "slug": "ph-palawan",
+      "name_vi": "Palawan",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 10,
+      "bbox": [
+        118.7803,
+        9.8497,
+        120.2136,
+        12.0197
+      ],
+      "center": [
+        11.284960000000002,
+        119.59591999999998
+      ]
+    },
+    {
+      "slug": "ph-surigao-del-norte",
+      "name_vi": "Surigao del Norte",
+      "federal_district": null,
+      "country": "philippines",
+      "count": 10,
+      "bbox": [
+        125.9683,
+        9.6172,
+        126.1789,
+        9.9436
+      ],
+      "center": [
+        9.816400000000002,
+        126.08525
+      ]
+    },
+    {
       "slug": "primorsky",
       "name_vi": "Vùng Primorsky",
       "federal_district": "Vùng Viễn Đông",
@@ -3573,6 +4457,57 @@
       ]
     },
     {
+      "slug": "sg-central",
+      "name_vi": "Trung tâm Singapore",
+      "federal_district": null,
+      "country": "singapore",
+      "count": 10,
+      "bbox": [
+        103.8159,
+        1.2814,
+        103.8636,
+        1.3138
+      ],
+      "center": [
+        1.2919399999999999,
+        103.84836
+      ]
+    },
+    {
+      "slug": "sg-north-west",
+      "name_vi": "Tây Bắc Singapore",
+      "federal_district": null,
+      "country": "singapore",
+      "count": 9,
+      "bbox": [
+        103.7247,
+        1.3332,
+        103.7941,
+        1.4461
+      ],
+      "center": [
+        1.3802666666666665,
+        103.76204444444444
+      ]
+    },
+    {
+      "slug": "sg-sentosa",
+      "name_vi": "Đảo Sentosa",
+      "federal_district": null,
+      "country": "singapore",
+      "count": 9,
+      "bbox": [
+        103.808052,
+        1.249,
+        103.824,
+        1.258889
+      ],
+      "center": [
+        1.254932111111111,
+        103.81833866666668
+      ]
+    },
+    {
       "slug": "smolensk",
       "name_vi": "Tỉnh Smolensk",
       "federal_district": "Vùng Trung tâm",
@@ -3675,6 +4610,23 @@
       ]
     },
     {
+      "slug": "th-buriram",
+      "name_vi": "Buriram",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        102.760587,
+        14.302286,
+        103.09344,
+        14.9636
+      ],
+      "center": [
+        14.67601357142857,
+        102.96897
+      ]
+    },
+    {
       "slug": "th-chiang-mai",
       "name_vi": "Chiang Mai",
       "federal_district": null,
@@ -3743,6 +4695,23 @@
       ]
     },
     {
+      "slug": "th-khon-kaen",
+      "name_vi": "Khon Kaen",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 8,
+      "bbox": [
+        102.2419,
+        15.8564,
+        102.9614,
+        16.7728
+      ],
+      "center": [
+        16.489200000000004,
+        102.688725
+      ]
+    },
+    {
       "slug": "th-krabi",
       "name_vi": "Krabi",
       "federal_district": null,
@@ -3774,6 +4743,23 @@
       "center": [
         18.412017500000005,
         99.48818375
+      ]
+    },
+    {
+      "slug": "th-loei",
+      "name_vi": "Loei",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        101.14086,
+        16.868055,
+        101.775833,
+        17.894534
+      ],
+      "center": [
+        17.321679142857143,
+        101.44353242857142
       ]
     },
     {
@@ -3842,6 +4828,23 @@
       "center": [
         18.75083,
         100.83270999999999
+      ]
+    },
+    {
+      "slug": "th-nong-khai",
+      "name_vi": "Nong Khai",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        102.305132,
+        17.741,
+        102.782545,
+        18.036803
+      ],
+      "center": [
+        17.899674285714287,
+        102.63075228571428
       ]
     },
     {
@@ -4012,6 +5015,142 @@
       "center": [
         12.002490000000002,
         102.3796
+      ]
+    },
+    {
+      "slug": "th-ubon-ratchathani",
+      "name_vi": "Ubon Ratchathani",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 8,
+      "bbox": [
+        104.8172,
+        15.1265,
+        105.5361,
+        15.7186
+      ],
+      "center": [
+        15.303162500000001,
+        105.16513749999999
+      ]
+    },
+    {
+      "slug": "th-udon-thani",
+      "name_vi": "Udon Thani",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        102.1439,
+        17.2233,
+        103.2611,
+        17.8975
+      ],
+      "center": [
+        17.532457142857144,
+        102.83777142857141
+      ]
+    },
+    {
+      "slug": "tl-ainaro",
+      "name_vi": "Ainaro",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 5,
+      "bbox": [
+        125.4933,
+        -8.9924,
+        125.599,
+        -8.8375
+      ],
+      "center": [
+        -8.89188,
+        125.54213999999999
+      ]
+    },
+    {
+      "slug": "tl-atauro",
+      "name_vi": "Ataúro",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 5,
+      "bbox": [
+        125.5353,
+        -8.2933,
+        125.6108,
+        -8.2192
+      ],
+      "center": [
+        -8.25908,
+        125.58600000000001
+      ]
+    },
+    {
+      "slug": "tl-baucau",
+      "name_vi": "Baucau",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 5,
+      "bbox": [
+        126.3783,
+        -8.6431,
+        126.462,
+        -8.445
+      ],
+      "center": [
+        -8.50206,
+        126.44176
+      ]
+    },
+    {
+      "slug": "tl-dili",
+      "name_vi": "Dili",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 8,
+      "bbox": [
+        125.5762,
+        -8.5606,
+        125.6167,
+        -8.5158
+      ],
+      "center": [
+        -8.54265,
+        125.5921875
+      ]
+    },
+    {
+      "slug": "tl-lautem",
+      "name_vi": "Lautém",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 7,
+      "bbox": [
+        127.0003,
+        -8.5172,
+        127.325,
+        -8.3617
+      ],
+      "center": [
+        -8.430428571428573,
+        127.18718571428573
+      ]
+    },
+    {
+      "slug": "tl-manatuto",
+      "name_vi": "Manatuto",
+      "federal_district": null,
+      "country": "timor-leste",
+      "count": 5,
+      "bbox": [
+        125.92,
+        -8.858,
+        126.167,
+        -8.5083
+      ],
+      "center": [
+        -8.61548,
+        126.01841999999999
       ]
     },
     {
@@ -5070,27 +6209,33 @@
     }
   ],
   "categories": {
-    "park_garden": 2182,
-    "other": 1592,
-    "church": 1540,
-    "museum": 1130,
-    "theatre": 225,
-    "monument": 1715,
-    "bridge": 123,
-    "square_street": 488,
-    "palace": 206,
-    "fortress": 263
+    "park_garden": 2424,
+    "other": 1626,
+    "church": 1678,
+    "museum": 1162,
+    "theatre": 227,
+    "monument": 1799,
+    "bridge": 133,
+    "square_street": 523,
+    "palace": 224,
+    "fortress": 276
   },
   "countries": {
     "russia": 4083,
+    "brunei": 25,
     "china": 221,
-    "indonesia": 164,
-    "japan": 178,
-    "cambodia": 130,
+    "indonesia": 227,
+    "japan": 268,
+    "cambodia": 159,
     "korea": 149,
-    "kazakhstan": 137,
+    "kazakhstan": 154,
     "laos": 121,
-    "thailand": 199,
+    "myanmar": 74,
+    "malaysia": 84,
+    "philippines": 60,
+    "singapore": 28,
+    "thailand": 243,
+    "timor-leste": 35,
     "uzbekistan": 97,
     "vietnam": 1588
   },
@@ -5105,16 +6250,22 @@
     "cambodia": "Campuchia",
     "indonesia": "Indonesia",
     "kazakhstan": "Kazakhstan",
-    "uzbekistan": "Uzbekistan"
+    "uzbekistan": "Uzbekistan",
+    "myanmar": "Myanmar",
+    "malaysia": "Malaysia",
+    "singapore": "Singapore",
+    "philippines": "Philippines",
+    "brunei": "Brunei",
+    "timor-leste": "Đông Timor"
   },
   "bbox": [
     -179.416667,
-    -8.9017,
+    -8.9924,
     179.161941,
     80.3382
   ],
   "center": [
-    39.81485199064682,
-    78.47451667180852
+    37.90201550022333,
+    80.88911534134337
   ]
 }
