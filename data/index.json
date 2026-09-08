@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T05:25:42",
-  "total_places": 8997,
+  "generated": "2026-09-08T09:46:27",
+  "total_places": 9929,
   "regions": [
     {
       "slug": "adygea",
@@ -105,6 +105,57 @@
       ]
     },
     {
+      "slug": "at-graz",
+      "name_vi": "Graz",
+      "federal_district": null,
+      "country": "austria",
+      "count": 14,
+      "bbox": [
+        15.3913,
+        47.0688,
+        15.453,
+        47.0748
+      ],
+      "center": [
+        47.07156428571428,
+        15.43639285714286
+      ]
+    },
+    {
+      "slug": "at-hallstatt",
+      "name_vi": "Hallstatt",
+      "federal_district": null,
+      "country": "austria",
+      "count": 13,
+      "bbox": [
+        13.4881,
+        47.509,
+        13.701,
+        47.575
+      ],
+      "center": [
+        47.55279230769231,
+        13.640976923076922
+      ]
+    },
+    {
+      "slug": "at-innsbruck",
+      "name_vi": "Innsbruck",
+      "federal_district": null,
+      "country": "austria",
+      "count": 14,
+      "bbox": [
+        11.3903,
+        47.2497,
+        11.6006,
+        47.2963
+      ],
+      "center": [
+        47.26907142857143,
+        11.412228571428573
+      ]
+    },
+    {
       "slug": "at-salzburg",
       "name_vi": "Salzburg",
       "federal_district": null,
@@ -119,6 +170,23 @@
       "center": [
         47.788407692307686,
         13.042546153846152
+      ]
+    },
+    {
+      "slug": "at-tyrol",
+      "name_vi": "Tyrol",
+      "federal_district": null,
+      "country": "austria",
+      "count": 13,
+      "bbox": [
+        10.2643,
+        46.966,
+        12.3925,
+        47.5808
+      ],
+      "center": [
+        47.31454615384616,
+        11.600084615384617
       ]
     },
     {
@@ -173,6 +241,23 @@
       ]
     },
     {
+      "slug": "be-bruges",
+      "name_vi": "Bruges (Brugge)",
+      "federal_district": null,
+      "country": "belgium",
+      "count": 13,
+      "bbox": [
+        3.221,
+        51.2005,
+        3.2361,
+        51.2119
+      ],
+      "center": [
+        51.20646153846154,
+        3.226000000000001
+      ]
+    },
+    {
       "slug": "be-brussels",
       "name_vi": "Brussels",
       "federal_district": null,
@@ -187,6 +272,23 @@
       "center": [
         50.85509999999999,
         4.353741666666666
+      ]
+    },
+    {
+      "slug": "be-ghent",
+      "name_vi": "Gent (Ghent)",
+      "federal_district": null,
+      "country": "belgium",
+      "count": 13,
+      "bbox": [
+        3.7196,
+        51.0356,
+        3.7273,
+        51.0574
+      ],
+      "center": [
+        51.04834615384615,
+        3.7235230769230765
       ]
     },
     {
@@ -360,6 +462,57 @@
       ]
     },
     {
+      "slug": "ca-new-brunswick",
+      "name_vi": "New Brunswick",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -67.53028,
+        45.26028,
+        -64.29139,
+        46.84972
+      ],
+      "center": [
+        45.873709166666664,
+        -65.69617000000001
+      ]
+    },
+    {
+      "slug": "ca-newfoundland-and-labrador",
+      "name_vi": "Newfoundland and Labrador",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -57.73806,
+        47.52361,
+        -52.61944,
+        51.59639
+      ],
+      "center": [
+        48.42556233333334,
+        -53.65282324999999
+      ]
+    },
+    {
+      "slug": "ca-northwest-territories",
+      "name_vi": "Lãnh thổ Tây Bắc",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -133.7222,
+        59.383,
+        -112.983,
+        69.4508
+      ],
+      "center": [
+        63.47022499999999,
+        -120.99964999999999
+      ]
+    },
+    {
       "slug": "ca-nova-scotia",
       "name_vi": "Nova Scotia",
       "federal_district": null,
@@ -374,6 +527,23 @@
       "center": [
         44.90254661538461,
         -63.29923000000001
+      ]
+    },
+    {
+      "slug": "ca-nunavut",
+      "name_vi": "Nunavut",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -91.85,
+        63.715,
+        -65.017,
+        82.217
+      ],
+      "center": [
+        67.71836749999999,
+        -73.49991833333334
       ]
     },
     {
@@ -394,6 +564,23 @@
       ]
     },
     {
+      "slug": "ca-prince-edward-island",
+      "name_vi": "Đảo Hoàng tử Edward",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -64.3797,
+        46.0502,
+        -62.1072,
+        46.6175
+      ],
+      "center": [
+        46.34138333333333,
+        -63.262116666666664
+      ]
+    },
+    {
       "slug": "ca-quebec",
       "name_vi": "Québec",
       "federal_district": null,
@@ -408,6 +595,40 @@
       "center": [
         46.1753,
         -72.378475
+      ]
+    },
+    {
+      "slug": "ca-saskatchewan",
+      "name_vi": "Saskatchewan",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -107.51,
+        49.15,
+        -104.6122,
+        53.96333
+      ],
+      "center": [
+        51.493045833333326,
+        -105.87974333333334
+      ]
+    },
+    {
+      "slug": "ca-yukon",
+      "name_vi": "Yukon",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -139.4319,
+        60.0636,
+        -128.7106,
+        64.0829
+      ],
+      "center": [
+        61.53084166666667,
+        -135.85645000000002
       ]
     },
     {
@@ -442,6 +663,57 @@
       "center": [
         46.21161428571428,
         6.13937142857143
+      ]
+    },
+    {
+      "slug": "ch-interlaken",
+      "name_vi": "Interlaken",
+      "federal_district": null,
+      "country": "switzerland",
+      "count": 14,
+      "bbox": [
+        7.7167,
+        46.5474,
+        8.0546,
+        46.7566
+      ],
+      "center": [
+        46.65422142857143,
+        7.906471428571429
+      ]
+    },
+    {
+      "slug": "ch-lucerne",
+      "name_vi": "Lucerne",
+      "federal_district": null,
+      "country": "switzerland",
+      "count": 14,
+      "bbox": [
+        8.2411,
+        46.9739,
+        8.4856,
+        47.0583
+      ],
+      "center": [
+        47.04570714285713,
+        8.327764285714286
+      ]
+    },
+    {
+      "slug": "ch-zermatt",
+      "name_vi": "Zermatt",
+      "federal_district": null,
+      "country": "switzerland",
+      "count": 14,
+      "bbox": [
+        7.6586,
+        45.9383,
+        7.8003,
+        46.03
+      ],
+      "center": [
+        46.00040714285715,
+        7.7510642857142855
       ]
     },
     {
@@ -1125,6 +1397,23 @@
       ]
     },
     {
+      "slug": "cz-brno",
+      "name_vi": "Brno",
+      "federal_district": null,
+      "country": "czech",
+      "count": 14,
+      "bbox": [
+        16.513,
+        49.1808,
+        16.6158,
+        49.234
+      ],
+      "center": [
+        49.19575,
+        16.598942857142855
+      ]
+    },
+    {
       "slug": "cz-cesky-krumlov",
       "name_vi": "Český Krumlov",
       "federal_district": null,
@@ -1139,6 +1428,57 @@
       "center": [
         48.811550000000004,
         14.315041666666666
+      ]
+    },
+    {
+      "slug": "cz-karlovy-vary",
+      "name_vi": "Karlovy Vary",
+      "federal_district": null,
+      "country": "czech",
+      "count": 14,
+      "bbox": [
+        12.8386,
+        50.2072,
+        12.8838,
+        50.232
+      ],
+      "center": [
+        50.221957142857136,
+        12.874985714285714
+      ]
+    },
+    {
+      "slug": "cz-kutna-hora",
+      "name_vi": "Kutná Hora",
+      "federal_district": null,
+      "country": "czech",
+      "count": 12,
+      "bbox": [
+        15.2636,
+        49.945,
+        15.2903,
+        49.9619
+      ],
+      "center": [
+        49.94985,
+        15.269475000000002
+      ]
+    },
+    {
+      "slug": "cz-olomouc",
+      "name_vi": "Olomouc",
+      "federal_district": null,
+      "country": "czech",
+      "count": 14,
+      "bbox": [
+        17.2489,
+        49.5922,
+        17.3548,
+        49.6017
+      ],
+      "center": [
+        49.59496428571429,
+        17.26172142857143
       ]
     },
     {
@@ -1210,6 +1550,74 @@
       ]
     },
     {
+      "slug": "de-cologne",
+      "name_vi": "Köln (Cologne)",
+      "federal_district": null,
+      "country": "germany",
+      "count": 14,
+      "bbox": [
+        6.9447,
+        50.9317,
+        6.974,
+        50.9589
+      ],
+      "center": [
+        50.94257857142856,
+        6.963735714285714
+      ]
+    },
+    {
+      "slug": "de-frankfurt",
+      "name_vi": "Frankfurt am Main",
+      "federal_district": null,
+      "country": "germany",
+      "count": 12,
+      "bbox": [
+        8.6519,
+        50.1026,
+        8.6857,
+        50.1236
+      ],
+      "center": [
+        50.112474999999996,
+        8.674383333333333
+      ]
+    },
+    {
+      "slug": "de-hamburg",
+      "name_vi": "Hamburg",
+      "federal_district": null,
+      "country": "germany",
+      "count": 13,
+      "bbox": [
+        9.9622,
+        53.5413,
+        10.0006,
+        53.5686
+      ],
+      "center": [
+        53.54882307692307,
+        9.986600000000001
+      ]
+    },
+    {
+      "slug": "dk-aalborg",
+      "name_vi": "Aalborg",
+      "federal_district": null,
+      "country": "denmark",
+      "count": 13,
+      "bbox": [
+        9.825,
+        56.8342,
+        9.9268,
+        57.0725
+      ],
+      "center": [
+        57.03374615384616,
+        9.907684615384616
+      ]
+    },
+    {
       "slug": "dk-aarhus",
       "name_vi": "Aarhus",
       "federal_district": null,
@@ -1224,6 +1632,40 @@
       "center": [
         56.14149230769231,
         10.209069230769229
+      ]
+    },
+    {
+      "slug": "dk-billund",
+      "name_vi": "Billund",
+      "federal_district": null,
+      "country": "denmark",
+      "count": 11,
+      "bbox": [
+        8.93,
+        55.6231,
+        9.3519,
+        55.8117
+      ],
+      "center": [
+        55.723490909090906,
+        9.113272727272728
+      ]
+    },
+    {
+      "slug": "dk-bornholm",
+      "name_vi": "Bornholm",
+      "federal_district": null,
+      "country": "denmark",
+      "count": 14,
+      "bbox": [
+        14.7014,
+        54.9917,
+        15.1867,
+        55.32
+      ],
+      "center": [
+        55.16582142857143,
+        14.930164285714286
       ]
     },
     {
@@ -1244,6 +1686,23 @@
       ]
     },
     {
+      "slug": "dk-north-zealand",
+      "name_vi": "Bắc Zealand",
+      "federal_district": null,
+      "country": "denmark",
+      "count": 13,
+      "bbox": [
+        12.0917,
+        55.7783,
+        12.6214,
+        56.1256
+      ],
+      "center": [
+        55.971776923076916,
+        12.450815384615384
+      ]
+    },
+    {
       "slug": "dk-odense",
       "name_vi": "Odense",
       "federal_district": null,
@@ -1261,6 +1720,40 @@
       ]
     },
     {
+      "slug": "es-barcelona",
+      "name_vi": "Barcelona",
+      "federal_district": null,
+      "country": "spain",
+      "count": 12,
+      "bbox": [
+        2.1228,
+        41.3634,
+        2.1925,
+        41.4145
+      ],
+      "center": [
+        41.387274999999995,
+        2.168225
+      ]
+    },
+    {
+      "slug": "es-granada",
+      "name_vi": "Granada",
+      "federal_district": null,
+      "country": "spain",
+      "count": 13,
+      "bbox": [
+        -3.6061,
+        37.0961,
+        -3.3986,
+        37.1896
+      ],
+      "center": [
+        37.171492307692304,
+        -3.5793999999999992
+      ]
+    },
+    {
       "slug": "es-madrid",
       "name_vi": "Madrid",
       "federal_district": null,
@@ -1275,6 +1768,23 @@
       "center": [
         40.419975,
         -3.7001749999999998
+      ]
+    },
+    {
+      "slug": "es-seville",
+      "name_vi": "Sevilla",
+      "federal_district": null,
+      "country": "spain",
+      "count": 12,
+      "bbox": [
+        -5.9986,
+        37.3765,
+        -5.972,
+        37.4083
+      ],
+      "center": [
+        37.38661666666667,
+        -5.990175000000001
       ]
     },
     {
@@ -1312,6 +1822,40 @@
       ]
     },
     {
+      "slug": "fi-tampere",
+      "name_vi": "Tampere",
+      "federal_district": null,
+      "country": "finland",
+      "count": 13,
+      "bbox": [
+        23.71,
+        61.4936,
+        23.7808,
+        61.5079
+      ],
+      "center": [
+        61.49828461538463,
+        23.75103076923077
+      ]
+    },
+    {
+      "slug": "fr-brittany",
+      "name_vi": "Bretagne (Brittany)",
+      "federal_district": null,
+      "country": "france",
+      "count": 12,
+      "bbox": [
+        -4.7378,
+        47.5944,
+        -1.6786,
+        48.8256
+      ],
+      "center": [
+        48.185824999999994,
+        -3.094116666666667
+      ]
+    },
+    {
       "slug": "fr-french-riviera",
       "name_vi": "Riviera Pháp (Côte d'Azur)",
       "federal_district": null,
@@ -1326,6 +1870,23 @@
       "center": [
         43.648784615384606,
         7.196061538461537
+      ]
+    },
+    {
+      "slug": "fr-normandy",
+      "name_vi": "Normandie",
+      "federal_district": null,
+      "country": "france",
+      "count": 13,
+      "bbox": [
+        -1.5115,
+        48.6361,
+        1.5339,
+        49.7072
+      ],
+      "center": [
+        49.29581538461538,
+        -0.08269230769230768
       ]
     },
     {
@@ -1346,6 +1907,23 @@
       ]
     },
     {
+      "slug": "fr-provence",
+      "name_vi": "Provence",
+      "federal_district": null,
+      "country": "france",
+      "count": 13,
+      "bbox": [
+        4.631,
+        43.2119,
+        6.3639,
+        44.1741
+      ],
+      "center": [
+        43.83933076923077,
+        5.1839692307692316
+      ]
+    },
+    {
       "slug": "gb-london",
       "name_vi": "London",
       "federal_district": null,
@@ -1360,6 +1938,23 @@
       "center": [
         51.505575,
         -0.12057500000000003
+      ]
+    },
+    {
+      "slug": "gb-northern-ireland",
+      "name_vi": "Bắc Ireland",
+      "federal_district": null,
+      "country": "uk",
+      "count": 14,
+      "bbox": [
+        -7.321,
+        54.1803,
+        -5.8065,
+        55.2408
+      ],
+      "center": [
+        54.76936428571428,
+        -6.177992857142857
       ]
     },
     {
@@ -1380,6 +1975,108 @@
       ]
     },
     {
+      "slug": "gb-south-east-england",
+      "name_vi": "Đông Nam nước Anh (South East England)",
+      "federal_district": null,
+      "country": "uk",
+      "count": 12,
+      "bbox": [
+        -1.59,
+        50.6626,
+        1.355,
+        51.7534
+      ],
+      "center": [
+        51.077708333333334,
+        -0.13330000000000006
+      ]
+    },
+    {
+      "slug": "gb-wales",
+      "name_vi": "Wales (Xứ Wales)",
+      "federal_district": null,
+      "country": "uk",
+      "count": 14,
+      "bbox": [
+        -5.2685,
+        51.4649,
+        -2.6774,
+        53.2801
+      ],
+      "center": [
+        52.34775,
+        -3.689228571428571
+      ]
+    },
+    {
+      "slug": "gr-athens",
+      "name_vi": "Athína",
+      "federal_district": null,
+      "country": "greece",
+      "count": 14,
+      "bbox": [
+        23.7216,
+        37.9683,
+        23.7434,
+        37.9891
+      ],
+      "center": [
+        37.97325,
+        23.7305
+      ]
+    },
+    {
+      "slug": "gr-santorini",
+      "name_vi": "Santoríni",
+      "federal_district": null,
+      "country": "greece",
+      "count": 12,
+      "bbox": [
+        25.3743,
+        36.3487,
+        25.4783,
+        36.4626
+      ],
+      "center": [
+        36.4016,
+        25.42010833333333
+      ]
+    },
+    {
+      "slug": "hr-dubrovnik",
+      "name_vi": "Dubrovnik",
+      "federal_district": null,
+      "country": "croatia",
+      "count": 14,
+      "bbox": [
+        18.1044,
+        42.6247,
+        18.1213,
+        42.6466
+      ],
+      "center": [
+        42.64052857142857,
+        18.1098
+      ]
+    },
+    {
+      "slug": "hr-split",
+      "name_vi": "Split",
+      "federal_district": null,
+      "country": "croatia",
+      "count": 12,
+      "bbox": [
+        16.4179,
+        43.503,
+        16.5239,
+        43.56
+      ],
+      "center": [
+        43.51304166666667,
+        16.443425
+      ]
+    },
+    {
       "slug": "hu-budapest",
       "name_vi": "Budapest",
       "federal_district": null,
@@ -1394,6 +2091,40 @@
       "center": [
         47.50393571428572,
         19.054849999999995
+      ]
+    },
+    {
+      "slug": "hu-eger",
+      "name_vi": "Eger",
+      "federal_district": null,
+      "country": "hungary",
+      "count": 12,
+      "bbox": [
+        20.3567,
+        47.8896,
+        20.3808,
+        47.9068
+      ],
+      "center": [
+        47.90055,
+        20.373016666666665
+      ]
+    },
+    {
+      "slug": "hu-lake-balaton",
+      "name_vi": "Hồ Balaton",
+      "federal_district": null,
+      "country": "hungary",
+      "count": 13,
+      "bbox": [
+        17.1931,
+        46.7647,
+        18.0553,
+        46.9835
+      ],
+      "center": [
+        46.86688461538461,
+        17.574292307692307
       ]
     },
     {
@@ -2043,6 +2774,23 @@
       ]
     },
     {
+      "slug": "ie-cork",
+      "name_vi": "Cork",
+      "federal_district": null,
+      "country": "ireland",
+      "count": 13,
+      "bbox": [
+        -8.5692,
+        51.6987,
+        -8.2942,
+        51.924
+      ],
+      "center": [
+        51.87982307692308,
+        -8.461253846153847
+      ]
+    },
+    {
       "slug": "ie-dublin",
       "name_vi": "Dublin",
       "federal_district": null,
@@ -2074,6 +2822,23 @@
       "center": [
         53.29106923076923,
         -9.230538461538462
+      ]
+    },
+    {
+      "slug": "ie-kerry",
+      "name_vi": "Hạt Kerry",
+      "federal_district": null,
+      "country": "ireland",
+      "count": 13,
+      "bbox": [
+        -10.5386,
+        51.7708,
+        -9.4967,
+        52.1739
+      ],
+      "center": [
+        51.99473846153846,
+        -9.823846153846151
       ]
     },
     {
@@ -2111,6 +2876,40 @@
       ]
     },
     {
+      "slug": "it-florence",
+      "name_vi": "Firenze",
+      "federal_district": null,
+      "country": "italy",
+      "count": 13,
+      "bbox": [
+        11.248,
+        43.7626,
+        11.2652,
+        43.7767
+      ],
+      "center": [
+        43.76970000000001,
+        11.25579230769231
+      ]
+    },
+    {
+      "slug": "it-milan",
+      "name_vi": "Milano",
+      "federal_district": null,
+      "country": "italy",
+      "count": 13,
+      "bbox": [
+        9.1239,
+        45.4515,
+        9.2033,
+        45.4858
+      ],
+      "center": [
+        45.47052307692308,
+        9.178784615384615
+      ]
+    },
+    {
       "slug": "it-rome",
       "name_vi": "Roma",
       "federal_district": null,
@@ -2125,6 +2924,23 @@
       "center": [
         41.901833333333336,
         12.477391666666664
+      ]
+    },
+    {
+      "slug": "it-venice",
+      "name_vi": "Venezia",
+      "federal_district": null,
+      "country": "italy",
+      "count": 12,
+      "bbox": [
+        12.328,
+        45.4306,
+        12.4166,
+        45.4853
+      ],
+      "center": [
+        45.44074166666667,
+        12.344325
       ]
     },
     {
@@ -5358,6 +6174,40 @@
       ]
     },
     {
+      "slug": "nl-the-hague",
+      "name_vi": "The Hague (Den Haag)",
+      "federal_district": null,
+      "country": "netherlands",
+      "count": 12,
+      "bbox": [
+        4.274,
+        52.0776,
+        4.3428,
+        52.1094
+      ],
+      "center": [
+        52.088474999999995,
+        4.305550000000001
+      ]
+    },
+    {
+      "slug": "nl-utrecht",
+      "name_vi": "Utrecht",
+      "federal_district": null,
+      "country": "netherlands",
+      "count": 13,
+      "bbox": [
+        4.9847,
+        52.0334,
+        5.348,
+        52.127
+      ],
+      "center": [
+        52.08984615384615,
+        5.144376923076924
+      ]
+    },
+    {
       "slug": "no-bergen",
       "name_vi": "Bergen",
       "federal_district": null,
@@ -5372,6 +6222,40 @@
       "center": [
         60.388357142857146,
         5.332285714285715
+      ]
+    },
+    {
+      "slug": "no-geiranger",
+      "name_vi": "Geiranger",
+      "federal_district": null,
+      "country": "norway",
+      "count": 12,
+      "bbox": [
+        7.1339,
+        62.0489,
+        7.2693,
+        62.1263
+      ],
+      "center": [
+        62.09851666666666,
+        7.1773333333333325
+      ]
+    },
+    {
+      "slug": "no-lofoten",
+      "name_vi": "Lofoten",
+      "federal_district": null,
+      "country": "norway",
+      "count": 14,
+      "bbox": [
+        12.982,
+        67.8794,
+        14.9622,
+        68.3906
+      ],
+      "center": [
+        68.10382857142858,
+        13.656521428571425
       ]
     },
     {
@@ -5392,6 +6276,23 @@
       ]
     },
     {
+      "slug": "no-stavanger",
+      "name_vi": "Stavanger",
+      "federal_district": null,
+      "country": "norway",
+      "count": 13,
+      "bbox": [
+        5.5906,
+        58.9333,
+        6.6167,
+        59.1031
+      ],
+      "center": [
+        58.981923076923074,
+        5.887523076923076
+      ]
+    },
+    {
       "slug": "no-tromso",
       "name_vi": "Tromsø",
       "federal_district": null,
@@ -5406,6 +6307,23 @@
       "center": [
         69.64881666666666,
         18.9648
+      ]
+    },
+    {
+      "slug": "no-trondheim",
+      "name_vi": "Trondheim",
+      "federal_district": null,
+      "country": "norway",
+      "count": 13,
+      "bbox": [
+        10.3167,
+        63.4,
+        10.4506,
+        63.4506
+      ],
+      "center": [
+        63.42828461538462,
+        10.396246153846155
       ]
     },
     {
@@ -6004,6 +6922,40 @@
       ]
     },
     {
+      "slug": "pl-gdansk",
+      "name_vi": "Gdańsk",
+      "federal_district": null,
+      "country": "poland",
+      "count": 13,
+      "bbox": [
+        18.556,
+        54.3485,
+        18.6712,
+        54.4108
+      ],
+      "center": [
+        54.36457692307693,
+        18.640138461538463
+      ]
+    },
+    {
+      "slug": "pl-krakow",
+      "name_vi": "Kraków",
+      "federal_district": null,
+      "country": "poland",
+      "count": 14,
+      "bbox": [
+        19.8942,
+        49.9792,
+        20.0639,
+        50.0676
+      ],
+      "center": [
+        50.053735714285715,
+        19.952507142857144
+      ]
+    },
+    {
       "slug": "pl-warsaw",
       "name_vi": "Warsaw",
       "federal_district": null,
@@ -6055,6 +7007,23 @@
       ]
     },
     {
+      "slug": "pt-algarve",
+      "name_vi": "Algarve",
+      "federal_district": null,
+      "country": "portugal",
+      "count": 13,
+      "bbox": [
+        -8.9944,
+        37.0023,
+        -7.6512,
+        37.19
+      ],
+      "center": [
+        37.06921538461539,
+        -8.307923076923078
+      ]
+    },
+    {
       "slug": "pt-lisbon",
       "name_vi": "Lisboa",
       "federal_district": null,
@@ -6069,6 +7038,23 @@
       "center": [
         38.709966666666666,
         -9.155358333333334
+      ]
+    },
+    {
+      "slug": "pt-porto",
+      "name_vi": "Porto",
+      "federal_district": null,
+      "country": "portugal",
+      "count": 12,
+      "bbox": [
+        -8.6706,
+        41.1399,
+        -8.6093,
+        41.159
+      ],
+      "center": [
+        41.146133333333324,
+        -8.623899999999999
       ]
     },
     {
@@ -6208,6 +7194,23 @@
       ]
     },
     {
+      "slug": "se-lund",
+      "name_vi": "Lund",
+      "federal_district": null,
+      "country": "sweden",
+      "count": 12,
+      "bbox": [
+        13.1869,
+        55.6981,
+        13.2147,
+        55.7161
+      ],
+      "center": [
+        55.705083333333334,
+        13.196591666666665
+      ]
+    },
+    {
       "slug": "se-malmo",
       "name_vi": "Malmö",
       "federal_district": null,
@@ -6242,6 +7245,23 @@
       ]
     },
     {
+      "slug": "se-swedish-lapland",
+      "name_vi": "Lapland Thụy Điển",
+      "federal_district": null,
+      "country": "sweden",
+      "count": 12,
+      "bbox": [
+        17.7,
+        65.5842,
+        22.1547,
+        68.3561
+      ],
+      "center": [
+        67.06701666666667,
+        19.845299999999998
+      ]
+    },
+    {
       "slug": "se-uppsala",
       "name_vi": "Uppsala",
       "federal_district": null,
@@ -6256,6 +7276,23 @@
       "center": [
         59.86271538461539,
         17.63446923076923
+      ]
+    },
+    {
+      "slug": "se-visby",
+      "name_vi": "Visby",
+      "federal_district": null,
+      "country": "sweden",
+      "count": 13,
+      "bbox": [
+        18.2258,
+        57.6156,
+        19.15,
+        57.9167
+      ],
+      "center": [
+        57.66726153846154,
+        18.362299999999998
       ]
     },
     {
@@ -7704,6 +8741,23 @@
       ]
     },
     {
+      "slug": "us-arizona",
+      "name_vi": "Arizona",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -112.1401,
+        32.107,
+        -109.8068,
+        36.983
+      ],
+      "center": [
+        34.785333333333334,
+        -111.357575
+      ]
+    },
+    {
       "slug": "us-california",
       "name_vi": "California",
       "federal_district": null,
@@ -7718,6 +8772,23 @@
       "center": [
         35.711549999999995,
         -119.06260833333336
+      ]
+    },
+    {
+      "slug": "us-colorado",
+      "name_vi": "Colorado",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -108.4618,
+        37.2309,
+        -104.8694,
+        40.3428
+      ],
+      "center": [
+        39.00678333333333,
+        -105.82227499999999
       ]
     },
     {
@@ -7755,6 +8826,23 @@
       ]
     },
     {
+      "slug": "us-georgia",
+      "name_vi": "Georgia",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -84.3951,
+        31.0716,
+        -80.8456,
+        33.8053
+      ],
+      "center": [
+        32.97644999999999,
+        -83.00069166666667
+      ]
+    },
+    {
       "slug": "us-hawaii",
       "name_vi": "Hawaii",
       "federal_district": null,
@@ -7769,6 +8857,57 @@
       "center": [
         21.10285,
         -157.44037500000002
+      ]
+    },
+    {
+      "slug": "us-illinois",
+      "name_vi": "Illinois",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -88.9903,
+        41.3214,
+        -87.5831,
+        41.9484
+      ],
+      "center": [
+        41.83450833333334,
+        -87.73520833333333
+      ]
+    },
+    {
+      "slug": "us-louisiana",
+      "name_vi": "Louisiana",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -91.4114,
+        29.9227,
+        -90.0629,
+        32.6367
+      ],
+      "center": [
+        30.226591666666668,
+        -90.34030833333333
+      ]
+    },
+    {
+      "slug": "us-massachusetts",
+      "name_vi": "Massachusetts",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -71.1169,
+        41.8355,
+        -69.974,
+        42.5225
+      ],
+      "center": [
+        42.29663333333334,
+        -70.933575
       ]
     },
     {
@@ -7803,6 +8942,108 @@
       "center": [
         40.942675,
         -74.41075833333335
+      ]
+    },
+    {
+      "slug": "us-oregon",
+      "name_vi": "Oregon",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -123.9686,
+        42.9446,
+        -120.2731,
+        45.8847
+      ],
+      "center": [
+        45.24593333333333,
+        -122.34067500000002
+      ]
+    },
+    {
+      "slug": "us-pennsylvania",
+      "name_vi": "Pennsylvania",
+      "federal_district": null,
+      "country": "usa",
+      "count": 13,
+      "bbox": [
+        -80.0182,
+        39.8115,
+        -75.15,
+        40.4484
+      ],
+      "center": [
+        40.07253846153846,
+        -76.92559999999999
+      ]
+    },
+    {
+      "slug": "us-tennessee",
+      "name_vi": "Tennessee",
+      "federal_district": null,
+      "country": "usa",
+      "count": 13,
+      "bbox": [
+        -90.0577,
+        35.0176,
+        -83.425,
+        36.2069
+      ],
+      "center": [
+        35.59821538461538,
+        -87.04702307692307
+      ]
+    },
+    {
+      "slug": "us-texas",
+      "name_vi": "Texas",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -104.867,
+        29.25,
+        -95.0808,
+        32.7887
+      ],
+      "center": [
+        31.119383333333328,
+        -98.202975
+      ]
+    },
+    {
+      "slug": "us-utah",
+      "name_vi": "Utah",
+      "federal_district": null,
+      "country": "usa",
+      "count": 13,
+      "bbox": [
+        -113.8236,
+        37.3,
+        -109.54,
+        40.9583
+      ],
+      "center": [
+        39.536715384615384,
+        -111.56965384615384
+      ]
+    },
+    {
+      "slug": "us-washington",
+      "name_vi": "Washington",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -123.4979,
+        46.1912,
+        -121.2985,
+        48.7718
+      ],
+      "center": [
+        47.62136666666667,
+        -122.27499999999998
       ]
     },
     {
@@ -8742,36 +9983,38 @@
     }
   ],
   "categories": {
-    "park_garden": 2916,
-    "other": 1779,
-    "church": 1940,
-    "museum": 1327,
-    "theatre": 244,
-    "monument": 1963,
-    "bridge": 165,
-    "square_street": 637,
-    "palace": 300,
-    "fortress": 330
+    "park_garden": 3167,
+    "other": 1940,
+    "church": 2063,
+    "museum": 1479,
+    "theatre": 268,
+    "monument": 2083,
+    "bridge": 187,
+    "square_street": 746,
+    "palace": 349,
+    "fortress": 394
   },
   "countries": {
     "russia": 4083,
-    "austria": 26,
-    "belgium": 24,
+    "austria": 80,
+    "belgium": 50,
     "brunei": 25,
-    "canada": 75,
-    "switzerland": 39,
+    "canada": 159,
+    "switzerland": 81,
     "china": 221,
-    "czech": 26,
-    "germany": 25,
-    "denmark": 39,
-    "spain": 12,
-    "finland": 26,
-    "france": 25,
-    "uk": 26,
-    "hungary": 14,
+    "czech": 80,
+    "germany": 64,
+    "denmark": 90,
+    "spain": 49,
+    "finland": 39,
+    "france": 63,
+    "uk": 66,
+    "greece": 26,
+    "croatia": 26,
+    "hungary": 39,
     "indonesia": 308,
-    "ireland": 25,
-    "italy": 12,
+    "ireland": 51,
+    "italy": 50,
     "japan": 466,
     "cambodia": 159,
     "korea": 149,
@@ -8779,16 +10022,16 @@
     "laos": 121,
     "myanmar": 118,
     "malaysia": 145,
-    "netherlands": 24,
-    "norway": 39,
+    "netherlands": 49,
+    "norway": 91,
     "philippines": 244,
-    "poland": 13,
-    "portugal": 12,
-    "sweden": 51,
+    "poland": 40,
+    "portugal": 37,
+    "sweden": 88,
     "singapore": 28,
     "thailand": 408,
     "timor-leste": 78,
-    "usa": 72,
+    "usa": 219,
     "uzbekistan": 97,
     "vietnam": 1588
   },
@@ -8837,10 +10080,10 @@
     -179.416667,
     -9.392361,
     179.161941,
-    80.3382
+    82.217
   ],
   "center": [
-    36.845235660397975,
-    77.63843719461721
+    37.94933090488469,
+    68.79802822851958
   ]
 }
