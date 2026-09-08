@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T22:05:48",
-  "total_places": 8664,
+  "generated": "2026-09-08T05:25:42",
+  "total_places": 8997,
   "regions": [
     {
       "slug": "adygea",
@@ -105,6 +105,23 @@
       ]
     },
     {
+      "slug": "at-salzburg",
+      "name_vi": "Salzburg",
+      "federal_district": null,
+      "country": "austria",
+      "count": 13,
+      "bbox": [
+        13.0025,
+        47.7043,
+        13.0605,
+        47.8058
+      ],
+      "center": [
+        47.788407692307686,
+        13.042546153846152
+      ]
+    },
+    {
       "slug": "at-vienna",
       "name_vi": "Vienna",
       "federal_district": null,
@@ -136,6 +153,23 @@
       "center": [
         54.25215368,
         56.499944079999985
+      ]
+    },
+    {
+      "slug": "be-antwerp",
+      "name_vi": "Antwerp",
+      "federal_district": null,
+      "country": "belgium",
+      "count": 12,
+      "bbox": [
+        4.3966,
+        51.1861,
+        4.423,
+        51.229
+      ],
+      "center": [
+        51.21735833333332,
+        4.407150000000001
       ]
     },
     {
@@ -272,6 +306,125 @@
       "center": [
         52.39793567374999,
         107.519029220625
+      ]
+    },
+    {
+      "slug": "ca-alberta",
+      "name_vi": "Alberta",
+      "federal_district": null,
+      "country": "canada",
+      "count": 13,
+      "bbox": [
+        -117.9,
+        49.04583,
+        -113.4923,
+        53.5449
+      ],
+      "center": [
+        51.648777230769234,
+        -114.88085623076924
+      ]
+    },
+    {
+      "slug": "ca-british-columbia",
+      "name_vi": "British Columbia",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -123.4689,
+        48.4197,
+        -122.9574,
+        50.1163
+      ],
+      "center": [
+        49.019749999999995,
+        -123.21128333333333
+      ]
+    },
+    {
+      "slug": "ca-manitoba",
+      "name_vi": "Manitoba",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -100.03611,
+        49.8145,
+        -93.37139,
+        57.77389
+      ],
+      "center": [
+        50.63849833333333,
+        -97.0628375
+      ]
+    },
+    {
+      "slug": "ca-nova-scotia",
+      "name_vi": "Nova Scotia",
+      "federal_district": null,
+      "country": "canada",
+      "count": 13,
+      "bbox": [
+        -65.21833,
+        44.3778,
+        -59.985,
+        46.73333
+      ],
+      "center": [
+        44.90254661538461,
+        -63.29923000000001
+      ]
+    },
+    {
+      "slug": "ca-ontario",
+      "name_vi": "Ontario",
+      "federal_district": null,
+      "country": "canada",
+      "count": 13,
+      "bbox": [
+        -79.4094,
+        43.0774,
+        -75.6944,
+        45.8375
+      ],
+      "center": [
+        44.283723076923074,
+        -77.94954615384617
+      ]
+    },
+    {
+      "slug": "ca-quebec",
+      "name_vi": "Québec",
+      "federal_district": null,
+      "country": "canada",
+      "count": 12,
+      "bbox": [
+        -73.5874,
+        45.4986,
+        -71.1464,
+        46.8906
+      ],
+      "center": [
+        46.1753,
+        -72.378475
+      ]
+    },
+    {
+      "slug": "ch-bern",
+      "name_vi": "Bern",
+      "federal_district": null,
+      "country": "switzerland",
+      "count": 12,
+      "bbox": [
+        7.4432,
+        46.9269,
+        7.4737,
+        46.9503
+      ],
+      "center": [
+        46.945816666666666,
+        7.452008333333333
       ]
     },
     {
@@ -972,6 +1125,23 @@
       ]
     },
     {
+      "slug": "cz-cesky-krumlov",
+      "name_vi": "Český Krumlov",
+      "federal_district": null,
+      "country": "czech",
+      "count": 12,
+      "bbox": [
+        14.3105,
+        48.8088,
+        14.3176,
+        48.814
+      ],
+      "center": [
+        48.811550000000004,
+        14.315041666666666
+      ]
+    },
+    {
       "slug": "cz-prague",
       "name_vi": "Praha",
       "federal_district": null,
@@ -1071,6 +1241,74 @@
       "center": [
         55.67823846153847,
         12.591723076923078
+      ]
+    },
+    {
+      "slug": "dk-odense",
+      "name_vi": "Odense",
+      "federal_district": null,
+      "country": "denmark",
+      "count": 13,
+      "bbox": [
+        10.3806,
+        55.3672,
+        10.4083,
+        55.4006
+      ],
+      "center": [
+        55.392900000000004,
+        10.387984615384616
+      ]
+    },
+    {
+      "slug": "es-madrid",
+      "name_vi": "Madrid",
+      "federal_district": null,
+      "country": "spain",
+      "count": 12,
+      "bbox": [
+        -3.7176,
+        40.4079,
+        -3.6844,
+        40.4531
+      ],
+      "center": [
+        40.419975,
+        -3.7001749999999998
+      ]
+    },
+    {
+      "slug": "fi-helsinki",
+      "name_vi": "Helsinki",
+      "federal_district": null,
+      "country": "finland",
+      "count": 14,
+      "bbox": [
+        24.9127,
+        60.1454,
+        24.9881,
+        60.1875
+      ],
+      "center": [
+        60.17048571428571,
+        24.94425714285714
+      ]
+    },
+    {
+      "slug": "fi-rovaniemi",
+      "name_vi": "Rovaniemi",
+      "federal_district": null,
+      "country": "finland",
+      "count": 12,
+      "bbox": [
+        25.7228,
+        66.493,
+        25.8475,
+        66.5486
+      ],
+      "center": [
+        66.51170833333333,
+        25.76051666666667
       ]
     },
     {
@@ -1822,6 +2060,23 @@
       ]
     },
     {
+      "slug": "ie-galway",
+      "name_vi": "Galway",
+      "federal_district": null,
+      "country": "ireland",
+      "count": 13,
+      "bbox": [
+        -9.8894,
+        53.1264,
+        -8.9308,
+        53.5606
+      ],
+      "center": [
+        53.29106923076923,
+        -9.230538461538462
+      ]
+    },
+    {
       "slug": "ingushetia",
       "name_vi": "Cộng hoà Ingushetia",
       "federal_district": "Vùng Bắc Kavkaz",
@@ -1853,6 +2108,23 @@
       "center": [
         52.49296224489795,
         104.4720443265306
+      ]
+    },
+    {
+      "slug": "it-rome",
+      "name_vi": "Roma",
+      "federal_district": null,
+      "country": "italy",
+      "count": 12,
+      "bbox": [
+        12.4536,
+        41.8902,
+        12.4922,
+        41.9142
+      ],
+      "center": [
+        41.901833333333336,
+        12.477391666666664
       ]
     },
     {
@@ -5069,6 +5341,23 @@
       ]
     },
     {
+      "slug": "nl-rotterdam",
+      "name_vi": "Rotterdam",
+      "federal_district": null,
+      "country": "netherlands",
+      "count": 12,
+      "bbox": [
+        4.3893,
+        51.8931,
+        4.513,
+        51.937
+      ],
+      "center": [
+        51.91441666666666,
+        4.473958333333333
+      ]
+    },
+    {
       "slug": "no-bergen",
       "name_vi": "Bergen",
       "federal_district": null,
@@ -5100,6 +5389,23 @@
       "center": [
         59.91429999999999,
         10.72003076923077
+      ]
+    },
+    {
+      "slug": "no-tromso",
+      "name_vi": "Tromsø",
+      "federal_district": null,
+      "country": "norway",
+      "count": 12,
+      "bbox": [
+        18.9188,
+        69.6339,
+        19.0231,
+        69.6798
+      ],
+      "center": [
+        69.64881666666666,
+        18.9648
       ]
     },
     {
@@ -5749,6 +6055,23 @@
       ]
     },
     {
+      "slug": "pt-lisbon",
+      "name_vi": "Lisboa",
+      "federal_district": null,
+      "country": "portugal",
+      "count": 12,
+      "bbox": [
+        -9.216,
+        38.6892,
+        -9.0937,
+        38.7634
+      ],
+      "center": [
+        38.709966666666666,
+        -9.155358333333334
+      ]
+    },
+    {
       "slug": "rostov",
       "name_vi": "Tỉnh Rostov",
       "federal_district": "Vùng Nam",
@@ -5885,6 +6208,23 @@
       ]
     },
     {
+      "slug": "se-malmo",
+      "name_vi": "Malmö",
+      "federal_district": null,
+      "country": "sweden",
+      "count": 12,
+      "bbox": [
+        12.8797,
+        55.5719,
+        13.0128,
+        55.614
+      ],
+      "center": [
+        55.600525,
+        12.979524999999997
+      ]
+    },
+    {
       "slug": "se-stockholm",
       "name_vi": "Stockholm",
       "federal_district": null,
@@ -5899,6 +6239,23 @@
       "center": [
         59.32262307692307,
         18.0692
+      ]
+    },
+    {
+      "slug": "se-uppsala",
+      "name_vi": "Uppsala",
+      "federal_district": null,
+      "country": "sweden",
+      "count": 13,
+      "bbox": [
+        17.6297,
+        59.85,
+        17.6456,
+        59.8981
+      ],
+      "center": [
+        59.86271538461539,
+        17.63446923076923
       ]
     },
     {
@@ -7347,6 +7704,108 @@
       ]
     },
     {
+      "slug": "us-california",
+      "name_vi": "California",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -122.4783,
+        32.7353,
+        -116.8666,
+        39.0968
+      ],
+      "center": [
+        35.711549999999995,
+        -119.06260833333336
+      ]
+    },
+    {
+      "slug": "us-district-of-columbia",
+      "name_vi": "Washington, D.C.",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -77.0707,
+        38.8814,
+        -77.0047,
+        38.9304
+      ],
+      "center": [
+        38.89520833333333,
+        -77.03359166666667
+      ]
+    },
+    {
+      "slug": "us-florida",
+      "name_vi": "Florida",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -82.8732,
+        24.5465,
+        -80.1301,
+        29.8975
+      ],
+      "center": [
+        26.90438333333333,
+        -81.37876666666666
+      ]
+    },
+    {
+      "slug": "us-hawaii",
+      "name_vi": "Hawaii",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -159.6631,
+        19.4194,
+        -155.2885,
+        22.1755
+      ],
+      "center": [
+        21.10285,
+        -157.44037500000002
+      ]
+    },
+    {
+      "slug": "us-nevada",
+      "name_vi": "Nevada",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -119.9312,
+        36.0161,
+        -114.3,
+        39.3096
+      ],
+      "center": [
+        36.910466666666665,
+        -115.73220000000002
+      ]
+    },
+    {
+      "slug": "us-new-york",
+      "name_vi": "New York",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -79.0686,
+        40.6892,
+        -73.9632,
+        43.0842
+      ],
+      "center": [
+        40.942675,
+        -74.41075833333335
+      ]
+    },
+    {
       "slug": "uz-andijan",
       "name_vi": "Andijan",
       "federal_district": null,
@@ -8283,32 +8742,36 @@
     }
   ],
   "categories": {
-    "park_garden": 2839,
-    "other": 1713,
-    "church": 1907,
-    "museum": 1264,
-    "theatre": 237,
-    "monument": 1928,
-    "bridge": 153,
-    "square_street": 602,
-    "palace": 281,
-    "fortress": 309
+    "park_garden": 2916,
+    "other": 1779,
+    "church": 1940,
+    "museum": 1327,
+    "theatre": 244,
+    "monument": 1963,
+    "bridge": 165,
+    "square_street": 637,
+    "palace": 300,
+    "fortress": 330
   },
   "countries": {
     "russia": 4083,
-    "austria": 13,
-    "belgium": 12,
+    "austria": 26,
+    "belgium": 24,
     "brunei": 25,
-    "switzerland": 27,
+    "canada": 75,
+    "switzerland": 39,
     "china": 221,
-    "czech": 14,
+    "czech": 26,
     "germany": 25,
-    "denmark": 26,
+    "denmark": 39,
+    "spain": 12,
+    "finland": 26,
     "france": 25,
     "uk": 26,
     "hungary": 14,
     "indonesia": 308,
-    "ireland": 12,
+    "ireland": 25,
+    "italy": 12,
     "japan": 466,
     "cambodia": 159,
     "korea": 149,
@@ -8316,14 +8779,16 @@
     "laos": 121,
     "myanmar": 118,
     "malaysia": 145,
-    "netherlands": 12,
-    "norway": 27,
+    "netherlands": 24,
+    "norway": 39,
     "philippines": 244,
     "poland": 13,
-    "sweden": 26,
+    "portugal": 12,
+    "sweden": 51,
     "singapore": 28,
     "thailand": 408,
     "timor-leste": 78,
+    "usa": 72,
     "uzbekistan": 97,
     "vietnam": 1588
   },
@@ -8375,7 +8840,7 @@
     80.3382
   ],
   "center": [
-    36.43988860186995,
-    82.06792122702798
+    36.845235660397975,
+    77.63843719461721
   ]
 }

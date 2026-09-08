@@ -1,0 +1,20 @@
+{
+  "id": "/tracuu/",
+  "name": "Cẩm nang Du lịch Nga — Phạm Đăng Hiển",
+  "short_name": "Du lịch Nga",
+  "description": "Bản đồ & cẩm nang du lịch Nga (và nhiều nước khác) bằng tiếng Việt — dùng được cả khi mất mạng.",
+  "lang": "vi",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f4ec",
+  "theme_color": "#16293f",
+  "categories": ["travel", "navigation", "maps"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đang ngoại tuyến · Cẩm nang Du lịch</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#16293f">
+<style>
+  :root{--navy:#16293f;--gold:#c8a24b}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,#1f3a5f,#12233a);color:#fff;padding:24px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;line-height:1.6}
+  .card{max-width:440px;text-align:center}
+  .ic{font-size:56px;margin-bottom:6px}
+  h1{font-size:23px;margin:8px 0 6px}
+  p{color:#d7e0ec;font-size:15px;margin:0 0 20px}
+  .row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  a.btn,button.btn{display:inline-block;text-decoration:none;border:none;cursor:pointer;
+    padding:12px 20px;border-radius:999px;font-size:15px;font-weight:700;font-family:inherit}
+  .primary{background:var(--gold);color:#2a2110}
+  .ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.3)}
+  small{display:block;margin-top:18px;color:#9fb0c6;font-size:12.5px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="ic">🧭</div>
+    <h1>Bạn đang ngoại tuyến</h1>
+    <p>Không có kết nối mạng lúc này. Nếu bạn đã mở ứng dụng khi còn mạng, các trang và địa điểm đã lưu vẫn dùng được — hãy thử mở lại bên dưới.</p>
+    <div class="row">
+      <a class="btn primary" href="index.html">🏠 Trang chủ</a>
+      <a class="btn ghost" href="gis.html">🗺️ Bản đồ</a>
+      <a class="btn ghost" href="list.html">📋 Danh sách</a>
+    </div>
+    <button class="btn ghost" style="margin-top:14px" onclick="location.reload()">🔄 Thử lại kết nối</button>
+    <small>Cẩm nang Du lịch · Phạm Đăng Hiển</small>
+  </div>
+</body>
+</html>
