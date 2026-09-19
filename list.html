@@ -74,6 +74,7 @@
     </div>
   </div>
   <div class="filter-cats" id="filterCats" style="margin:-6px 0 16px;"></div>
+  <div style="margin:-6px 0 14px;"><button type="button" class="btn sm" id="pinFilter">📌 Chỉ hiện điểm đã ghim (<span id="pinCount">0</span>)</button></div>
 
   <div class="grid" id="grid"></div>
   <div id="moreWrap" style="text-align:center; margin:20px 0 10px;"></div>
@@ -95,6 +96,7 @@
   var places = RT.getPlaces();
   var meta = RT.getMeta();
   var activeCats = {}; // slug -> bool (rỗng = tất cả)
+  var listPinOnly = false;
   var grid = document.getElementById("grid");
 
   // Bản đồ quốc gia (dùng meta nếu có; nếu chưa có thì tự suy ra — mặc định 'russia')
@@ -234,6 +236,7 @@
           '<button class="btn sm gold tts-btn" data-kind="short">' + RT.uiText("listen") + '</button>' +
           '<button class="btn sm toggle-detail">' + RT.uiText("detail") + '</button>' +
           '<a class="btn sm" href="gis.html?focus=' + encodeURIComponent(p.id) + '">' + RT.uiText("map") + '</a>' +
+          RT.pinBtnHTML(p) +
           (p.maps && p.maps.google ? '<a class="btn sm" href="' + p.maps.google + '" target="_blank" rel="noopener">🗺️ Google</a>' : '') +
           '<button class="btn sm primary" onclick="CNDL_contact()">💬 Tư vấn</button>' +
         '</div>' +
@@ -269,6 +272,7 @@
     var list = places.filter(function (p) {
       if (country && (p.country || "russia") !== country) return false;
       if (region && p.region !== region) return false;
+      if (listPinOnly && !RT.pinHas(p.id)) return false;
       if (catKeys.length && !(p.categories || []).some(function (c) { return activeCats[c]; })) return false;
       if (q) {
         var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, p.name_local, RT.t(p, "presentation_short"), p.presentation_long_vi,
@@ -339,6 +343,11 @@
     render();
   };
   document.getElementById("region").onchange = function () { render(); };
+  var pinChip=document.getElementById("pinFilter");
+  function updatePinUI(){ var pc=document.getElementById("pinCount"); if(pc) pc.textContent=RT.pinCount(); if(pinChip) pinChip.classList.toggle("active", listPinOnly); }
+  if(pinChip) pinChip.onclick=function(){ listPinOnly=!listPinOnly; updatePinUI(); render(); };
+  window.addEventListener("cndl-pins", function(){ updatePinUI(); render(); });
+  updatePinUI();
   document.getElementById("rate").oninput = function () { RT.TTS.setRate(parseFloat(this.value)); };
   document.getElementById("stopAll").onclick = function () {
     RT.TTS.stop();

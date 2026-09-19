@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T09:46:27",
-  "total_places": 9929,
+  "generated": "2026-09-16T09:38:52",
+  "total_places": 10175,
   "regions": [
     {
       "slug": "adygea",
@@ -102,6 +102,23 @@
       "center": [
         46.49158577777779,
         47.92365046666666
+      ]
+    },
+    {
+      "slug": "at-carinthia",
+      "name_vi": "Kärnten (Carinthia)",
+      "federal_district": null,
+      "country": "austria",
+      "count": 13,
+      "bbox": [
+        12.6953,
+        46.6089,
+        14.4523,
+        47.075
+      ],
+      "center": [
+        46.735699999999994,
+        13.945646153846154
       ]
     },
     {
@@ -680,6 +697,23 @@
       "center": [
         46.65422142857143,
         7.906471428571429
+      ]
+    },
+    {
+      "slug": "ch-lausanne",
+      "name_vi": "Lausanne",
+      "federal_district": null,
+      "country": "switzerland",
+      "count": 13,
+      "bbox": [
+        6.6225,
+        46.5067,
+        6.6489,
+        46.5556
+      ],
+      "center": [
+        46.527976923076935,
+        6.635946153846154
       ]
     },
     {
@@ -1482,6 +1516,23 @@
       ]
     },
     {
+      "slug": "cz-plzen",
+      "name_vi": "Plzeň (Pilsen)",
+      "federal_district": null,
+      "country": "czech",
+      "count": 13,
+      "bbox": [
+        13.3542,
+        49.6704,
+        13.5306,
+        49.7602
+      ],
+      "center": [
+        49.73703846153846,
+        13.394184615384614
+      ]
+    },
+    {
       "slug": "cz-prague",
       "name_vi": "Praha",
       "federal_district": null,
@@ -1513,6 +1564,23 @@
       "center": [
         42.40433492000001,
         47.39697388
+      ]
+    },
+    {
+      "slug": "de-baden-wurttemberg",
+      "name_vi": "Baden-Württemberg",
+      "federal_district": null,
+      "country": "germany",
+      "count": 13,
+      "bbox": [
+        7.7208,
+        47.6989,
+        9.9919,
+        49.4106
+      ],
+      "center": [
+        48.52636153846154,
+        8.8232
       ]
     },
     {
@@ -1598,6 +1666,23 @@
       "center": [
         53.54882307692307,
         9.986600000000001
+      ]
+    },
+    {
+      "slug": "de-saxony",
+      "name_vi": "Sachsen (Saxony)",
+      "federal_district": null,
+      "country": "germany",
+      "count": 12,
+      "bbox": [
+        12.3719,
+        50.9186,
+        14.0728,
+        51.3389
+      ],
+      "center": [
+        51.09492500000001,
+        13.552025
       ]
     },
     {
@@ -1720,6 +1805,23 @@
       ]
     },
     {
+      "slug": "dk-roskilde",
+      "name_vi": "Roskilde",
+      "federal_district": null,
+      "country": "denmark",
+      "count": 12,
+      "bbox": [
+        12.064,
+        55.618,
+        12.0862,
+        55.656
+      ],
+      "center": [
+        55.641383333333344,
+        12.0797
+      ]
+    },
+    {
       "slug": "es-barcelona",
       "name_vi": "Barcelona",
       "federal_district": null,
@@ -1788,6 +1890,23 @@
       ]
     },
     {
+      "slug": "es-valencia",
+      "name_vi": "Valencia",
+      "federal_district": null,
+      "country": "spain",
+      "count": 13,
+      "bbox": [
+        -0.3833,
+        39.4522,
+        -0.323,
+        39.4794
+      ],
+      "center": [
+        39.4706,
+        -0.3680615384615385
+      ]
+    },
+    {
       "slug": "fi-helsinki",
       "name_vi": "Helsinki",
       "federal_district": null,
@@ -1839,6 +1958,23 @@
       ]
     },
     {
+      "slug": "fr-alsace",
+      "name_vi": "Alsace (Vùng Alsace)",
+      "federal_district": null,
+      "country": "france",
+      "count": 12,
+      "bbox": [
+        7.0981,
+        47.7642,
+        7.7684,
+        48.5972
+      ],
+      "center": [
+        48.29961666666666,
+        7.495508333333333
+      ]
+    },
+    {
       "slug": "fr-brittany",
       "name_vi": "Bretagne (Brittany)",
       "federal_district": null,
@@ -1870,6 +2006,23 @@
       "center": [
         43.648784615384606,
         7.196061538461537
+      ]
+    },
+    {
+      "slug": "fr-loire-valley",
+      "name_vi": "Thung lũng Loire",
+      "federal_district": null,
+      "country": "france",
+      "count": 13,
+      "bbox": [
+        0.0519,
+        47.1683,
+        1.517,
+        47.6161
+      ],
+      "center": [
+        47.37891538461538,
+        0.8303230769230769
       ]
     },
     {
@@ -1941,6 +2094,23 @@
       ]
     },
     {
+      "slug": "gb-north-west-england",
+      "name_vi": "North West England (Tây Bắc Anh)",
+      "federal_district": null,
+      "country": "uk",
+      "count": 13,
+      "bbox": [
+        -3.2116,
+        53.1906,
+        -2.2453,
+        54.4542
+      ],
+      "center": [
+        53.5951,
+        -2.773538461538462
+      ]
+    },
+    {
       "slug": "gb-northern-ireland",
       "name_vi": "Bắc Ireland",
       "federal_district": null,
@@ -1989,6 +2159,23 @@
       "center": [
         51.077708333333334,
         -0.13330000000000006
+      ]
+    },
+    {
+      "slug": "gb-south-west-england",
+      "name_vi": "Tây Nam nước Anh",
+      "federal_district": null,
+      "country": "uk",
+      "count": 14,
+      "bbox": [
+        -5.4776,
+        50.1168,
+        -1.8262,
+        51.4549
+      ],
+      "center": [
+        50.98953571428571,
+        -3.0292285714285714
       ]
     },
     {
@@ -2907,6 +3094,23 @@
       "center": [
         45.47052307692308,
         9.178784615384615
+      ]
+    },
+    {
+      "slug": "it-naples",
+      "name_vi": "Napoli",
+      "federal_district": null,
+      "country": "italy",
+      "count": 14,
+      "bbox": [
+        14.238,
+        40.821,
+        14.426,
+        40.8536
+      ],
+      "center": [
+        40.83989285714286,
+        14.261621428571429
       ]
     },
     {
@@ -6208,6 +6412,23 @@
       ]
     },
     {
+      "slug": "no-alesund",
+      "name_vi": "Ålesund",
+      "federal_district": null,
+      "country": "norway",
+      "count": 12,
+      "bbox": [
+        6.013,
+        62.2333,
+        6.3,
+        62.554
+      ],
+      "center": [
+        62.453475000000005,
+        6.162825000000001
+      ]
+    },
+    {
       "slug": "no-bergen",
       "name_vi": "Bergen",
       "federal_district": null,
@@ -7058,6 +7279,23 @@
       ]
     },
     {
+      "slug": "pt-sintra",
+      "name_vi": "Sintra",
+      "federal_district": null,
+      "country": "portugal",
+      "count": 13,
+      "bbox": [
+        -9.5006,
+        38.7718,
+        -9.3893,
+        38.8017
+      ],
+      "center": [
+        38.78962307692307,
+        -9.417900000000001
+      ]
+    },
+    {
       "slug": "rostov",
       "name_vi": "Tỉnh Rostov",
       "federal_district": "Vùng Nam",
@@ -7191,6 +7429,23 @@
       "center": [
         57.69284615384616,
         11.942776923076924
+      ]
+    },
+    {
+      "slug": "se-kiruna",
+      "name_vi": "Kiruna",
+      "federal_district": null,
+      "country": "sweden",
+      "count": 12,
+      "bbox": [
+        18.517,
+        67.833,
+        21.1069,
+        68.3597
+      ],
+      "center": [
+        67.94330833333333,
+        20.018941666666667
       ]
     },
     {
@@ -7463,6 +7718,23 @@
       "center": [
         15.8521106,
         104.7563764
+      ]
+    },
+    {
+      "slug": "th-ang-thong",
+      "name_vi": "Ang Thong",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 5,
+      "bbox": [
+        100.37778,
+        14.4519,
+        100.4612,
+        14.717387
+      ],
+      "center": [
+        14.5775104,
+        100.4304328
       ]
     },
     {
@@ -7806,6 +8078,23 @@
       ]
     },
     {
+      "slug": "th-nakhon-nayok",
+      "name_vi": "Nakhon Nayok",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 7,
+      "bbox": [
+        101.03257,
+        14.159917,
+        101.321322,
+        14.327867
+      ],
+      "center": [
+        14.278099571428571,
+        101.2351332857143
+      ]
+    },
+    {
       "slug": "th-nakhon-phanom",
       "name_vi": "Nakhon Phanom",
       "federal_district": null,
@@ -7939,6 +8228,23 @@
       "center": [
         13.870177142857143,
         100.48967714285716
+      ]
+    },
+    {
+      "slug": "th-pathum-thani",
+      "name_vi": "Pathum Thani",
+      "federal_district": null,
+      "country": "thailand",
+      "count": 5,
+      "bbox": [
+        100.385555,
+        13.966756,
+        100.675,
+        14.114707
+      ],
+      "center": [
+        14.0255146,
+        100.5712844
       ]
     },
     {
@@ -8945,6 +9251,23 @@
       ]
     },
     {
+      "slug": "us-north-carolina",
+      "name_vi": "North Carolina",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -83.4985,
+        34.2367,
+        -75.5288,
+        36.0956
+      ],
+      "center": [
+        35.61135000000001,
+        -79.74560833333334
+      ]
+    },
+    {
       "slug": "us-oregon",
       "name_vi": "Oregon",
       "federal_district": null,
@@ -8976,6 +9299,23 @@
       "center": [
         40.07253846153846,
         -76.92559999999999
+      ]
+    },
+    {
+      "slug": "us-south-carolina",
+      "name_vi": "South Carolina",
+      "federal_district": null,
+      "country": "usa",
+      "count": 13,
+      "bbox": [
+        -82.6968,
+        32.7207,
+        -78.8834,
+        35.0296
+      ],
+      "center": [
+        33.209969230769225,
+        -80.2349846153846
       ]
     },
     {
@@ -9027,6 +9367,23 @@
       "center": [
         39.536715384615384,
         -111.56965384615384
+      ]
+    },
+    {
+      "slug": "us-virginia",
+      "name_vi": "Virginia",
+      "federal_district": null,
+      "country": "usa",
+      "count": 12,
+      "bbox": [
+        -79.5437,
+        36.8529,
+        -75.977,
+        38.9976
+      ],
+      "center": [
+        37.903483333333334,
+        -77.39318333333334
       ]
     },
     {
@@ -9983,38 +10340,38 @@
     }
   ],
   "categories": {
-    "park_garden": 3167,
-    "other": 1940,
-    "church": 2063,
-    "museum": 1479,
-    "theatre": 268,
-    "monument": 2083,
-    "bridge": 187,
-    "square_street": 746,
-    "palace": 349,
-    "fortress": 394
+    "park_garden": 3216,
+    "other": 1981,
+    "church": 2107,
+    "museum": 1513,
+    "theatre": 271,
+    "monument": 2104,
+    "bridge": 190,
+    "square_street": 770,
+    "palace": 383,
+    "fortress": 418
   },
   "countries": {
     "russia": 4083,
-    "austria": 80,
+    "austria": 93,
     "belgium": 50,
     "brunei": 25,
     "canada": 159,
-    "switzerland": 81,
+    "switzerland": 94,
     "china": 221,
-    "czech": 80,
-    "germany": 64,
-    "denmark": 90,
-    "spain": 49,
+    "czech": 93,
+    "germany": 89,
+    "denmark": 102,
+    "spain": 62,
     "finland": 39,
-    "france": 63,
-    "uk": 66,
+    "france": 88,
+    "uk": 93,
     "greece": 26,
     "croatia": 26,
     "hungary": 39,
     "indonesia": 308,
     "ireland": 51,
-    "italy": 50,
+    "italy": 64,
     "japan": 466,
     "cambodia": 159,
     "korea": 149,
@@ -10023,15 +10380,15 @@
     "myanmar": 118,
     "malaysia": 145,
     "netherlands": 49,
-    "norway": 91,
+    "norway": 103,
     "philippines": 244,
     "poland": 40,
-    "portugal": 37,
-    "sweden": 88,
+    "portugal": 50,
+    "sweden": 100,
     "singapore": 28,
-    "thailand": 408,
+    "thailand": 425,
     "timor-leste": 78,
-    "usa": 219,
+    "usa": 256,
     "uzbekistan": 97,
     "vietnam": 1588
   },
@@ -10083,7 +10440,7 @@
     82.217
   ],
   "center": [
-    37.94933090488469,
-    68.79802822851958
+    38.12152113774943,
+    67.14038578869493
   ]
 }

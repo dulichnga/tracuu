@@ -6,6 +6,7 @@ const VER   = 'v1';                       // tăng số này khi đổi giao di�
 const SHELL_CACHE = APP + '-shell-' + VER;
 const DATA_CACHE  = APP + '-data';        // bundle.js, index.json… (giữ qua các phiên bản)
 const TILE_CACHE  = APP + '-tiles';       // ô bản đồ tải lúc dùng
+const OFFLINE_CACHE = APP + '-offline';   // gói lưu offline theo vùng (địa điểm + bài thuyết minh)
 const TILE_MAX    = 1600;                 // trần số ô để không phình bộ nhớ vô hạn
 
 // Giao diện + thư viện (file nhỏ) — lưu sẵn khi cài đặt.
@@ -35,7 +36,7 @@ self.addEventListener('install', function (e) {
 
 self.addEventListener('activate', function (e) {
   e.waitUntil((async function () {
-    const keep = [SHELL_CACHE, DATA_CACHE, TILE_CACHE];
+    const keep = [SHELL_CACHE, DATA_CACHE, TILE_CACHE, OFFLINE_CACHE];
     const names = await caches.keys();
     await Promise.all(names.filter(function (n) { return n.indexOf(APP + '-') === 0 && keep.indexOf(n) < 0; })
                            .map(function (n) { return caches.delete(n); }));
@@ -59,10 +60,24 @@ async function prime(client) {
   if (client) client.postMessage({ type: 'prime-done' });
 }
 
+async function cacheList(urls, rid, client) {
+  const c = await caches.open(OFFLINE_CACHE);
+  var done = 0, fail = 0;
+  for (const u of urls) {
+    try { const res = await fetch(new Request(u, { cache: 'reload' })); if (res && (res.ok || res.type === 'opaque')) await c.put(u, res.clone()); else fail++; }
+    catch (err) { fail++; }
+    done++;
+    if (client) client.postMessage({ type: 'off-progress', rid: rid, done: done, total: urls.length, fail: fail });
+  }
+  if (client) client.postMessage({ type: 'off-done', rid: rid, done: done, total: urls.length, fail: fail });
+}
 self.addEventListener('message', function (e) {
   const d = e.data || {};
   if (d.type === 'PRIME') e.waitUntil(prime(e.source));
   if (d.type === 'SKIP_WAITING') self.skipWaiting();
+  if (d.type === 'CACHE_LIST') e.waitUntil(cacheList(d.urls || [], d.rid, e.source));
+  if (d.type === 'CLEAR_OFFLINE') e.waitUntil((async function(){ await caches.delete(OFFLINE_CACHE); if (e.source) e.source.postMessage({ type: 'off-cleared', rid: d.rid }); })());
+  if (d.type === 'OFFLINE_QUERY') e.waitUntil((async function(){ var n=0; try { const c = await caches.open(OFFLINE_CACHE); n = (await c.keys()).length; } catch (x) {} if (e.source) e.source.postMessage({ type: 'off-info', rid: d.rid, count: n }); })());
 });
 
 function isTile(href) {
@@ -118,7 +133,7 @@ self.addEventListener('fetch', function (e) {
         return res;
       } catch (err) {
         const c = await caches.open(SHELL_CACHE);
-        return (await c.match(req)) || (await c.match('index.html')) || (await c.match('./')) || (await c.match('offline.html')) || Response.error();
+        return (await caches.match(req)) || (await c.match('index.html')) || (await c.match('./')) || (await c.match('offline.html')) || Response.error();
       }
     })());
     return;
@@ -138,9 +153,9 @@ self.addEventListener('fetch', function (e) {
   // 5) Tài nguyên tĩnh còn lại (css/js/ảnh…): cache-first, cập nhật ngầm
   e.respondWith((async function () {
     const c = await caches.open(SHELL_CACHE);
-    const hit = await c.match(req);
+    const hit = (await c.match(req)) || (await caches.match(req));
     if (hit) { fetch(req).then(function (res) { if (res && res.ok) c.put(req, res.clone()); }).catch(function () {}); return hit; }
     try { const res = await fetch(req); if (res && res.ok) c.put(req, res.clone()); return res; }
-    catch (err) { return Response.error(); }
+    catch (err) { return (await caches.match(req)) || Response.error(); }
   })());
 });

@@ -126,6 +126,16 @@
   </div>
 </section>
 
+<!-- Địa điểm đã ghim -->
+<section class="band" id="pinnedBand" style="background:#fff;border-bottom:1px solid var(--line);display:none;">
+  <div class="inner">
+    <div class="sec-eyebrow">📌 Đã ghim</div>
+    <h2 class="sec-title">Địa điểm bạn đã ghim</h2>
+    <p class="sec-sub">Những nơi bạn lưu để mở nhanh. Bấm thẻ để xem trên bản đồ; bấm 📌 để bỏ ghim.</p>
+    <div class="feat-grid" id="pinnedGrid"></div>
+  </div>
+</section>
+
 <!-- Dịch vụ dẫn tour (khéo léo) -->
 <section class="band" style="background:var(--bg);">
   <div class="inner">
@@ -269,6 +279,32 @@
     }).join("");
   }
   renderFeatured();
+
+  // Địa điểm đã ghim (hiện khi mở app nếu có)
+  function renderPinned(){
+    var band=document.getElementById("pinnedBand"), pgrid=document.getElementById("pinnedGrid");
+    if(!band||!pgrid) return;
+    var pins=RT.pinList();
+    if(!pins.length){ band.style.display="none"; pgrid.innerHTML=""; return; }
+    var byId={}; places.forEach(function(p){ byId[p.id]=p; });
+    pgrid.innerHTML=pins.map(function(pin){
+      var p=byId[pin.id];
+      if(p){ var info=RT.catInfo(RT.primaryCat(p)); var rt=p.rating||{};
+        return '<div class="feat-card pinned-card">'+
+          '<a href="gis.html?focus='+encodeURIComponent(p.id)+'" title="Xem trên bản đồ">'+
+          '<div class="ph"'+(p.photo?(' style="background-image:url(\''+p.photo+'\')"'):'')+'><div class="fallback">'+info.emoji+'</div><div class="grad"></div>'+
+          '<span class="region-chip">'+RT.escapeHtml(p.region_name_vi||"")+'</span></div>'+
+          '<div class="cap"><h4>'+RT.escapeHtml(RT.t(p,"name"))+'</h4>'+
+          '<div class="meta">'+(rt.value!=null?('★ '+rt.value+(rt.count?(' · '+RT.fmtCount(rt.count)):'')):info.vi)+'</div></div></a>'+
+          RT.pinBtnHTML(p)+'</div>';
+      }
+      return '<div class="feat-card pinned-card"><a href="gis.html?focus='+encodeURIComponent(pin.id)+'"><div class="cap" style="padding:16px;"><h4>'+RT.escapeHtml(pin.n||pin.id)+'</h4><div class="meta">'+RT.escapeHtml(pin.s||"")+'</div></div></a>'+
+        '<button type="button" class="btn sm pin-btn on" data-pin="'+RT.escapeHtml(pin.id)+'" data-pinname="'+RT.escapeHtml(pin.n||pin.id)+'">📌 Đã ghim</button></div>';
+    }).join("");
+    band.style.display="block";
+  }
+  renderPinned();
+  window.addEventListener("cndl-pins", renderPinned);
 
   // Chip các vùng đã có
   var rc = document.getElementById("regionsCloud");

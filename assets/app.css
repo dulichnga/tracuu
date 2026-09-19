@@ -190,3 +190,11 @@ a:hover { text-decoration: underline; }
   .site-footer { padding: 22px 16px; }
   .site-footer .fwrap { flex-direction: column; gap: 10px; }
 }
+
+/* Ghim địa điểm + lưu offline (thêm bởi Claude) */
+.pin-btn.on{background:#c8a24b !important;color:#241c05 !important;border-color:#c8a24b !important;}
+#pinFilter.active{background:#152c4e;color:#fff;border-color:#152c4e;}
+.off-prog{height:8px;border-radius:6px;background:#e7e3d6;overflow:hidden;margin-top:6px;}
+.off-prog > i{display:block;height:100%;width:0;background:#152c4e;transition:width .25s;}
+.pinned-card{position:relative;}
+.pinned-card .pin-btn{position:absolute;top:8px;right:8px;z-index:2;}

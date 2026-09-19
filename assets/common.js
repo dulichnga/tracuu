@@ -235,6 +235,28 @@
     global.addEventListener("beforeunload", function () { try { TTS.stop(); } catch (e) {} });
   }
 
+  /* ---------- Ghim địa điểm (lưu trong máy) ---------- */
+  var PIN_KEY = "cndlPins";
+  function _pinsRaw(){ try{ var a=JSON.parse(localStorage.getItem(PIN_KEY)||"[]"); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function _pinsSave(a){ try{ localStorage.setItem(PIN_KEY, JSON.stringify(a)); }catch(e){} try{ if(global.dispatchEvent) global.dispatchEvent(new CustomEvent("cndl-pins")); }catch(e){} }
+  function pinList(){ return _pinsRaw(); }
+  function pinHas(id){ var a=_pinsRaw(); for(var i=0;i<a.length;i++){ if(a[i].id===id) return true; } return false; }
+  function pinCount(){ return _pinsRaw().length; }
+  function pinToggleObj(o){ if(!o||!o.id) return false; var a=_pinsRaw(); for(var i=0;i<a.length;i++){ if(a[i].id===o.id){ a.splice(i,1); _pinsSave(a); return false; } } a.push({id:o.id, n:o.n||o.id, s:o.s||""}); _pinsSave(a); return true; }
+  function pinToggle(p){ if(!p) return false; if(typeof p==="string") return pinToggleObj({id:p}); return pinToggleObj({id:p.id, n:(t(p,"name")||p.name_vi||p.id), s:(p.region_name_vi||"")}); }
+  function pinBtnHTML(p){ if(!p||!p.id) return ""; var on=pinHas(p.id); var nm=(t(p,"name")||p.name_vi||p.id); var sub=(p.region_name_vi||"");
+    return '<button type="button" class="btn sm pin-btn'+(on?' on':'')+'" data-pin="'+escapeHtml(p.id)+'" data-pinname="'+escapeHtml(nm)+'" data-pinsub="'+escapeHtml(sub)+'" title="'+(on?'Bỏ ghim':'Ghim để xem nhanh khi mở app')+'">'+(on?'📌 Đã ghim':'📌 Ghim')+'</button>'; }
+  function docUrlOf(p){ return (p && !p.custom && p.has_doc && p.doc_url) ? p.doc_url : ""; }
+
+  /* ---------- Lưu offline theo vùng (địa điểm + bài thuyết minh) ---------- */
+  function _ctrl(){ return (global.navigator && navigator.serviceWorker && navigator.serviceWorker.controller) ? navigator.serviceWorker.controller : null; }
+  var _rid=0;
+  function saveOffline(urls, onProgress){ return new Promise(function(resolve){ var ctrl=_ctrl(); if(!ctrl){ resolve({ok:false,reason:"no-sw"}); return; } urls=urls||[]; if(!urls.length){ resolve({ok:true,done:0,total:0,fail:0}); return; } var rid="o"+(++_rid); function h(e){ var d=e.data||{}; if(d.rid!==rid) return; if(d.type==="off-progress"){ if(onProgress) onProgress(d.done,d.total,d.fail); } else if(d.type==="off-done"){ navigator.serviceWorker.removeEventListener("message",h); resolve({ok:true,done:d.done,total:d.total,fail:d.fail}); } } navigator.serviceWorker.addEventListener("message",h); ctrl.postMessage({type:"CACHE_LIST",urls:urls,rid:rid}); setTimeout(function(){ navigator.serviceWorker.removeEventListener("message",h); resolve({ok:true,timeout:true}); }, 300000); }); }
+  function ensureData(onProgress){ return new Promise(function(resolve){ var ctrl=_ctrl(); if(!ctrl||!(global.caches)){ resolve({ok:false,reason:"no-sw"}); return; } var bu; try{ bu=new URL("data/bundle.js", location.href).href; }catch(e){ bu="data/bundle.js"; } caches.match(bu).then(function(hit){ if(hit){ resolve({ok:true,already:true}); return; } var rid="p"+(++_rid); function h(e){ var d=e.data||{}; if(d.type==="prime-progress"){ if(onProgress) onProgress(d.done,d.total); } else if(d.type==="prime-done"){ navigator.serviceWorker.removeEventListener("message",h); resolve({ok:true}); } } navigator.serviceWorker.addEventListener("message",h); ctrl.postMessage({type:"PRIME"}); setTimeout(function(){ navigator.serviceWorker.removeEventListener("message",h); resolve({ok:true,timeout:true}); }, 300000); }).catch(function(){ resolve({ok:false}); }); }); }
+  function saveRegionOffline(docUrls, cb){ return ensureData(function(d,t2){ if(cb) cb("data",d,t2); }).then(function(){ return saveOffline(docUrls||[], function(d,t2,f){ if(cb) cb("docs",d,t2,f); }); }); }
+  function offlineInfo(){ return new Promise(function(resolve){ var ctrl=_ctrl(); if(!ctrl){ resolve({count:0}); return; } var rid="q"+(++_rid); function h(e){ var d=e.data||{}; if(d.rid!==rid) return; if(d.type==="off-info"){ navigator.serviceWorker.removeEventListener("message",h); resolve({count:d.count}); } } navigator.serviceWorker.addEventListener("message",h); ctrl.postMessage({type:"OFFLINE_QUERY",rid:rid}); setTimeout(function(){ navigator.serviceWorker.removeEventListener("message",h); resolve({count:0}); }, 4000); }); }
+  function clearOffline(){ return new Promise(function(resolve){ var ctrl=_ctrl(); if(!ctrl){ resolve(false); return; } var rid="c"+(++_rid); function h(e){ var d=e.data||{}; if(d.rid!==rid) return; if(d.type==="off-cleared"){ navigator.serviceWorker.removeEventListener("message",h); resolve(true); } } navigator.serviceWorker.addEventListener("message",h); ctrl.postMessage({type:"CLEAR_OFFLINE",rid:rid}); setTimeout(function(){ navigator.serviceWorker.removeEventListener("message",h); resolve(true); }, 5000); }); }
+
   /* ---------- Xuất API ---------- */
   // Link bản đồ chính xác theo TOẠ ĐỘ — ghim đúng 1 điểm, KHÔNG ra nhiều kết quả bắt người dùng chọn
   function mapUrl(p, kind) {
@@ -265,7 +287,31 @@
     haversineKm: haversineKm,
     nearestRoute: nearestRoute,
     routeDistanceKm: routeDistanceKm,
+    pinList: pinList,
+    pinHas: pinHas,
+    pinCount: pinCount,
+    pinToggle: pinToggle,
+    pinToggleObj: pinToggleObj,
+    pinBtnHTML: pinBtnHTML,
+    docUrlOf: docUrlOf,
+    saveOffline: saveOffline,
+    ensureData: ensureData,
+    saveRegionOffline: saveRegionOffline,
+    offlineInfo: offlineInfo,
+    clearOffline: clearOffline,
     TTS: TTS,
     CONTACT: { email: "lopmaybay@gmail.com", fb: "https://fb.com/lopmaybay" },
   };
+  /* ---------- Tự gắn nút ghim (mọi trang có [data-pin]) ---------- */
+  if (global.document) {
+    document.addEventListener("click", function(e){
+      var b=(e.target&&e.target.closest)?e.target.closest("[data-pin]"):null; if(!b) return;
+      var id=b.getAttribute("data-pin");
+      var on=pinToggleObj({id:id, n:b.getAttribute("data-pinname")||id, s:b.getAttribute("data-pinsub")||""});
+      var sel='[data-pin="'+((global.CSS&&CSS.escape)?CSS.escape(id):id)+'"]';
+      var all=document.querySelectorAll(sel);
+      for(var i=0;i<all.length;i++){ all[i].classList.toggle("on", on); if(all[i].classList.contains("pin-btn")) all[i].innerHTML = on?'📌 Đã ghim':'📌 Ghim'; }
+    });
+  }
+
 })(window);
