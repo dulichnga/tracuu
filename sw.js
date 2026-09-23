@@ -13,6 +13,7 @@ const TILE_MAX    = 1600;                 // trần số ô để không phình 
 const SHELL = [
   './', 'index.html', 'gis.html', 'list.html',
   'am-thuc/index.html',
+  'khamsuckhoe.html',
   'manifest.webmanifest', 'offline.html',
   'assets/app.css', 'assets/common.js', 'assets/pwa.js', 'assets/favicon.svg',
   'assets/vendor/leaflet.css', 'assets/vendor/leaflet.js', 'assets/vendor/leaflet.markercluster.js',
@@ -22,7 +23,7 @@ const SHELL = [
   'assets/icon-192.png', 'assets/icon-512.png'
 ];
 // Dữ liệu lớn — nạp trước để dùng offline (khi bấm "lưu dữ liệu").
-const DATA = ['data/bundle.js', 'data/index.json', 'data/vn-archipelago.js', 'data/rings.js'];
+const DATA = ['data/bundle.js', 'data/index.json', 'data/vn-archipelago.js', 'data/rings.js', 'data/health.js'];
 // Thư viện ngoài (xuất PDF) — lưu để xuất được cả khi offline.
 const EXTRA = ['https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js'];
 

@@ -198,3 +198,5 @@ a:hover { text-decoration: underline; }
 .off-prog > i{display:block;height:100%;width:0;background:#152c4e;transition:width .25s;}
 .pinned-card{position:relative;}
 .pinned-card .pin-btn{position:absolute;top:8px;right:8px;z-index:2;}
+
+.layer-btn.active{background:#152c4e;color:#fff;border-color:#152c4e;}

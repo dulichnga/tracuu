@@ -20,6 +20,7 @@
     bridge:        { vi: "Cầu",                 color: "#16A085", emoji: "🌉" },
     square_street: { vi: "Quảng trường / Phố",  color: "#F39C12", emoji: "🏙️" },
     theatre:       { vi: "Nhà hát",             color: "#D6409F", emoji: "🎭" },
+    health:        { vi: "Khám sức khoẻ",        color: "#1f9e6b", emoji: "🩺" },
     other:         { vi: "Khác",                color: "#95A5A6", emoji: "📍" },
   };
   function catInfo(slug) { return CATEGORIES[slug] || CATEGORIES.other; }

@@ -271,6 +271,15 @@
 <div class="gis-layout">
   <aside class="sidebar">
     <div class="drawer-close" id="drawerClose"><span>🧭 Bộ lọc &amp; lộ trình</span><button aria-label="Đóng">✕</button></div>
+    <div class="sec" style="background:#f2f8f5;border:1px solid #cfe6db;border-radius:12px;">
+      <h3 style="margin-bottom:6px;">🗂️ Đang xem</h3>
+      <div style="display:flex;gap:6px;">
+        <button type="button" class="btn sm layer-btn active" id="modeTour" data-mode="tour" style="flex:1;justify-content:center;">🧭 Du lịch</button>
+        <button type="button" class="btn sm layer-btn" id="modeHealth" data-mode="health" style="flex:1;justify-content:center;">🩺 Khám sức khoẻ</button>
+      </div>
+      <div class="muted" style="font-size:11px;margin-top:6px;line-height:1.5;">“Khám sức khoẻ” chỉ hiện các điểm khám cho người nước ngoài (thẻ xanh) ở Moskva. Xem <a href="khamsuckhoe.html" style="color:#1f9e6b;font-weight:700">danh sách chi tiết &amp; tìm điểm gần nhất →</a></div>
+    </div>
+
     <div class="sec">
       <h3>🔎 Lọc địa điểm</h3>
       <label class="ctry-label" for="country">🌍 Quốc gia</label>
@@ -397,6 +406,7 @@
 <script src="assets/vendor/leaflet.markercluster.js"></script>
 <script src="assets/common.js"></script>
 <script src="data/bundle.js"></script>
+<script src="data/health.js"></script>
 <script src="data/vn-archipelago.js"></script>
 <script src="data/rings.js"></script>
 <script>
@@ -409,6 +419,8 @@
     return;
   }
   var places = RT.getPlaces();
+  var healthPlaces = (window.HEALTH_DB && HEALTH_DB.places) || [];
+  var layerMode = "tour";  // "tour" | "health"
   var meta = RT.getMeta();
   var activeCats = {};
   var tour = [];              // mảng STOP: {uid,pid,stay,travel,mode,note,cv,cvu,ct,ctu}
@@ -741,6 +753,7 @@
   }
 
   function passFilter(p) {
+    if (p.kind === "health") { if (pinOnly && !RT.pinHas(p.id)) return false; var qh=(document.getElementById("q").value||"").trim().toLowerCase(); if(qh){ var hh=[p.name_vi,p.name_ru,p.name_en,p.address_vi].join(" ").toLowerCase(); if(hh.indexOf(qh)<0) return false; } return true; }
     if (p.parent) return false;   // điểm chi tiết chỉ hiện qua lớp riêng (bật/tắt theo khu), không vào cụm chính
     var q = (document.getElementById("q").value || "").trim().toLowerCase();
     var country = document.getElementById("country").value;
@@ -763,7 +776,7 @@
     cluster.clearLayers();
     markers = {};
     var shown = 0;
-    places.forEach(function (p) {
+    (layerMode === "health" ? healthPlaces : places).forEach(function (p) {
       if (!passFilter(p)) return;
       var m = L.marker([p.coordinates.lat, p.coordinates.lon], { icon: makeIcon(p) });
       m.bindPopup(popupHTML(p), { minWidth: 240, maxWidth: 260 });
@@ -1707,6 +1720,15 @@
   };
   document.getElementById("minStar").oninput = function () { document.getElementById("starVal").textContent = this.value; renderMarkers(); };
   document.getElementById("showLabels").onchange = function () { labelsOn = this.checked; renderMarkers(); };
+
+  /* ---- Chế độ Du lịch / Khám sức khoẻ ---- */
+  function applyLayerMode(){ var mt=document.getElementById("modeTour"), mh=document.getElementById("modeHealth");
+    if(mt) mt.classList.toggle("active", layerMode==="tour"); if(mh) mh.classList.toggle("active", layerMode==="health");
+    renderMarkers();
+    if(layerMode==="health" && healthPlaces.length){ try{ map.fitBounds(healthPlaces.map(function(p){return [p.coordinates.lat,p.coordinates.lon];}),{padding:[50,50],maxZoom:11}); }catch(e){} } }
+  (function(){ var mt=document.getElementById("modeTour"), mh=document.getElementById("modeHealth");
+    if(mt) mt.onclick=function(){ layerMode="tour"; applyLayerMode(); };
+    if(mh) mh.onclick=function(){ layerMode="health"; applyLayerMode(); }; })();
 
   /* ---- Ghim + Lưu offline theo vùng ---- */
   function updatePinUI(){ var pc=document.getElementById("pinCount"); if(pc) pc.textContent=RT.pinCount(); var pf=document.getElementById("pinFilter"); if(pf) pf.classList.toggle("active", pinOnly); }
