@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<title>Khám sức khoẻ cho người nước ngoài (thẻ xanh) — Moskva · Cẩm nang Du lịch</title>
-<meta name="description" content="Danh sách chính thức các cơ sở được phép khám sức khoẻ cho người nước ngoài (медосвидетельствование) tại Moskva, kèm địa chỉ chính xác, bản đồ, giờ làm việc, điện thoại và gợi ý điểm khám gần nhà bạn nhất." />
+<title>Hỗ trợ người nước ngoài ở Nga — y tế, giấy tờ & cơ quan Việt Nam · Cẩm nang Du lịch</title>
+<meta name="description" content="Cẩm nang cho người nước ngoài tại Nga (Moskva): điểm khám sức khoẻ thẻ xanh, lấy vân tay & ảnh, SNILS, mã số thuế, phòng công an – di trú theo quận, công chứng – dịch thuật, và các cơ quan đại diện Việt Nam. Kèm bản đồ, địa chỉ chính xác và gợi ý điểm gần nhất." />
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#16293f">
@@ -16,12 +16,23 @@
   :root{--navy:#16293f;--gold:#c8a24b;--line:#e7e3d6;--muted:#5c6773;--ink:#1e2733;--med:#2E86DE;--bg:#f7f4ec}
   body{background:var(--bg);color:var(--ink)}
   .hwrap{max-width:1100px;margin:0 auto;padding:0 16px}
-  .hhero{background:linear-gradient(135deg,#123a5e,#0f2138);color:#fff;padding:26px 0 22px}
-  .hhero h1{margin:6px 0 8px;font-size:26px;line-height:1.2}
-  .hhero p{margin:0;color:#d7e2f0;font-size:14.5px;line-height:1.6;max-width:820px}
+  .hhero{background:linear-gradient(135deg,#123a5e,#0f2138);color:#fff;padding:24px 0 20px}
+  .hhero h1{margin:6px 0 8px;font-size:25px;line-height:1.22}
+  .hhero p{margin:0;color:#d7e2f0;font-size:14.5px;line-height:1.6;max-width:860px}
   .badge{display:inline-block;background:rgba(200,162,75,.2);border:1px solid rgba(200,162,75,.5);color:var(--gold);font-weight:700;font-size:12px;padding:4px 12px;border-radius:999px}
   .disc{background:#fff8ec;border:1px solid #f0dcae;border-left:4px solid var(--gold);border-radius:10px;padding:11px 14px;margin:14px 0;font-size:13px;color:#5a4a1e;line-height:1.6}
-  .finder{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin:16px 0;box-shadow:0 2px 10px rgba(20,40,70,.05)}
+  /* Contact CTA */
+  .hc-cta{display:flex;gap:13px;align-items:center;flex-wrap:wrap;background:linear-gradient(135deg,#1f9e6b,#12704f);color:#fff;border-radius:14px;padding:14px 17px;margin:14px 0}
+  .hc-cta .txt{flex:1 1 260px;font-size:14px;line-height:1.5}
+  .hc-cta .txt b{font-size:15.5px}
+  .hc-cta button{border:none;border-radius:10px;padding:11px 18px;font-size:14.5px;font-weight:800;cursor:pointer;font-family:inherit;background:#fff;color:#12704f;white-space:nowrap}
+  /* Filters */
+  .filters{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0 4px}
+  .fchip{border:1.5px solid #d7dfea;background:#fff;color:var(--navy);border-radius:999px;padding:8px 13px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:6px;line-height:1}
+  .fchip:hover{background:#f2f6fc}
+  .fchip.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .fchip .n{font-size:11px;opacity:.7;font-weight:600}
+  .finder{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin:14px 0;box-shadow:0 2px 10px rgba(20,40,70,.05)}
   .finder h3{margin:0 0 4px;font-size:16px;color:var(--navy)}
   .finder .sub{font-size:12.5px;color:var(--muted);margin:0 0 10px}
   .frow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
@@ -31,34 +42,56 @@
   .btn2.gold{background:var(--gold);color:#241c05}
   .btn2.ghost{background:#eef2f8;color:var(--navy);border:1px solid #d7dfea}
   .homeInfo{font-size:12.5px;color:var(--muted);margin-top:8px}
-  #hmap{height:420px;border-radius:14px;border:1px solid var(--line);margin:6px 0 18px;z-index:0}
+  #hmap{height:430px;border-radius:14px;border:1px solid var(--line);margin:6px 0 18px;z-index:0}
   .hcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin-bottom:12px;box-shadow:0 1px 6px rgba(20,40,70,.04)}
   .hcard.near{border:2px solid var(--gold);box-shadow:0 4px 16px rgba(200,162,75,.22)}
+  .hcard.dir{background:#fbfcfe}
   .hcard.flash{border:2px solid var(--gold);box-shadow:0 0 0 4px rgba(200,162,75,.28)}
   @keyframes hflash{0%{background:#fff8e6}100%{background:#fff}}
   .hcard.flash{animation:hflash 2.4s ease}
   .hcard .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}
-  .hcard h3{margin:0 0 3px;font-size:16.5px;color:var(--navy)}
+  .hcard h3{margin:0 0 3px;font-size:16px;color:var(--navy)}
   .hcard .ru{font-size:12px;color:var(--muted);margin:0 0 6px}
-  .tbadge{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
+  .tbadge{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap;display:inline-block}
   .t-mmc{background:#fff3d6;color:#7a5a00;border:1px solid #e6c667}
   .t-general{background:#e2eefb;color:#1a4e86;border:1px solid #b7d3ef}
   .t-tb{background:#fde3e0;color:#912019;border:1px solid #f0b3ad}
   .t-derm{background:#efe3fb;color:#5b2a86;border:1px solid #cdb3e8}
   .t-children{background:#e2f5e8;color:#1f6b3a;border:1px solid #b0dabf}
+  .g-health{background:#e2f5ec;color:#12704f;border:1px solid #b6e0cd}
+  .g-bio{background:#fde5e2;color:#a02820;border:1px solid #f2b8b1}
+  .g-doc{background:#e2eefb;color:#1a4e86;border:1px solid #b7d3ef}
+  .g-police{background:#e8ebef;color:#2c3a4d;border:1px solid #c3ccd8}
+  .g-legal{background:#f6efdd;color:#7a5a1a;border:1px solid #e5d3a6}
+  .g-vn{background:#fde3e3;color:#c0201c;border:1px solid #f2b3b2}
   .dist{font-weight:800;color:var(--gold);font-size:13.5px}
+  .badge-dir{font-size:11px;font-weight:700;color:#5c6773;background:#eef1f5;border:1px solid #dbe1ea;border-radius:6px;padding:2px 8px;margin-left:6px}
   .hcard .meta{font-size:13px;line-height:1.75;color:#33404f;margin:6px 0}
   .hcard .meta b{color:var(--navy)}
   .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
   .acts a,.acts button{font-size:12.5px;text-decoration:none;border:1px solid #d7dfea;background:#f6f8fb;color:var(--navy);border-radius:8px;padding:7px 11px;font-weight:600;cursor:pointer;font-family:inherit}
   .acts a.dir{background:var(--navy);color:#fff;border-color:var(--navy)}
   .rank{display:inline-block;min-width:22px;height:22px;line-height:22px;text-align:center;background:var(--navy);color:#fff;border-radius:50%;font-size:12px;font-weight:800;margin-right:6px}
-  .secttl{font-size:18px;color:var(--navy);margin:20px 0 4px}
-  .foot{color:var(--muted);font-size:12px;padding:20px 0 40px;text-align:center;line-height:1.6}
+  .secttl{font-size:18px;color:var(--navy);margin:18px 0 2px}
+  .foot{color:var(--muted);font-size:12px;padding:20px 0 60px;text-align:center;line-height:1.6}
   .leaflet-popup-content{font-size:13px;line-height:1.5}
   .leaflet-popup-content .pn{font-weight:700;color:var(--navy)}
   .pmarker{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 2px 6px rgba(0,0,0,.3);border:2px solid #fff;font-size:14px}
   .pmarker span{transform:rotate(45deg)}
+  /* Contact modal + FAB */
+  .hc-fab{position:fixed;right:16px;bottom:16px;z-index:99999;background:#1f9e6b;color:#fff;border:none;border-radius:999px;padding:12px 18px;font-size:14.5px;font-weight:800;cursor:pointer;box-shadow:0 8px 24px rgba(31,158,107,.45);font-family:inherit;display:flex;align-items:center;gap:7px}
+  .hc-fab:hover{background:#178257}
+  .hc-modal{position:fixed;inset:0;z-index:100000;background:rgba(15,25,40,.55);display:none;align-items:center;justify-content:center;padding:16px}
+  .hc-modal.open{display:flex}
+  .hc-card{background:#fff;max-width:430px;width:100%;border-radius:16px;padding:20px 20px 10px;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+  .hc-card h3{margin:0 0 6px;color:var(--navy);font-size:19px}
+  .hc-card p{margin:0 0 14px;color:#33404f;font-size:14px;line-height:1.6}
+  .hc-ch{display:flex;align-items:center;gap:11px;width:100%;text-decoration:none;border:1px solid #e4e7ee;border-radius:12px;padding:11px 14px;margin-bottom:9px;font-weight:700;color:var(--navy);font-size:14.5px}
+  .hc-ch:hover{background:#f6f8fb;border-color:#c9d3e2}
+  .hc-ch span.i{font-size:20px;width:24px;text-align:center}
+  .hc-ch small{display:block;font-weight:400;color:#5c6773;font-size:12.5px}
+  .hc-x{float:right;border:none;background:#eef2f8;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px;color:var(--navy);line-height:1}
+  .hc-small{font-size:11.5px;color:#8a97a8;margin-top:4px}
 </style>
 </head>
 <body>
@@ -69,25 +102,32 @@
       <a href="index.html">Trang chủ</a>
       <a href="gis.html">Bản đồ</a>
       <a href="list.html">Danh sách</a><a href="am-thuc/index.html">🍲 Ẩm thực</a>
-      <a href="khamsuckhoe.html" class="active">🩺 Khám sức khoẻ</a>
+      <a href="khamsuckhoe.html" class="active">🛂 Y tế & Giấy tờ</a>
     </div>
   </nav>
 </header>
 
 <section class="hhero">
   <div class="hwrap">
-    <span class="badge">🩺 Thẻ xanh · Moskva</span>
-    <h1>Khám sức khoẻ cho người nước ngoài (медосвидетельствование) — Moskva</h1>
-    <p>Danh sách các cơ sở y tế <b>được phép chính thức</b> khám sức khoẻ cấp giấy cho người nước ngoài tại Moskva (theo Перечень поликлиник для МОДФ / Постановление №1517-ПП). Địa chỉ chính xác, bản đồ, giờ làm việc, và gợi ý <b>điểm khám gần nhà bạn nhất</b>.</p>
+    <span class="badge">🛂 Người nước ngoài · Moskva &amp; LB Nga</span>
+    <h1>Hỗ trợ người nước ngoài ở Nga — y tế, giấy tờ &amp; cơ quan Việt Nam</h1>
+    <p>Tổng hợp cho người Việt &amp; người nước ngoài tại Nga: <b>khám sức khoẻ thẻ xanh</b>, <b>lấy vân tay &amp; chụp ảnh</b> (дактилоскопия), <b>SNILS &amp; mã số thuế</b>, <b>công an – di trú theo quận</b>, <b>công chứng – dịch thuật</b>, và <b>Đại sứ quán / Lãnh sự quán / Thương vụ Việt Nam</b>. Có bản đồ, địa chỉ chính xác và gợi ý điểm gần bạn nhất.</p>
   </div>
 </section>
 
 <div class="hwrap">
-  <div class="disc">⚠️ <b>Lưu ý:</b> Thông tin mang tính tham khảo, tổng hợp từ danh sách chính thức và nguồn công khai — <b>có thể thay đổi</b>. Khám sức khoẻ cho người nước ngoài là <b>dịch vụ trả phí</b>; hãy <b>gọi điện / xem web trước khi đến</b> để xác nhận lịch, giấy tờ cần mang (hộ chiếu + bản dịch công chứng) và phí. Đa số người nước ngoài làm trọn bộ tại <b>ММЦ Сахарово</b>.</div>
+  <div class="disc">⚠️ <b>Lưu ý quan trọng:</b> Toàn bộ thông tin ở đây <b>chỉ mang tính tham khảo</b>, tổng hợp từ nguồn công khai và <b>có thể đã thay đổi / chưa được cập nhật</b>. Địa chỉ cơ quan nhà nước, giờ tiếp dân, số điện thoại và quy trình thay đổi thường xuyên. <b>Luôn gọi điện hoặc xem trang web chính thức trước khi đến.</b> Mang theo hộ chiếu và bản dịch công chứng khi làm thủ tục.</div>
+
+  <div class="hc-cta">
+    <div class="txt"><b>Cần hỗ trợ làm thủ tục?</b><br>Mình có thể tư vấn &amp; đồng hành: khám sức khoẻ, thẻ xanh/vân tay, SNILS, giấy tờ di trú, công chứng – dịch thuật, thủ tục lãnh sự…</div>
+    <button type="button" onclick="HC_open()">🤝 Liên hệ tư vấn</button>
+  </div>
+
+  <div class="filters" id="filters"></div>
 
   <div class="finder">
-    <h3>📍 Tìm điểm khám gần bạn nhất</h3>
-    <p class="sub">Nhập địa chỉ nhà bạn, hoặc dùng vị trí hiện tại, hoặc bấm “Chọn trên bản đồ” rồi bấm vào chỗ nhà bạn.</p>
+    <h3>📍 Tìm điểm gần bạn nhất</h3>
+    <p class="sub">Nhập địa chỉ nhà bạn, hoặc dùng vị trí hiện tại, hoặc bấm “Chọn trên bản đồ”. Danh sách sẽ sắp theo khoảng cách (với các điểm có toạ độ).</p>
     <div class="frow">
       <input type="search" id="addr" placeholder="Ví dụ: Варшавское шоссе 141, Москва" autocomplete="off" />
       <button class="btn2 primary" id="btnFind">🔎 Tìm gần nhất</button>
@@ -99,42 +139,96 @@
 
   <div id="hmap"></div>
 
-  <h2 class="secttl" id="listTitle">Danh sách cơ sở khám (12 điểm)</h2>
-  <p class="sub" style="color:var(--muted);font-size:12.5px;margin:0 0 12px">Bấm nút bên dưới mỗi điểm để mở Google/Yandex Maps hoặc chỉ đường từ nhà bạn.</p>
+  <h2 class="secttl" id="listTitle">Danh sách</h2>
+  <p class="sub" style="color:var(--muted);font-size:12.5px;margin:0 0 12px">Bấm nút bên dưới mỗi điểm để mở Google/Yandex Maps, chỉ đường, hoặc chia sẻ. Các điểm ghi “📋 Danh bạ” chưa có toạ độ trên bản đồ — hãy bấm mở bản đồ theo địa chỉ.</p>
   <div id="hlist"></div>
 
   <div class="foot">
-    Nguồn: danh sách chính thức của Sở Y tế / Chính quyền Moskva (Перечень поликлиник для МОДФ, Постановление №1517-ПП) và các nguồn công khai (2ГИС, trang web chính thức của từng cơ sở).<br>
+    Nguồn: danh sách chính thức của Sở Y tế / Chính quyền Moskva (Перечень поликлиник для МОДФ, №1517-ПП), cổng mos.ru / мвд.рф, 2ГИС và trang web chính thức của từng cơ quan. Thông tin có thể thay đổi.<br>
     Cẩm nang Du lịch · Phạm Đăng Hiển · lopmaybay@gmail.com · <a href="https://fb.com/lopmaybay" target="_blank" rel="noopener">fb.com/lopmaybay</a>
   </div>
 </div>
 
+<!-- Contact -->
+<button type="button" class="hc-fab" onclick="HC_open()">🤝 Tư vấn hỗ trợ</button>
+<div class="hc-modal" id="hcModal" onclick="if(event.target===this)HC_close()">
+  <div class="hc-card">
+    <button class="hc-x" type="button" onclick="HC_close()">✕</button>
+    <h3>🤝 Tư vấn &amp; hỗ trợ dịch vụ</h3>
+    <p>Cần hỗ trợ khám sức khoẻ, làm thẻ xanh/vân tay, SNILS, giấy tờ di trú, công chứng – dịch thuật hay thủ tục lãnh sự? Liên hệ mình để được tư vấn tận tình.</p>
+    <a class="hc-ch" href="https://m.me/lopmaybay" target="_blank" rel="noopener"><span class="i">💬</span><span>Nhắn Facebook Messenger<small>Phản hồi nhanh nhất</small></span></a>
+    <a class="hc-ch" href="https://www.facebook.com/lopmaybay" target="_blank" rel="noopener"><span class="i">👍</span><span>Trang Facebook<small>facebook.com/lopmaybay</small></span></a>
+    <a class="hc-ch" href="mailto:lopmaybay@gmail.com"><span class="i">✉️</span><span>Email<small>lopmaybay@gmail.com</small></span></a>
+    <p class="hc-small">Cẩm nang Du lịch · Phạm Đăng Hiển</p>
+  </div>
+</div>
+<script>
+  function HC_open(){var m=document.getElementById('hcModal');if(m)m.classList.add('open');}
+  function HC_close(){var m=document.getElementById('hcModal');if(m)m.classList.remove('open');}
+</script>
+
 <script src="assets/vendor/leaflet.js"></script>
 <script src="assets/common.js"></script>
 <script src="data/health.js"></script>
+<script src="data/admin.js"></script>
 <script>
 (function(){
-  var DB = (window.HEALTH_DB && window.HEALTH_DB.places) || [];
   var esc = (window.RT && RT.escapeHtml) ? RT.escapeHtml : function(s){return (s==null?"":String(s));};
-  var TYPE = {mmc:{e:"⭐",c:"#c8a24b",l:"Tất cả trong 1 nơi"},general:{e:"🏥",c:"#2E86DE",l:"Đa khoa"},tb:{e:"🫁",c:"#C0392B",l:"Lao phổi"},derm:{e:"🧬",c:"#7C5CFC",l:"Da liễu/HIV"},children:{e:"🧒",c:"#27AE60",l:"Vị thành niên"}};
-  var home=null, homeMarker=null, pickMode=false;
+  // ---- unify data ----
+  var HEALTH=(window.HEALTH_DB&&HEALTH_DB.places)||[];
+  var ADMIN=(window.ADMIN_DB&&ADMIN_DB.places)||[];
+  HEALTH.forEach(function(p){ p._grp='health'; p._gtypes=['health']; });
+  ADMIN.forEach(function(p){ p._grp=p.gtype; p._gtypes=(p.gtypes&&p.gtypes.length)?p.gtypes:[p.gtype]; });
+  var DB=HEALTH.concat(ADMIN);
+
+  var TYPE={mmc:{e:"⭐",c:"#c8a24b",l:"Tất cả trong 1 nơi"},general:{e:"🏥",c:"#2E86DE",l:"Đa khoa"},tb:{e:"🫁",c:"#C0392B",l:"Lao phổi"},derm:{e:"🧬",c:"#7C5CFC",l:"Da liễu/HIV"},children:{e:"🧒",c:"#27AE60",l:"Vị thành niên"}};
+  var GRP={
+    health:{e:"🩺",c:"#1f9e6b",l:"Khám sức khoẻ"},
+    bio:{e:"🛂",c:"#c0392b",l:"Thẻ xanh · Vân tay · Ảnh"},
+    doc:{e:"🪪",c:"#2E86DE",l:"SNILS · Mã số thuế"},
+    police:{e:"👮",c:"#34495e",l:"Công an · Di trú"},
+    legal:{e:"📜",c:"#8a6d3b",l:"Công chứng · Dịch thuật"},
+    vn:{e:"🇻🇳",c:"#da251d",l:"Cơ quan Việt Nam"}
+  };
+  var FILTERS=[["all","Tất cả","📋"],["health","Khám sức khoẻ","🩺"],["bio","Thẻ xanh·Vân tay·Ảnh","🛂"],["doc","SNILS·Thuế","🪪"],["police","Công an·Di trú","👮"],["legal","Công chứng·Dịch thuật","📜"],["vn","Cơ quan Việt Nam","🇻🇳"]];
+  var curF="all", home=null, homeMarker=null, pickMode=false;
+
+  function matches(p){ return curF==="all" || p._gtypes.indexOf(curF)>=0; }
+  function grpOf(p){ return GRP[p._grp]||GRP.doc; }
+  function iconInfo(p){ if(p.kind==='health'){ var ty=TYPE[p.htype]||TYPE.general; return {c:ty.c,e:ty.e}; } var g=grpOf(p); return {c:g.c,e:g.e}; }
+  function count(f){ if(f==="all") return DB.length; var n=0; DB.forEach(function(p){ if(p._gtypes.indexOf(f)>=0) n++; }); return n; }
+
+  // ---- filter chips ----
+  (function(){
+    var box=document.getElementById("filters"); var h="";
+    FILTERS.forEach(function(f){ h+='<button type="button" class="fchip'+(f[0]===curF?' active':'')+'" data-f="'+f[0]+'">'+f[2]+' '+esc(f[1])+' <span class="n">'+count(f[0])+'</span></button>'; });
+    box.innerHTML=h;
+    box.querySelectorAll("[data-f]").forEach(function(b){ b.onclick=function(){ curF=b.getAttribute("data-f"); box.querySelectorAll(".fchip").forEach(function(x){ x.classList.toggle("active", x===b); }); applyMarkers(); render(); }; });
+  })();
 
   // ---- map ----
   var map=L.map('hmap',{scrollWheelZoom:true}).setView([55.75,37.62],9);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+  var markerLayer=L.layerGroup().addTo(map);
   var markers={};
   DB.forEach(function(p){
-    var ty=TYPE[p.htype]||TYPE.general;
+    if(!p.coordinates) return;
+    var ii=iconInfo(p);
     var icon=L.divIcon({className:'',iconSize:[30,30],iconAnchor:[15,29],popupAnchor:[0,-28],
-      html:'<div class="pmarker" style="background:'+ty.c+'"><span>'+ty.e+'</span></div>'});
-    var m=L.marker([p.coordinates.lat,p.coordinates.lon],{icon:icon}).addTo(map);
-    m.bindPopup(popupHTML(p),{minWidth:230,maxWidth:270});
+      html:'<div class="pmarker" style="background:'+ii.c+'"><span>'+ii.e+'</span></div>'});
+    var m=L.marker([p.coordinates.lat,p.coordinates.lon],{icon:icon});
+    m.bindPopup(popupHTML(p),{minWidth:230,maxWidth:280});
     markers[p.id]=m;
   });
+  function applyMarkers(){
+    markerLayer.clearLayers(); var pts=[];
+    DB.forEach(function(p){ if(!p.coordinates||!matches(p)) return; var m=markers[p.id]; if(m){ markerLayer.addLayer(m); pts.push([p.coordinates.lat,p.coordinates.lon]); } });
+    if(pts.length){ try{ map.fitBounds(pts,{padding:[45,45],maxZoom:13}); }catch(e){} }
+  }
   function popupHTML(p){
-    var ty=TYPE[p.htype]||TYPE.general;
+    var ii=iconInfo(p), lbl = p.kind==='health' ? (TYPE[p.htype]||TYPE.general).l : grpOf(p).l;
     return '<div><div class="pn">'+esc(p.name_vi)+'</div>'+
-      '<div style="font-size:11.5px;color:#5c6773;margin:2px 0 5px">'+ty.e+' '+ty.l+' · '+esc(p.address_vi)+'</div>'+
+      '<div style="font-size:11.5px;color:#5c6773;margin:2px 0 5px">'+ii.e+' '+esc(lbl)+' · '+esc(p.address_vi)+'</div>'+
       '<div style="display:flex;gap:5px;flex-wrap:wrap">'+
       '<a href="'+esc(p.maps.google)+'" target="_blank" rel="noopener" style="font-size:12px">🗺️ Google</a> '+
       '<a href="'+esc(p.maps.yandex)+'" target="_blank" rel="noopener" style="font-size:12px">📍 Yandex</a>'+
@@ -143,46 +237,63 @@
       '</div></div>';
   }
 
-  // ---- distance helpers ----
+  // ---- distance ----
   function distKm(a,b){ if(window.RT&&RT.haversineKm) return RT.haversineKm({lat:a.lat,lon:a.lon},{lat:b.lat,lon:b.lon});
     var R=6371,dLat=(b.lat-a.lat)*Math.PI/180,dLon=(b.lon-a.lon)*Math.PI/180,s=Math.sin(dLat/2)**2+Math.cos(a.lat*Math.PI/180)*Math.cos(b.lat*Math.PI/180)*Math.sin(dLon/2)**2; return 2*R*Math.asin(Math.sqrt(s)); }
-  function ordered(){ var arr=DB.slice(); if(home){ arr.forEach(function(p){ p._d=distKm(home,p.coordinates); }); arr.sort(function(x,y){return x._d-y._d;}); } return arr; }
+  function ordered(){
+    var arr=DB.filter(matches);
+    if(home){ arr.forEach(function(p){ p._d = p.coordinates ? distKm(home,p.coordinates) : null; });
+      arr.sort(function(x,y){ if(x._d==null&&y._d==null) return 0; if(x._d==null) return 1; if(y._d==null) return -1; return x._d-y._d; }); }
+    return arr;
+  }
 
-  // ---- list render ----
+  // ---- directions / links ----
   function dirG(p){ return 'https://www.google.com/maps/dir/?api=1'+(home?'&origin='+home.lat+','+home.lon:'')+'&destination='+p.coordinates.lat+','+p.coordinates.lon; }
   function dirY(p){ return 'https://yandex.ru/maps/?rtext='+(home?home.lat+','+home.lon+'~':'')+p.coordinates.lat+','+p.coordinates.lon+'&rtt=mt'; }
+
+  function badgeHTML(p){
+    if(p.kind==='health'){ var ty=TYPE[p.htype]||TYPE.general; return '<span class="tbadge t-'+p.htype+'">'+ty.e+' '+esc(ty.l)+'</span>'; }
+    var g=grpOf(p); return '<span class="tbadge g-'+p._grp+'">'+g.e+' '+esc(g.l)+'</span>';
+  }
+
   function render(){
-    var arr=ordered(), host=document.getElementById('hlist'); var html='';
-    arr.forEach(function(p,i){
-      var ty=TYPE[p.htype]||TYPE.general;
-      var near = home && i===0;
-      html+='<div class="hcard'+(near?' near':'')+'" id="card-'+esc(p.id)+'">'+
-        '<div class="top"><div>'+(home?'<span class="rank">'+(i+1)+'</span>':'')+
+    var arr=ordered(), host=document.getElementById('hlist'); var html=''; var rank=0; var firstCoord=null;
+    if(home){ for(var k=0;k<arr.length;k++){ if(arr[k].coordinates){ firstCoord=arr[k]; break; } } }
+    arr.forEach(function(p){
+      var hasC=!!p.coordinates;
+      var near = home && hasC && p===firstCoord;
+      if(home && hasC) rank++;
+      var mapsLabel = p.info ? ['🔎 Google','🔎 Yandex'] : ['🗺️ Google Maps','📍 Yandex Maps'];
+      html+='<div class="hcard'+(near?' near':'')+(hasC?'':' dir')+'" id="card-'+esc(p.id)+'">'+
+        '<div class="top"><div>'+((home&&hasC)?'<span class="rank">'+rank+'</span>':'')+
           '<h3 style="display:inline">'+esc(p.name_vi)+(near?' <span style="font-size:12px;color:#b8860b">— gần bạn nhất</span>':'')+'</h3>'+
-          '<div class="ru">'+esc(p.name_ru)+'</div></div>'+
-          '<div style="text-align:right"><span class="tbadge t-'+p.htype+'">'+ty.e+' '+ty.l+'</span>'+
-          (home?'<div class="dist">≈ '+p._d.toFixed(1)+' km</div>':'')+'</div></div>'+
+          (hasC?'':' <span class="badge-dir">📋 Danh bạ</span>')+
+          '<div class="ru">'+esc(p.name_ru||'')+'</div></div>'+
+          '<div style="text-align:right">'+badgeHTML(p)+
+          ((home&&hasC)?'<div class="dist">≈ '+p._d.toFixed(1)+' km</div>':'')+'</div></div>'+
         '<div class="meta">'+
-          '📍 <b>Địa chỉ:</b> '+esc(p.address_vi)+'<br>'+
+          '📍 <b>'+(hasC?'Địa chỉ':'Vị trí')+':</b> '+esc(p.address_vi)+'<br>'+
           (p.metro?'🚇 <b>Metro:</b> '+esc(p.metro)+'<br>':'')+
-          '🕒 <b>Giờ:</b> '+esc((p.practical||{}).hours_vi||'')+'<br>'+
+          ((p.practical&&p.practical.hours_vi)?'🕒 <b>Giờ:</b> '+esc(p.practical.hours_vi)+'<br>':'')+
           (p.phone?'☎️ <b>ĐT:</b> <a href="tel:'+esc(p.phone.replace(/[^+0-9]/g,''))+'">'+esc(p.phone)+'</a><br>':'')+
-          '📝 '+esc(p.presentation_long_vi)+
+          (p.email?'✉️ <b>Email:</b> <a href="mailto:'+esc(p.email)+'">'+esc(p.email)+'</a><br>':'')+
+          '📝 '+esc(p.presentation_long_vi||p.presentation_short_vi||'')+
         '</div>'+
         '<div class="acts">'+
-          '<a class="dir" href="'+esc(dirG(p))+'" target="_blank" rel="noopener">🧭 Chỉ đường (Google)</a>'+
-          '<a class="dir" href="'+esc(dirY(p))+'" target="_blank" rel="noopener">🧭 Chỉ đường (Yandex)</a>'+
-          '<a href="'+esc(p.maps.google)+'" target="_blank" rel="noopener">🗺️ Google Maps</a>'+
-          '<a href="'+esc(p.maps.yandex)+'" target="_blank" rel="noopener">📍 Yandex Maps</a>'+
+          (hasC?('<a class="dir" href="'+esc(dirG(p))+'" target="_blank" rel="noopener">🧭 Chỉ đường (Google)</a>'+
+                 '<a class="dir" href="'+esc(dirY(p))+'" target="_blank" rel="noopener">🧭 Chỉ đường (Yandex)</a>'):'')+
+          '<a href="'+esc(p.maps.google)+'" target="_blank" rel="noopener">'+mapsLabel[0]+'</a>'+
+          '<a href="'+esc(p.maps.yandex)+'" target="_blank" rel="noopener">'+mapsLabel[1]+'</a>'+
           (p.official_site?'<a href="'+esc(p.official_site)+'" target="_blank" rel="noopener">🌐 Web</a>':'')+
-          '<button data-focus="'+esc(p.id)+'">🗺️ Xem trên bản đồ</button>'+
+          (hasC?'<button data-focus="'+esc(p.id)+'">🗺️ Xem trên bản đồ</button>':'')+
           '<button data-shareurl="'+esc(RT.shareUrl('khamsuckhoe.html#card-'+p.id))+'" data-sharetitle="'+esc(p.name_vi)+'">🔗 Chia sẻ</button>'+
         '</div>'+
       '</div>';
     });
     host.innerHTML=html;
     host.querySelectorAll('[data-focus]').forEach(function(b){ b.onclick=function(){ var id=b.getAttribute('data-focus'); var m=markers[id]; if(m){ map.setView(m.getLatLng(),14); m.openPopup(); window.scrollTo({top:document.getElementById('hmap').offsetTop-10,behavior:'smooth'}); } }; });
-    document.getElementById('listTitle').textContent = home ? 'Danh sách theo khoảng cách từ nhà bạn (gần → xa)' : ('Danh sách cơ sở khám ('+DB.length+' điểm)');
+    var gl = curF==="all" ? "tất cả mục" : (GRP[curF]?GRP[curF].l:curF);
+    document.getElementById('listTitle').textContent = (home ? 'Gần bạn nhất' : 'Danh sách') + ' · ' + gl + ' (' + arr.length + ')';
   }
 
   // ---- set home ----
@@ -192,7 +303,8 @@
     homeMarker=L.marker([lat,lon],{icon:L.divIcon({className:'',iconSize:[34,34],iconAnchor:[17,33],html:'<div class="pmarker" style="background:#e8514b;width:34px;height:34px;font-size:16px"><span>🏠</span></div>'})}).addTo(map).bindPopup('🏠 Nhà bạn');
     document.getElementById('homeInfo').innerHTML='🏠 Đã đặt vị trí của bạn'+(label?': <b>'+esc(label)+'</b>':'')+'. Danh sách đã sắp theo khoảng cách.';
     render();
-    var arr=ordered(); var pts=[[lat,lon]].concat(arr.slice(0,3).map(function(p){return [p.coordinates.lat,p.coordinates.lon];}));
+    var arr=ordered().filter(function(p){return p.coordinates;});
+    var pts=[[lat,lon]].concat(arr.slice(0,3).map(function(p){return [p.coordinates.lat,p.coordinates.lon];}));
     try{ map.fitBounds(pts,{padding:[40,40],maxZoom:12}); }catch(e){}
   }
 
@@ -225,9 +337,11 @@
     setTimeout(function(){ el.classList.remove('flash'); },2600);
   }
   window.addEventListener('hashchange', focusHash);
+
+  applyMarkers();
   render();
   setTimeout(function(){ try{ map.invalidateSize(); }catch(e){} },300);
-  setTimeout(focusHash, 450);
+  setTimeout(focusHash, 500);
 })();
 </script>
 </body>
