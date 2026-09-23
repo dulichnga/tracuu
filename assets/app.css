@@ -171,8 +171,11 @@ a:hover { text-decoration: underline; }
   .brand-logo { width: 26px; height: 26px; }
   .brand-name { overflow: hidden; text-overflow: ellipsis; }
   .lang-switch { margin-left: auto; order: 1; }
-  .nav-links { order: 2; width: 100%; margin-left: 0; gap: 6px; justify-content: center; }
-  .nav-links a { padding: 7px 12px; font-size: 13px; }
+  .nav-links { order: 2; width: 100%; margin-left: 0; gap: 6px; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 1px; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { padding: 7px 13px; font-size: 13px; white-space: nowrap; flex: 0 0 auto; }
+  .lang-switch { flex: 0 0 auto; }
+  .lang-chip span { display: none; }
   .hero { padding: 34px 16px; }
   .hero h1 { font-size: 25px; }
   .hero p.lead { font-size: 15.5px; }

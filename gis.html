@@ -731,6 +731,7 @@
       '<div class="pop-actions">' +
         '<button class="btn sm" onclick="RTGIS.detail(\'' + p.id + '\')">' + RT.uiText("detail") + '</button>' +
         RT.pinBtnHTML(p) +
+        RT.shareBtnHTML('gis.html?focus=' + p.id, (RT.t(p, "name") || p.name_vi || "")) +
       '</div>' +
       (p.parent ? '<div class="pop-actions"><button class="btn sm" style="flex:1" onclick="RTGIS.toggleDetail(\'' + p.parent + '\',false)">🏛 Ẩn nhóm điểm chi tiết</button></div>' : '') +
       '<div class="pop-actions">' +
@@ -1522,6 +1523,7 @@
           (p.maps && p.maps.google ? '<a class="btn sm" href="' + p.maps.google + '" target="_blank" rel="noopener">🗺️ GG Maps</a>' : '') +
           '<a class="btn sm" href="https://www.google.com/search?hl=vi&q=' + encodeURIComponent(RT.t(p, "name") || p.name_vi || "") + '" target="_blank" rel="noopener">🔎 Google (VI)</a>' +
           RT.pinBtnHTML(p) +
+          RT.shareBtnHTML('gis.html?focus=' + p.id, (RT.t(p, "name") || p.name_vi || "")) +
         '</div>' +
         '<div class="cndl-lock">🔒 <b>Bài thuyết minh chi tiết</b> (lịch sử, kiến trúc, câu chuyện thú vị…) được hướng dẫn viên của chúng tôi trình bày trực tiếp cho khách. Hãy liên hệ để được tư vấn và đặt hướng dẫn viên nói tiếng Việt!</div>' +
         (hl ? '<h4>' + RT.uiText("highlights") + '</h4><ul style="font-size:13.5px;">' + hl + '</ul>' : '') +

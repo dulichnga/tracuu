@@ -25,7 +25,7 @@
     + '.pwa-toast{background:#16293f;color:#fff;border-radius:12px;padding:9px 13px;font-size:12.5px;'
     + 'box-shadow:0 6px 20px rgba(10,20,35,.32);display:none;line-height:1.45}'
     + '.pwa-off{background:#8a5a12}'
-    + '@media(max-width:820px){#pwaWrap{bottom:auto;top:10px;left:10px;max-width:60vw}}';
+    + '@media(max-width:820px){#pwaWrap{left:10px;bottom:10px;max-width:72vw}}';
   var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
 
   var wrap = document.createElement('div'); wrap.id = 'pwaWrap';

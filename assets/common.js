@@ -267,6 +267,33 @@
     return "https://www.google.com/maps?q=" + c.lat + "," + c.lon;   // dạng ?q=lat,lon: ghim thẳng toạ độ
   }
 
+  /* ---------- Chia sẻ địa điểm (deep-link cho bạn bè) ---------- */
+  function shareUrl(rel){ try { return new URL(rel, location.href).href; } catch(e){ return rel; } }
+  var _toastEl=null, _toastT=0;
+  function _toast(msg){
+    if(!global.document) return;
+    if(!_toastEl){
+      _toastEl=document.createElement('div');
+      _toastEl.setAttribute('style','position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:100000;background:#16293f;color:#fff;padding:11px 18px;border-radius:999px;font-size:13.5px;font-weight:600;box-shadow:0 8px 26px rgba(0,0,0,.4);max-width:92vw;text-align:center;opacity:0;transition:opacity .2s;pointer-events:none;font-family:inherit;');
+      (document.body||document.documentElement).appendChild(_toastEl);
+    }
+    _toastEl.textContent=msg; _toastEl.style.opacity='1';
+    clearTimeout(_toastT); _toastT=setTimeout(function(){ if(_toastEl) _toastEl.style.opacity='0'; }, 2600);
+  }
+  function _fallbackCopy(text){ try{ var ta=document.createElement('textarea'); ta.value=text; ta.setAttribute('style','position:fixed;left:-9999px;top:0;'); document.body.appendChild(ta); ta.focus(); ta.select(); var ok=document.execCommand('copy'); document.body.removeChild(ta); return ok; }catch(e){ return false; } }
+  function _copy(text){ return new Promise(function(res){ if(global.navigator && navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(function(){res(true);},function(){res(_fallbackCopy(text));}); } else { res(_fallbackCopy(text)); } }); }
+  function share(url, title){
+    title = title || (global.document && document.title) || 'Cẩm nang Du lịch Nga';
+    if(global.navigator && navigator.share){ try{ navigator.share({ title:title, text:title, url:url })["catch"](function(){}); return; }catch(e){} }
+    _copy(url).then(function(ok){ _toast(ok ? '✓ Đ\xe3 sao ch\xe9p link — gửi cho bạn b\xe8 nh\xe9!' : url); });
+  }
+  function shareBtnHTML(rel, title, opts){
+    opts = opts || {};
+    var cls = 'btn sm share-btn' + (opts.cls ? (' '+opts.cls) : '');
+    var label = (opts.label != null) ? opts.label : '🔗 Chia sẻ';
+    return '<button type="button" class="'+cls+'" data-shareurl="'+escapeHtml(shareUrl(rel))+'" data-sharetitle="'+escapeHtml(title||'')+'" title="Sao ch\xe9p link để gửi cho bạn b\xe8">'+label+'</button>';
+  }
+
   global.RT = {
     CATEGORIES: CATEGORIES,
     mapUrl: mapUrl,
@@ -295,6 +322,10 @@
     pinToggleObj: pinToggleObj,
     pinBtnHTML: pinBtnHTML,
     docUrlOf: docUrlOf,
+    share: share,
+    shareUrl: shareUrl,
+    shareBtnHTML: shareBtnHTML,
+    toast: _toast,
     saveOffline: saveOffline,
     ensureData: ensureData,
     saveRegionOffline: saveRegionOffline,
@@ -312,6 +343,15 @@
       var sel='[data-pin="'+((global.CSS&&CSS.escape)?CSS.escape(id):id)+'"]';
       var all=document.querySelectorAll(sel);
       for(var i=0;i<all.length;i++){ all[i].classList.toggle("on", on); if(all[i].classList.contains("pin-btn")) all[i].innerHTML = on?'📌 Đã ghim':'📌 Ghim'; }
+    });
+  }
+
+  /* ---------- Tự gắn nút chia sẻ (mọi trang có [data-shareurl]) ---------- */
+  if (global.document) {
+    document.addEventListener("click", function(e){
+      var b=(e.target&&e.target.closest)?e.target.closest("[data-shareurl]"):null; if(!b) return;
+      e.preventDefault();
+      share(b.getAttribute("data-shareurl"), b.getAttribute("data-sharetitle")||"");
     });
   }
 

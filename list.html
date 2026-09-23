@@ -238,6 +238,7 @@
           '<button class="btn sm toggle-detail">' + RT.uiText("detail") + '</button>' +
           '<a class="btn sm" href="gis.html?focus=' + encodeURIComponent(p.id) + '">' + RT.uiText("map") + '</a>' +
           RT.pinBtnHTML(p) +
+          RT.shareBtnHTML('gis.html?focus=' + p.id, (RT.t(p, "name") || p.name_vi || "")) +
           (p.maps && p.maps.google ? '<a class="btn sm" href="' + p.maps.google + '" target="_blank" rel="noopener">🗺️ Google</a>' : '') +
           '<button class="btn sm primary" onclick="CNDL_contact()">💬 Tư vấn</button>' +
         '</div>' +
