@@ -44,8 +44,12 @@ h2.sec .bar{width:4px;height:16px;background:var(--gold);border-radius:2px;displ
 .tag{background:#efeadd;color:var(--navy);border-radius:6px;padding:2px 7px;font-size:10.3px;font-weight:700}
 .tag.lux{background:#f3e6c8;color:#8a6a1e}
 .dish{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 12px;margin-bottom:8px}
-.dh{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.dh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .dn{font-weight:800;color:var(--navy);font-size:14.6px}
+.dnwrap{flex:1 1 auto;min-width:0}
+.dn2{font-size:12.6px;margin-top:2px;line-height:1.4;color:#5c6773}
+.dn2 .nru{color:#1a4e86;font-weight:700}
+.dn2 .nen{font-style:italic}
 .badges{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0}
 .b{font-size:10.4px;font-weight:700;border-radius:6px;padding:2px 7px}
 .b.rest{background:#eaf0f8;color:var(--navy)}
@@ -190,6 +194,13 @@ function filtered(){
     return true;
   });
 }
+function altNames(d){
+  var p=[];
+  if(LANG!=='ru' && d.name_ru) p.push('<span class="nru">🇷🇺 '+esc(d.name_ru)+'</span>');
+  if(LANG!=='vi' && d.name_vi) p.push('🇻🇳 '+esc(d.name_vi));
+  if(LANG!=='en' && d.name_en) p.push('<span class="nen">'+esc(d.name_en)+'</span>');
+  return p.length ? '<div class="dn2">'+p.join(' · ')+'</div>' : '';
+}
 function dishCard(d){
   var r=REST_BY[d.rid]||{};
   var wt=d.weight?'<span class="wt">'+esc(d.weight)+'</span>':'';
@@ -198,7 +209,7 @@ function dishCard(d){
     +(d.veg?'<span class="b veg">🌱</span>':'')+(d.spicy?'<span class="b spicy">🌶️</span>':'');
   var tip=(d.tips_vi&&LANG==='vi')?'<div class="tip">💡 '+esc(d.tips_vi)+'</div>':'';
   var inp=PLAN.indexOf(d.id)>=0;
-  return '<div class="dish"><div class="dh"><div class="dn">'+esc(L(d,'name'))+'</div><div class="dp">'+wt+price+'</div></div>'
+  return '<div class="dish"><div class="dh"><div class="dnwrap"><div class="dn">'+esc(L(d,'name'))+'</div>'+altNames(d)+'</div><div class="dp">'+wt+price+'</div></div>'
     +'<div class="badges">'+badges+'</div><div class="di">'+esc(L(d,'intro'))+'</div>'+tip
     +'<button class="addp'+(inp?' in':'')+'" onclick="togglePlan(\''+d.id+'\',this)">'+(inp?'✓ '+tr('Đã thêm','Added','Добавлено'):'＋ '+tr('Kế hoạch','Plan','В план'))+'</button></div>';
 }
