@@ -754,9 +754,9 @@
   }
 
   function passFilter(p) {
-    if (p.kind === "health") { if (pinOnly && !RT.pinHas(p.id)) return false; var qh=(document.getElementById("q").value||"").trim().toLowerCase(); if(qh){ var hh=[p.name_vi,p.name_ru,p.name_en,p.address_vi].join(" ").toLowerCase(); if(hh.indexOf(qh)<0) return false; } return true; }
+    if (p.kind === "health") { if (pinOnly && !RT.pinHas(p.id)) return false; var qh=(document.getElementById("q").value||"").trim().toLowerCase().replace(/ё/g,"е"); if(qh){ var hh=[p.name_vi,p.name_ru,p.name_en,p.address_vi].join(" ").toLowerCase().replace(/ё/g,"е"); if(hh.indexOf(qh)<0) return false; } return true; }
     if (p.parent) return false;   // điểm chi tiết chỉ hiện qua lớp riêng (bật/tắt theo khu), không vào cụm chính
-    var q = (document.getElementById("q").value || "").trim().toLowerCase();
+    var q = (document.getElementById("q").value || "").trim().toLowerCase().replace(/ё/g,"е");
     var country = document.getElementById("country").value;
     var region = document.getElementById("region").value;
     var minStar = parseFloat(document.getElementById("minStar").value) || 0;
@@ -767,7 +767,7 @@
     if (minStar && ((p.rating || {}).value || 0) < minStar) return false;
     if (catKeys.length && !(p.categories || []).some(function (c) { return activeCats[c]; })) return false;
     if (q) {
-      var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, p.name_local, RT.t(p, "presentation_short")].join(" ").toLowerCase();
+      var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, p.name_local, RT.t(p, "presentation_short")].join(" ").toLowerCase().replace(/ё/g,"е");
       if (hay.indexOf(q) < 0) return false;
     }
     return true;
@@ -1666,17 +1666,18 @@
   function renderSuggest() {
     var box = document.getElementById("qSuggest");
     if (!box) return;
-    var q = (document.getElementById("q").value || "").trim().toLowerCase();
+    var q = (document.getElementById("q").value || "").trim().toLowerCase().replace(/ё/g,"е");
     if (!q) { box.style.display = "none"; box.innerHTML = ""; return; }
     var matches = places.filter(function (p) {
-      return RT.t(p, "name").toLowerCase().indexOf(q) >= 0;
+      var _h = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_local].join(" ").toLowerCase().replace(/ё/g,"е");
+      return _h.indexOf(q) >= 0;
     }).slice(0, 8);
     if (!matches.length) { box.style.display = "none"; box.innerHTML = ""; return; }
     box.innerHTML = matches.map(function (p) {
       var info = RT.catInfo(RT.primaryCat(p));
       return '<div class="sug-item" data-id="' + RT.escapeHtml(p.id) + '">' +
         '<span class="sug-emoji">' + info.emoji + '</span>' +
-        '<span class="sug-name">' + RT.escapeHtml(RT.t(p, "name")) + '</span></div>';
+        '<span class="sug-name">' + RT.escapeHtml(RT.t(p, "name")) + (p.name_ru && p.name_ru !== RT.t(p, "name") ? ' <span style="color:#8a97a8;font-weight:400">· ' + RT.escapeHtml(p.name_ru) + '</span>' : '') + '</span></div>';
     }).join("");
     box.style.display = "block";
     box.querySelectorAll(".sug-item").forEach(function (it) {

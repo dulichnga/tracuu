@@ -266,7 +266,7 @@
   }
 
   function currentList() {
-    var q = (document.getElementById("q").value || "").trim().toLowerCase();
+    var q = (document.getElementById("q").value || "").trim().toLowerCase().replace(/ё/g,"е");
     var country = document.getElementById("country").value;
     var region = document.getElementById("region").value;
     var sort = document.getElementById("sort").value;
@@ -278,7 +278,7 @@
       if (catKeys.length && !(p.categories || []).some(function (c) { return activeCats[c]; })) return false;
       if (q) {
         var hay = [RT.t(p, "name"), p.name_vi, p.name_ru, p.name_en, p.name_zh, p.name_local, RT.t(p, "presentation_short"), p.presentation_long_vi,
-          (p.practical || {}).tips_vi, (p.tags || []).join(" ")].join(" ").toLowerCase();
+          (p.practical || {}).tips_vi, (p.tags || []).join(" ")].join(" ").toLowerCase().replace(/ё/g,"е");
         if (hay.indexOf(q) < 0) return false;
       }
       return true;
