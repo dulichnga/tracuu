@@ -1,0 +1,115 @@
+{
+  "restaurant": {
+    "id": "grand-sova-plyos",
+    "brand": "Грандъ Сова",
+    "type": "restaurant",
+    "name_vi": "Nhà hàng «Grand Sova» (Грандъ Сова)",
+    "name_en": "Grand Sova House-Restaurant, Plyos",
+    "name_ru": "Дом-ресторан «Грандъ Сова»",
+    "cuisine_vi": "Ẩm thực Nga & Âu, có nhiều thực đơn theo mùa",
+    "cuisine_en": "Russian & European (seasonal menus)",
+    "cuisine_ru": "Русская и европейская кухня",
+    "cities": [
+      "Plyos"
+    ],
+    "address_vi": "Ул. Варваринская, 18, thị trấn Plyos, tỉnh Ivanovo, Nga.",
+    "hours": "Theo giờ nhà hàng; nên đặt trước.",
+    "phone": "+7 996 517 06 08",
+    "site": "grandsova.com",
+    "site_url": "https://grandsova.com/",
+    "map_url": "https://yandex.com/maps/?text=%D0%93%D1%80%D0%B0%D0%BD%D0%B4%D1%8A%20%D0%A1%D0%BE%D0%B2%D0%B0%20%D0%9F%D0%BB%D1%91%D1%81%20%D0%92%D0%B0%D1%80%D0%B2%D0%B0%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2018",
+    "price_level": "₽₽",
+    "about_vi": "Grand Sova là một dom-ресторан (nhà–nhà hàng) xinh xắn ở Plyos, gần nhà thờ Varvarinskaya và Đồi Levitan, kèm cả khách sạn nhỏ. Quán có nhiều thực đơn theo mùa: thực đơn chính, thực đơn mùa đông, thực đơn chay (mùa ăn kiêng), điểm tâm và thực đơn trẻ em. View đẹp, giá hợp lý – được du khách khen là đáng đồng tiền. Nên đặt bàn trước, nhất là cuối tuần.",
+    "about_en": "Grand Sova is a charming house-restaurant in Plyos near the Varvarinskaya church and Levitan Hill, with seasonal menus (main, winter, Lenten, breakfast and kids) and a pleasant view; good value, booking recommended.",
+    "about_ru": "«Грандъ Сова» — уютный дом-ресторан в Плёсе рядом с Варваринской церковью и горой Левитана, с сезонными меню и приятным видом; советуют бронировать столик.",
+    "tags": [
+      "russian",
+      "european",
+      "house-restaurant",
+      "plyos",
+      "view",
+      "value",
+      "golden-ring"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "soups",
+      "name_vi": "Súp cá Ukha",
+      "name_en": "Ukha fish soup",
+      "name_ru": "Уха",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp cá Nga cổ điển nấu từ cá sông Volga, khoai tây, hành và thì là; nước dùng trong, ngọt thanh, ấm bụng.",
+      "intro_en": "Classic Russian fish soup from Volga river fish with potato, onion and dill.",
+      "intro_ru": "Классическая уха из волжской рыбы с картофелем, луком и укропом.",
+      "tips_vi": "Đặc sản vùng sông; hợp ngày se lạnh. Giá đổi theo thực đơn.",
+      "tags": [
+        "soup",
+        "fish",
+        "local"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh «Ugол» nhân cá hun khói",
+      "name_en": "Smoked-fish pie (ugol)",
+      "name_ru": "Пирог «угол» с копчёной рыбой",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh nướng góc nhân cá hun khói – đặc sản trứ danh của Plyos, ăn nóng rất thơm.",
+      "intro_en": "A corner-shaped pie filled with smoked fish — a famous Plyos specialty, best served hot.",
+      "intro_ru": "Фирменный плёсский угол с копчёной рыбой — знаменитая местная закуска.",
+      "tips_vi": "Món biểu tượng của Plyos; nên hỏi quán còn phục vụ không.",
+      "tags": [
+        "signature",
+        "fish",
+        "local",
+        "plyos"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cá chép/giấc Volga áp chảo",
+      "name_en": "Pan-fried Volga fish (zander/bream)",
+      "name_ru": "Волжская рыба (судак/лещ)",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cá tươi đánh bắt từ sông Volga, áp chảo hoặc nướng, ăn kèm khoai và rau.",
+      "intro_en": "Fresh Volga river fish, pan-fried or grilled, served with potato and vegetables.",
+      "intro_ru": "Свежая волжская рыба, обжаренная или запечённая, с картофелем и овощами.",
+      "tips_vi": "Hỏi món cá theo mùa. Giá tham khảo theo thực đơn.",
+      "tags": [
+        "fish",
+        "local"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Bánh Blini",
+      "name_en": "Blini (Russian pancakes)",
+      "name_ru": "Блины",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga mỏng, ăn kèm cá hồi/trứng cá, mật ong, kem chua hoặc mứt.",
+      "intro_en": "Thin Russian pancakes served with salmon/caviar, honey, sour cream or jam.",
+      "intro_ru": "Тонкие русские блины с рыбой/икрой, мёдом, сметаной или вареньем.",
+      "tips_vi": "Món quốc dân, hợp cho bữa nhẹ và tráng miệng.",
+      "tags": [
+        "classic"
+      ]
+    }
+  ]
+}

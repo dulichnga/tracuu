@@ -1,0 +1,112 @@
+{
+  "restaurant": {
+    "id": "chainaya-plyos",
+    "brand": "Чайная",
+    "type": "cafe",
+    "name_vi": "Nhà trà «Chaynaya» (Чайная К. Косорылова)",
+    "name_en": "Tea House (Chaynaya), Plyos",
+    "name_ru": "Чайная К. Косорылова",
+    "cuisine_vi": "Nhà trà: trà Nga, bánh nướng, món nhẹ",
+    "cuisine_en": "Tea house: Russian tea & pastries",
+    "cuisine_ru": "Чайная: чай и выпечка",
+    "cities": [
+      "Plyos"
+    ],
+    "address_vi": "Khu trung tâm phố Sovetskaya, gần nhà hàng Promenad, thị trấn Plyos, tỉnh Ivanovo, Nga.",
+    "hours": "Ban ngày; đóng cửa khá sớm – nên đến sớm.",
+    "phone": "",
+    "site": "",
+    "site_url": "",
+    "map_url": "https://yandex.com/maps/?text=%D0%A7%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%9F%D0%BB%D1%91%D1%81%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F",
+    "price_level": "₽",
+    "about_vi": "Nhà trà nhỏ ở khu trung tâm, gần nhà hàng Promenad – điểm dừng chân ấm cúng, giá bình dân (hợp túi tiền sinh viên). Phục vụ trà Nga, bánh nướng và các món nhẹ; thích hợp để nghỉ chân giữa buổi tham quan. Lưu ý các quán ở Plyos đóng cửa khá sớm, nên ghé sớm để khỏi lỡ.",
+    "about_en": "A small, budget-friendly tea house in central Plyos near Promenad, serving Russian tea, pastries and light bites — a cosy stop between sights. Note that Plyos eateries close early.",
+    "about_ru": "Небольшая уютная чайная в центре Плёса рядом с «Променадомъ»: чай, выпечка и лёгкие закуски по демократичным ценам.",
+    "tags": [
+      "teahouse",
+      "cafe",
+      "budget",
+      "plyos",
+      "tea",
+      "pastries",
+      "golden-ring"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "drinks",
+      "name_vi": "Trà Nga (ấm/samovar)",
+      "name_en": "Russian tea",
+      "name_ru": "Чай (самовар)",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Trà Nga pha ấm, hợp nhâm nhi cùng bánh ngọt trong tiết trời se lạnh bên sông.",
+      "intro_en": "Russian brewed tea, lovely with pastries by the river.",
+      "intro_ru": "Русский чай, хорош с выпечкой у реки.",
+      "tips_vi": "Gọi kèm bánh nướng.",
+      "tags": [
+        "tea",
+        "classic"
+      ]
+    },
+    {
+      "cat": "pies",
+      "name_vi": "Bánh Pirozhki",
+      "name_en": "Pirozhki (stuffed buns)",
+      "name_ru": "Пирожки",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh nướng/chiên nhân mặn ngọt (khoai, bắp cải, thịt, táo) – món ăn nhẹ bình dân.",
+      "intro_en": "Baked or fried buns with savoury or sweet fillings — a budget snack.",
+      "intro_ru": "Печёные или жареные пирожки с начинками — бюджетный перекус.",
+      "tips_vi": "",
+      "tags": [
+        "snack",
+        "budget"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Bánh Blini",
+      "name_en": "Blini",
+      "name_ru": "Блины",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga mỏng ăn kèm mứt, mật ong hoặc kem chua.",
+      "intro_en": "Thin Russian pancakes with jam, honey or sour cream.",
+      "intro_ru": "Тонкие блины с вареньем, мёдом или сметаной.",
+      "tips_vi": "",
+      "tags": [
+        "classic"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh mật ong Medovik",
+      "name_en": "Medovik honey cake",
+      "name_ru": "Медовик",
+      "weight": "",
+      "price": "",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh ngàn lớp thấm mật ong và kem, ngọt dịu – tráng miệng Nga được yêu thích.",
+      "intro_en": "Layered honey cake with cream — a beloved Russian dessert.",
+      "intro_ru": "Слоёный медовый торт со сливочным кремом — любимый русский десерт.",
+      "tips_vi": "",
+      "tags": [
+        "dessert",
+        "sweet"
+      ]
+    }
+  ]
+}

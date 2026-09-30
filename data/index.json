@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T09:38:52",
-  "total_places": 10175,
+  "generated": "2026-09-30T08:44:53",
+  "total_places": 10182,
   "regions": [
     {
       "slug": "adygea",
@@ -3152,7 +3152,7 @@
       "name_vi": "Tỉnh Ivanovo",
       "federal_district": "Vùng Trung tâm",
       "country": "russia",
-      "count": 47,
+      "count": 54,
       "bbox": [
         40.1321398,
         56.5590255,
@@ -3160,8 +3160,8 @@
         57.5004979
       ],
       "center": [
-        57.08885801702129,
-        41.531006291489355
+        57.136741774074075,
+        41.52995403148147
       ]
     },
     {
@@ -10340,19 +10340,19 @@
     }
   ],
   "categories": {
-    "park_garden": 3216,
+    "park_garden": 3217,
     "other": 1981,
-    "church": 2107,
-    "museum": 1513,
+    "church": 2108,
+    "museum": 1515,
     "theatre": 271,
-    "monument": 2104,
+    "monument": 2105,
     "bridge": 190,
-    "square_street": 770,
+    "square_street": 772,
     "palace": 383,
     "fortress": 418
   },
   "countries": {
-    "russia": 4083,
+    "russia": 4090,
     "austria": 93,
     "belgium": 50,
     "brunei": 25,
@@ -10440,7 +10440,7 @@
     82.217
   ],
   "center": [
-    38.12152113774943,
-    67.14038578869493
+    38.134814899391124,
+    67.12277407404939
   ]
 }
