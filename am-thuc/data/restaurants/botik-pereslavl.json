@@ -1,0 +1,155 @@
+{
+  "restaurant": {
+    "id": "botik-pereslavl",
+    "brand": "Ботик",
+    "type": "restaurant",
+    "name_vi": "Nhà hàng «Botik» (ven hồ Pleshcheyevo)",
+    "name_en": "Botik Restaurant (Lakeside)",
+    "name_ru": "Ресторан «Ботик»",
+    "cuisine_vi": "Ẩm thực Nga, đặc sản cá hồ",
+    "cuisine_en": "Russian, lake-fish specialties",
+    "cuisine_ru": "Русская кухня, рыбные блюда",
+    "cities": [
+      "Pereslavl-Zalessky"
+    ],
+    "address_vi": "Làng Veskovo, ул. Петра Первого 77 (cạnh Bảo tàng Botik, ven hồ Pleshcheyevo), Pereslavl-Zalessky",
+    "hours": "11:00–22:00 (kiểm tra theo mùa)",
+    "phone": "",
+    "site": "",
+    "site_url": "",
+    "map_url": "https://yandex.ru/maps/?text=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%D0%91%D0%BE%D1%82%D0%B8%D0%BA%20%D0%92%D0%B5%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D0%BE",
+    "price_level": "₽₽₽",
+    "about_vi": "Nhà hàng «Botik» nằm bên bờ hồ Pleshcheyevo, ngay cạnh Bảo tàng «Botik của Pyotr Đại đế» ở làng Veskovo. Điểm mạnh là các món cá đánh bắt tại hồ, chế biến mộc mạc mà chỉn chu, thưởng thức cùng khung cảnh mặt nước — một trải nghiệm ẩm thực gắn với thiên nhiên. Có chỗ đỗ xe, nhận thẻ.",
+    "about_en": "Botik Restaurant sits on the shore of Lake Pleshcheyevo, right by the 'Botik of Peter the Great' Museum in Veskovo village. Its strength is fish caught in the lake, prepared simply but well and enjoyed with a water view — dining tied to nature. Parking and cards accepted.",
+    "about_ru": "Ресторан «Ботик» стоит на берегу Плещеева озера, рядом с музеем «Ботик Петра I» в селе Веськово. Главное здесь — рыба, выловленная в озере и приготовленная просто, но достойно, с видом на воду.",
+    "tags": [
+      "russian",
+      "fish",
+      "lakeside",
+      "golden-ring",
+      "scenic",
+      "family"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "soups",
+      "name_vi": "Súp cá Ukha nấu cá hồ",
+      "name_en": "Lake-fish ukha",
+      "name_ru": "Уха из озёрной рыбы",
+      "weight": "350 g",
+      "price": "520",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp cá trong nấu từ cá tươi đánh bắt ngay tại hồ Pleshcheyevo, ngọt nước, thơm thì là — món phải thử ở nhà hàng ven hồ này.",
+      "intro_en": "A clear fish soup made from fish caught fresh in Lake Pleshcheyevo, sweet and fragrant with dill — a must at this lakeside restaurant.",
+      "intro_ru": "Прозрачная уха из свежей рыбы Плещеева озера — сладковатая, с укропом.",
+      "tips_vi": "Đặc trưng của quán; gọi kèm bánh mì đen.",
+      "tags": [
+        "soup",
+        "fish",
+        "signature"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cá chó (pike) nướng nguyên con",
+      "name_en": "Grilled whole pike",
+      "name_ru": "Щука на гриле",
+      "weight": "350 g",
+      "price": "890",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Cá chó hồ nướng thơm, thịt trắng chắc, rưới bơ chanh và thảo mộc — món cá chủ lực, đậm vị hồ nước ngọt.",
+      "intro_en": "Whole lake pike, grilled, with firm white flesh, brushed with lemon-herb butter — the hero fish dish.",
+      "intro_ru": "Озёрная щука на гриле с лимонно-травяным маслом — плотное белое мясо.",
+      "tips_vi": "Cá có thể nhiều xương nhỏ — ăn từ tốn; hợp chia sẻ.",
+      "tags": [
+        "fish",
+        "grill",
+        "signature"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Cá trích ryapushka chiên",
+      "name_en": "Fried ryapushka",
+      "name_ru": "Ряпушка жареная",
+      "weight": "200 g",
+      "price": "560",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Đặc sản ryapushka của hồ chiên vàng giòn, béo ngọt — biểu tượng ẩm thực Pereslavl, ăn nóng cùng chanh.",
+      "intro_en": "The lake's ryapushka delicacy, fried golden and crisp — Pereslavl's culinary emblem, served hot with lemon.",
+      "intro_ru": "Фирменная ряпушка озера, обжаренная до хруста — гастрономический символ Переславля.",
+      "tips_vi": "Nên thử để biết vị «cá tiến vua».",
+      "tags": [
+        "fish",
+        "local",
+        "signature"
+      ]
+    },
+    {
+      "cat": "appetizers",
+      "name_vi": "Cá hồ hun khói",
+      "name_en": "Smoked lake fish",
+      "name_ru": "Копчёная озёрная рыба",
+      "weight": "150 g",
+      "price": "620",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Đĩa cá hồ hun khói thơm nồng, thịt mềm ẩm — món khai vị lý tưởng nhâm nhi cùng bia hoặc rượu.",
+      "intro_en": "A plate of aromatic smoked lake fish, moist and tender — an ideal starter with beer or spirits.",
+      "intro_ru": "Ароматная копчёная озёрная рыба — отличная закуска.",
+      "tips_vi": "",
+      "tags": [
+        "fish",
+        "smoked",
+        "starter"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad rau củ tươi kiểu quê",
+      "name_en": "Country fresh-vegetable salad",
+      "name_ru": "Деревенский овощной салат",
+      "weight": "200 g",
+      "price": "320",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Salad cà chua, dưa chuột, hành và rau thơm rưới dầu — tươi mát, cân bằng cho bữa nhiều cá.",
+      "intro_en": "Tomato, cucumber, onion and herbs with oil — fresh and light to balance a fish-heavy meal.",
+      "intro_ru": "Салат из помидоров, огурцов, лука и зелени с маслом.",
+      "tips_vi": "",
+      "tags": [
+        "salad",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Mors (nước quả mọng)",
+      "name_en": "Mors (berry drink)",
+      "name_ru": "Морс",
+      "weight": "400 ml",
+      "price": "190",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước ép quả mọng (nam việt quất/lingonberry) chua ngọt mát lạnh — thức uống Nga giải khát, không cồn.",
+      "intro_en": "A sweet-sour cold berry drink (cranberry/lingonberry) — a refreshing non-alcoholic Russian classic.",
+      "intro_ru": "Кисло-сладкий морс из клюквы или брусники — освежает.",
+      "tips_vi": "",
+      "tags": [
+        "drink",
+        "berry",
+        "nonalcoholic"
+      ]
+    }
+  ]
+}

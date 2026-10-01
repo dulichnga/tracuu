@@ -1,0 +1,170 @@
+{
+  "restaurant": {
+    "id": "ryapushka-pereslavl",
+    "brand": "Ряпушка",
+    "type": "traktir",
+    "name_vi": "Trактir «Ryapushka» (trong Công viên Nga)",
+    "name_en": "Ryapushka Russian Tavern (Russky Park)",
+    "name_ru": "Трактир русской кухни «Ряпушка»",
+    "cuisine_vi": "Ẩm thực Nga truyền thống",
+    "cuisine_en": "Traditional Russian",
+    "cuisine_ru": "Традиционная русская кухня",
+    "cities": [
+      "Pereslavl-Zalessky"
+    ],
+    "address_vi": "Ул. Московская 158 (trong khuôn viên «Russky Park»), Pereslavl-Zalessky",
+    "hours": "10:00–20:00 (theo giờ Công viên Nga)",
+    "phone": "+7 (48535) 6-33-88",
+    "site": "ru-park.ru",
+    "site_url": "https://ru-park.ru/",
+    "map_url": "https://yandex.ru/maps/?text=%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D0%B0%D1%80%D0%BA%20%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C",
+    "price_level": "₽₽",
+    "about_vi": "Trактir «Ryapushka» là quán ăn Nga trong khuôn viên Công viên Nga (Russky Park), đặt theo tên cá trích nước ngọt «ryapushka» — đặc sản tiến vua và là biểu tượng trên huy hiệu Pereslavl. Không gian gỗ ấm cúng kiểu làng Nga, phục vụ các món dân dã cổ điển: cá ryapushka, súp cá ukha, pelmeni, blini, thịt hầm và kvass nhà làm. Điểm dừng chân hợp lý khi tham quan công viên và thành phố.",
+    "about_en": "Ryapushka is a Russian tavern inside the Russky (Russian) Park, named after the freshwater herring 'ryapushka' — a delicacy once served to the tsars and the emblem on Pereslavl's coat of arms. In a cosy timber, village-style setting it serves rustic classics: ryapushka fish, ukha fish soup, pelmeni, blini, stews and homemade kvass.",
+    "about_ru": "«Ряпушка» — трактир русской кухни на территории «Русского парка», названный в честь пресноводной ряпушки — деликатеса царского стола и символа на гербе Переславля. В уютном деревянном интерьере подают простые классические блюда: ряпушку, уху, пельмени, блины, тушёное мясо и домашний квас.",
+    "tags": [
+      "russian",
+      "traktir",
+      "family",
+      "golden-ring",
+      "local-fish",
+      "russky-park"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "hot",
+      "name_vi": "Cá trích Pereslavl (ryapushka) chiên giòn",
+      "name_en": "Fried Pereslavl ryapushka",
+      "name_ru": "Ряпушка жареная",
+      "weight": "200 g",
+      "price": "520",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Đặc sản trứ danh của hồ Pleshcheyevo: cá ryapushka nhỏ chiên vàng giòn rụm, thịt ngọt béo, ăn nóng cùng chanh và bánh mì. Món «tiến vua» nhất định phải thử khi đến Pereslavl.",
+      "intro_en": "The signature delicacy of Lake Pleshcheyevo: small ryapushka herrings fried until golden and crisp, sweet and rich, served hot with lemon and bread. A must-try 'tsar's fish' in Pereslavl.",
+      "intro_ru": "Знаменитый деликатес Плещеева озера: мелкая ряпушка, обжаренная до золотистой корочки, сладковатая и нежная, подаётся горячей с лимоном и хлебом.",
+      "tips_vi": "Món đặc trưng bắt buộc thử; hợp lai rai cùng bia hoặc kvass.",
+      "tags": [
+        "signature",
+        "fish",
+        "local"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp cá Ukha",
+      "name_en": "Ukha fish soup",
+      "name_ru": "Уха",
+      "weight": "300 g",
+      "price": "420",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp cá Nga cổ điển nấu từ cá hồ tươi, khoai tây, hành và thì là, nước dùng trong và ngọt thanh. Ấm bụng, đặc biệt hợp ngày se lạnh.",
+      "intro_en": "A classic Russian fish soup made with fresh lake fish, potato, onion and dill — clear, light and warming.",
+      "intro_ru": "Классическая русская уха из свежей озёрной рыбы с картофелем, луком и укропом — прозрачная и наваристая.",
+      "tips_vi": "Gọi kèm bánh mì đen để chấm nước súp.",
+      "tags": [
+        "soup",
+        "fish"
+      ]
+    },
+    {
+      "cat": "dumplings",
+      "name_vi": "Pelmeni nhân thịt",
+      "name_en": "Pelmeni (meat dumplings)",
+      "name_ru": "Пельмени",
+      "weight": "250 g",
+      "price": "390",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh bao Nga vỏ mỏng nhân thịt, luộc mềm, ăn cùng bơ, kem chua và tiêu. Món quốc dân, no bụng và dễ ăn cho mọi người.",
+      "intro_en": "Thin-skinned Russian dumplings filled with meat, boiled and served with butter, sour cream and pepper — a beloved national staple.",
+      "intro_ru": "Тонкие пельмени с мясной начинкой, отварные, со сметаной и маслом — народная классика.",
+      "tips_vi": "Thêm kem chua (smetana) để đúng vị Nga.",
+      "tags": [
+        "dumplings"
+      ]
+    },
+    {
+      "cat": "pancakes",
+      "name_vi": "Blini kèm nấm & kem chua",
+      "name_en": "Blini with mushrooms & sour cream",
+      "name_ru": "Блины с грибами",
+      "weight": "220 g",
+      "price": "340",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga mỏng cuộn nhân nấm rừng xào hành, dọn cùng kem chua. Thơm, béo nhẹ, là món khai vị hoặc ăn nhẹ điển hình.",
+      "intro_en": "Thin Russian pancakes rolled around sautéed forest mushrooms, served with sour cream.",
+      "intro_ru": "Тонкие блины с начинкой из лесных грибов и сметаной.",
+      "tips_vi": "Có bản nhân ngọt (mứt, mật ong) cho ai thích tráng miệng.",
+      "tags": [
+        "blini",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Thịt heo hầm kiểu làng («Zharkoe»)",
+      "name_en": "Village-style pork zharkoe",
+      "name_ru": "Жаркое по-домашнему",
+      "weight": "300 g",
+      "price": "560",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Thịt heo hầm cùng khoai tây, cà rốt và gia vị trong nồi đất, mềm rục và đậm đà — món chính ấm áp kiểu gia đình Nga.",
+      "intro_en": "Pork slow-cooked with potato, carrot and herbs in a clay pot — tender, hearty home-style Russian main.",
+      "intro_ru": "Свинина, тушённая с картофелем и морковью в горшочке — сытное домашнее блюдо.",
+      "tips_vi": "Phần ăn lớn, hợp chia sẻ hoặc cho người đói bụng.",
+      "tags": [
+        "meat",
+        "hearty"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Kvass nhà làm",
+      "name_en": "Homemade kvass",
+      "name_ru": "Квас домашний",
+      "weight": "400 ml",
+      "price": "180",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Thức uống lên men nhẹ từ bánh mì lúa mạch đen, chua ngọt mát, không cồn — giải khát truyền thống của người Nga.",
+      "intro_en": "A lightly fermented rye-bread drink, sweet-sour and refreshing, non-alcoholic — a traditional Russian thirst-quencher.",
+      "intro_ru": "Слабоферментированный напиток из ржаного хлеба, кисло-сладкий и освежающий.",
+      "tips_vi": "Mùa hè uống lạnh rất đã; trẻ em uống được.",
+      "tags": [
+        "drink",
+        "kvass",
+        "nonalcoholic"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Bánh mật ong Medovik",
+      "name_en": "Medovik honey cake",
+      "name_ru": "Медовик",
+      "weight": "150 g",
+      "price": "300",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh nhiều lớp tẩm mật ong xen kem chua, mềm ẩm và ngọt dịu — món tráng miệng Nga được yêu thích nhất.",
+      "intro_en": "Layered honey cake with sour-cream filling, moist and gently sweet — Russia's best-loved dessert.",
+      "intro_ru": "Многослойный медовый торт со сметанным кремом, нежный и в меру сладкий.",
+      "tips_vi": "Gọi kèm trà đen để cân vị ngọt.",
+      "tags": [
+        "dessert",
+        "cake"
+      ]
+    }
+  ]
+}

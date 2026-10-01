@@ -1,0 +1,174 @@
+{
+  "restaurant": {
+    "id": "monpansye-pereslavl",
+    "brand": "Монпансье",
+    "type": "cafe",
+    "name_vi": "Quán «Monpansye» (trung tâm)",
+    "name_en": "Café Monpansye",
+    "name_ru": "Кафе «Монпансье»",
+    "cuisine_vi": "Âu – Nga, bánh blini",
+    "cuisine_en": "European–Russian, pancakes",
+    "cuisine_ru": "Европейская и русская кухня, блины",
+    "cities": [
+      "Pereslavl-Zalessky"
+    ],
+    "address_vi": "Ул. Советская 10, Pereslavl-Zalessky",
+    "hours": "09:00–21:00 hằng ngày",
+    "phone": "",
+    "site": "",
+    "site_url": "",
+    "map_url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D0%BD%D0%BF%D0%B0%D0%BD%D1%81%D1%8C%D0%B5%20%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%2010",
+    "price_level": "₽₽",
+    "about_vi": "«Monpansye» là quán cà phê ấm cúng ngay trung tâm Pereslavl (phố Sovetskaya), mở cửa từ sáng sớm nên rất tiện ăn sáng hoặc nghỉ chân giữa buổi tham quan. Thực đơn kết hợp món Âu và Nga, nổi bật là các loại blini (bánh kếp) mặn – ngọt, súp, salad và món chính nhẹ nhàng, kèm cà phê và bánh ngọt. Có chỗ đỗ xe, wifi.",
+    "about_en": "Monpansye is a cosy café right in the centre of Pereslavl (Sovetskaya Street), open from early morning — handy for breakfast or a mid-sightseeing break. Its menu blends European and Russian fare, with a strong line-up of sweet and savoury blini, soups, salads and light mains, plus coffee and cakes. Parking and wifi available.",
+    "about_ru": "«Монпансье» — уютное кафе в самом центре Переславля (ул. Советская), открытое с раннего утра — удобно для завтрака или перерыва между прогулками. В меню — сочетание европейской и русской кухни, большой выбор блинов, супы, салаты и лёгкие горячие блюда, кофе и десерты.",
+    "tags": [
+      "cafe",
+      "breakfast",
+      "european",
+      "russian",
+      "blini",
+      "central",
+      "wifi"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "breakfast",
+      "name_vi": "Blini kèm trứng cá đỏ",
+      "name_en": "Blini with red caviar",
+      "name_ru": "Блины с красной икрой",
+      "weight": "150 g",
+      "price": "450",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Bánh kếp Nga nóng ăn kèm trứng cá hồi đỏ và bơ — bữa sáng «sang» kiểu Nga, mặn mà và đẹp mắt.",
+      "intro_en": "Warm Russian pancakes with red salmon caviar and butter — a little touch of Russian luxury for breakfast.",
+      "intro_ru": "Тёплые блины с красной икрой и маслом — маленькая роскошь на завтрак.",
+      "tips_vi": "Món ăn sáng được ưa chuộng; gọi kèm cà phê.",
+      "tags": [
+        "blini",
+        "breakfast",
+        "caviar"
+      ]
+    },
+    {
+      "cat": "breakfast",
+      "name_vi": "Cháo yến mạch / kiều mạch nóng",
+      "name_en": "Hot oat / buckwheat porridge",
+      "name_ru": "Каша овсяная / гречневая",
+      "weight": "250 g",
+      "price": "220",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Cháo nóng kiểu Nga (yến mạch hoặc kiều mạch) nấu với sữa hoặc bơ — nhẹ bụng, ấm áp cho buổi sáng.",
+      "intro_en": "Warm Russian-style porridge (oat or buckwheat) with milk or butter — light and comforting.",
+      "intro_ru": "Тёплая каша (овсяная или гречневая) на молоке или с маслом.",
+      "tips_vi": "Chọn kiều mạch (grechka) để thử vị Nga đặc trưng.",
+      "tags": [
+        "breakfast",
+        "porridge",
+        "vegetarian"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp củ dền Borscht",
+      "name_en": "Borscht",
+      "name_ru": "Борщ",
+      "weight": "300 g",
+      "price": "360",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp củ dền đỏ trứ danh với thịt bò, bắp cải và khoai tây, ăn kèm kem chua và bánh mì — đậm đà, màu đỏ đẹp mắt.",
+      "intro_en": "The famous beetroot soup with beef, cabbage and potato, served with sour cream and bread.",
+      "intro_ru": "Знаменитый свекольный борщ с говядиной, капустой и картофелем, со сметаной.",
+      "tips_vi": "Thêm kem chua và tỏi bánh mì (pampushka) nếu có.",
+      "tags": [
+        "soup",
+        "borscht"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad Olivier",
+      "name_en": "Olivier (Russian) salad",
+      "name_ru": "Салат Оливье",
+      "weight": "200 g",
+      "price": "320",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Salad Nga kinh điển: khoai tây, trứng, giăm bông, đậu Hà Lan và dưa chuột muối trộn sốt mayonnaise — béo bùi, quen thuộc trên mọi bàn tiệc Nga.",
+      "intro_en": "The classic Russian salad of potato, egg, ham, peas and pickles in mayonnaise — a staple of every Russian table.",
+      "intro_ru": "Классический салат из картофеля, яиц, ветчины, горошка и солёных огурцов с майонезом.",
+      "tips_vi": "",
+      "tags": [
+        "salad",
+        "classic"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Ức gà sốt kem nấm",
+      "name_en": "Chicken breast in creamy mushroom sauce",
+      "name_ru": "Куриное филе в сливочно-грибном соусе",
+      "weight": "280 g",
+      "price": "520",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Ức gà mềm áp chảo chan sốt kem nấm, dùng kèm khoai tây nghiền — món chính kiểu Âu nhẹ nhàng, dễ ăn cho mọi người.",
+      "intro_en": "Pan-seared chicken breast in a creamy mushroom sauce with mashed potato — an easy, crowd-pleasing European main.",
+      "intro_ru": "Куриное филе под сливочно-грибным соусом с картофельным пюре.",
+      "tips_vi": "Lựa chọn an toàn cho trẻ em và người không quen món Nga.",
+      "tags": [
+        "european",
+        "chicken"
+      ]
+    },
+    {
+      "cat": "desserts",
+      "name_vi": "Blini ngọt nhân mứt / mật ong",
+      "name_en": "Sweet blini with jam / honey",
+      "name_ru": "Блины с вареньем / мёдом",
+      "weight": "180 g",
+      "price": "260",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Bánh kếp nóng cuộn mứt quả hoặc rưới mật ong, rắc đường — món tráng miệng ấm áp, hợp trẻ em.",
+      "intro_en": "Warm pancakes with fruit jam or honey — a cosy dessert, loved by children.",
+      "intro_ru": "Тёплые блины с вареньем или мёдом — уютный десерт.",
+      "tips_vi": "",
+      "tags": [
+        "dessert",
+        "blini",
+        "kids"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Trà Nga & mứt quả (varenye)",
+      "name_en": "Russian tea with fruit preserve",
+      "name_ru": "Чай с вареньем",
+      "weight": "400 ml",
+      "price": "190",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Trà đen nóng dùng theo lối Nga cùng một chén mứt quả — thói quen thưởng trà ấm cúng, thư giãn.",
+      "intro_en": "Hot black tea served the Russian way with a dish of fruit preserve to spoon in — cosy and relaxing.",
+      "intro_ru": "Горячий чёрный чай по-русски с вареньем.",
+      "tips_vi": "",
+      "tags": [
+        "drink",
+        "tea",
+        "nonalcoholic"
+      ]
+    }
+  ]
+}

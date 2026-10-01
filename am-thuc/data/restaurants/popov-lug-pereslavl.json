@@ -1,0 +1,156 @@
+{
+  "restaurant": {
+    "id": "popov-lug-pereslavl",
+    "brand": "Попов луг",
+    "type": "traktir",
+    "name_vi": "Trактir «Popov Lug» (khu nông trại – ẩm thực Nga)",
+    "name_en": "Popov Lug Farm Tavern",
+    "name_ru": "Трактир «Попов луг»",
+    "cuisine_vi": "Ẩm thực Nga nông trại (farm-to-table)",
+    "cuisine_en": "Russian farm-to-table",
+    "cuisine_ru": "Русская кухня, фермерские продукты",
+    "cities": [
+      "Pereslavl-Zalessky"
+    ],
+    "address_vi": "Làng Veslevo (gần chốt GIBDD trên đường vào Pereslavl), Pereslavl-Zalessky",
+    "hours": "Trưa hằng ngày; suất trưa 13:00–16:00 (kiểm tra trước khi đến)",
+    "phone": "",
+    "site": "popovlug.ru",
+    "site_url": "https://www.popovlug.ru/",
+    "map_url": "https://yandex.ru/maps/?text=%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%20%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%20%D0%9B%D1%83%D0%B3",
+    "price_level": "₽₽",
+    "about_vi": "«Popov Lug» là khu phức hợp nông trại – nghỉ dưỡng kiểu Nga ở làng Veslevo gần Pereslavl, với quán trактir phục vụ món Nga chính gốc từ nguyên liệu nông trại tự nuôi trồng. Tinh thần «nghỉ Nga, ăn Nga, hồn Nga»: rau sạch, thịt và cá farm, món nấu mộc mạc đúng vị bà. Có thăm nông trại, tắm banya, và bản sao thuyền «Fortuna» của Pyotr Đại đế.",
+    "about_en": "Popov Lug is a Russian farmstead-and-retreat complex in Veslevo village near Pereslavl, whose tavern serves authentic Russian food from its own farm produce. The spirit is 'Russian rest, Russian food, Russian soul': clean vegetables, farm meat and fish, home-style cooking. Farm visits, a banya and a replica of Peter the Great's boat 'Fortuna' on site.",
+    "about_ru": "«Попов луг» — русский фермерско-рекреационный комплекс в деревне Веслево под Переславлем; трактир подаёт настоящую русскую еду из собственных фермерских продуктов. «Русский отдых, русская кухня, русский дух»: чистые овощи, фермерские мясо и рыба, домашняя готовка. Есть ферма, баня и копия ботика «Фортуна».",
+    "tags": [
+      "russian",
+      "farm-to-table",
+      "traktir",
+      "eco",
+      "family",
+      "golden-ring",
+      "countryside"
+    ]
+  },
+  "dishes": [
+    {
+      "cat": "hot",
+      "name_vi": "Chả cá chó viên & khoai tây nghiền",
+      "name_en": "Pike cutlets with mashed potato",
+      "name_ru": "Щучьи котлетки с пюре",
+      "weight": "250 g",
+      "price": "520",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Chả viên từ cá chó nông trại, mềm ngọt, ăn cùng khoai tây nghiền mịn — món «đinh» của Popov Lug, mộc mạc mà tinh tế.",
+      "intro_en": "Cutlets made from farm-caught pike, tender and sweet, with silky mashed potato — the signature of Popov Lug.",
+      "intro_ru": "Котлетки из щуки, нежные и сладковатые, с картофельным пюре — визитная карточка «Попова луга».",
+      "tips_vi": "Món đặc trưng nên thử; phần vừa phải.",
+      "tags": [
+        "fish",
+        "signature",
+        "farm"
+      ]
+    },
+    {
+      "cat": "soups",
+      "name_vi": "Súp bắp cải Shchi",
+      "name_en": "Shchi cabbage soup",
+      "name_ru": "Щи",
+      "weight": "300 g",
+      "price": "360",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Súp bắp cải Nga cổ truyền nấu với thịt và rau củ nông trại, chua nhẹ dịu, ăn kèm kem chua — ấm bụng đúng chất quê.",
+      "intro_en": "A traditional Russian cabbage soup with farm meat and vegetables, gently sour, served with sour cream.",
+      "intro_ru": "Традиционные щи с фермерским мясом и овощами, со сметаной.",
+      "tips_vi": "Chan kem chua để đúng vị.",
+      "tags": [
+        "soup",
+        "farm"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Mì sợi nhà làm («lapsha»)",
+      "name_en": "Homemade noodles (lapsha)",
+      "name_ru": "Домашняя лапша",
+      "weight": "250 g",
+      "price": "340",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Mì trứng cán và cắt tay, nấu trong nước dùng gà thơm — món ấm áp, giản dị mà gây thương nhớ.",
+      "intro_en": "Hand-rolled egg noodles in a fragrant chicken broth — humble and heart-warming.",
+      "intro_ru": "Домашняя лапша ручной резки в ароматном курином бульоне.",
+      "tips_vi": "",
+      "tags": [
+        "noodles",
+        "farm",
+        "comfort"
+      ]
+    },
+    {
+      "cat": "salads",
+      "name_vi": "Salad Vinegret",
+      "name_en": "Vinegret (beet & vegetable salad)",
+      "name_ru": "Винегрет",
+      "weight": "200 g",
+      "price": "280",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Salad củ dền – khoai tây – cà rốt – dưa muối trộn dầu, màu tím đỏ đẹp mắt, chua ngọt lạ miệng — món chay Nga cổ điển.",
+      "intro_en": "A beet-potato-carrot-pickle salad dressed with oil — colourful, sweet-sour and classic vegetarian Russian.",
+      "intro_ru": "Классический винегрет из свёклы, картофеля, моркови и солений с маслом.",
+      "tips_vi": "",
+      "tags": [
+        "salad",
+        "vegetarian",
+        "classic"
+      ]
+    },
+    {
+      "cat": "hot",
+      "name_vi": "Thịt nướng mangal (shashlyk) nông trại",
+      "name_en": "Farm shashlyk (grilled skewers)",
+      "name_ru": "Шашлык фермерский",
+      "weight": "250 g",
+      "price": "690",
+      "currency": "RUB",
+      "veg": false,
+      "spicy": false,
+      "intro_vi": "Xiên thịt farm ướp thảo mộc nướng than kiểu mangal, thơm lừng, mềm mọng — hợp không khí ngoài trời miền quê.",
+      "intro_en": "Herb-marinated farm meat skewers grilled over charcoal — aromatic and juicy, perfect for the countryside setting.",
+      "intro_ru": "Шашлык из фермерского мяса, маринованного с травами, на мангале.",
+      "tips_vi": "Gọi kèm rau nướng và bánh mì lavash.",
+      "tags": [
+        "meat",
+        "grill",
+        "farm"
+      ]
+    },
+    {
+      "cat": "drinks",
+      "name_vi": "Compote quả nhà làm",
+      "name_en": "Homemade fruit compote",
+      "name_ru": "Домашний компот",
+      "weight": "300 ml",
+      "price": "160",
+      "currency": "RUB",
+      "veg": true,
+      "spicy": false,
+      "intro_vi": "Nước quả nấu (táo, quả mọng) ngọt thanh, ấm hoặc mát — thức uống tuổi thơ trên bàn ăn Nga.",
+      "intro_en": "Home-cooked fruit drink (apple, berries), gently sweet, served warm or cool — a taste of Russian childhood.",
+      "intro_ru": "Домашний компот из яблок и ягод — вкус детства.",
+      "tips_vi": "",
+      "tags": [
+        "drink",
+        "nonalcoholic",
+        "farm"
+      ]
+    }
+  ]
+}
